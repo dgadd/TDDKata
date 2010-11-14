@@ -59,5 +59,17 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result = sut.Add(numbersToAdd);
             Assert.AreEqual(expected, result);
         }
+
+        [Test]
+        public void AddMethod_NewLineInput_ReturnsSum()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3,5\n7");
+            Assert.AreEqual(15, result);
+
+            int result2 = sut.Add("4\n5,10");
+            Assert.AreEqual(19, result2);
+        }
     }
 }
