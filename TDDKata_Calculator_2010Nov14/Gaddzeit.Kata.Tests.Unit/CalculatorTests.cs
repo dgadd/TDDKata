@@ -30,5 +30,17 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result2 = sut.Add("5");
             Assert.AreEqual(5, result2);
         }
+
+        [Test]
+        public void AddMethod_TwoLengthInput_ReturnsSum()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3,5");
+            Assert.AreEqual(8, result);
+
+            int result2 = sut.Add("5,10");
+            Assert.AreEqual(15, result2);
+        }
     }
 }
