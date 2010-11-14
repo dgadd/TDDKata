@@ -18,5 +18,17 @@ namespace Gaddzeit.Kata.Tests.Unit
 
             Assert.AreEqual(0, result);
         }
+
+        [Test]
+        public void AddMethod_OneLengthInput_ReturnsEquivalent()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3");
+            Assert.AreEqual(3, result);
+
+            int result2 = sut.Add("5");
+            Assert.AreEqual(5, result2);
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace Gaddzeit.Kata.Domain
     {
         public int Add(string numbersToAdd)
         {
-            return 0;
+            return string.IsNullOrEmpty(numbersToAdd) ? 0 : Convert.ToInt32(numbersToAdd);
         }
     }
 }
