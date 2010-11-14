@@ -42,5 +42,22 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result2 = sut.Add("5,10");
             Assert.AreEqual(15, result2);
         }
+
+        [Test]
+        public void AddMethod_AnyLengthInput_ReturnsSum()
+        {
+            var howMany = new Random().Next(2, 1000);
+            var expected = 0;
+            var numbersToAdd = "";
+            for(int i = 0; i < howMany; i++)
+            {
+                numbersToAdd += i + ",";
+                expected += i;
+            }
+            var sut = new Calculator();
+
+            int result = sut.Add(numbersToAdd);
+            Assert.AreEqual(expected, result);
+        }
     }
 }

@@ -11,7 +11,10 @@ namespace Gaddzeit.Kata.Domain
                 var numbers = numbersToAdd.Split(',');
                 var total = 0;
                 foreach (var number in numbers)
-                    total += Convert.ToInt32(number);
+                {
+                    if(!string.IsNullOrEmpty(number))
+                        total += Convert.ToInt32(number);
+                }
                 return total;
             }
             return string.IsNullOrEmpty(numbersToAdd) ? 0 : Convert.ToInt32(numbersToAdd);
