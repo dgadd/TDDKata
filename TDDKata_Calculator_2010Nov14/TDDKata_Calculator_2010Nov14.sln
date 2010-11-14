@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Kata.Domain", "Gaddzeit.Kata.Domain\Gaddzeit.Kata.Domain.csproj", "{9C4A3EE6-352E-4BD7-B62D-00857F8193C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Kata.Tests.Unit", "Gaddzeit.Kata.Tests.Unit\Gaddzeit.Kata.Tests.Unit.csproj", "{40CCEFDB-80CE-45B5-8572-4A8844A4CAAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C4A3EE6-352E-4BD7-B62D-00857F8193C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4A3EE6-352E-4BD7-B62D-00857F8193C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4A3EE6-352E-4BD7-B62D-00857F8193C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4A3EE6-352E-4BD7-B62D-00857F8193C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CCEFDB-80CE-45B5-8572-4A8844A4CAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CCEFDB-80CE-45B5-8572-4A8844A4CAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CCEFDB-80CE-45B5-8572-4A8844A4CAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CCEFDB-80CE-45B5-8572-4A8844A4CAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
