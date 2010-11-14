@@ -1,0 +1,3 @@
+[submodule "Libs"]
+	path = Libs
+	url = c:/FakeGitRepoServer/Libs.git/

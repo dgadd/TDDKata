@@ -1,0 +1,5 @@
+C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Domain\bin\Debug\Gaddzeit.Domain.dll
+C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Domain\bin\Debug\Gaddzeit.Domain.pdb
+C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Domain\obj\Debug\Gaddzeit.Domain.dll
+C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Domain\obj\Debug\Gaddzeit.Domain.pdb
