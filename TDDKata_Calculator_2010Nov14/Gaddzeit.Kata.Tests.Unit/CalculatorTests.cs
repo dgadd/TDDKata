@@ -85,5 +85,18 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result2 = sut.Add("4,\n5,10");
             Assert.AreEqual(19, result2);
         }
+
+        [Test]
+        public void AddMethod_CustomDelimeterInput_ReturnsSum()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("//^\n2^3,5\n7");
+            Assert.AreEqual(17, result);
+
+            int result2 = sut.Add("//%\n4\n5,10%15");
+            Assert.AreEqual(34, result2);
+        }
+
     }
 }
