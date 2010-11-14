@@ -8,6 +8,8 @@ namespace Gaddzeit.Kata.Domain
         public int Add(string numbersToAdd)
         {
             numbersToAdd = numbersToAdd.Replace('\n', ',');
+            if(numbersToAdd.Contains(",,"))
+                throw new ArgumentException("You cannot use double delimeters.");
             if(numbersToAdd.Contains(","))
             {
                 var numbers = numbersToAdd.Split(',');

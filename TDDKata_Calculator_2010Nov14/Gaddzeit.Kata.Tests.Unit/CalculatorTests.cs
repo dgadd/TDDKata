@@ -71,5 +71,19 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result2 = sut.Add("4\n5,10");
             Assert.AreEqual(19, result2);
         }
+
+
+        [Test]
+        [ExpectedException(typeof(ArgumentException), ExpectedMessage = "You cannot use double delimeters.")]
+        public void AddMethod_DoubleDelimeters_ThrowsException()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3,5\n,7");
+            Assert.AreEqual(15, result);
+
+            int result2 = sut.Add("4,\n5,10");
+            Assert.AreEqual(19, result2);
+        }
     }
 }
