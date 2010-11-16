@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CustomerPresenterTests.cs" />
     <Compile Include="CustomerTests.cs" />
+    <Compile Include="DomainEntityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

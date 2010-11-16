@@ -24,7 +24,7 @@ namespace Gaddzeit.Kata.Tests.Integration
             const int cityId = 200;
             var customers = new List<Customer>
                                 {
-                                    new Customer { FirstName = "Bob", LastName = "Smith" }
+                                    new Customer { Id=35, FirstName = "Bob", LastName = "Smith" }
                                 };
 
             var fakeCustomerView = (FakeCustomerView) _customerView;

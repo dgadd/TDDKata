@@ -10,7 +10,7 @@ namespace Gaddzeit.Support.Repository
         {
             return new List<Customer>
                                 {
-                                    new Customer { FirstName = "Bob", LastName = "Smith" }
+                                    new Customer { Id=35, FirstName = "Bob", LastName = "Smith" }
                                 };
 
         }

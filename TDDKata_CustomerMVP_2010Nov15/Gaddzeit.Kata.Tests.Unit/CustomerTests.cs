@@ -16,5 +16,15 @@ namespace Gaddzeit.Kata.Tests.Unit
             var sut = new Customer();
             Assert.IsInstanceOf(typeof(DomainEntity), sut);
         }
+
+        [Test]
+        public void TwoInstances_SameIdProperty_AreEqual()
+        {
+            const int tempId = 12351;
+            var sut1 = new Customer { Id = tempId };
+            var sut2 = new Customer { Id = tempId };
+
+            Assert.AreEqual(sut1, sut2);
+        }
     }
 }
