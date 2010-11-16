@@ -98,5 +98,15 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.AreEqual(34, result2);
         }
 
+
+        [Test]
+        [ExpectedException(typeof(ArgumentException), ExpectedMessage = "You cannot use negative numbers.")]
+        public void AddMethod_NegativeNumber_ThrowsException()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3,-5,-7");
+        }
+
     }
 }
