@@ -100,7 +100,7 @@ namespace Gaddzeit.Kata.Tests.Unit
 
 
         [Test]
-        [ExpectedException(typeof(ArgumentException), ExpectedMessage = "You cannot use negative numbers.")]
+        [ExpectedException(typeof(ArgumentException), ExpectedMessage = "You cannot use negative numbers: -5,-7,")]
         public void AddMethod_NegativeNumber_ThrowsException()
         {
             var sut = new Calculator();

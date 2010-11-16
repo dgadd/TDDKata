@@ -38,16 +38,19 @@ namespace Gaddzeit.Kata.Domain
         private static int Sum(IEnumerable<string> numbers)
         {
             var total = 0;
+            var negativeNumbers = "";
             foreach (var numberString in numbers)
             {
                 if(!string.IsNullOrEmpty(numberString))
                 {
                     var number = Convert.ToInt32(numberString);
-                    if(number < 0)
-                        throw new ArgumentException("You cannot use negative numbers.");
+                    if (number < 0)
+                        negativeNumbers += number + ",";
                     total += number;
                 }
             }
+            if (!string.IsNullOrEmpty(negativeNumbers))
+                throw new ArgumentException(string.Format("You cannot use negative numbers: {0}", negativeNumbers));
             return total;
         }
     }
