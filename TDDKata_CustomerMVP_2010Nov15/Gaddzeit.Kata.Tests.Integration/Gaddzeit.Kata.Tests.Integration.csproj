@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E8753A6D-FED8-4B4C-AC22-D6A9AB8B7362}</ProjectGuid>
+    <ProjectGuid>{62924B85-5CC6-408A-B815-8D0AF842055D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gaddzeit.Support</RootNamespace>
-    <AssemblyName>Gaddzeit.Support</AssemblyName>
+    <RootNamespace>Gaddzeit.Kata.Tests.Integration</RootNamespace>
+    <AssemblyName>Gaddzeit.Kata.Tests.Integration</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\Libs\Testing\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,17 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Customer.cs" />
-    <Compile Include="Model\DomainEntity.cs" />
-    <Compile Include="Presenter\CustomerPresenter.cs" />
+    <Compile Include="CuustomerPresenterIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\FakeCustomerRepository.cs" />
-    <Compile Include="Repository\ICustomerRepository.cs" />
-    <Compile Include="View\FakeCustomerView.cs" />
-    <Compile Include="View\FindCustomerEventArgs.cs" />
-    <Compile Include="View\ICustomerView.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Gaddzeit.Support\Gaddzeit.Support.csproj">
+      <Project>{E8753A6D-FED8-4B4C-AC22-D6A9AB8B7362}</Project>
+      <Name>Gaddzeit.Support</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
