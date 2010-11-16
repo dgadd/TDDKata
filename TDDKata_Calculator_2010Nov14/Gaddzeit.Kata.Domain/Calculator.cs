@@ -46,7 +46,8 @@ namespace Gaddzeit.Kata.Domain
                     var number = Convert.ToInt32(numberString);
                     if (number < 0)
                         negativeNumbers += number + ",";
-                    total += number;
+                    if (number < 1001)
+                        total += number;
                 }
             }
             if (!string.IsNullOrEmpty(negativeNumbers))

@@ -108,5 +108,17 @@ namespace Gaddzeit.Kata.Tests.Unit
             int result = sut.Add("3,-5,-7");
         }
 
+        [Test]
+        public void AddMethod_NumbersBiggerThan1000_AreIgnored()
+        {
+            var sut = new Calculator();
+
+            int result = sut.Add("3,5,1005,999");
+            Assert.AreEqual(1007, result);
+
+            int result2 = sut.Add("344,1000,1200");
+            Assert.AreEqual(1344, result2);
+        }
+
     }
 }
