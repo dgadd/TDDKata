@@ -34,8 +34,12 @@
     <Reference Include="nunit.framework">
       <HintPath>..\..\Libs\Testing\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\..\Libs\Testing\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductControllerTests.cs" />
     <Compile Include="ProductTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,6 +55,10 @@
     <ProjectReference Include="..\DomainModel\DomainModel.csproj">
       <Project>{EF15304D-688F-4512-AE3B-E565B13CCD77}</Project>
       <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebUI\WebUI.csproj">
+      <Project>{DA98157B-1D04-4ADE-8FB5-D77CF21FFE1F}</Project>
+      <Name>WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
