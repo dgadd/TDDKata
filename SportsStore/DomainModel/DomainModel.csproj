@@ -45,6 +45,7 @@
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Fakes\FakeProductsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\InterfaceImplementor.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

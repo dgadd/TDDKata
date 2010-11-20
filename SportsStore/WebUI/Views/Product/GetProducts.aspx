@@ -7,6 +7,6 @@
     <title></title>
 </head>
 <body>
-    
+You have reached the GetProducts page.    
 </body>
 </html>
