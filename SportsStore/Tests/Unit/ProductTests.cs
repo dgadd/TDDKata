@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DomainModel.Entities;
+﻿using DomainModel.Entities;
 using NUnit.Framework;
 
-namespace Tests
+namespace Tests.Unit
 {
     [TestFixture]
     public class ProductTests
     {
+        [Test]
+        public void Constructor_NoInputs_IsInstanceOfDomainEntity()
+        {
+            var sut = new Product();
+            Assert.IsInstanceOf(typeof(DomainEntity), sut);
+        }
+
         [Test]
         public void Properties_SetValues_MatchGets()
         {
@@ -21,14 +24,14 @@ namespace Tests
 
             var sut = new Product
                           {
-                              ProductId = id, 
+                              Id = id, 
                               Name = name, 
                               Description = desc,
                               Price = price,
                               Category = category
                           };
 
-            Assert.AreEqual(id, sut.ProductId);
+            Assert.AreEqual(id, sut.Id);
             Assert.AreEqual(name, sut.Name);
             Assert.AreEqual(desc, sut.Description);
             Assert.AreEqual(price, sut.Price);

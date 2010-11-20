@@ -14,18 +14,19 @@ namespace Tests.Integration
     public class ProductsControllerIntegrationTests
     {
         [Test]
-        public void dontknow()
+        public void GetProductsMethod_NoInput_ReturnsExpectedQueryable()
         {
             IProductsRepository productsRepository = new FakeProductsRepository();
             var products = new List<Product>
                                {
-                                   new Product { ProductId = 35, Category = "computer"}
+                                   new Product { Id = 35, Category = "computer"}
                                };
-            IQueryable<Product> productsQuery = products.AsQueryable();
+            IQueryable<Product> expected = products.AsQueryable();
 
             
             var sut = new ProductController(productsRepository);
-            Assert.AreEqual(productsQuery, sut.GetProducts().ViewData.Model);            
+            var actual = (IQueryable<Product>)sut.GetProducts().ViewData.Model;
+            Assert.AreEqual(expected, actual);            
         }
     }
 }

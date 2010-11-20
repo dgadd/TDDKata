@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Web.Mvc;
 using DomainModel.Abstract;
 using DomainModel.Entities;
@@ -8,7 +7,7 @@ using NUnit.Framework;
 using Rhino.Mocks;
 using WebUI.Controllers;
 
-namespace Tests
+namespace Tests.Unit
 {
     [TestFixture]
     public class ProductControllerTests
@@ -31,7 +30,7 @@ namespace Tests
             // set expectations
             var products = new List<Product>
                                {
-                                   new Product { ProductId = 35, Category = "computer"}
+                                   new Product { Id = 35, Category = "computer"}
                                };
             IQueryable<Product> productsQuery = products.AsQueryable();
 

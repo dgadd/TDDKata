@@ -14,7 +14,7 @@ namespace DomainModel.Fakes
             {
                 var products = new List<Product>
                                {
-                                   new Product { ProductId = 35, Category = "computer"}
+                                   new Product { Id = 35, Category = "computer"}
                                };
                 return products.AsQueryable();
             }
