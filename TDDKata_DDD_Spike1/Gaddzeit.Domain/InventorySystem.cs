@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Iesi.Collections.Generic;
 
 namespace Gaddzeit.Domain
@@ -33,6 +34,14 @@ namespace Gaddzeit.Domain
                     Model = model
                 });                
             }
+        }
+
+        public Product GetProductByBrandAndModel(string brand, string model)
+        {
+            IEnumerable<Product> products = _products.Where(p => p.Brand == brand && p.Model == model);
+            Product retrievedProduct = products.First();
+            _products.Remove(retrievedProduct);
+            return retrievedProduct;
         }
     }
 }
