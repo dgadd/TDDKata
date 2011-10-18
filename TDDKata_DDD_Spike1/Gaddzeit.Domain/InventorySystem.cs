@@ -23,5 +23,16 @@ namespace Gaddzeit.Domain
             _products.Add(product);
         }
 
+        public void ReceiveShipmentOfProduct(string brand, string model, int qty)
+        {
+            for (var i = 0; i < qty; i++)
+            {
+                _products.Add(new Product
+                {
+                    Brand = brand,
+                    Model = model
+                });                
+            }
+        }
     }
 }
