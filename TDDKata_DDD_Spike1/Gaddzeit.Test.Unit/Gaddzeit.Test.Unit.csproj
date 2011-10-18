@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{44C8706A-9DAB-4410-9272-8E76FE62CBC6}</ProjectGuid>
+    <ProjectGuid>{86E3D64A-D516-4E5F-A80C-DC51E4C32139}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gaddzeit.Kata.Tests.Unit</RootNamespace>
-    <AssemblyName>Gaddzeit.Kata.Tests.Unit</AssemblyName>
+    <RootNamespace>Gaddzeit.Test.Unit</RootNamespace>
+    <AssemblyName>Gaddzeit.Test.Unit</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Given_that_I_have_an_inventory_system_of_products.cs" />
+    <Compile Include="Given_that_I_have_an_inventory_system_of_products\When_I_add_a_new_product_to_the_inventory_system.cs" />
+    <Compile Include="Given_that_I_have_an_inventory_system_of_products\When_I_receive_a_qty_from_a_shipment_for_a_product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gaddzeit.Domain\Gaddzeit.Domain.csproj">

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Kata.Tests.Unit", "Gaddzeit.Kata.Tests.Unit\Gaddzeit.Kata.Tests.Unit.csproj", "{44C8706A-9DAB-4410-9272-8E76FE62CBC6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Domain", "Gaddzeit.Domain\Gaddzeit.Domain.csproj", "{86D3E5CF-3777-4918-96FE-5B37D6D5A490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Test.Unit", "Gaddzeit.Test.Unit\Gaddzeit.Test.Unit.csproj", "{86E3D64A-D516-4E5F-A80C-DC51E4C32139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44C8706A-9DAB-4410-9272-8E76FE62CBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44C8706A-9DAB-4410-9272-8E76FE62CBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44C8706A-9DAB-4410-9272-8E76FE62CBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44C8706A-9DAB-4410-9272-8E76FE62CBC6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86D3E5CF-3777-4918-96FE-5B37D6D5A490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86D3E5CF-3777-4918-96FE-5B37D6D5A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86D3E5CF-3777-4918-96FE-5B37D6D5A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86D3E5CF-3777-4918-96FE-5B37D6D5A490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E3D64A-D516-4E5F-A80C-DC51E4C32139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E3D64A-D516-4E5F-A80C-DC51E4C32139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E3D64A-D516-4E5F-A80C-DC51E4C32139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E3D64A-D516-4E5F-A80C-DC51E4C32139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

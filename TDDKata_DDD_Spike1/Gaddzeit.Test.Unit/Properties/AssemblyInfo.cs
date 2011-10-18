@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Gaddzeit.Kata.Tests.Unit")]
+[assembly: AssemblyTitle("Gaddzeit.Test.Unit")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Gaddzeit.Kata.Tests.Unit")]
+[assembly: AssemblyProduct("Gaddzeit.Test.Unit")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("02ce8406-f76f-4974-b2c2-b0174e81b653")]
+[assembly: Guid("72771bc3-47a0-4087-9976-d25c1e95e8d6")]
 
 // Version information for an assembly consists of the following four values:
 //
