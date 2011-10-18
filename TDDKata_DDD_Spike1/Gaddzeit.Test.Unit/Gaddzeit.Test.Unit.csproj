@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL" />
     <Reference Include="nunit.framework">
       <HintPath>..\..\Libs\Testing\nunit.framework.dll</HintPath>
     </Reference>
@@ -45,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Given_that_I_have_an_inventory_system_of_products\When_I_add_a_new_product_to_the_inventory_system.cs" />
     <Compile Include="Given_that_I_have_an_inventory_system_of_products\When_I_receive_a_qty_from_a_shipment_for_a_product.cs" />
+    <Compile Include="Given_that_I_have_an_invoicing_system_to_sell_products\When_I_create_an_invoice_with_a_product_selected_from_inventory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +54,9 @@
       <Project>{86D3E5CF-3777-4918-96FE-5B37D6D5A490}</Project>
       <Name>Gaddzeit.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
