@@ -1,8 +1,0 @@
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\bin\Debug\Gaddzeit.Kata.Tests.Unit.dll
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\bin\Debug\Gaddzeit.Kata.Tests.Unit.pdb
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\bin\Debug\Gaddzeit.Domain.dll
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\bin\Debug\nunit.framework.dll
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\bin\Debug\Gaddzeit.Domain.pdb
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\obj\Debug\ResolveAssemblyReference.cache
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\obj\Debug\Gaddzeit.Kata.Tests.Unit.dll
-C:\dev\all\TDDKata\TDDKata_2010Nov13_Calculator\Gaddzeit.Kata.Tests.Unit\obj\Debug\Gaddzeit.Kata.Tests.Unit.pdb
