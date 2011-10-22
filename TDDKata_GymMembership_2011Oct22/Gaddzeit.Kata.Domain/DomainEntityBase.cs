@@ -19,7 +19,9 @@ namespace Gaddzeit.Kata.Domain
         public override bool Equals(object obj)
         {
             DomainEntityBase other = obj as DomainEntityBase;
-            return other != null && other.Id.Equals(this.Id);
+            return other != null 
+                && other.Id > 0 && this.Id > 0
+                && other.Id.Equals(this.Id);
         }
 
         public override int GetHashCode()
