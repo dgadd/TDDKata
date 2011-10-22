@@ -18,5 +18,15 @@ namespace Gaddzeit.Kata.Domain.Tests.Unit
 
             Assert.AreEqual(sut1, sut2);
         }
+
+        [Test]
+        public void TwoInstances_DifferentIdProperty_AreNotEqual()
+        {
+            var sut1 = new DomainEntityBase { Id = 12351253 };
+            var sut2 = new DomainEntityBase { Id = 13251 };
+
+            Assert.AreNotEqual(sut1, sut2);
+        }
+
     }
 }
