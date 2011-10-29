@@ -7,9 +7,19 @@ namespace Gaddzeit.Kata.Domain
     {
         private IList<LineItem> _lineItems;
 
-        public IList<LineItem> LineItems
+        public Invoice()
+        {
+            _lineItems = new List<LineItem>();
+        }
+
+        public IEnumerable<LineItem> LineItems
         {
             get { return _lineItems; }
+        }
+
+        public void AddLineItem(LineItem lineItem)
+        {
+            _lineItems.Add(lineItem);
         }
     }
 }
