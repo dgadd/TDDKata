@@ -1,6 +1,6 @@
 ﻿namespace Gaddzeit.Kata.Domain
 {
-    public class LineItem
+    public class LineItem : DomainEntityBase
     {
     }
 }

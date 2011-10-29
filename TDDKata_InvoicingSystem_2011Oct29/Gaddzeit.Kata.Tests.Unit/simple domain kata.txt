@@ -16,13 +16,14 @@ A. Start with a common base class to handle object equality on an ID
 
 B. Invoice and its LineItems
 1. M: Verify that Invoice is an instance of DomainEntityBase.
-2. M: Verify that Invoice has a read-only collection of LineItems.
-3. M: Verify that adding a LineItem to Invoice increases its count of LineItems from 0 to 1
-4. M: Verify that adding the SAME LineItem (by identifier) does not increment the set of LineItems.
-5. B: Given an existing LineItem, when I try to add another LineItem without a product code, 
-then I am informed that I must provide a produce code.
-6. B: Given an existing LineItem, when I try to add another LineItem with the same ProductCode, 
+2. M: Verify that LineItem is an instance of DomainEntityBase.
+3. M: Verify that Invoice has a read-only collection of LineItems.
+4. M: Verify that adding a LineItem to Invoice increases its count of LineItems from 0 to 1
+5. M: Verify that adding the SAME LineItem (by identifier) does not increment the set of LineItems.
+6. B: Given an existing LineItem, when I try to add another LineItem without a product code, 
+when I am informed that I must provide a produce code.
+7. B: Given an existing LineItem, when I try to add another LineItem with the same ProductCode, 
 then the existing LineItem for that ProductCode has its Quantity incremented by the quantity of the added item.
-7. B: Given a set of LineItems, when I check the SubTotal for the Invoice, 
+8. B: Given a set of LineItems, when I check the SubTotal for the Invoice, 
 then the SubTotal matches Sum of the Quantity of LineItems times the Price.
 
