@@ -30,5 +30,15 @@ namespace Gaddzeit.Kata.Tests.Unit
 
             Assert.AreNotEqual(sut1, sut2);
         }
+
+        [Test]
+        // alternate name: Constructor_DifferentIdInputs_AreNotEqual
+        public void Two_instances_of_DomainEntityBase_are_not_equal_when_they_have_0_ID_values()
+        {
+            var sut1 = new DomainEntityBase { Id = 0 };
+            var sut2 = new DomainEntityBase { Id = 0 };
+
+            Assert.AreNotEqual(sut1, sut2);
+        }
     }
 }
