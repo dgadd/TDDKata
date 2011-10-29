@@ -16,7 +16,7 @@ A. Start with a common base class to handle object equality on an ID
 
 B. Invoice and its LineItems
 1. M: Verify that Invoice is an instance of DomainEntityBase.
-2. M: Verify that Invoice has a read-only collection of LineItems with count of 0.
+2. M: Verify that Invoice has a read-only collection of LineItems.
 3. M: Verify that adding a LineItem to Invoice increases its count of LineItems from 0 to 1
 4. M: Verify that adding the SAME LineItem (by identifier) does not increment the set of LineItems.
 5. B: Given an existing LineItem, when I try to add another LineItem without a product code, 

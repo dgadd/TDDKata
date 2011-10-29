@@ -1,4 +1,5 @@
-﻿using Gaddzeit.Kata.Domain;
+﻿using System.Collections.Generic;
+using Gaddzeit.Kata.Domain;
 using NUnit.Framework;
 
 namespace Gaddzeit.Kata.Tests.Unit
@@ -11,6 +12,13 @@ namespace Gaddzeit.Kata.Tests.Unit
         {
             var sut = new Invoice();
             Assert.IsInstanceOf(typeof(DomainEntityBase), sut);
+        }
+
+        [Test]
+        public void LineItemsMethod_NoInputs_ReturnssIEnumerableLineItems()
+        {
+            var sut = new Invoice();
+            Assert.IsFalse(typeof(Invoice).GetProperty("LineItems").CanWrite);
         }
     }
 }
