@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\Libs\Iesi.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\..\Libs\Testing\nunit.framework.dll</HintPath>
     </Reference>
