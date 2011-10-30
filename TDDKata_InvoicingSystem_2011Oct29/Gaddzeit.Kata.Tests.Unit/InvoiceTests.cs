@@ -60,5 +60,25 @@ namespace Gaddzeit.Kata.Tests.Unit
                                 });
         }
 
+        [Test]
+        public void AddLineItemMethod_LineItemWithSameProductCodeInput_IncrementsQuantityOnExistingItem()
+        {
+            var sut = new Invoice();
+            sut.AddLineItem(new LineItem
+            {
+                Quantity = 4,
+                ProductCode = "ABC123"
+            });
+            sut.AddLineItem(new LineItem
+            {
+                Quantity = 1,
+                ProductCode = "ABC123"
+            });
+
+            Assert.AreEqual(1, sut.LineItems.Count());
+            Assert.AreEqual(5, sut.LineItems.First().Quantity);
+            
+        }
+
     }
 }

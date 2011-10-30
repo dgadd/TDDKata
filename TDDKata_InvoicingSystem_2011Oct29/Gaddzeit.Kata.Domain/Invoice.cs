@@ -21,7 +21,23 @@ namespace Gaddzeit.Kata.Domain
         public void AddLineItem(LineItem lineItem)
         {
             GuardCondition_RejectEmptyProductCodes(lineItem);
+            if (IncrementQuantityIfNewLineItemIsExisting(lineItem))
+                return;
             _lineItems.Add(lineItem);
+        }
+
+        private bool IncrementQuantityIfNewLineItemIsExisting(LineItem lineItem)
+        {
+            bool existingLineItemIncremented = false;
+            foreach(var existingLineItem in _lineItems)
+            {
+                if (existingLineItem.ProductCode.Equals(lineItem.ProductCode))
+                {
+                    existingLineItem.Quantity += lineItem.Quantity;
+                    existingLineItemIncremented = true;
+                }
+            }
+            return existingLineItemIncremented;
         }
 
         private static void GuardCondition_RejectEmptyProductCodes(LineItem lineItem)
