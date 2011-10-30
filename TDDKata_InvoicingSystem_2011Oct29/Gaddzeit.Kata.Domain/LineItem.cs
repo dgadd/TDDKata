@@ -6,6 +6,7 @@ namespace Gaddzeit.Kata.Domain
     {
         private string _productCode;
         private int _quantity;
+        private decimal _price;
 
         public string ProductCode
         {
@@ -24,6 +25,16 @@ namespace Gaddzeit.Kata.Domain
             }
             set {
                 _quantity = value;
+            }
+        }
+
+        public decimal Price
+        {
+            get {
+                return _price;
+            }
+            set {
+                _price = value;
             }
         }
     }

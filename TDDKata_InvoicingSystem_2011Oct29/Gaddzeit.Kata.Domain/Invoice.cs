@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Iesi.Collections.Generic;
 
 namespace Gaddzeit.Kata.Domain
@@ -16,6 +17,14 @@ namespace Gaddzeit.Kata.Domain
         public IEnumerable<LineItem> LineItems
         {
             get { return _lineItems; }
+        }
+
+        public decimal SubTotal
+        {
+            get 
+            {
+                return _lineItems.Sum(lineItem => (lineItem.Quantity*lineItem.Price));
+            }
         }
 
         public void AddLineItem(LineItem lineItem)

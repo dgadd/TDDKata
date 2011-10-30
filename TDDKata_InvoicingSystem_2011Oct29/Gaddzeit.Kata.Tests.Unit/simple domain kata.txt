@@ -2,8 +2,8 @@ Simple Domain Kata (emphasis on equality and associations)
 Tests will be delineated as M (for Mechanics, such as ORM equality) or B (for Business requirement).
 
 LESSONS LEARNED:
-1) Object equality by ID
-2) Associations maintain uniqueness through set
+1) Object identity and equality by ID
+2) Associations maintain uniqueness/no duplicates through set
 3) Aggregate root: the root class of the object graph
 4) Business logic is tested against the aggregate root
 5) All goals of this kata are achieved test-first (starting from the outside, from tests).

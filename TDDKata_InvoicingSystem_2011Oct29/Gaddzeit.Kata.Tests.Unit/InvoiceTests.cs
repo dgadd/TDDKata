@@ -80,5 +80,26 @@ namespace Gaddzeit.Kata.Tests.Unit
             
         }
 
+        [Test]
+        public void SubTotalProperty_MultipleLineItemsInput_MatchesSumOfQuantityTimesPrice()
+        {
+            var sut = new Invoice();
+            sut.AddLineItem(new LineItem
+            {
+                Quantity = 4,
+                ProductCode = "ABC123",
+                Price = 3.5M
+            });
+            sut.AddLineItem(new LineItem
+            {
+                Quantity = 1,
+                ProductCode = "ABC1234",
+                Price = 2.75M
+            });
+
+            var expected = (4*3.5 + 1*2.75);
+            Assert.AreEqual(expected, sut.SubTotal);
+
+        }
     }
 }
