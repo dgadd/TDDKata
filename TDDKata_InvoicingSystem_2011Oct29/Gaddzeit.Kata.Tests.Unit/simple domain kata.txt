@@ -4,25 +4,28 @@ Tests will be delineated as M (for Mechanics, such as ORM equality) or B (for Bu
 LESSONS LEARNED:
 1) Object equality by ID
 2) Associations maintain uniqueness through set
+3) Aggregate root: the root class of the object graph
+4) Business logic is tested against the aggregate root
+5) All goals of this kata are achieved test-first (starting from the outside, from tests).
 
 THE KATA
-Remember that all of the following has to be achieved test-first:
 
-A. Start with a common base class to handle object equality on an ID
+A. DomainEntityBase
 1. M: Two instances of DomainEntityBase are equal when they have the same ID value
 2. M: Two instances are NOT equal when they have different ID values
 3. M: Two instances are NOT equal when they have 0 ID values.
 
-B. Invoice and its LineItems
+B. Invoice, and LineItems association
 1. M: Verify that Invoice is an instance of DomainEntityBase.
 2. M: Verify that LineItem is an instance of DomainEntityBase.
 3. M: Verify that Invoice has a read-only collection of LineItems.
 4. M: Verify that adding a LineItem to Invoice increases its count of LineItems from 0 to 1
 5. M: Verify that adding the SAME LineItem (by identifier) does not increment the set of LineItems.
-6. B: Given an existing LineItem, when I try to add a LineItem without a ProductCode, 
+6. M: Verify that the bi-directional reference (LineItem.Invoice) equals the owning Invoice.
+7. B: Given an existing LineItem, when I try to add a LineItem without a ProductCode, 
 then I am informed that I must provide a ProductCode.
-7. B: Given an existing LineItem, when I try to add another LineItem with the same ProductCode, 
+8. B: Given an existing LineItem, when I try to add another LineItem with the same ProductCode, 
 then the original LineItem for that ProductCode has its Quantity incremented by the quantity of the added item.
-8. B: Given a set of LineItems, when I check the SubTotal for the Invoice, 
+9. B: Given a set of LineItems, when I check the SubTotal for the Invoice, 
 then the SubTotal matches Sum of the Quantity of LineItems times the Price.
 

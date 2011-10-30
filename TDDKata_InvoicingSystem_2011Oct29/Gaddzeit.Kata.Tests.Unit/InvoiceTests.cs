@@ -27,7 +27,10 @@ namespace Gaddzeit.Kata.Tests.Unit
         {
             var sut = new Invoice();
             Assert.AreEqual(0, sut.LineItems.Count());
-            sut.AddLineItem(new LineItem());
+            sut.AddLineItem(new LineItem
+                                {
+                                    ProductCode = "blah"
+                                });
             Assert.AreEqual(1, sut.LineItems.Count());
         }
 
@@ -37,12 +40,25 @@ namespace Gaddzeit.Kata.Tests.Unit
             var sut = new Invoice();
             var lineItem = new LineItem
                                {
-                                   Id = 35
+                                   Id = 35,
+                                   ProductCode = "blah"
                                };
             sut.AddLineItem(lineItem);
             Assert.AreEqual(1, sut.LineItems.Count());
             sut.AddLineItem(lineItem);
             Assert.AreEqual(1, sut.LineItems.Count(), "LineItems should NOT increment for the same identifier");
         }
+
+        [Test]
+        [ExpectedException(typeof(LineItemContentException), ExpectedMessage = "When adding a line item to an invoice, the line item must have a product code")]
+        public void AddLineItemMethod_LineItemWithNoProductCodeInput_WarningIsGivenRequestingProductCode()
+        {
+            var sut = new Invoice();
+            sut.AddLineItem(new LineItem
+                                {
+                                    ProductCode = ""
+                                });
+        }
+
     }
 }
