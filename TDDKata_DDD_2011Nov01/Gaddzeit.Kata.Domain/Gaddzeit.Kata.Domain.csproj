@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DomainEntityBase.cs" />
+    <Compile Include="InvalidLineItemException.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="LineItem.cs" />
     <Compile Include="Money.cs" />

@@ -30,7 +30,7 @@ namespace Gaddzeit.Kata.Tests.Unit
             var sut = new Invoice();
             Assert.AreEqual(0, sut.LineItems.Count());
 
-            sut.AddLineItem(new LineItem());
+            sut.AddLineItem(new LineItem { ProductCode = "aaa"});
             Assert.AreEqual(1, sut.LineItems.Count());
         }
 
@@ -38,7 +38,7 @@ namespace Gaddzeit.Kata.Tests.Unit
         public void AddLineItemsMethod_SameLineItemTwiceInput_DoesNotIncrementLineItemsCollection()
         {
             var sut = new Invoice();
-            var lineItem = new LineItem {Id = 3522};
+            var lineItem = new LineItem { Id = 3522, ProductCode = "aaa" };
 
             sut.AddLineItem(lineItem);
             Assert.AreEqual(1, sut.LineItems.Count());
@@ -50,11 +50,23 @@ namespace Gaddzeit.Kata.Tests.Unit
         public void AddLineItemsMethod_LineItemInput_InvoicePropertyMatchesParent()
         {
             var sut = new Invoice();
-            var lineItem = new LineItem { Id = 3522 };
+            var lineItem = new LineItem { Id = 3522, ProductCode = "aaa"};
 
             sut.AddLineItem(lineItem);
 
             Assert.AreEqual(lineItem.Invoice, sut);
+        }
+
+//        Given an existing LineItem, when I try to add a LineItem without a ProductCode,
+//then I am informed that I must provide a ProductCode.
+        [Test]
+        [ExpectedException(typeof(InvalidLineItemException), ExpectedMessage = "You must provide a ProductCode")]
+        public void AddLineItemsMethod_LineItemWithoutProductCode_ThrowsException()
+        {
+            var sut = new Invoice();
+            var lineItem = new LineItem { Id = 3522 };
+
+            sut.AddLineItem(lineItem);
         }
 
     }
