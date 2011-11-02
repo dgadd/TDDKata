@@ -46,6 +46,7 @@
     <Compile Include="LineItemTests.cs" />
     <Compile Include="DomainEntityBaseTests.cs" />
     <Compile Include="InvoiceTests.cs" />
+    <Compile Include="MoneyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

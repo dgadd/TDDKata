@@ -43,6 +43,7 @@
     <Compile Include="DomainEntityBase.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="LineItem.cs" />
+    <Compile Include="Money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
