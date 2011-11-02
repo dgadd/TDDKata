@@ -16,5 +16,13 @@ namespace Gaddzeit.Kata.Tests.Unit
             var sut = new Invoice();
             Assert.IsInstanceOf(typeof(DomainEntityBase), sut);
         }
+
+        [Test]
+        public void LineItemsProperty_Getter_IsReadOnlyCollection()
+        {
+            var sut = new Invoice();
+            Assert.IsInstanceOf(typeof(IEnumerable<LineItem>), sut.LineItems);
+        }
+
     }
 }
