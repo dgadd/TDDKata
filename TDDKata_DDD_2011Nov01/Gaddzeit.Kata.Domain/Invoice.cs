@@ -23,6 +23,7 @@ namespace Gaddzeit.Kata.Domain
 
         public void AddLineItem(LineItem lineItem)
         {
+            lineItem.Invoice = this;
             _lineItems.Add(lineItem);
             
         }

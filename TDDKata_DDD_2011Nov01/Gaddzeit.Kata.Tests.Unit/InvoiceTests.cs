@@ -46,5 +46,16 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.AreEqual(1, sut.LineItems.Count());
         }
 
+        [Test]
+        public void AddLineItemsMethod_LineItemInput_InvoicePropertyMatchesParent()
+        {
+            var sut = new Invoice();
+            var lineItem = new LineItem { Id = 3522 };
+
+            sut.AddLineItem(lineItem);
+
+            Assert.AreEqual(lineItem.Invoice, sut);
+        }
+
     }
 }
