@@ -24,5 +24,15 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.IsInstanceOf(typeof(IEnumerable<LineItem>), sut.LineItems);
         }
 
+        [Test]
+        public void AddLineItemsMethod_LineItemInput_IncrementLineItemsCollection()
+        {
+            var sut = new Invoice();
+            Assert.AreEqual(0, sut.LineItems.Count());
+
+            sut.AddLineItem(new LineItem());
+            Assert.AreEqual(1, sut.LineItems.Count());
+        }
+
     }
 }
