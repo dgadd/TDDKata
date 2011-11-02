@@ -34,5 +34,17 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.AreEqual(1, sut.LineItems.Count());
         }
 
+        [Test]
+        public void AddLineItemsMethod_SameLineItemTwiceInput_DoesNotIncrementLineItemsCollection()
+        {
+            var sut = new Invoice();
+            var lineItem = new LineItem {Id = 3522};
+
+            sut.AddLineItem(lineItem);
+            Assert.AreEqual(1, sut.LineItems.Count());
+            sut.AddLineItem(lineItem);
+            Assert.AreEqual(1, sut.LineItems.Count());
+        }
+
     }
 }
