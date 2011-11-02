@@ -16,34 +16,18 @@ namespace Gaddzeit.Kata.Domain
             }
         }
 
-        public bool Equals(DomainEntityBase other)
-        {
-            if (ReferenceEquals(null, other)) return false;
-            if (ReferenceEquals(this, other)) return true;
-            return other._id == _id;
-        }
-
         public override bool Equals(object obj)
         {
-            if (ReferenceEquals(null, obj)) return false;
-            if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != typeof (DomainEntityBase)) return false;
-            return Equals((DomainEntityBase) obj);
+            var other = obj as DomainEntityBase;
+            return other != null 
+                && other.Id > 0 && 
+                this.Id > 0 
+                && other.Id.Equals(this.Id);
         }
 
         public override int GetHashCode()
         {
-            return _id;
-        }
-
-        public static bool operator ==(DomainEntityBase left, DomainEntityBase right)
-        {
-            return Equals(left, right);
-        }
-
-        public static bool operator !=(DomainEntityBase left, DomainEntityBase right)
-        {
-            return !Equals(left, right);
+            return this.Id.GetHashCode();
         }
     }
 }
