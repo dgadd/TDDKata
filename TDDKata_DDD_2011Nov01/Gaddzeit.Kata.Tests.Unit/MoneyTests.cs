@@ -32,5 +32,16 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.IsFalse(sut.GetType().GetProperty("Currency").CanWrite);
         }
 
+        [Test]
+        public void TwoInstances_SameCurrencyAndAmountInputs_AreEqual()
+        {
+            const decimal amount = 3.25M;
+            const string currency = "CDN";
+            var sut1 = new Money(amount, currency);
+            var sut2 = new Money(amount, currency);
+
+            Assert.AreEqual(sut1, sut2);
+        }
+
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Gaddzeit.Kata.Domain
 {
-    public struct Money
+    public class Money
     {
         private readonly decimal _amount;
         private readonly string _currency;
@@ -25,6 +25,39 @@ namespace Gaddzeit.Kata.Domain
             get {
                 return _currency;
             }
+        }
+
+        public bool Equals(Money other)
+        {
+            if (ReferenceEquals(null, other)) return false;
+            if (ReferenceEquals(this, other)) return true;
+            return other._amount == _amount && Equals(other._currency, _currency);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != typeof (Money)) return false;
+            return Equals((Money) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return (_amount.GetHashCode()*397) ^ _currency.GetHashCode();
+            }
+        }
+
+        public static bool operator ==(Money left, Money right)
+        {
+            return Equals(left, right);
+        }
+
+        public static bool operator !=(Money left, Money right)
+        {
+            return !Equals(left, right);
         }
     }
 }
