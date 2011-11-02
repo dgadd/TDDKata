@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LineItemTests.cs" />
     <Compile Include="DomainEntityBaseTests.cs" />
     <Compile Include="InvoiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
