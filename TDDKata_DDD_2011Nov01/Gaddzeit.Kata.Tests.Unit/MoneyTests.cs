@@ -20,5 +20,17 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.AreEqual(amount, sut.Amount);
             Assert.AreEqual(currency, sut.Currency);
         }
+
+        [Test]
+        public void Constructor_AmountAndCurrencyInputs_AreReadOnly()
+        {
+            const decimal amount = 3.25M;
+            const string currency = "CDN";
+            var sut = new Money(amount, currency);
+
+            Assert.IsFalse(sut.GetType().GetProperty("Amount").CanWrite);
+            Assert.IsFalse(sut.GetType().GetProperty("Currency").CanWrite);
+        }
+
     }
 }
