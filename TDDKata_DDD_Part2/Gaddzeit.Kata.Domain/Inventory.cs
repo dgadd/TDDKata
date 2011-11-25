@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Iesi.Collections.Generic;
 
 namespace Gaddzeit.Kata.Domain
@@ -32,6 +34,17 @@ namespace Gaddzeit.Kata.Domain
         {
             if(string.IsNullOrEmpty(product.ProductCode))
                 throw new InvalidProductException("You must provide a ProductCode");
+        }
+
+        public Product GetNewOrExistingProductBy(string productCode)
+        {
+            var product = _products.FirstOrDefault(p => p.ProductCode.Equals(productCode));
+            if (product != null) return product;
+
+            product = new Product {ProductCode = productCode};
+            this.AddProduct(product);
+
+            return product;
         }
     }
 }

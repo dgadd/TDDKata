@@ -56,5 +56,14 @@ namespace Gaddzeit.Kata.Tests.Unit
 
             Assert.AreEqual(lineItem.Inventory, sut);
         }
+
+        [Test]
+        public void GetNewOrExistingProductBy_ProductCodeInput_ReturnsMatchingProduct()
+        {
+            const string productCode = "ABCD1234";
+
+            var sut = new Inventory {Id = 132412};
+            Product product = sut.GetNewOrExistingProductBy(productCode);
+        }
     }
 }
