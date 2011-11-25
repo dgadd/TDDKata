@@ -62,8 +62,23 @@ namespace Gaddzeit.Kata.Tests.Unit
         {
             const string productCode = "ABCD1234";
 
-            var sut = new Inventory {Id = 132412};
+            var sut = new Inventory { Id = 132412 };
             Product product = sut.GetNewOrExistingProductBy(productCode);
+        }
+
+        [Test]
+        public void StockItemBy_ProductCodeInput_ReturnsMatchingProduct()
+        {
+            const string productCode = "ABCD1234";
+            const string serialNumber = "MM1235125";
+
+            var sut = new Inventory { Id = 132412 };
+            sut.StockItemBy(productCode, serialNumber);
+
+            Assert.AreEqual(1, sut.Products.Count());
+            Assert.AreEqual(productCode, sut.Products.First().ProductCode);
+            Assert.AreEqual(1, sut.Products.First().Items.Count());
+            Assert.AreEqual(serialNumber, sut.Products.First().Items.First().SerialNumber);
         }
     }
 }
