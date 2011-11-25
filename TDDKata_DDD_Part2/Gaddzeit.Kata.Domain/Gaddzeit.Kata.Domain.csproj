@@ -45,9 +45,12 @@
   <ItemGroup>
     <Compile Include="DomainEntityBase.cs" />
     <Compile Include="InvalidLineItemException.cs" />
+    <Compile Include="Inventory.cs" />
     <Compile Include="Invoice.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="LineItem.cs" />
     <Compile Include="Money.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

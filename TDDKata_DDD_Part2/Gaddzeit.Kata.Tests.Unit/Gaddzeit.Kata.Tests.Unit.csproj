@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItemTests.cs" />
+    <Compile Include="ProductTests.cs" />
+    <Compile Include="InventoryTests.cs" />
     <Compile Include="LineItemTests.cs" />
     <Compile Include="DomainEntityBaseTests.cs" />
     <Compile Include="InvoiceTests.cs" />
