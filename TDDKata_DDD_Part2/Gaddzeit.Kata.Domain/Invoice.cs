@@ -23,16 +23,16 @@ namespace Gaddzeit.Kata.Domain
 
         public void AddLineItem(LineItem lineItem)
         {
-            GuardCondition_LineItemMustHaveProductCode(lineItem);
+            GuardCondition_LineItemMustHaveItem(lineItem);
             lineItem.Invoice = this;
             _lineItems.Add(lineItem);
             
         }
 
-        private static void GuardCondition_LineItemMustHaveProductCode(LineItem lineItem)
+        private static void GuardCondition_LineItemMustHaveItem(LineItem lineItem)
         {
-            if(string.IsNullOrEmpty(lineItem.ProductCode))
-                throw new InvalidLineItemException("You must provide a ProductCode");
+            if (lineItem.Item == null)
+                throw new InvalidLineItemException("You must provide an Item");
         }
     }
 }

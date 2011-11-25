@@ -5,7 +5,7 @@ namespace Gaddzeit.Kata.Domain
     public class LineItem : DomainEntityBase
     {
         private Invoice _invoice;
-        private string _productCode;
+        private Item _item;
 
         public Invoice Invoice
         {
@@ -17,13 +17,13 @@ namespace Gaddzeit.Kata.Domain
             }
         }
 
-        public string ProductCode
+        public Item Item
         {
             get {
-                return _productCode;
+                return _item;
             }
             set {
-                _productCode = value;
+                _item = value;
             }
         }
     }
