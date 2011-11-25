@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Iesi.Collections.Generic;
 
 namespace Gaddzeit.Kata.Domain
@@ -54,6 +55,11 @@ namespace Gaddzeit.Kata.Domain
         {
             if(string.IsNullOrEmpty(item.SerialNumber))
                 throw new InvalidItemException("You must provide a SerialNumber");
+        }
+
+        public void RemoveItem(Item item)
+        {
+            _items.Remove(item);
         }
     }
 }

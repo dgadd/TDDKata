@@ -67,7 +67,7 @@ namespace Gaddzeit.Kata.Tests.Unit
         }
 
         [Test]
-        public void StockItemBy_ProductCodeInput_ReturnsMatchingProduct()
+        public void StockItemBy_ProductCodeAndSerialNumberInput_IncrementsItem()
         {
             const string productCode = "ABCD1234";
             const string serialNumber = "MM1235125";
@@ -80,5 +80,21 @@ namespace Gaddzeit.Kata.Tests.Unit
             Assert.AreEqual(1, sut.Products.First().Items.Count());
             Assert.AreEqual(serialNumber, sut.Products.First().Items.First().SerialNumber);
         }
+
+        [Test]
+        public void PullItemBy_ProductCodeInput_ReturnsMatchingItem()
+        {
+            const string productCode = "ABCD1234";
+            const string serialNumber = "MM1235125";
+
+            var sut = new Inventory { Id = 132412 };
+            sut.StockItemBy(productCode, serialNumber);
+            Item item = sut.PullItemBy(productCode);
+
+            Assert.IsNotNull(item);
+            Assert.AreEqual(serialNumber, item.SerialNumber);
+            Assert.AreEqual(0, sut.Products.First().Items.Count());
+        }
+
     }
 }

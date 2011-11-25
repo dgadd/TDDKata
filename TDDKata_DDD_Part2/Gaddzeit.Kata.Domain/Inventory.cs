@@ -52,5 +52,13 @@ namespace Gaddzeit.Kata.Domain
             var product = GetNewOrExistingProductBy(productCode);
             product.AddItem(new Item { SerialNumber = serialNumber});
         }
+
+        public Item PullItemBy(string productCode)
+        {
+            var product = GetNewOrExistingProductBy(productCode);
+            var item = product.Items.First();
+            product.RemoveItem(item);
+            return item;
+        }
     }
 }
