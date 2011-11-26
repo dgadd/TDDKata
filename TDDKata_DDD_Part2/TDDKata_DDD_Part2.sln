@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Kata.Tests.Unit", "Gaddzeit.Kata.Tests.Unit\Gaddzeit.Kata.Tests.Unit.csproj", "{F2A32ACD-7A2E-4E3D-B75B-2FA367026083}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Domain.Tests.Unit", "Kata.Domain.Tests.Unit\Kata.Domain.Tests.Unit.csproj", "{F2A32ACD-7A2E-4E3D-B75B-2FA367026083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaddzeit.Kata.Domain", "Gaddzeit.Kata.Domain\Gaddzeit.Kata.Domain.csproj", "{DC1ADF12-3C42-4979-95EC-0D85C3E5CAA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Domain", "Kata.Domain\Kata.Domain.csproj", "{DC1ADF12-3C42-4979-95EC-0D85C3E5CAA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

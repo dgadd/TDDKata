@@ -53,7 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gaddzeit.Kata.Domain\Gaddzeit.Kata.Domain.csproj">
+    <ProjectReference Include="..\Kata.Domain\Kata.Domain.csproj">
       <Project>{DC1ADF12-3C42-4979-95EC-0D85C3E5CAA0}</Project>
       <Name>Gaddzeit.Kata.Domain</Name>
     </ProjectReference>
