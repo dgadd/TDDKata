@@ -72,11 +72,10 @@ namespace Gaddzeit.Kata.Tests.Unit
         [Test]
         public void BillItemMethod_ItemInput_IncrementsLineItemsHavingItem()
         {
-            var sut = new Invoice();
-            var item = new Item {Id = 1324, SerialNumber = "MM1234"};
-            var lineItem = new LineItem { Id = 3522, Item = item };
+            var item = new Item {Id = 12341, SerialNumber = "MM1234"};
 
-            sut.AddLineItem(lineItem);
+            var sut = new Invoice();
+            sut.BillItem(item);
 
             Assert.AreEqual(1, sut.LineItems.Count());
             Assert.AreEqual(item, sut.LineItems.First().Item);

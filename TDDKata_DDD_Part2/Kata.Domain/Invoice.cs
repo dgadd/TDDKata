@@ -34,5 +34,10 @@ namespace Gaddzeit.Kata.Domain
             if (lineItem.Item == null)
                 throw new InvalidLineItemException("You must provide an Item");
         }
+
+        public void BillItem(Item item)
+        {
+            this.AddLineItem(new LineItem { Item = item});
+        }
     }
 }
