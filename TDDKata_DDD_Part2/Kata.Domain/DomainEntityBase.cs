@@ -41,9 +41,7 @@ namespace Gaddzeit.Kata.Domain
                     return other.Id.Equals(this.Id);
                 return other.TransientId.Equals(this.TransientId);
             }
-
-            return other != null
-                   && (other.Id.Equals(this.Id) || other.TransientId.Equals(this.TransientId));
+            return false;
         }
 
         public override int GetHashCode()
