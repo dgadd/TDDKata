@@ -23,7 +23,16 @@
 
 - (void)testAddMethod_ZeroLengthInput_ReturnsZero
 {
-    STAssertEquals(0, [calc add:@""], @"Empty string shoudl return zero");
+    int result = [calc add:@""];
+    int expected = 0;
+    STAssertEquals(expected, result, @"Zero-length input should return zero");
+}
+
+- (void)testAddMethod_OneLengthInput_ReturnsEquivalent
+{
+    int result = [calc add:@"3"];
+    int expected = 3;
+    STAssertEquals(expected, result, @"Single-length input should return equivalent");
 }
 
 @end

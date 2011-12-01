@@ -11,6 +11,6 @@
 @implementation Calculator
 
 - (int) add: (NSString *) numbersToAdd {
-    return 0;
+    return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end
