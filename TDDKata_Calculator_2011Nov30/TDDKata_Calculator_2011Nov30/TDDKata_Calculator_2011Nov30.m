@@ -58,4 +58,11 @@
     STAssertEquals(expected, result, @"Comma-seperated input should return sum.");
 }
 
+- (void)testAddMethod_NewLineDelimitedInput_ReturnsSum
+{
+    int result = [calc add:@"3,5\n4"];
+    int expected = 12;
+    STAssertEquals(expected, result, @"New-line should be treated as regular delimiter.");
+}
+
 @end

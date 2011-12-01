@@ -26,7 +26,7 @@
       <file leaf-file-name="TDDKata_Calculator_2011Nov30.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="79" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.65648854">
+            <state line="64" column="47" selection-start="1582" selection-end="1582" vertical-scroll-proportion="1.4319527">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+            <state line="26" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -289,14 +289,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="26" column="42" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="79" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.65648854">
+        <state line="64" column="47" selection-start="1582" selection-end="1582" vertical-scroll-proportion="1.4319527">
           <folding />
         </state>
       </provider>

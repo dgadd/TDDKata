@@ -22,7 +22,12 @@
         return total;
     }
 
+- (void)handleNewLineDelimiter:(NSString **)numbersToAdd {
+    (*numbersToAdd) = [*numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    [self handleNewLineDelimiter:&numbersToAdd];
     if ([self containsWithin:numbersToAdd searchString:@","])
         return [self sum:numbersToAdd];
 
