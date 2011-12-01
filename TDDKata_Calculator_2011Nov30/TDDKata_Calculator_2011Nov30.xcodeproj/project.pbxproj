@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9EEB0BF757D1E1E746EC3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC3B /* SenTestingKit.framework */; };
+		DE9EEB0BF757D1E1E746EC3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC3D /* UIKit.framework */; };
+		DE9EEB0BF757D1E1E746EC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC3F /* Foundation.framework */; };
+		DE9EEB0BF757D1E1E746EC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC45 /* InfoPlist.strings */; };
+		DE9EEB0BF757D1E1E746EC49 /* TDDKata_Calculator_2011Nov30.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC48 /* TDDKata_Calculator_2011Nov30.m */; };
+		DE9EEB0BF757D1E1E746EC4C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EEB0BF757D1E1E746EC4B /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE9EEB0BF757D1E1E746EC31 /* TDDKata_Calculator_2011Nov30.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDKata_Calculator_2011Nov30.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9EEB0BF757D1E1E746EC3B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE9EEB0BF757D1E1E746EC3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE9EEB0BF757D1E1E746EC3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE9EEB0BF757D1E1E746EC43 /* TDDKata_Calculator_2011Nov30-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDKata_Calculator_2011Nov30-Info.plist"; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC47 /* TDDKata_Calculator_2011Nov30.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDKata_Calculator_2011Nov30.h; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC48 /* TDDKata_Calculator_2011Nov30.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDKata_Calculator_2011Nov30.m; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC4A /* TDDKata_Calculator_2011Nov30-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDKata_Calculator_2011Nov30-Prefix.pch"; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC4B /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		DE9EEB0BF757D1E1E746EC4D /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9EEB0BF757D1E1E746EC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9EEB0BF757D1E1E746EC3C /* SenTestingKit.framework in Frameworks */,
+				DE9EEB0BF757D1E1E746EC3E /* UIKit.framework in Frameworks */,
+				DE9EEB0BF757D1E1E746EC40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9EEB0BF757D1E1E746EC2D = {
+			isa = PBXGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC2E /* Products */,
+				DE9EEB0BF757D1E1E746EC3A /* Frameworks */,
+				DE9EEB0BF757D1E1E746EC41 /* TDDKata_Calculator_2011Nov30 */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9EEB0BF757D1E1E746EC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC4D /* Calculator.h */,
+				DE9EEB0BF757D1E1E746EC4B /* Calculator.m */,
+				DE9EEB0BF757D1E1E746EC31 /* TDDKata_Calculator_2011Nov30.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9EEB0BF757D1E1E746EC3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC3F /* Foundation.framework */,
+				DE9EEB0BF757D1E1E746EC3D /* UIKit.framework */,
+				DE9EEB0BF757D1E1E746EC3B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9EEB0BF757D1E1E746EC41 /* TDDKata_Calculator_2011Nov30 */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC48 /* TDDKata_Calculator_2011Nov30.m */,
+				DE9EEB0BF757D1E1E746EC47 /* TDDKata_Calculator_2011Nov30.h */,
+				DE9EEB0BF757D1E1E746EC42 /* Supporting Files */,
+			);
+			path = TDDKata_Calculator_2011Nov30;
+			sourceTree = "<group>";
+		};
+		DE9EEB0BF757D1E1E746EC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC4A /* TDDKata_Calculator_2011Nov30-Prefix.pch */,
+				DE9EEB0BF757D1E1E746EC45 /* InfoPlist.strings */,
+				DE9EEB0BF757D1E1E746EC43 /* TDDKata_Calculator_2011Nov30-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9EEB0BF757D1E1E746EC32 /* TDDKata_Calculator_2011Nov30 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9EEB0BF757D1E1E746EC33 /* Build configuration list for PBXNativeTarget "TDDKata_Calculator_2011Nov30" */;
+			buildPhases = (
+				DE9EEB0BF757D1E1E746EC36 /* Sources */,
+				DE9EEB0BF757D1E1E746EC37 /* Frameworks */,
+				DE9EEB0BF757D1E1E746EC38 /* Resources */,
+				DE9EEB0BF757D1E1E746EC39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDKata_Calculator_2011Nov30;
+			productName = TDDKata_Calculator_2011Nov30;
+			productReference = DE9EEB0BF757D1E1E746EC31 /* TDDKata_Calculator_2011Nov30.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9EEB0BF757D1E1E746EC2B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DE9EEB0BF757D1E1E746EC2C /* Build configuration list for PBXProject "TDDKata_Calculator_2011Nov30" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE9EEB0BF757D1E1E746EC2D;
+			productRefGroup = DE9EEB0BF757D1E1E746EC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9EEB0BF757D1E1E746EC32 /* TDDKata_Calculator_2011Nov30 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9EEB0BF757D1E1E746EC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9EEB0BF757D1E1E746EC46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE9EEB0BF757D1E1E746EC39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9EEB0BF757D1E1E746EC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9EEB0BF757D1E1E746EC49 /* TDDKata_Calculator_2011Nov30.m in Sources */,
+				DE9EEB0BF757D1E1E746EC4C /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE9EEB0BF757D1E1E746EC45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9EEB0BF757D1E1E746EC44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9EEB0BF757D1E1E746EC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9EEB0BF757D1E1E746EC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9EEB0BF757D1E1E746EC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30-Prefix.pch";
+				INFOPLIST_FILE = "TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		DE9EEB0BF757D1E1E746EC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30-Prefix.pch";
+				INFOPLIST_FILE = "TDDKata_Calculator_2011Nov30/TDDKata_Calculator_2011Nov30-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9EEB0BF757D1E1E746EC2C /* Build configuration list for PBXProject "TDDKata_Calculator_2011Nov30" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9EEB0BF757D1E1E746EC2F /* Release */,
+				DE9EEB0BF757D1E1E746EC30 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9EEB0BF757D1E1E746EC33 /* Build configuration list for PBXNativeTarget "TDDKata_Calculator_2011Nov30" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9EEB0BF757D1E1E746EC34 /* Release */,
+				DE9EEB0BF757D1E1E746EC35 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9EEB0BF757D1E1E746EC2B /* Project object */;
+}
