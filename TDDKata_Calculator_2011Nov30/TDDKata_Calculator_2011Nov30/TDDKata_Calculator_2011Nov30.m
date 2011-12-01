@@ -65,4 +65,9 @@
     STAssertEquals(expected, result, @"New-line should be treated as regular delimiter.");
 }
 
+- (void)testAddMethod_DuplicateDelimiter_ThrowsException
+{
+    STAssertThrowsSpecific([calc add:@"3,5\n,4"], NSException, @"You cannot use duplicate delimiters.");
+}
+
 @end
