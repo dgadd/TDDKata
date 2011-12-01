@@ -42,4 +42,20 @@
     STAssertEquals(expected, result, @"Two-length input should return sum");
 }
 
+- (void)testAddMethod_AnyLengthInput_ReturnsSum
+{
+    int howMany = arc4random() % 999;
+    NSMutableString* numbersToAdd = [NSMutableString string];
+    int expected = 0;
+
+    for(int i = 0; i < howMany; i++)
+    {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
+        expected += i;
+    }
+
+    int result = [calc add:numbersToAdd];
+    STAssertEquals(expected, result, @"Comma-seperated input should return sum.");
+}
+
 @end
