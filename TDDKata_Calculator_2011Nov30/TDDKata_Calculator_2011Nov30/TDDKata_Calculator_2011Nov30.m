@@ -35,4 +35,11 @@
     STAssertEquals(expected, result, @"Single-length input should return equivalent");
 }
 
+- (void)testAddMethod_TwoLengthInput_ReturnsSum
+{
+    int result = [calc add:@"3,5"];
+    int expected = 8;
+    STAssertEquals(expected, result, @"Two-length input should return sum");
+}
+
 @end
