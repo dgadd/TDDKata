@@ -13,20 +13,18 @@
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    calc = [[Calculator alloc] init];
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in TddKataCalculator");
+- (void)testAddMethod_ZeroLengthInput_ReturnsZero {
+    int result = [calc add:@""];
+    int expected = 0;
+    STAssertEquals(expected, result, @"Zero-length input returns zero.");
 }
 
 @end

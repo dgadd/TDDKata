@@ -12,6 +12,7 @@
 		3F0214BFD52D4CFFAEC59E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0214BFD52D4CFFAEC59E3A /* Foundation.framework */; };
 		3F0214BFD52D4CFFAEC59E41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0214BFD52D4CFFAEC59E40 /* InfoPlist.strings */; };
 		3F0214BFD52D4CFFAEC59E44 /* TddKataCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0214BFD52D4CFFAEC59E43 /* TddKataCalculator.m */; };
+		3F0214BFD52D4CFFAEC59E47 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0214BFD52D4CFFAEC59E46 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		3F0214BFD52D4CFFAEC59E42 /* TddKataCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TddKataCalculator.h; sourceTree = "<group>"; };
 		3F0214BFD52D4CFFAEC59E43 /* TddKataCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TddKataCalculator.m; sourceTree = "<group>"; };
 		3F0214BFD52D4CFFAEC59E45 /* TddKataCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TddKataCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		3F0214BFD52D4CFFAEC59E46 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = Domain/Calculator.m; sourceTree = SOURCE_ROOT; };
+		3F0214BFD52D4CFFAEC59E48 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = Domain/Calculator.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 		3F0214BFD52D4CFFAEC59E3C /* TddKataCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				3F0214BFD52D4CFFAEC59E48 /* Calculator.h */,
+				3F0214BFD52D4CFFAEC59E46 /* Calculator.m */,
 				3F0214BFD52D4CFFAEC59E43 /* TddKataCalculator.m */,
 				3F0214BFD52D4CFFAEC59E42 /* TddKataCalculator.h */,
 				3F0214BFD52D4CFFAEC59E3D /* Supporting Files */,
@@ -163,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F0214BFD52D4CFFAEC59E44 /* TddKataCalculator.m in Sources */,
+				3F0214BFD52D4CFFAEC59E47 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

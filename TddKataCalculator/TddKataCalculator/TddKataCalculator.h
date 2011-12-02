@@ -7,7 +7,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "Calculator.h"
 
-@interface TddKataCalculator : SenTestCase
+@interface TddKataCalculator : SenTestCase {
+
+    Calculator *calc;
+}
 
 @end
