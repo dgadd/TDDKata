@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="13" column="64" selection-start="272" selection-end="272" vertical-scroll-proportion="0.49618322">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TddKataCalculator.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TddKataCalculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="489" selection-end="489" vertical-scroll-proportion="0.9236641">
+            <state line="32" column="74" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.h" />
         <option value="$PROJECT_DIR$/Domain/Calculator.h" />
-        <option value="$PROJECT_DIR$/Domain/Calculator.m" />
         <option value="$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m" />
+        <option value="$PROJECT_DIR$/Domain/Calculator.m" />
       </list>
     </option>
   </component>
@@ -273,16 +273,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/Calculator.m">
+    <entry file="file://$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+        <state line="32" column="74" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m">
+    <entry file="file://$PROJECT_DIR$/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="489" selection-end="489" vertical-scroll-proportion="0.9236641">
+        <state line="13" column="64" selection-start="272" selection-end="272" vertical-scroll-proportion="0.49618322">
           <folding />
         </state>
       </provider>
