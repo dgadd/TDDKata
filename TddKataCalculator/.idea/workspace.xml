@@ -35,7 +35,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="64" selection-start="272" selection-end="272" vertical-scroll-proportion="0.49618322">
+            <state line="27" column="32" selection-start="734" selection-end="765" vertical-scroll-proportion="1.0305344">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="TddKataCalculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="74" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+            <state line="38" column="67" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,7 +187,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -275,14 +275,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TddKataCalculator/TddKataCalculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+        <state line="38" column="67" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="272" selection-end="272" vertical-scroll-proportion="0.49618322">
+        <state line="27" column="32" selection-start="734" selection-end="765" vertical-scroll-proportion="1.0305344">
           <folding />
         </state>
       </provider>
