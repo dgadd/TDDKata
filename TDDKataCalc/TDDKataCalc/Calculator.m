@@ -12,4 +12,9 @@
 
 }
 
+- (int)add:(NSString *)string {
+ return 0;
+  //To change the template use AppCode | Preferences | File Templates.
+
+}
 @end

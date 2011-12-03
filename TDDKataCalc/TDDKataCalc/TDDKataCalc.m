@@ -13,20 +13,19 @@
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    sut = [[Calculator alloc] init];
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testAddMethod_ZeroLengthInput_ReturnsZero
 {
-    STFail(@"Unit tests are not implemented yet in TDDKataCalc");
+    int result = [sut add:@""];
+    int expected = 0;
+    STAssertEquals(expected, result, @"zero-length input should return 0");
 }
 
 @end
