@@ -11,6 +11,7 @@
 		97BB62F578C3F457ED081455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081454 /* Cocoa.framework */; };
 		97BB62F578C3F457ED08145F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED08145E /* InfoPlist.strings */; };
 		97BB62F578C3F457ED081462 /* TDDKataCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081461 /* TDDKataCalc.m */; };
+		97BB62F578C3F457ED081465 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081464 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		97BB62F578C3F457ED081460 /* TDDKataCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDKataCalc.h; sourceTree = "<group>"; };
 		97BB62F578C3F457ED081461 /* TDDKataCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDKataCalc.m; sourceTree = "<group>"; };
 		97BB62F578C3F457ED081463 /* TDDKataCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDKataCalc-Prefix.pch"; sourceTree = "<group>"; };
+		97BB62F578C3F457ED081464 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		97BB62F578C3F457ED081466 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		97BB62F578C3F457ED08145A /* TDDKataCalc */ = {
 			isa = PBXGroup;
 			children = (
+				97BB62F578C3F457ED081466 /* Calculator.h */,
+				97BB62F578C3F457ED081464 /* Calculator.m */,
 				97BB62F578C3F457ED081461 /* TDDKataCalc.m */,
 				97BB62F578C3F457ED081460 /* TDDKataCalc.h */,
 				97BB62F578C3F457ED08145B /* Supporting Files */,
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97BB62F578C3F457ED081462 /* TDDKataCalc.m in Sources */,
+				97BB62F578C3F457ED081465 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

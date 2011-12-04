@@ -8,8 +8,11 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class Calculator;
+
 
 @interface TDDKataCalc : SenTestCase {
+    Calculator *sut;
 }
 
 @end
