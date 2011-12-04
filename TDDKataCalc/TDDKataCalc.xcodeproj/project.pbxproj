@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97BB62F578C3F457ED081453 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081452 /* SenTestingKit.framework */; };
+		97BB62F578C3F457ED081455 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081454 /* Cocoa.framework */; };
+		97BB62F578C3F457ED08145F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED08145E /* InfoPlist.strings */; };
+		97BB62F578C3F457ED081462 /* TDDKataCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB62F578C3F457ED081461 /* TDDKataCalc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97BB62F578C3F457ED081448 /* TDDKataCalc.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDKataCalc.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BB62F578C3F457ED081452 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		97BB62F578C3F457ED081454 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		97BB62F578C3F457ED081457 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		97BB62F578C3F457ED081458 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		97BB62F578C3F457ED081459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97BB62F578C3F457ED08145C /* TDDKataCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TDDKataCalc-Info.plist"; sourceTree = "<group>"; };
+		97BB62F578C3F457ED08145D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97BB62F578C3F457ED081460 /* TDDKataCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDKataCalc.h; sourceTree = "<group>"; };
+		97BB62F578C3F457ED081461 /* TDDKataCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDKataCalc.m; sourceTree = "<group>"; };
+		97BB62F578C3F457ED081463 /* TDDKataCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDKataCalc-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97BB62F578C3F457ED08144E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BB62F578C3F457ED081453 /* SenTestingKit.framework in Frameworks */,
+				97BB62F578C3F457ED081455 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97BB62F578C3F457ED081444 = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081445 /* Products */,
+				97BB62F578C3F457ED081451 /* Frameworks */,
+				97BB62F578C3F457ED08145A /* TDDKataCalc */,
+			);
+			sourceTree = "<group>";
+		};
+		97BB62F578C3F457ED081445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081448 /* TDDKataCalc.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97BB62F578C3F457ED081451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081454 /* Cocoa.framework */,
+				97BB62F578C3F457ED081452 /* SenTestingKit.framework */,
+				97BB62F578C3F457ED081456 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97BB62F578C3F457ED081456 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081459 /* Foundation.framework */,
+				97BB62F578C3F457ED081458 /* CoreData.framework */,
+				97BB62F578C3F457ED081457 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		97BB62F578C3F457ED08145A /* TDDKataCalc */ = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081461 /* TDDKataCalc.m */,
+				97BB62F578C3F457ED081460 /* TDDKataCalc.h */,
+				97BB62F578C3F457ED08145B /* Supporting Files */,
+			);
+			path = TDDKataCalc;
+			sourceTree = "<group>";
+		};
+		97BB62F578C3F457ED08145B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97BB62F578C3F457ED081463 /* TDDKataCalc-Prefix.pch */,
+				97BB62F578C3F457ED08145E /* InfoPlist.strings */,
+				97BB62F578C3F457ED08145C /* TDDKataCalc-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97BB62F578C3F457ED081449 /* TDDKataCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BB62F578C3F457ED08144A /* Build configuration list for PBXNativeTarget "TDDKataCalc" */;
+			buildPhases = (
+				97BB62F578C3F457ED08144D /* Sources */,
+				97BB62F578C3F457ED08144E /* Frameworks */,
+				97BB62F578C3F457ED08144F /* Resources */,
+				97BB62F578C3F457ED081450 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDKataCalc;
+			productName = TDDKataCalc;
+			productReference = 97BB62F578C3F457ED081448 /* TDDKataCalc.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97BB62F578C3F457ED081442 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 97BB62F578C3F457ED081443 /* Build configuration list for PBXProject "TDDKataCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97BB62F578C3F457ED081444;
+			productRefGroup = 97BB62F578C3F457ED081445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97BB62F578C3F457ED081449 /* TDDKataCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97BB62F578C3F457ED08144F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BB62F578C3F457ED08145F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97BB62F578C3F457ED081450 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97BB62F578C3F457ED08144D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BB62F578C3F457ED081462 /* TDDKataCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97BB62F578C3F457ED08145E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97BB62F578C3F457ED08145D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97BB62F578C3F457ED081446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97BB62F578C3F457ED081447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		97BB62F578C3F457ED08144B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDKataCalc/TDDKataCalc-Prefix.pch";
+				INFOPLIST_FILE = "TDDKataCalc/TDDKataCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		97BB62F578C3F457ED08144C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDKataCalc/TDDKataCalc-Prefix.pch";
+				INFOPLIST_FILE = "TDDKataCalc/TDDKataCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97BB62F578C3F457ED081443 /* Build configuration list for PBXProject "TDDKataCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BB62F578C3F457ED081446 /* Release */,
+				97BB62F578C3F457ED081447 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BB62F578C3F457ED08144A /* Build configuration list for PBXNativeTarget "TDDKataCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BB62F578C3F457ED08144B /* Release */,
+				97BB62F578C3F457ED08144C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97BB62F578C3F457ED081442 /* Project object */;
+}
