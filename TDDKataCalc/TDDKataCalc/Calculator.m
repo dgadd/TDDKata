@@ -21,16 +21,27 @@
     }
 
 - (BOOL)contains:(NSString *)numbersToAdd {
-    return [numbersToAdd rangeOfString:@","].location != NSNotFound;
+    return ;
 }
 
 - (void)handleNewLineDelimiter:(NSString **)numbersToAdd {
     (*numbersToAdd) = [*numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
 }
 
+- (BOOL)contains:(NSString *)numbersToAdd searchString:(NSString *)searchString {
+    return [numbersToAdd rangeOfString:searchString].location != NSNotFound;
+}
+
+- (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
+    if ([self contains:numbersToAdd searchString:@",,"]) {
+        [NSException raise:@"Duplicate delimiters" format:@"You cannot use duplicate delimiters"];
+    }
+}
+
 - (int)add:(NSString *)numbersToAdd {
     [self handleNewLineDelimiter:&numbersToAdd];
-    if ([self contains:numbersToAdd]) {
+    [self guardCondition_rejectDuplicateDelimiters:numbersToAdd];
+    if ([self contains:numbersToAdd searchString:@","]) {
         return [self sum:numbersToAdd];
     }
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
