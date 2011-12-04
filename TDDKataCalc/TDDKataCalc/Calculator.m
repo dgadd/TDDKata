@@ -12,7 +12,22 @@
 
 }
 
+- (int)sum:(NSString *)numbersToAdd {
+        int total = 0;
+        NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
+        for(NSString *numberString in numbersArray)
+            total += [numberString intValue];
+        return total;
+    }
+
+- (BOOL)contains:(NSString *)numbersToAdd {
+    return [numbersToAdd rangeOfString:@","].location != NSNotFound;
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    if ([self contains:numbersToAdd]) {
+        return [self sum:numbersToAdd];
+    }
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end
