@@ -24,7 +24,12 @@
     return [numbersToAdd rangeOfString:@","].location != NSNotFound;
 }
 
+- (void)handleNewLineDelimiter:(NSString **)numbersToAdd {
+    (*numbersToAdd) = [*numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    [self handleNewLineDelimiter:&numbersToAdd];
     if ([self contains:numbersToAdd]) {
         return [self sum:numbersToAdd];
     }

@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TDDKataCalc.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TDDKataCalc.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDDKataCalc/TDDKataCalc.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="61" selection-start="1106" selection-end="1106" vertical-scroll-proportion="1.1015228">
+            <state line="61" column="57" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TDDKataCalc/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+            <state line="26" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.57429045">
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/TDDKataCalc/TDDKataCalc.h" />
         <option value="$PROJECT_DIR$/TDDKataCalc/Calculator.h" />
-        <option value="$PROJECT_DIR$/TDDKataCalc/Calculator.m" />
         <option value="$PROJECT_DIR$/TDDKataCalc/TDDKataCalc.m" />
+        <option value="$PROJECT_DIR$/TDDKataCalc/Calculator.m" />
       </list>
     </option>
   </component>
@@ -217,7 +217,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32698414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -289,16 +289,16 @@
         <state line="11" column="35" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDKataCalc/Calculator.m">
+    <entry file="file://$PROJECT_DIR$/TDDKataCalc/TDDKataCalc.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+        <state line="61" column="57" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDKataCalc/TDDKataCalc.m">
+    <entry file="file://$PROJECT_DIR$/TDDKataCalc/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="61" selection-start="1106" selection-end="1106" vertical-scroll-proportion="1.1015228">
+        <state line="26" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.57429045">
           <folding />
         </state>
       </provider>
