@@ -9,5 +9,5 @@
 
 
 @interface Calculator : NSObject
-- (int)add:(NSString *)string;
+- (int)add:(NSString *)numbersToAdd;
 @end

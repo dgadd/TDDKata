@@ -12,7 +12,7 @@
 
 }
 
-- (int)add:(NSString *)string {
- return 0;
+- (int)add:(NSString *)numbersToAdd {
+    return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end
