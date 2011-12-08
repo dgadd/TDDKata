@@ -8,7 +8,7 @@
 *.pdb
 *.user
 *.aps
-*.pch
+# This file is required by C projects, so track it: *.pch
 *.vspscc
 *.vssscc
 *_i.c
