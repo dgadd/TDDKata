@@ -11,6 +11,7 @@
 		FDFC617664CC9EC1D5094FA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FA0 /* Cocoa.framework */; };
 		FDFC617664CC9EC1D5094FAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FAA /* InfoPlist.strings */; };
 		FDFC617664CC9EC1D5094FAE /* TddKataCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */; };
+		FDFC617664CC9EC1D5094FB1 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FB0 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		FDFC617664CC9EC1D5094FAC /* TddKataCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TddKataCalc.h; sourceTree = "<group>"; };
 		FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TddKataCalc.m; sourceTree = "<group>"; };
 		FDFC617664CC9EC1D5094FAF /* TddKataCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TddKataCalc-Prefix.pch"; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FB0 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FB2 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		FDFC617664CC9EC1D5094FA6 /* TddKataCalc */ = {
 			isa = PBXGroup;
 			children = (
+				FDFC617664CC9EC1D5094FB2 /* Calculator.h */,
+				FDFC617664CC9EC1D5094FB0 /* Calculator.m */,
 				FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */,
 				FDFC617664CC9EC1D5094FAC /* TddKataCalc.h */,
 				FDFC617664CC9EC1D5094FA7 /* Supporting Files */,
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFC617664CC9EC1D5094FAE /* TddKataCalc.m in Sources */,
+				FDFC617664CC9EC1D5094FB1 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
