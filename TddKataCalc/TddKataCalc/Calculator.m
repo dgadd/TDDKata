@@ -28,8 +28,14 @@
     (*numbersToAdd) = [*numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
 }
 
+- (void)guardCondition_HandleDuplicateDelimiters:(NSString *)numbersToAdd {
+    if ([self containsWithin:numbersToAdd theFollowing:@",,"])
+        [NSException raise:@"Duplicate delimiters" format:@"You cannot use duplicate delimiters"];
+}
+
 - (int)add:(NSString *)numbersToAdd {
     [self handleDuplicateDelimiters:&numbersToAdd];
+    [self guardCondition_HandleDuplicateDelimiters:numbersToAdd];
     if ([self containsWithin:numbersToAdd theFollowing:@","])
         return [self sumOf:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
