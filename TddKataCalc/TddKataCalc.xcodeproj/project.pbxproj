@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDFC617664CC9EC1D5094F9F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094F9E /* SenTestingKit.framework */; };
+		FDFC617664CC9EC1D5094FA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FA0 /* Cocoa.framework */; };
+		FDFC617664CC9EC1D5094FAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FAA /* InfoPlist.strings */; };
+		FDFC617664CC9EC1D5094FAE /* TddKataCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDFC617664CC9EC1D5094F94 /* TddKataCalc.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TddKataCalc.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFC617664CC9EC1D5094F9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDFC617664CC9EC1D5094FA0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FDFC617664CC9EC1D5094FA3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDFC617664CC9EC1D5094FA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDFC617664CC9EC1D5094FA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDFC617664CC9EC1D5094FA8 /* TddKataCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TddKataCalc-Info.plist"; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FAC /* TddKataCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TddKataCalc.h; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TddKataCalc.m; sourceTree = "<group>"; };
+		FDFC617664CC9EC1D5094FAF /* TddKataCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TddKataCalc-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFC617664CC9EC1D5094F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFC617664CC9EC1D5094F9F /* SenTestingKit.framework in Frameworks */,
+				FDFC617664CC9EC1D5094FA1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDFC617664CC9EC1D5094F90 = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094F91 /* Products */,
+				FDFC617664CC9EC1D5094F9D /* Frameworks */,
+				FDFC617664CC9EC1D5094FA6 /* TddKataCalc */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFC617664CC9EC1D5094F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094F94 /* TddKataCalc.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFC617664CC9EC1D5094F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094FA0 /* Cocoa.framework */,
+				FDFC617664CC9EC1D5094F9E /* SenTestingKit.framework */,
+				FDFC617664CC9EC1D5094FA2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDFC617664CC9EC1D5094FA2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094FA5 /* Foundation.framework */,
+				FDFC617664CC9EC1D5094FA4 /* CoreData.framework */,
+				FDFC617664CC9EC1D5094FA3 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FDFC617664CC9EC1D5094FA6 /* TddKataCalc */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094FAD /* TddKataCalc.m */,
+				FDFC617664CC9EC1D5094FAC /* TddKataCalc.h */,
+				FDFC617664CC9EC1D5094FA7 /* Supporting Files */,
+			);
+			path = TddKataCalc;
+			sourceTree = "<group>";
+		};
+		FDFC617664CC9EC1D5094FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC617664CC9EC1D5094FAF /* TddKataCalc-Prefix.pch */,
+				FDFC617664CC9EC1D5094FAA /* InfoPlist.strings */,
+				FDFC617664CC9EC1D5094FA8 /* TddKataCalc-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFC617664CC9EC1D5094F95 /* TddKataCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFC617664CC9EC1D5094F96 /* Build configuration list for PBXNativeTarget "TddKataCalc" */;
+			buildPhases = (
+				FDFC617664CC9EC1D5094F99 /* Sources */,
+				FDFC617664CC9EC1D5094F9A /* Frameworks */,
+				FDFC617664CC9EC1D5094F9B /* Resources */,
+				FDFC617664CC9EC1D5094F9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TddKataCalc;
+			productName = TddKataCalc;
+			productReference = FDFC617664CC9EC1D5094F94 /* TddKataCalc.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFC617664CC9EC1D5094F8E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FDFC617664CC9EC1D5094F8F /* Build configuration list for PBXProject "TddKataCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDFC617664CC9EC1D5094F90;
+			productRefGroup = FDFC617664CC9EC1D5094F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFC617664CC9EC1D5094F95 /* TddKataCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFC617664CC9EC1D5094F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFC617664CC9EC1D5094FAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDFC617664CC9EC1D5094F9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFC617664CC9EC1D5094F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFC617664CC9EC1D5094FAE /* TddKataCalc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDFC617664CC9EC1D5094FAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFC617664CC9EC1D5094FA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFC617664CC9EC1D5094F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDFC617664CC9EC1D5094F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDFC617664CC9EC1D5094F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TddKataCalc/TddKataCalc-Prefix.pch";
+				INFOPLIST_FILE = "TddKataCalc/TddKataCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		FDFC617664CC9EC1D5094F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TddKataCalc/TddKataCalc-Prefix.pch";
+				INFOPLIST_FILE = "TddKataCalc/TddKataCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFC617664CC9EC1D5094F8F /* Build configuration list for PBXProject "TddKataCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFC617664CC9EC1D5094F92 /* Release */,
+				FDFC617664CC9EC1D5094F93 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFC617664CC9EC1D5094F96 /* Build configuration list for PBXNativeTarget "TddKataCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFC617664CC9EC1D5094F97 /* Release */,
+				FDFC617664CC9EC1D5094F98 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDFC617664CC9EC1D5094F8E /* Project object */;
+}
