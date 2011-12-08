@@ -26,19 +26,19 @@
 - (void)testAddMethod_ZeroLengthInput_ReturnsZero {
     int result = [sut add:@""];
     int expected = 0;
-    STAssertEquals(expected, result, "Zero length input should return 0");
+    STAssertEquals(expected, result, @"Zero length input should return 0");
 }
 
 - (void)testAddMethod_OneLengthInput_ReturnsEquivalent {
     int result = [sut add:@"3"];
     int expected = 3;
-    STAssertEquals(expected, result, "One length input should return equivalent");
+    STAssertEquals(expected, result, @"One length input should return equivalent");
 }
 
 - (void)testAddMethod_TwoLengthInput_ReturnsSum {
     int result = [sut add:@"3,5"];
     int expected = 8;
-    STAssertEquals(expected, result, "Two length input should return sum");
+    STAssertEquals(expected, result, @"Two length input should return sum");
 }
 
 - (void)testAddMethod_AnyLengthInput_ReturnsSum {
@@ -53,7 +53,14 @@
     }
 
     int result = [sut add:numbersToAdd];
-    STAssertEquals(expected, result, "Two length input should return sum");
+    STAssertEquals(expected, result, @"Two length input should return sum");
 }
+
+- (void)testAddMethod_NewLineDelimiterInput_ReturnsSum {
+    int result = [sut add:@"3,5\n8"];
+    int expected = 16;
+    STAssertEquals(expected, result, @"Two length input should return sum");
+}
+
 
 @end

@@ -24,7 +24,12 @@
         return total;
     }
 
+- (void)handleDuplicateDelimiters:(NSString **)numbersToAdd {
+    (*numbersToAdd) = [*numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    [self handleDuplicateDelimiters:&numbersToAdd];
     if ([self containsWithin:numbersToAdd theFollowing:@","])
         return [self sumOf:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
