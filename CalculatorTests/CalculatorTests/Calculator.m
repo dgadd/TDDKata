@@ -23,7 +23,13 @@
     return total;
 }
 
+- (NSString *)handleNewLineDelimiters:(NSString *)numbersToAdd {
+    numbersToAdd = [numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbersToAdd;
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
     if ([self containsWithin:numbersToAdd theFollowing:@","])
     {
         NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
@@ -31,4 +37,5 @@
     }
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
+
 @end
