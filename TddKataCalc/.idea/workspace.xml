@@ -26,7 +26,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TddKataCalc/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="4" selection-start="1553" selection-end="1610" vertical-scroll-proportion="1.3256705">
+            <state line="30" column="95" selection-start="943" selection-end="943" vertical-scroll-proportion="0.6321839">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="TddKataCalc.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TddKataCalc/TddKataCalc.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="38" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
+            <state line="75" column="85" selection-start="2073" selection-end="2114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +127,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
     <property name="recentsLimit" value="5" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="OCUnit.AllTests">
@@ -157,6 +161,24 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66f7f5c2-678b-4760-a29d-6c4bedecb78e" name="Default" comment="" />
@@ -267,14 +289,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TddKataCalc/TddKataCalc.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="38" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
+        <state line="75" column="85" selection-start="2073" selection-end="2114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TddKataCalc/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1553" selection-end="1610" vertical-scroll-proportion="1.3256705">
+        <state line="30" column="95" selection-start="943" selection-end="943" vertical-scroll-proportion="0.6321839">
           <folding />
         </state>
       </provider>

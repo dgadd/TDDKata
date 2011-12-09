@@ -19,8 +19,16 @@
 - (int)sumOf:(NSString *)numbersToAdd {
         int total = 0;
         NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
+        NSMutableString *negativeNumbers = [NSMutableString string];
         for(NSString *numberString in numbersArray)
-            total += [numberString intValue];
+        {
+            int number = [numberString intValue];
+            if (number < 0)
+                [negativeNumbers appendString:[NSString stringWithFormat:@"%i,",number]];;
+            total += number;
+        }
+        if ([negativeNumbers length] > 0)
+                [NSException raise:@"Negative numbers" format:@"You cannot use negative numbers: %d", negativeNumbers];
         return total;
     }
 

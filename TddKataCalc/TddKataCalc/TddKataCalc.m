@@ -63,7 +63,7 @@
 }
 
 - (void)testAddMethod_DupicateDelimiterInput_ThrowsExeption {
-    STAssertThrowsSpecific([sut add:@"3,\n5,8"], NSException , "You cannot use dupiclate delimiters");
+    STAssertThrowsSpecific([sut add:@"3,\n5,8"], NSException , @"You cannot use dupiclate delimiters");
 }
 
 - (void)testAddMethod_CustomDelimiterInput_ReturnsSum {
@@ -71,6 +71,11 @@
     int expected = 21;
     STAssertEquals(expected, result, @"Two length input should return sum");
 }
+
+- (void)testAddMethod_NegativeNumberInput_ThrowsExeption {
+    STAssertThrowsSpecific([sut add:@"3,5,-8,-3"], NSException , @"You cannot use negative numbers: -8,-3,");
+}
+
 
 
 
