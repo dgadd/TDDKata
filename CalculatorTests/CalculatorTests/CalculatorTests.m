@@ -46,4 +46,20 @@
     STAssertEquals(expected, result, @"Two-legnth input should return sum.");
 }
 
+- (void)testAddMethod_AnyLengthInput_ReturnsSum {
+    int howMany = arc4random() % 999;
+    NSMutableString *numbersToAdd = [NSMutableString string];
+    int expected = 0;
+
+    for(int i = 0; i < howMany; i++)
+    {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
+        expected += i;
+    }
+
+    int result = [sut add:numbersToAdd];
+
+    STAssertEquals(expected, result, @"Any-legnth input should return sum.");
+}
+
 @end
