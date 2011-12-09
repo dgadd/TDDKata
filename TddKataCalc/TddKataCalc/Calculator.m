@@ -33,7 +33,19 @@
         [NSException raise:@"Duplicate delimiters" format:@"You cannot use duplicate delimiters"];
 }
 
+- (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd {
+    if ([numbersToAdd hasPrefix:@"//"])
+    {
+        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
+        int inputLength = [numbersToAdd length];
+        NSString *numbersToAddWithoutPrefix = [numbersToAdd substringWithRange:NSMakeRange(4, inputLength-4)];
+        numbersToAdd = [numbersToAddWithoutPrefix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    }
+    return numbersToAdd;
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleCustomDelimiter:numbersToAdd];
     [self handleDuplicateDelimiters:&numbersToAdd];
     [self guardCondition_HandleDuplicateDelimiters:numbersToAdd];
     if ([self containsWithin:numbersToAdd theFollowing:@","])
