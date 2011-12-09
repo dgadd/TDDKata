@@ -12,7 +12,23 @@
 
 }
 
+- (BOOL)containsWithin:(NSString *)numbersToAdd theFollowing:(NSString *)value {
+    return [numbersToAdd rangeOfString:value].location != NSNotFound;
+}
+
+- (int)sum:(NSArray *)numbersArray {
+    int total = 0;
+    for(NSString *numberString in numbersArray)
+            total += [numberString intValue];
+    return total;
+}
+
 - (int)add:(NSString *)numbersToAdd {
- return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
+    if ([self containsWithin:numbersToAdd theFollowing:@","])
+    {
+        NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
+        return [self sum:numbersArray];
+    }
+    return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end

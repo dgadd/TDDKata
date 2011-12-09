@@ -26,7 +26,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="69" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+            <state line="43" column="20" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="59" selection-start="270" selection-end="270" vertical-scroll-proportion="0.56675065">
+            <state line="29" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.6221663">
               <folding />
             </state>
           </provider>
@@ -253,14 +253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="69" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+        <state line="43" column="20" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="270" selection-end="270" vertical-scroll-proportion="0.56675065">
+        <state line="29" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.6221663">
           <folding />
         </state>
       </provider>

@@ -39,4 +39,11 @@
     STAssertEquals(expected, result, @"One-legnth input should return equivalent.");
 }
 
+- (void)testAddMethod_TwoLengthInput_ReturnsSum {
+    int result = [sut add:@"3,5"];
+    int expected = 8;
+
+    STAssertEquals(expected, result, @"Two-legnth input should return sum.");
+}
+
 @end
