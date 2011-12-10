@@ -22,8 +22,14 @@
     return numbersToAdd;
 }
 
+- (void)guardConditionRejectDuplicateDelimiters:(NSString *)numbersToAdd {
+    if ([self containsWithin:numbersToAdd theSubstring:@",,"])
+        [NSException raise:@"Duplicate exception" format:@"You cannot use duplicate delimiters"];
+}
+
 - (int)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
+    [self guardConditionRejectDuplicateDelimiters:numbersToAdd];
     if ([self containsWithin:numbersToAdd theSubstring:@","])
         return [self sum:numbersToAdd];
 
