@@ -27,6 +27,13 @@
     STAssertEquals(expected, result, @"A one-length input should return equivalent");
 }
 
+- (void)testAddMethod_TwoLengthInput_ReturnsSum {
+    int result = [sut add:@"3,5"];
+    int expected = 8;
+
+    STAssertEquals(expected, result, @"A two-length input should return sum");
+}
+
 
 - (void)dealloc {
     [super dealloc];
