@@ -31,6 +31,8 @@
 
 - (int)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
+    if ([self contains:numbersToAdd searchString:@",,"])
+        [NSException raise:@"Duplicate delimiters" format:@"You cannot use duplicate delimiters"];
     if ([self contains:numbersToAdd searchString:@","])
         return [self sum:numbersToAdd];
 

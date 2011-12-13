@@ -65,6 +65,10 @@
     STAssertEquals(expected, result, @"One-length input returns equivalent.");
 }
 
+- (void)testAddMethod_DuplicateDelimiter_RaisesException {
+    STAssertThrowsSpecific([sut add:@"3,\n5"], NSException, @"You cannot use duplicate delimiters");
+}
+
 
 - (void)dealloc {
     [super dealloc];
