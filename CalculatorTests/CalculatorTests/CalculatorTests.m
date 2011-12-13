@@ -58,6 +58,14 @@
     STAssertEquals(expected, result, @"One-length input returns equivalent.");
 }
 
+- (void)testAddMethod_NewLineDelimiterInput_ReturnsSum {
+    int result = [sut add:@"3,5\n8"];
+    int expected = 16;
+
+    STAssertEquals(expected, result, @"One-length input returns equivalent.");
+}
+
+
 - (void)dealloc {
     [super dealloc];
 }
