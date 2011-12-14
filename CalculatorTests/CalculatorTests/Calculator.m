@@ -17,11 +17,15 @@
         return total;
     }
 
-- (int)add:(NSString *)numbersToAdd {
-    NSString *searchString = @",";
-    if ([self containsWithin:numbersToAdd searchString:searchString])
-        return [self sum:numbersToAdd];
+- (NSString *)handleNewlineDelimiter:(NSString *)numbersToAdd {
+    numbersToAdd = [numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbersToAdd;
+}
 
+- (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewlineDelimiter:numbersToAdd];
+    if ([self containsWithin:numbersToAdd searchString:@","])
+        return [self sum:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end

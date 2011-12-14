@@ -47,8 +47,16 @@
     
     int result = [sut add:numbersToAdd];
 
-    STAssertEquals(expected, result, @"Two-length input should return sum.");
+    STAssertEquals(expected, result, @"Any-length input should return sum.");
 }
+
+- (void)testAddMethod_NewLineInput_ReturnsSum {
+    int result = [sut add:@"4,5\n6"];
+    int expected = 15;
+
+    STAssertEquals(expected, result, @"New line delimiter input should return sum.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
