@@ -12,8 +12,12 @@
 - (int)sum:(NSString *)numbersToAdd {
     int total = 0;
     NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
-    for (NSString *numberString in numbersArray)
-        total += [numberString intValue];
+    for (NSString *numberString in numbersArray) {
+        int number = [numberString intValue];
+        if (number < 0)
+            [NSException raise:@"NegativeNumbersException" format:@"You cannot submit negative numbers"];
+        total += number;
+    }
     return total;
 }
 

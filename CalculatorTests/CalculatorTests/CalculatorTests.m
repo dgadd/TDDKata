@@ -58,7 +58,7 @@
 }
 
 - (void)testAddMethod_DuplicateDelimiterInput_ThrowsException {
-    STAssertThrowsSpecificNamed([sut add:@"4\n,5,6"], NSException , @"DuplicateDelimitersException", @"You cannot throw duplicate delimiters");
+    STAssertThrowsSpecificNamed([sut add:@"4\n,5,6"], NSException , @"DuplicateDelimitersException", @"You cannot submit duplicate delimiters");
 }
 
 - (void)testAddMethod_CustomDelimiterInput_ReturnsSum {
@@ -67,6 +67,11 @@
 
     STAssertEquals(expected, result, @"New line delimiter input should return sum.");
 }
+
+- (void)testAddMethod_NegativeNumberInput_ThrowsException {
+    STAssertThrowsSpecificNamed([sut add:@"4\n5,-6,-8"], NSException , @"NegativeNumbersException", @"You cannot sibmit negative numbers.");
+}
+
 
 
 - (void)dealloc {
