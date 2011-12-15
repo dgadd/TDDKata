@@ -44,7 +44,7 @@
         [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
         expected += i;
     }
-    
+
     int result = [sut add:numbersToAdd];
 
     STAssertEquals(expected, result, @"Any-length input should return sum.");
@@ -60,6 +60,14 @@
 - (void)testAddMethod_DuplicateDelimiterInput_ThrowsException {
     STAssertThrowsSpecificNamed([sut add:@"4\n,5,6"], NSException , @"DuplicateDelimitersException", @"You cannot throw duplicate delimiters");
 }
+
+- (void)testAddMethod_CustomDelimiterInput_ReturnsSum {
+    int result = [sut add:@"//%\n4,5\n6%8"];
+    int expected = 23;
+
+    STAssertEquals(expected, result, @"New line delimiter input should return sum.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
