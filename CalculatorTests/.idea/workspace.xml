@@ -26,7 +26,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="21" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
+            <state line="70" column="131" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="4" selection-start="1344" selection-end="1401" vertical-scroll-proportion="0.6528926">
+            <state line="12" column="22" selection-start="326" selection-end="326" vertical-scroll-proportion="0.29752067">
               <folding />
             </state>
           </provider>
@@ -253,14 +253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="21" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
+        <state line="70" column="131" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="1344" selection-end="1401" vertical-scroll-proportion="0.6528926">
+        <state line="12" column="22" selection-start="326" selection-end="326" vertical-scroll-proportion="0.29752067">
           <folding />
         </state>
       </provider>

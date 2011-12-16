@@ -67,6 +67,9 @@
     STAssertEquals(expected, result, @"Two-length input should return sum.");
 }
 
+- (void)testAddMethod_NegativeNumberInput_ThrowsSpecificException {
+    STAssertThrowsSpecificNamed([sut add:@"4,5,-6,-7"], NSException, @"NegativeNumbersException", @"You cannot use negative numbers");
+}
 
 
 - (void)dealloc {
