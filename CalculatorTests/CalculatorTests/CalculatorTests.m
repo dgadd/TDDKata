@@ -24,7 +24,14 @@
     int result = [sut add:@"7"];
     int expected = 7;
 
-    STAssertEquals(expected, result, @"Zero-length input should return zero.");
+    STAssertEquals(expected, result, @"One-length input should return equivalent.");
+}
+
+- (void)testAddMethod_TwoLengthInput_ReturnsSum{
+    int result = [sut add:@"7,3"];
+    int expected = 10;
+
+    STAssertEquals(expected, result, @"Two-length input should return sum.");
 }
 
 
