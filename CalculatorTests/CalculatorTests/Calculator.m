@@ -9,11 +9,21 @@
     return [input rangeOfString:searchString].location != NSNotFound;
 }
 
+- (void)guardCondition_RejectNegativeNumber:(int)number {
+    if (number < 0)
+                [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers."];
+}
+
 - (int)sum:(NSString *)commaDelimitedString {
         int total = 0;
         NSArray *numbersArray = [commaDelimitedString componentsSeparatedByString:@","];
         for(NSString *numberString in numbersArray)
-            total += [numberString intValue];
+        {
+            int number = [numberString intValue];
+            [self guardCondition_RejectNegativeNumber:number];
+            total += number;
+        }
+            
         return total;
     }
 

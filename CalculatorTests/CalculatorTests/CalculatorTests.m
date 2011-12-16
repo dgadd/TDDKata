@@ -57,7 +57,7 @@
     STAssertEquals(expected, result, @"New line delimiter should be handled.");
 }
 
-- (void)testAddMethod_DuplicateDelimiters_RaisesException {
+- (void)testAddMethod_DuplicateDelimiterInput_RaisesException {
     STAssertThrowsSpecificNamed([sut add:@"8\n,8"], NSException, @"DuplicateDelimitersException", @"You cannot input duplicate delimiters.");
 }
 
@@ -67,6 +67,11 @@
 
     STAssertEquals(expected, result, @"Custom delimiter should be handled.");
 }
+
+- (void)testAddMethod_NegativeNumberInput_RaisesException {
+    STAssertThrowsSpecificNamed([sut add:@"8\n8,-6,-7"], NSException, @"NegativeNumbersException", @"You cannot input negative numbers.");
+}
+
 
 
 - (void)dealloc {
