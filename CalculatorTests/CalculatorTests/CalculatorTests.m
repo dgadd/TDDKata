@@ -54,12 +54,20 @@
     int result = [sut add:@"7,4\n5"];
     int expected = 16;
 
-    STAssertEquals(expected, result, @"Two-length input should return sum");
+    STAssertEquals(expected, result, @"New line delimiter should be handled.");
 }
 
 - (void)testAddMethod_DuplicateDelimiters_RaisesException {
     STAssertThrowsSpecificNamed([sut add:@"8\n,8"], NSException, @"DuplicateDelimitersException", @"You cannot input duplicate delimiters.");
 }
+
+- (void)testAddMethod_CustomDelimiterInput_IsHandled {
+    int result = [sut add:@"//@\n3@7,4\n5"];
+    int expected = 19;
+
+    STAssertEquals(expected, result, @"Custom delimiter should be handled.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
