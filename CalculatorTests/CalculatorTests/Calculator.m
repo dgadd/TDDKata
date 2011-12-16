@@ -32,10 +32,21 @@
        [NSException raise:@"DuplicateDelimitersException" format:@"You cannot use duplicate delimiters."];
 }
 
+- (NSString *)parseCustomDelimiter:(NSString *)inputString {
+    if ([self contains:inputString searchString:@"["])
+        {
+            const int posLeft = [inputString rangeOfString:@"["].location;
+            const int posRight = [inputString rangeOfString:@"]"].location;
+            return [inputString substringWithRange:NSMakeRange(posLeft + 1, posRight - posLeft - 1)];
+        }
+        else
+            return [inputString substringWithRange:NSMakeRange(2, 1)];
+}
+
 - (NSString *)handleCustomDelimiter:(NSString *)inputString {
     if ([inputString hasPrefix:@"//"])
     {
-        NSString *customDelimiter = [inputString substringWithRange:NSMakeRange(2, 1)];
+        NSString *customDelimiter = [self parseCustomDelimiter:inputString];
         NSString *suffix = [inputString substringWithRange:NSMakeRange(4, [inputString length] - 4)];
         inputString = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
     }

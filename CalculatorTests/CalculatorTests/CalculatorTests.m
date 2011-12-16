@@ -64,7 +64,7 @@
     int result = [sut add:@"//#\n3#7\n4,3"];
     int expected = 17;
 
-    STAssertEquals(expected, result, @"Two-length input should return sum.");
+    STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
 }
 
 - (void)testAddMethod_NegativeNumberInput_ThrowsSpecificException {
@@ -76,6 +76,13 @@
     int expected = 1014;
 
     STAssertEquals(expected, result, @"Numbers greater than 1000 should be ignored");
+}
+
+- (void)testAddMethod_MultipleCustomDelimiterInput_ReturnsSum{
+    int result = [sut add:@"//[###]\n3###7\n4,3"];
+    int expected = 17;
+
+    STAssertEquals(expected, result, @"Multi-length custom delimiter input should return sum.");
 }
 
 
