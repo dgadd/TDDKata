@@ -12,7 +12,8 @@
             int number = [numberString intValue];
             if (number < 0)
                 [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers"];
-            total += number;
+            if (number < 1001)
+                total += number;
         }
             
         return total;
