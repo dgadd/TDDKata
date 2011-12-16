@@ -21,8 +21,14 @@
     return [inputString stringByReplacingOccurrencesOfString:@"\n" withString:@","];
 }
 
+- (void)guardCondition_RejectDuplicateDelimiters:(NSString *)inputString {
+    if ([self contains:inputString searchString:@",,"])
+       [NSException raise:@"DuplicateDelimitersException" format:@"You cannot use duplicate delimiters."];
+}
+
 - (int)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewlineDelimiter:numbersToAdd];
+    [self guardCondition_RejectDuplicateDelimiters:numbersToAdd];
     if ([self contains:numbersToAdd searchString:@","])
         return [self sum:numbersToAdd];
 
