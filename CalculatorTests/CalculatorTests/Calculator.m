@@ -17,7 +17,12 @@
     return [thisPhrase rangeOfString:theString].location != NSNotFound;
 }
 
+- (NSString *)handleNewlineDelimiter:(NSString *)inputString {
+    return [inputString stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewlineDelimiter:numbersToAdd];
     if ([self contains:numbersToAdd searchString:@","])
         return [self sum:numbersToAdd];
 
