@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B5BC3FCC2A6C396A0DF10 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5BC3FCC2A6C396A0DF0F /* SenTestingKit.framework */; };
+		58B5BC3FCC2A6C396A0DF12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5BC3FCC2A6C396A0DF11 /* Cocoa.framework */; };
+		58B5BC3FCC2A6C396A0DF1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B5BC3FCC2A6C396A0DF1B /* InfoPlist.strings */; };
+		58B5BC3FCC2A6C396A0DF1F /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B5BC3FCC2A6C396A0DF1E /* CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B5BC3FCC2A6C396A0DF05 /* CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B5BC3FCC2A6C396A0DF0F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		58B5BC3FCC2A6C396A0DF11 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		58B5BC3FCC2A6C396A0DF14 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		58B5BC3FCC2A6C396A0DF15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58B5BC3FCC2A6C396A0DF16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58B5BC3FCC2A6C396A0DF19 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		58B5BC3FCC2A6C396A0DF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58B5BC3FCC2A6C396A0DF1D /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
+		58B5BC3FCC2A6C396A0DF1E /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		58B5BC3FCC2A6C396A0DF20 /* CalculatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B5BC3FCC2A6C396A0DF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B5BC3FCC2A6C396A0DF10 /* SenTestingKit.framework in Frameworks */,
+				58B5BC3FCC2A6C396A0DF12 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B5BC3FCC2A6C396A0DF01 = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF02 /* Products */,
+				58B5BC3FCC2A6C396A0DF0E /* Frameworks */,
+				58B5BC3FCC2A6C396A0DF17 /* CalculatorTests */,
+			);
+			sourceTree = "<group>";
+		};
+		58B5BC3FCC2A6C396A0DF02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF05 /* CalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B5BC3FCC2A6C396A0DF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF11 /* Cocoa.framework */,
+				58B5BC3FCC2A6C396A0DF0F /* SenTestingKit.framework */,
+				58B5BC3FCC2A6C396A0DF13 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B5BC3FCC2A6C396A0DF13 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF16 /* Foundation.framework */,
+				58B5BC3FCC2A6C396A0DF15 /* CoreData.framework */,
+				58B5BC3FCC2A6C396A0DF14 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		58B5BC3FCC2A6C396A0DF17 /* CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF1E /* CalculatorTests.m */,
+				58B5BC3FCC2A6C396A0DF1D /* CalculatorTests.h */,
+				58B5BC3FCC2A6C396A0DF18 /* Supporting Files */,
+			);
+			path = CalculatorTests;
+			sourceTree = "<group>";
+		};
+		58B5BC3FCC2A6C396A0DF18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF20 /* CalculatorTests-Prefix.pch */,
+				58B5BC3FCC2A6C396A0DF1B /* InfoPlist.strings */,
+				58B5BC3FCC2A6C396A0DF19 /* CalculatorTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B5BC3FCC2A6C396A0DF06 /* CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B5BC3FCC2A6C396A0DF07 /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
+			buildPhases = (
+				58B5BC3FCC2A6C396A0DF0A /* Sources */,
+				58B5BC3FCC2A6C396A0DF0B /* Frameworks */,
+				58B5BC3FCC2A6C396A0DF0C /* Resources */,
+				58B5BC3FCC2A6C396A0DF0D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatorTests;
+			productName = CalculatorTests;
+			productReference = 58B5BC3FCC2A6C396A0DF05 /* CalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058B5BC3FCC2A6C396A0DEFF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 58B5BC3FCC2A6C396A0DF00 /* Build configuration list for PBXProject "CalculatorTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B5BC3FCC2A6C396A0DF01;
+			productRefGroup = 58B5BC3FCC2A6C396A0DF02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B5BC3FCC2A6C396A0DF06 /* CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B5BC3FCC2A6C396A0DF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B5BC3FCC2A6C396A0DF1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B5BC3FCC2A6C396A0DF0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B5BC3FCC2A6C396A0DF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B5BC3FCC2A6C396A0DF1F /* CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B5BC3FCC2A6C396A0DF1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B5BC3FCC2A6C396A0DF1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B5BC3FCC2A6C396A0DF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		58B5BC3FCC2A6C396A0DF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		58B5BC3FCC2A6C396A0DF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorTests/CalculatorTests-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		58B5BC3FCC2A6C396A0DF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorTests/CalculatorTests-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B5BC3FCC2A6C396A0DF00 /* Build configuration list for PBXProject "CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B5BC3FCC2A6C396A0DF03 /* Release */,
+				58B5BC3FCC2A6C396A0DF04 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B5BC3FCC2A6C396A0DF07 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B5BC3FCC2A6C396A0DF08 /* Release */,
+				58B5BC3FCC2A6C396A0DF09 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058B5BC3FCC2A6C396A0DEFF /* Project object */;
+}
