@@ -24,14 +24,30 @@
     int result = [sut add:@"9"];
     int expected = 9;
 
-    STAssertEquals(expected, result, @"Zero-length input returns 0.");
+    STAssertEquals(expected, result, @"One-length input returns equivalent.");
 }
 
 - (void)testAddMethod_TwoLengthInput_ReturnsSum {
     int result = [sut add:@"9,3"];
     int expected = 12;
 
-    STAssertEquals(expected, result, @"Zero-length input returns 0.");
+    STAssertEquals(expected, result, @"Two-length input returns sum.");
+}
+
+- (void)testAddMethod_AnyLengthInput_ReturnsSum {
+    int howMany = arc4random() % 999;
+    NSMutableString *numbersToAdd = [NSMutableString string];
+    int expected = 0;
+
+    for(int i = 0; i < howMany; i++)
+    {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
+        expected += i;
+    }
+    
+    int result = [sut add:numbersToAdd];
+
+    STAssertEquals(expected, result, @"Any length input returns sum.");
 }
 
 
