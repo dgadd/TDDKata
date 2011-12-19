@@ -6,6 +6,10 @@
 }
 
 - (int)doOperation:(CalcOperationType)type onValue:(NSString *)numbersToOperate {
-    return 0;
+    switch (type) {
+        case Add:
+            return [numbersToOperate length] > 0 ? [numbersToOperate intValue] : 0;
+            break;
+    }
 }
 @end

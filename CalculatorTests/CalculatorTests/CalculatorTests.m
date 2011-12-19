@@ -21,6 +21,14 @@
     STAssertEquals(expected, result, @"Zero length input returns zero.");
 }
 
+- (void)testAddMethod_OneLengthInput_ReturnsEquivalent {
+    CalcOperationType calcOperationType = Add;
+    int result = [sut doOperation:calcOperationType onValue:@"5"];
+    int expected = 5;
+
+    STAssertEquals(expected, result, @"One length input returns sum.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
