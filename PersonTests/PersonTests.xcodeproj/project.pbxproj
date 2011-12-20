@@ -12,6 +12,8 @@
 		F6ACD7B4CDF715982B221A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6ACD7B4CDF715982B221A4 /* InfoPlist.strings */; };
 		F6ACD7B4CDF715982B221A8 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD7B4CDF715982B221A7 /* PersonTests.m */; };
 		F6ACD7B4CDF715982B221AB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD7B4CDF715982B221AA /* Person.m */; };
+		F6ACD7B4CDF715982B221AE /* TeacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD7B4CDF715982B221AD /* TeacherTests.m */; };
+		F6ACD7B4CDF715982B221B1 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD7B4CDF715982B221B0 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		F6ACD7B4CDF715982B221A9 /* PersonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonTests-Prefix.pch"; sourceTree = "<group>"; };
 		F6ACD7B4CDF715982B221AA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F6ACD7B4CDF715982B221AC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F6ACD7B4CDF715982B221AD /* TeacherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherTests.m; sourceTree = "<group>"; };
+		F6ACD7B4CDF715982B221AF /* TeacherTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherTests.h; sourceTree = "<group>"; };
+		F6ACD7B4CDF715982B221B0 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		F6ACD7B4CDF715982B221B2 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,10 @@
 		F6ACD7B4CDF715982B2218A = {
 			isa = PBXGroup;
 			children = (
+				F6ACD7B4CDF715982B221B2 /* Teacher.h */,
+				F6ACD7B4CDF715982B221B0 /* Teacher.m */,
+				F6ACD7B4CDF715982B221AF /* TeacherTests.h */,
+				F6ACD7B4CDF715982B221AD /* TeacherTests.m */,
 				F6ACD7B4CDF715982B2218B /* Products */,
 				F6ACD7B4CDF715982B22197 /* Frameworks */,
 				F6ACD7B4CDF715982B221A0 /* PersonTests */,
@@ -179,6 +189,8 @@
 			files = (
 				F6ACD7B4CDF715982B221A8 /* PersonTests.m in Sources */,
 				F6ACD7B4CDF715982B221AB /* Person.m in Sources */,
+				F6ACD7B4CDF715982B221AE /* TeacherTests.m in Sources */,
+				F6ACD7B4CDF715982B221B1 /* Teacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
