@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PersonTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersonTests/PersonTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.27272728">
+            <state line="11" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.h" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Person.h" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PersonTests/Person.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="14" selection-start="123" selection-end="123" vertical-scroll-proportion="0.17355372">
               <folding />
             </state>
           </provider>
@@ -70,9 +70,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/PersonTests/PersonTests.h" />
-        <option value="$PROJECT_DIR$/PersonTests/Person.h" />
         <option value="$PROJECT_DIR$/PersonTests/Person.m" />
         <option value="$PROJECT_DIR$/PersonTests/PersonTests.m" />
+        <option value="$PROJECT_DIR$/PersonTests/Person.h" />
       </list>
     </option>
   </component>
@@ -244,13 +244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PersonTests/Person.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PersonTests/Person.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -260,7 +253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonTests/PersonTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.27272728">
+        <state line="11" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonTests/Person.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="123" selection-end="123" vertical-scroll-proportion="0.17355372">
           <folding />
         </state>
       </provider>
