@@ -1,3 +1,4 @@
+#import <net-snmp/library/snmp_client.h>
 #import "Person.h"
 
 
@@ -53,5 +54,19 @@
     }
 
     return self;
+}
+
+
+- (NSString *)description {
+    switch (gender) {
+        case Male:
+            return [NSString stringWithFormat:@"Hi! I am a man, named %@, who is %@ years old", name, age];
+            break;
+        case Female:
+            return [NSString stringWithFormat:@"Hi! I am a woman, named %@, who is %@ years old", name, age];
+            break;
+        default:
+            [NSException raise:@"MissingEnumValueException" format:@"You must use an existing enum value."];
+    }
 }
 @end
