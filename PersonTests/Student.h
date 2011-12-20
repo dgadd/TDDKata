@@ -2,7 +2,7 @@
 #import "Person.h"
 
 
-@interface Student : NSObject {
+@interface Student : Person {
     NSArray *classes;
     NSNumber *numberOfCredits;
     NSString *major;
