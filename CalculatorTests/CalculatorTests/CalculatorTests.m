@@ -26,7 +26,15 @@
     int result = [sut doOperation:calcOperationType onValue:@"5"];
     int expected = 5;
 
-    STAssertEquals(expected, result, @"One length input returns sum.");
+    STAssertEquals(expected, result, @"One length input returns equivalent.");
+}
+
+- (void)testAddMethod_TwoLengthInput_ReturnsSum {
+    CalcOperationType calcOperationType = Add;
+    int result = [sut doOperation:calcOperationType onValue:@"5,3"];
+    int expected = 8;
+
+    STAssertEquals(expected, result, @"Two length input returns sum.");
 }
 
 
