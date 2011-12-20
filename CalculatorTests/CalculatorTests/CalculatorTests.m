@@ -54,6 +54,14 @@
     STAssertEquals(expected, result, @"Two length input returns sum.");
 }
 
+- (void)testAddMethod_NewLineInput_ReturnsSum {
+    CalcOperationType calcOperationType = Add;
+    int result = [sut doOperation:calcOperationType onValue:@"5,3\n3"];
+    int expected = 11;
+
+    STAssertEquals(expected, result, @"New line delimiter input returns sum.");
+}
+
 
 - (void)dealloc {
     [super dealloc];

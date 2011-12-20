@@ -17,7 +17,13 @@
     return [numbersToOperate rangeOfString:searchString].location != NSNotFound;
 }
 
+- (NSString *)handleNewLineDelimiter:(NSString *)numbersToOperate {
+    numbersToOperate = [numbersToOperate stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbersToOperate;
+}
+
 - (int)add:(NSString *)numbersToOperate {
+    numbersToOperate = [self handleNewLineDelimiter:numbersToOperate];
     if ([self containsWithin:numbersToOperate theString:@","])
         return [self sum:numbersToOperate];
 
