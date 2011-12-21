@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B293B61E3A8AF0B9F92792 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F92791 /* SenTestingKit.framework */; };
+		C3B293B61E3A8AF0B9F92794 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F92793 /* Cocoa.framework */; };
+		C3B293B61E3A8AF0B9F9279E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F9279D /* InfoPlist.strings */; };
+		C3B293B61E3A8AF0B9F927A1 /* GReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F927A0 /* GReaderTests.m */; };
+		C3B293B61E3A8AF0B9F927AF /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F927AE /* GReader.m */; };
+		C3B293B61E3A8AF0B9F927B3 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B293B61E3A8AF0B9F927B2 /* OCMock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3B293B61E3A8AF0B9F92787 /* GReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B293B61E3A8AF0B9F92791 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3B293B61E3A8AF0B9F92793 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3B293B61E3A8AF0B9F92796 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3B293B61E3A8AF0B9F92797 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3B293B61E3A8AF0B9F92798 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3B293B61E3A8AF0B9F9279B /* GReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "GReaderTests-Info.plist"; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F9279C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F9279F /* GReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GReaderTests.h; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F927A0 /* GReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GReaderTests.m; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F927A2 /* GReaderTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GReaderTests-Prefix.pch"; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F927AE /* GReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReader.m; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F927B0 /* GReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GReader.h; sourceTree = "<group>"; };
+		C3B293B61E3A8AF0B9F927B2 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Users/dgadd/dev/TDDKata/GReaderTests/Frameworks/OCMock.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B293B61E3A8AF0B9F9278D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B293B61E3A8AF0B9F92792 /* SenTestingKit.framework in Frameworks */,
+				C3B293B61E3A8AF0B9F92794 /* Cocoa.framework in Frameworks */,
+				C3B293B61E3A8AF0B9F927B3 /* OCMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B293B61E3A8AF0B9F92783 = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F92784 /* Products */,
+				C3B293B61E3A8AF0B9F92790 /* Frameworks */,
+				C3B293B61E3A8AF0B9F92799 /* GReaderTests */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F92784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F92787 /* GReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F92790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F927B2 /* OCMock.framework */,
+				C3B293B61E3A8AF0B9F92793 /* Cocoa.framework */,
+				C3B293B61E3A8AF0B9F92791 /* SenTestingKit.framework */,
+				C3B293B61E3A8AF0B9F92795 /* Other Frameworks */,
+				C3B293B61E3A8AF0B9F927B1 /* Testing Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F92795 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F92798 /* Foundation.framework */,
+				C3B293B61E3A8AF0B9F92797 /* CoreData.framework */,
+				C3B293B61E3A8AF0B9F92796 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F92799 /* GReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F927B0 /* GReader.h */,
+				C3B293B61E3A8AF0B9F927AE /* GReader.m */,
+				C3B293B61E3A8AF0B9F927A0 /* GReaderTests.m */,
+				C3B293B61E3A8AF0B9F9279F /* GReaderTests.h */,
+				C3B293B61E3A8AF0B9F9279A /* Supporting Files */,
+			);
+			path = GReaderTests;
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F9279A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B293B61E3A8AF0B9F927A2 /* GReaderTests-Prefix.pch */,
+				C3B293B61E3A8AF0B9F9279D /* InfoPlist.strings */,
+				C3B293B61E3A8AF0B9F9279B /* GReaderTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B293B61E3A8AF0B9F927B1 /* Testing Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Testing Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B293B61E3A8AF0B9F92788 /* GReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B293B61E3A8AF0B9F92789 /* Build configuration list for PBXNativeTarget "GReaderTests" */;
+			buildPhases = (
+				C3B293B61E3A8AF0B9F9278C /* Sources */,
+				C3B293B61E3A8AF0B9F9278D /* Frameworks */,
+				C3B293B61E3A8AF0B9F9278E /* Resources */,
+				C3B293B61E3A8AF0B9F9278F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GReaderTests;
+			productName = GReaderTests;
+			productReference = C3B293B61E3A8AF0B9F92787 /* GReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B293B61E3A8AF0B9F92781 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C3B293B61E3A8AF0B9F92782 /* Build configuration list for PBXProject "GReaderTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3B293B61E3A8AF0B9F92783;
+			productRefGroup = C3B293B61E3A8AF0B9F92784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B293B61E3A8AF0B9F92788 /* GReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B293B61E3A8AF0B9F9278E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B293B61E3A8AF0B9F9279E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3B293B61E3A8AF0B9F9278F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B293B61E3A8AF0B9F9278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B293B61E3A8AF0B9F927A1 /* GReaderTests.m in Sources */,
+				C3B293B61E3A8AF0B9F927AF /* GReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3B293B61E3A8AF0B9F9279D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B293B61E3A8AF0B9F9279C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B293B61E3A8AF0B9F92785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3B293B61E3A8AF0B9F92786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3B293B61E3A8AF0B9F9278A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GReaderTests/GReaderTests-Prefix.pch";
+				INFOPLIST_FILE = "GReaderTests/GReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C3B293B61E3A8AF0B9F9278B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GReaderTests/GReaderTests-Prefix.pch";
+				INFOPLIST_FILE = "GReaderTests/GReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B293B61E3A8AF0B9F92782 /* Build configuration list for PBXProject "GReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B293B61E3A8AF0B9F92785 /* Release */,
+				C3B293B61E3A8AF0B9F92786 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B293B61E3A8AF0B9F92789 /* Build configuration list for PBXNativeTarget "GReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B293B61E3A8AF0B9F9278A /* Release */,
+				C3B293B61E3A8AF0B9F9278B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B293B61E3A8AF0B9F92781 /* Project object */;
+}
