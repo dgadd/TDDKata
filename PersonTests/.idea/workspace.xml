@@ -41,10 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NSString+GZStringExtensionMethods.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NSString+GZStringExtensionMethods.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="36" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSString+GZStringExtensionMethods.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NSString+GZStringExtensionMethods.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.10135135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersonTests/PersonTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="44" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.6942149">
+            <state line="29" column="44" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,6 +90,10 @@
         <option value="$PROJECT_DIR$/PersonTests/Person.m" />
         <option value="$PROJECT_DIR$/Student.m" />
         <option value="$PROJECT_DIR$/PersonTests/PersonTests.m" />
+        <option value="$PROJECT_DIR$/NSString+NSStringExtensionMethods.h" />
+        <option value="$PROJECT_DIR$/NSString+NSStringExtensionMethods.m" />
+        <option value="$PROJECT_DIR$/NSString+GZStringExtensionMethods.h" />
+        <option value="$PROJECT_DIR$/NSString+GZStringExtensionMethods.m" />
       </list>
     </option>
   </component>
@@ -107,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,6 +143,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,21 +324,12 @@
     </entry>
     <entry file="file:///Developer/SDKs/MacOSX10.7.sdk/usr/include/net-snmp/types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.3324937">
-          <folding />
-        </state>
+        <state line="10" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.3324937" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PersonTests/Person.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="27" selection-start="45" selection-end="45" vertical-scroll-proportion="0.11335012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="14" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -328,9 +341,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="14" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PersonTests/PersonTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.6942149">
+        <state line="29" column="44" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSString+GZStringExtensionMethods.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NSString+GZStringExtensionMethods.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.10135135">
           <folding />
         </state>
       </provider>
