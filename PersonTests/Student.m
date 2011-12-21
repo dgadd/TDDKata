@@ -15,8 +15,10 @@
     }
 
     return self;
+}
 
-
++ (NSString *)description {
+    return @"Test";
 }
 
 
