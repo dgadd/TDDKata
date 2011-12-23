@@ -50,6 +50,14 @@
     STAssertEquals(expected, result, @"Two lenght input shoudl return sum");
 }
 
+- (void)testAddMethod_NewLineDelimiterInput_IsHandled {
+    int result = [sut add:@"5,9\n5"];
+    int expected = 19;
+
+    STAssertEquals(expected, result, @"Newline delimiter input should be handled");
+}
+
+
 
 - (void)dealloc {
     [super dealloc];
