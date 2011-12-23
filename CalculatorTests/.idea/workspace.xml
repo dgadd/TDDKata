@@ -26,7 +26,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="21" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0">
+            <state line="71" column="136" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="4" selection-start="1249" selection-end="1249" vertical-scroll-proportion="1.3423729">
+            <state line="20" column="12" selection-start="608" selection-end="608" vertical-scroll-proportion="0.6305085">
               <folding />
             </state>
           </provider>
@@ -254,14 +254,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="21" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0">
+        <state line="71" column="136" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="4" selection-start="1249" selection-end="1249" vertical-scroll-proportion="1.3423729">
+        <state line="20" column="12" selection-start="608" selection-end="608" vertical-scroll-proportion="0.6305085">
           <folding />
         </state>
       </provider>

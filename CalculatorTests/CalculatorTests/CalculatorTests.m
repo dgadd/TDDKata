@@ -68,6 +68,11 @@
     STAssertEquals(expected, result, @"Custom delimiter input should be handled");
 }
 
+- (void)testAddMethod_NegativeNumberInput_ThrowsException {
+    STAssertThrowsSpecificNamed([sut add:@"4,3\n5,-6,-9"], NSException, @"NegativeNumbersException", @"You cannot input negative numbers");
+}
+
+
 
 - (void)dealloc {
     [super dealloc];
