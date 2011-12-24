@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99D25CA625FDCDF08F8CBF27 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF26 /* SenTestingKit.framework */; };
+		99D25CA625FDCDF08F8CBF29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF28 /* UIKit.framework */; };
+		99D25CA625FDCDF08F8CBF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF2A /* Foundation.framework */; };
+		99D25CA625FDCDF08F8CBF31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF30 /* InfoPlist.strings */; };
+		99D25CA625FDCDF08F8CBF34 /* BrokerServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF33 /* BrokerServiceTests.m */; };
+		99D25CA625FDCDF08F8CBF37 /* BrokerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D25CA625FDCDF08F8CBF36 /* BrokerService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D25CA625FDCDF08F8CBF3B = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 153335CD2C751CB1A0E1F9D3;
+			remoteInfo = OCMock;
+		};
+		99D25CA625FDCDF08F8CBF3D = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B15D6296AA4715B6E329313E;
+			remoteInfo = OCMockTests;
+		};
+		99D25CA625FDCDF08F8CBF3F = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBCCCEAB4EE4B34E731DA2B;
+			remoteInfo = "OCMock-StaticLib";
+		};
+		99D25CA625FDCDF08F8CBF41 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA7BF9C318EB796ACF67944D;
+			remoteInfo = "OCMock-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99D25CA625FDCDF08F8CBF1C /* BrokerServiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokerServiceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D25CA625FDCDF08F8CBF26 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		99D25CA625FDCDF08F8CBF28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99D25CA625FDCDF08F8CBF2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99D25CA625FDCDF08F8CBF2E /* BrokerServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BrokerServiceTests-Info.plist"; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF32 /* BrokerServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokerServiceTests.h; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF33 /* BrokerServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokerServiceTests.m; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF35 /* BrokerServiceTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrokerServiceTests-Prefix.pch"; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF36 /* BrokerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokerService.m; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF38 /* BrokerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokerService.h; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = ../../ThirdPartyLibraries/OCMockGitHub/OCMock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
+		99D25CA625FDCDF08F8CBF42 /* DGQuoteGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGQuoteGateway.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D25CA625FDCDF08F8CBF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D25CA625FDCDF08F8CBF27 /* SenTestingKit.framework in Frameworks */,
+				99D25CA625FDCDF08F8CBF29 /* UIKit.framework in Frameworks */,
+				99D25CA625FDCDF08F8CBF2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99D25CA625FDCDF08F8CBF18 = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */,
+				99D25CA625FDCDF08F8CBF19 /* Products */,
+				99D25CA625FDCDF08F8CBF25 /* Frameworks */,
+				99D25CA625FDCDF08F8CBF2C /* BrokerServiceTests */,
+			);
+			sourceTree = "<group>";
+		};
+		99D25CA625FDCDF08F8CBF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF1C /* BrokerServiceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D25CA625FDCDF08F8CBF25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF2A /* Foundation.framework */,
+				99D25CA625FDCDF08F8CBF28 /* UIKit.framework */,
+				99D25CA625FDCDF08F8CBF26 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D25CA625FDCDF08F8CBF2C /* BrokerServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF42 /* DGQuoteGateway.h */,
+				99D25CA625FDCDF08F8CBF38 /* BrokerService.h */,
+				99D25CA625FDCDF08F8CBF36 /* BrokerService.m */,
+				99D25CA625FDCDF08F8CBF33 /* BrokerServiceTests.m */,
+				99D25CA625FDCDF08F8CBF32 /* BrokerServiceTests.h */,
+				99D25CA625FDCDF08F8CBF2D /* Supporting Files */,
+			);
+			path = BrokerServiceTests;
+			sourceTree = "<group>";
+		};
+		99D25CA625FDCDF08F8CBF2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF35 /* BrokerServiceTests-Prefix.pch */,
+				99D25CA625FDCDF08F8CBF30 /* InfoPlist.strings */,
+				99D25CA625FDCDF08F8CBF2E /* BrokerServiceTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D25CA625FDCDF08F8CBF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF3C /* OCMock.framework */,
+				99D25CA625FDCDF08F8CBF3E /* OCMockTests.octest */,
+				99D25CA625FDCDF08F8CBF40 /* libOCMock-StaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D25CA625FDCDF08F8CBF1D /* BrokerServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D25CA625FDCDF08F8CBF1E /* Build configuration list for PBXNativeTarget "BrokerServiceTests" */;
+			buildPhases = (
+				99D25CA625FDCDF08F8CBF21 /* Sources */,
+				99D25CA625FDCDF08F8CBF22 /* Frameworks */,
+				99D25CA625FDCDF08F8CBF23 /* Resources */,
+				99D25CA625FDCDF08F8CBF24 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokerServiceTests;
+			productName = BrokerServiceTests;
+			productReference = 99D25CA625FDCDF08F8CBF1C /* BrokerServiceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D25CA625FDCDF08F8CBF16 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 99D25CA625FDCDF08F8CBF17 /* Build configuration list for PBXProject "BrokerServiceTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99D25CA625FDCDF08F8CBF18;
+			productRefGroup = 99D25CA625FDCDF08F8CBF19 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 99D25CA625FDCDF08F8CBF3A /* Products */;
+					ProjectRef = 99D25CA625FDCDF08F8CBF39 /* OCMock.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				99D25CA625FDCDF08F8CBF1D /* BrokerServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		99D25CA625FDCDF08F8CBF3C /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = 99D25CA625FDCDF08F8CBF3B;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		99D25CA625FDCDF08F8CBF3E /* OCMockTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.octest;
+			remoteRef = 99D25CA625FDCDF08F8CBF3D;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		99D25CA625FDCDF08F8CBF40 /* libOCMock-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libOCMock-StaticLib.a";
+			remoteRef = 99D25CA625FDCDF08F8CBF3F;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D25CA625FDCDF08F8CBF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D25CA625FDCDF08F8CBF31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99D25CA625FDCDF08F8CBF24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D25CA625FDCDF08F8CBF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D25CA625FDCDF08F8CBF34 /* BrokerServiceTests.m in Sources */,
+				99D25CA625FDCDF08F8CBF37 /* BrokerService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99D25CA625FDCDF08F8CBF30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D25CA625FDCDF08F8CBF2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D25CA625FDCDF08F8CBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D25CA625FDCDF08F8CBF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99D25CA625FDCDF08F8CBF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrokerServiceTests/BrokerServiceTests-Prefix.pch";
+				INFOPLIST_FILE = "BrokerServiceTests/BrokerServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		99D25CA625FDCDF08F8CBF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrokerServiceTests/BrokerServiceTests-Prefix.pch";
+				INFOPLIST_FILE = "BrokerServiceTests/BrokerServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../../ThirdPartyLibraries/OCMockGitHub/OCMock/Source/** \"${PROJECT_DIR}/../../ThirdPartyLibraries/OCMockGitHub/OCMock/Source/**";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D25CA625FDCDF08F8CBF17 /* Build configuration list for PBXProject "BrokerServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D25CA625FDCDF08F8CBF1A /* Release */,
+				99D25CA625FDCDF08F8CBF1B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D25CA625FDCDF08F8CBF1E /* Build configuration list for PBXNativeTarget "BrokerServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D25CA625FDCDF08F8CBF1F /* Release */,
+				99D25CA625FDCDF08F8CBF20 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D25CA625FDCDF08F8CBF16 /* Project object */;
+}
