@@ -58,6 +58,9 @@
     STAssertEquals(expected, result, @"New line delimiter should be handled");
 }
 
+- (void)testAddMethod_DuplicateDelimiterInput_ThrowsException {
+    STAssertThrowsSpecificNamed([sut add:@"3\n,4,5"], NSException, @"DuplicateDelimitersException", @"Duplicate delimiters are not allowed.");
+}
 
 - (void)dealloc {
     [super dealloc];
