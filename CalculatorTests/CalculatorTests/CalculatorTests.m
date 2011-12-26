@@ -48,8 +48,16 @@
     
     int result = [sut add:numbersToAdd];
 
-    STAssertEquals(expected, result, @"Two-length input returns sum.");
+    STAssertEquals(expected, result, @"Any-length input returns sum.");
 }
+
+- (void)testAddMethod_NewLineInput_ShouldBeHandled {
+    int result = [sut add:@"7,4\n3"];
+    int expected = 14;
+
+    STAssertEquals(expected, result, @"New line delimiter should be handled");
+}
+
 
 - (void)dealloc {
     [super dealloc];
