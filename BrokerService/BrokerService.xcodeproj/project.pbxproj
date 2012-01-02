@@ -10,7 +10,9 @@
 		665A2A0CD537DE7DA47B5F02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F01 /* SenTestingKit.framework */; };
 		665A2A0CD537DE7DA47B5F04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F03 /* Cocoa.framework */; };
 		665A2A0CD537DE7DA47B5F0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F0D /* InfoPlist.strings */; };
-		665A2A0CD537DE7DA47B5F11 /* BrokerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F10 /* BrokerService.m */; };
+		665A2A0CD537DE7DA47B5F11 /* BrokerServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F10 /* BrokerServiceTests.m */; };
+		665A2A0CD537DE7DA47B5F15 /* libOCMock.a in Resources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F14 /* libOCMock.a */; };
+		665A2A0CD537DE7DA47B5F1E /* BrokerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F1D /* BrokerService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +24,19 @@
 		665A2A0CD537DE7DA47B5F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		665A2A0CD537DE7DA47B5F0B /* BrokerService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BrokerService-Info.plist"; sourceTree = "<group>"; };
 		665A2A0CD537DE7DA47B5F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		665A2A0CD537DE7DA47B5F0F /* BrokerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokerService.h; sourceTree = "<group>"; };
-		665A2A0CD537DE7DA47B5F10 /* BrokerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokerService.m; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F0F /* BrokerServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokerServiceTests.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F10 /* BrokerServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokerServiceTests.m; sourceTree = "<group>"; };
 		665A2A0CD537DE7DA47B5F12 /* BrokerService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrokerService-Prefix.pch"; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F14 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F17 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F18 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F19 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F1A /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F1B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F1C /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F1D /* BrokerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokerService.m; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F1F /* BrokerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrokerService.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F20 /* AVQuoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,7 @@
 				665A2A0CD537DE7DA47B5EF4 /* Products */,
 				665A2A0CD537DE7DA47B5F00 /* Frameworks */,
 				665A2A0CD537DE7DA47B5F09 /* BrokerService */,
+				665A2A0CD537DE7DA47B5F13 /* TestLibraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +93,11 @@
 		665A2A0CD537DE7DA47B5F09 /* BrokerService */ = {
 			isa = PBXGroup;
 			children = (
-				665A2A0CD537DE7DA47B5F10 /* BrokerService.m */,
-				665A2A0CD537DE7DA47B5F0F /* BrokerService.h */,
+				665A2A0CD537DE7DA47B5F20 /* AVQuoteService.h */,
+				665A2A0CD537DE7DA47B5F1F /* BrokerService.h */,
+				665A2A0CD537DE7DA47B5F1D /* BrokerService.m */,
+				665A2A0CD537DE7DA47B5F10 /* BrokerServiceTests.m */,
+				665A2A0CD537DE7DA47B5F0F /* BrokerServiceTests.h */,
 				665A2A0CD537DE7DA47B5F0A /* Supporting Files */,
 			);
 			path = BrokerService;
@@ -95,6 +111,28 @@
 				665A2A0CD537DE7DA47B5F0B /* BrokerService-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F13 /* TestLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F14 /* libOCMock.a */,
+				665A2A0CD537DE7DA47B5F16 /* OCMock */,
+			);
+			path = TestLibraries;
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F16 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F1C /* OCMockRecorder.h */,
+				665A2A0CD537DE7DA47B5F1B /* OCMockObject.h */,
+				665A2A0CD537DE7DA47B5F1A /* OCMock.h */,
+				665A2A0CD537DE7DA47B5F19 /* OCMConstraint.h */,
+				665A2A0CD537DE7DA47B5F18 /* OCMArg.h */,
+				665A2A0CD537DE7DA47B5F17 /* NSNotificationCenter+OCMAdditions.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665A2A0CD537DE7DA47B5F0E /* InfoPlist.strings in Resources */,
+				665A2A0CD537DE7DA47B5F15 /* libOCMock.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665A2A0CD537DE7DA47B5F11 /* BrokerService.m in Sources */,
+				665A2A0CD537DE7DA47B5F11 /* BrokerServiceTests.m in Sources */,
+				665A2A0CD537DE7DA47B5F1E /* BrokerService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

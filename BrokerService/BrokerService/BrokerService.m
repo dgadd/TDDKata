@@ -1,32 +1,13 @@
-//
-//  BrokerService.m
-//  BrokerService
-//
-//  Created by David Gadd on 01/01/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "BrokerService.h"
 
-@implementation BrokerService
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
+@implementation BrokerService {
+
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+- (BrokerService *)initWithService:(id)avQuoteService {
+ return nil;
+  //To change the template use AppCode | Preferences | File Templates.
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in BrokerService");
 }
-
 @end
