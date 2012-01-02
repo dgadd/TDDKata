@@ -57,6 +57,9 @@
     STAssertEquals(expected, result, @"New line input should be handled");
 }
 
+- (void)testAdd_DuplicateDelimiter_ThrowsException {
+    STAssertThrowsSpecificNamed([sut add:@"3\n,4"], NSException, @"DuplicateDelimitersException", @"You cannot input duplicate delimiters");
+}
 
 - (void)dealloc {
     [super dealloc];
