@@ -50,6 +50,14 @@
     STAssertEquals(expected, result, @"Any length input should return sum");
 }
 
+- (void)testAdd_NewLineInput_IsHandled {
+    int result = [sut add:@"3,7\n4"];
+    int expected = 14;
+
+    STAssertEquals(expected, result, @"New line input should be handled");
+}
+
+
 - (void)dealloc {
     [super dealloc];
 }
