@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
+            <state line="49" column="42" selection-start="1182" selection-end="1182" vertical-scroll-proportion="1.4483627">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="608" selection-end="608" vertical-scroll-proportion="0.6599496">
+            <state line="21" column="39" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/CalculatorTests/CalculatorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorTests/Calculator.h" />
-        <option value="$PROJECT_DIR$/CalculatorTests/CalculatorTests.m" />
         <option value="$PROJECT_DIR$/CalculatorTests/Calculator.m" />
+        <option value="$PROJECT_DIR$/CalculatorTests/CalculatorTests.m" />
       </list>
     </option>
   </component>
@@ -251,16 +251,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
+    <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
+        <state line="21" column="39" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
+    <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="608" selection-end="608" vertical-scroll-proportion="0.6599496">
+        <state line="49" column="42" selection-start="1182" selection-end="1182" vertical-scroll-proportion="1.4483627">
           <folding />
         </state>
       </provider>
