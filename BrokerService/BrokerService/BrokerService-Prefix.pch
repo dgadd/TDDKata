@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'BrokerService' target in the 'BrokerService' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+#endif

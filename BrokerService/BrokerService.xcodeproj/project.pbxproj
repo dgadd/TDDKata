@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665A2A0CD537DE7DA47B5F02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F01 /* SenTestingKit.framework */; };
+		665A2A0CD537DE7DA47B5F04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F03 /* Cocoa.framework */; };
+		665A2A0CD537DE7DA47B5F0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F0D /* InfoPlist.strings */; };
+		665A2A0CD537DE7DA47B5F11 /* BrokerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 665A2A0CD537DE7DA47B5F10 /* BrokerService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665A2A0CD537DE7DA47B5EF7 /* BrokerService.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokerService.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		665A2A0CD537DE7DA47B5F01 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		665A2A0CD537DE7DA47B5F03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		665A2A0CD537DE7DA47B5F06 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		665A2A0CD537DE7DA47B5F07 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		665A2A0CD537DE7DA47B5F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665A2A0CD537DE7DA47B5F0B /* BrokerService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BrokerService-Info.plist"; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F0F /* BrokerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokerService.h; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F10 /* BrokerService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokerService.m; sourceTree = "<group>"; };
+		665A2A0CD537DE7DA47B5F12 /* BrokerService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrokerService-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665A2A0CD537DE7DA47B5EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A2A0CD537DE7DA47B5F02 /* SenTestingKit.framework in Frameworks */,
+				665A2A0CD537DE7DA47B5F04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665A2A0CD537DE7DA47B5EF3 = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5EF4 /* Products */,
+				665A2A0CD537DE7DA47B5F00 /* Frameworks */,
+				665A2A0CD537DE7DA47B5F09 /* BrokerService */,
+			);
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5EF7 /* BrokerService.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F03 /* Cocoa.framework */,
+				665A2A0CD537DE7DA47B5F01 /* SenTestingKit.framework */,
+				665A2A0CD537DE7DA47B5F05 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F05 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F08 /* Foundation.framework */,
+				665A2A0CD537DE7DA47B5F07 /* CoreData.framework */,
+				665A2A0CD537DE7DA47B5F06 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F09 /* BrokerService */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F10 /* BrokerService.m */,
+				665A2A0CD537DE7DA47B5F0F /* BrokerService.h */,
+				665A2A0CD537DE7DA47B5F0A /* Supporting Files */,
+			);
+			path = BrokerService;
+			sourceTree = "<group>";
+		};
+		665A2A0CD537DE7DA47B5F0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F12 /* BrokerService-Prefix.pch */,
+				665A2A0CD537DE7DA47B5F0D /* InfoPlist.strings */,
+				665A2A0CD537DE7DA47B5F0B /* BrokerService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665A2A0CD537DE7DA47B5EF8 /* BrokerService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665A2A0CD537DE7DA47B5EF9 /* Build configuration list for PBXNativeTarget "BrokerService" */;
+			buildPhases = (
+				665A2A0CD537DE7DA47B5EFC /* Sources */,
+				665A2A0CD537DE7DA47B5EFD /* Frameworks */,
+				665A2A0CD537DE7DA47B5EFE /* Resources */,
+				665A2A0CD537DE7DA47B5EFF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokerService;
+			productName = BrokerService;
+			productReference = 665A2A0CD537DE7DA47B5EF7 /* BrokerService.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665A2A0CD537DE7DA47B5EF1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 665A2A0CD537DE7DA47B5EF2 /* Build configuration list for PBXProject "BrokerService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 665A2A0CD537DE7DA47B5EF3;
+			productRefGroup = 665A2A0CD537DE7DA47B5EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665A2A0CD537DE7DA47B5EF8 /* BrokerService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665A2A0CD537DE7DA47B5EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A2A0CD537DE7DA47B5F0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665A2A0CD537DE7DA47B5EFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665A2A0CD537DE7DA47B5EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665A2A0CD537DE7DA47B5F11 /* BrokerService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665A2A0CD537DE7DA47B5F0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665A2A0CD537DE7DA47B5F0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665A2A0CD537DE7DA47B5EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		665A2A0CD537DE7DA47B5EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		665A2A0CD537DE7DA47B5EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrokerService/BrokerService-Prefix.pch";
+				INFOPLIST_FILE = "BrokerService/BrokerService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		665A2A0CD537DE7DA47B5EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrokerService/BrokerService-Prefix.pch";
+				INFOPLIST_FILE = "BrokerService/BrokerService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665A2A0CD537DE7DA47B5EF2 /* Build configuration list for PBXProject "BrokerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665A2A0CD537DE7DA47B5EF5 /* Release */,
+				665A2A0CD537DE7DA47B5EF6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665A2A0CD537DE7DA47B5EF9 /* Build configuration list for PBXNativeTarget "BrokerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665A2A0CD537DE7DA47B5EFA /* Release */,
+				665A2A0CD537DE7DA47B5EFB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665A2A0CD537DE7DA47B5EF1 /* Project object */;
+}
