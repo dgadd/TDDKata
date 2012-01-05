@@ -61,6 +61,14 @@
     STAssertThrowsSpecificNamed([sut add:@"3\n,5,6"], NSException , @"DuplicateDelimitersException", @"You cannot use duplicate delimiters");
 }
 
+- (void)testAddMethod_CustomDelimiterInput_IsHandled {
+    int result = [sut add:@"//&\n3&4,3\n3"];
+    int expected = 13;
+
+    STAssertEquals(expected, result, @"Custom delimiter is handled");
+}
+
+
 - (void)dealloc {
     [super dealloc];
 }
