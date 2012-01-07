@@ -51,6 +51,14 @@
 }
 
 
+- (void)testAddMethod_NewLineDelimiterInput_IsHandled {
+    int result = [sut add:@"4,8\n3"];
+    int expected = 15;
+
+    STAssertEquals(expected, result, @"New line delimiter is handled");
+}
+
+
 - (void)dealloc {
     [super dealloc];
 }
