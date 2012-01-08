@@ -18,7 +18,13 @@
         return total;
     }
 
+- (NSString *)handleNewLineDelimiter:(NSString *)numbersToAdd {
+    numbersToAdd = [numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbersToAdd;
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
     if ([self containsWithin:numbersToAdd theValue:@","])
         return [self sum:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
