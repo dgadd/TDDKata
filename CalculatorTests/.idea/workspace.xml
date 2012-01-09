@@ -26,7 +26,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="80" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+            <state line="31" column="20" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
+            <state line="21" column="39" selection-start="611" selection-end="611" vertical-scroll-proportion="0.697733">
               <folding />
             </state>
           </provider>
@@ -253,14 +253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="80" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+        <state line="31" column="20" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
+        <state line="21" column="39" selection-start="611" selection-end="611" vertical-scroll-proportion="0.697733">
           <folding />
         </state>
       </provider>
