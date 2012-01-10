@@ -11,6 +11,7 @@
 		B648705CF6AD8E1A05172439 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B648705CF6AD8E1A05172438 /* Cocoa.framework */; };
 		B648705CF6AD8E1A05172443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B648705CF6AD8E1A05172442 /* InfoPlist.strings */; };
 		B648705CF6AD8E1A05172446 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B648705CF6AD8E1A05172445 /* CalculatorTests.m */; };
+		B648705CF6AD8E1A05172449 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B648705CF6AD8E1A05172448 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		B648705CF6AD8E1A05172444 /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		B648705CF6AD8E1A05172445 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		B648705CF6AD8E1A05172447 /* CalculatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		B648705CF6AD8E1A05172448 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		B648705CF6AD8E1A0517244A /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		B648705CF6AD8E1A0517243E /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				B648705CF6AD8E1A0517244A /* Calculator.h */,
+				B648705CF6AD8E1A05172448 /* Calculator.m */,
 				B648705CF6AD8E1A05172445 /* CalculatorTests.m */,
 				B648705CF6AD8E1A05172444 /* CalculatorTests.h */,
 				B648705CF6AD8E1A0517243F /* Supporting Files */,
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B648705CF6AD8E1A05172446 /* CalculatorTests.m in Sources */,
+				B648705CF6AD8E1A05172449 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
