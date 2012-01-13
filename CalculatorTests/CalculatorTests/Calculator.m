@@ -22,10 +22,19 @@
     return numbersToAdd;
 }
 
-- (int)add:(NSString *)numbersToAdd {
-    numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
+- (void)guardCondition_RejectDuplicateDelimiters:(NSString *)numbersToAdd {
     if ([self containsWithin:numbersToAdd theValue:@",,"])
         [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
+}
+
+- (int)add:(NSString *)numbersToAdd {
+    if ([numbersToAdd hasPrefix:@"//"]) {
+        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
+        NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
+        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    }
+    numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
+    [self guardCondition_RejectDuplicateDelimiters:numbersToAdd];
     if ([self containsWithin:numbersToAdd theValue:@","])
         return [self sum:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
