@@ -49,6 +49,14 @@
     STAssertEquals(expected, result, @"Two length input should return sum.");
 }
 
+- (void)testAddMethod_CustomDelimiterInput_ReturnsSum {
+    int result = [sut add:@"5,4\n4"];
+    int expected = 13;
+
+    STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
+}
+
+
 
 - (void)dealloc {
     [super dealloc];
