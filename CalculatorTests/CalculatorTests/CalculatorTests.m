@@ -20,6 +20,13 @@
     STAssertEquals(expected, result, @"Zero length input should return zero.");
 }
 
+- (void)testAddMethod_OneLengthInput_ReturnsEquivalent {
+    int result = [sut add:@"5"];
+    int expected = 5;
+
+    STAssertEquals(expected, result, @"One length input should return equivalent.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
