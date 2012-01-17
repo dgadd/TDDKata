@@ -26,7 +26,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="26" column="74" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.26448363">
+            <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
               <folding />
             </state>
           </provider>
@@ -255,14 +255,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+        <state line="26" column="74" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.26448363">
+        <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
           <folding />
         </state>
       </provider>
