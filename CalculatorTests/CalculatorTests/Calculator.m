@@ -19,6 +19,8 @@
         NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
         for(NSString *numberString in numbersArray) {
             int number = [numberString intValue];
+            if (number > 1000)
+                continue;
             [self guardCondtion_RejectNegativeNumbers:number];
             total += number;
         }
