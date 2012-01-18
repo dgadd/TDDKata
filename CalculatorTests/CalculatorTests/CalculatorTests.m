@@ -71,6 +71,12 @@
     STAssertThrowsSpecificNamed([sut add:@"3\n4,5,-6,-8"], NSException, @"NegativeNumbersException", @"You cannot input negative numbers.");
 }
 
+- (void)testAddMethod_NumbersGreaterThan1000_AreIgnored {
+    int result = [sut add:@"3,1001,5,1000,2,999"];
+    int expected = 2009;
+
+    STAssertEquals(expected, result, @"Numbers greater than 1000 are ignored");
+}
 
 
 
