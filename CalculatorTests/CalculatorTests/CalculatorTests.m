@@ -72,6 +72,13 @@
 }
 
 
+- (void)testAddMethod_NumbersGreaterThan1000Input_AreIgnoredInSum {
+    int result = [sut add:@"4,6\n8,999,1001,1000"];
+    int expected = 2017;
+
+    STAssertEquals(expected, result, @"Numbers > 1000 should be ignored in sum.");
+}
+
 
 
 - (void)dealloc {

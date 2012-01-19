@@ -20,7 +20,8 @@
         for(NSString *numberString in numbersArray) {
             int number = [numberString intValue];
             [self guardCondtion_RejectNegativeNumbers:number];
-            total += number;
+            if (number < 1001)
+                total += number;
         }
         return total;
     }
