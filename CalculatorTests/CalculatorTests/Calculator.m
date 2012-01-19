@@ -31,11 +31,25 @@
         [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
 }
 
+- (NSString *)handleMultiLengthCustomDelimiter:(NSString *)numbersToAdd {
+            NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"/[]"];
+            NSArray *delimiters = [numbersToAdd componentsSeparatedByCharactersInSet:set];
+            NSMutableArray *delimitersM = [NSMutableArray arrayWithArray:delimiters];
+            NSString *suffix = delimitersM.lastObject;
+            [delimitersM removeLastObject];
+            for(NSString *customDelimiter in delimitersM) {
+                suffix = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+            }
+            return suffix;
+        }
+
 - (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd {
     if ([numbersToAdd hasPrefix:@"//"]) {
+        if ([numbersToAdd hasPrefix:@"//["])
+            return [self handleMultiLengthCustomDelimiter:numbersToAdd];
         NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
         NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] -4)];
-        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+        return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
     }
     return numbersToAdd;
 }
