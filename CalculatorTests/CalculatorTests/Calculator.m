@@ -11,19 +11,19 @@
 
 - (void)guardCondtion_RejectNegativeNumbers:(int)number {
     if (number < 0)
-                [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers."];
+        [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers."];
 }
 
 - (int)sum:(NSString *)numbersToAdd {
-        int total = 0;
-        NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
-        for(NSString *numberString in numbersArray) {
-            int number = [numberString intValue];
-            [self guardCondtion_RejectNegativeNumbers:number];
-            if (number < 1001) total += number;
-        }
-        return total;
+    int total = 0;
+    NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
+    for (NSString *numberString in numbersArray) {
+        int number = [numberString intValue];
+        [self guardCondtion_RejectNegativeNumbers:number];
+        if (number < 1001) total += number;
     }
+    return total;
+}
 
 - (void)guardCondition_RejectDuplicateDelimiters:(NSString *)numbersToAdd {
     if ([self containsWithin:numbersToAdd theValue:@",,"])
@@ -31,20 +31,20 @@
 }
 
 - (NSString *)handleMultiLengthCustomDelimiter:(NSString *)numbersToAdd {
-    {
-            int delimiterStartPosition = [numbersToAdd rangeOfString:@"["].location + 1;
-            int delimiterEndPosition = [numbersToAdd rangeOfString:@"]"].location - 1;
-            int suffixPosition = [numbersToAdd rangeOfString:@"\n"].location + 1;
-            NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(delimiterStartPosition, delimiterEndPosition - delimiterStartPosition + 1)];
-            NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(suffixPosition, [numbersToAdd length] - suffixPosition)];
-            numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
-        }
-    return numbersToAdd;
+    NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"[]/"];
+    NSArray *numbersArray = [numbersToAdd componentsSeparatedByCharactersInSet:set];
+    NSMutableArray *delimiters = [NSMutableArray arrayWithArray:numbersArray];
+    NSString *suffix = delimiters.lastObject;
+    [delimiters removeLastObject];
+    for(NSString *customDelimiter in delimiters) {
+        suffix = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    }
+    return suffix;
 }
 
 - (NSString *)handleSingleLengthCustomDelimiter:(NSString *)numbersToAdd {
     NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
-    NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] -4)];
+    NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
     return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
 }
 

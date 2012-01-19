@@ -85,6 +85,13 @@
     STAssertEquals(expected, result, @"Multi-length custom delimiter input returns sum.");
 }
 
+- (void)testAddMethod_MultiLengthMultiCustomDelimiterInput_ReturnsSum {
+    int result = [sut add:@"//[#####][@@][$]\n4@@3$5#####4,6\n8"];
+    int expected = 30;
+
+    STAssertEquals(expected, result, @"Multi-length custom delimiter input returns sum.");
+}
+
 
 - (void)dealloc {
     [super dealloc];
