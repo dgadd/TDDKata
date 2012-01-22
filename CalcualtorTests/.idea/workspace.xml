@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calcualtor.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calcualtor.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalcualtorTests/Calcualtor.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcualtorTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CalcualtorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalcualtorTests/CalcualtorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="76" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7178841">
+            <state line="24" column="20" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/CalcualtorTests/CalcualtorTests.h" />
         <option value="$PROJECT_DIR$/CalcualtorTests/Calcualtor.h" />
-        <option value="$PROJECT_DIR$/CalcualtorTests/Calcualtor.m" />
         <option value="$PROJECT_DIR$/CalcualtorTests/CalcualtorTests.m" />
+        <option value="$PROJECT_DIR$/CalcualtorTests/Calcualtor.m" />
       </list>
     </option>
   </component>
@@ -251,16 +251,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalcualtorTests/Calcualtor.m">
+    <entry file="file://$PROJECT_DIR$/CalcualtorTests/CalcualtorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="24" column="20" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalcualtorTests/CalcualtorTests.m">
+    <entry file="file://$PROJECT_DIR$/CalcualtorTests/Calcualtor.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="76" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7178841">
+        <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
           <folding />
         </state>
       </provider>
