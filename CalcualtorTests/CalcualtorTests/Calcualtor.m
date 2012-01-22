@@ -5,4 +5,7 @@
 
 }
 
+- (int)add:(NSString *)numbersToAdd {
+    return 0;
+}
 @end

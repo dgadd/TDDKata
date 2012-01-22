@@ -1,33 +1,29 @@
-//
-//  CalcualtorTests.m
-//  CalcualtorTests
-//
-//  Created by David Gadd on 01/22/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.#import "Calcualtor.h"
-
-//
-
 #import "CalcualtorTests.h"
+#import "Calcualtor.h"
 
 @implementation CalcualtorTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    
-    // Set-up code here.
+    sut = [[Calcualtor alloc] init];
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
+- (void)tearDown {
+    [sut release];
+    [super tearDown];  
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in CalcualtorTests");
+- (void)testAddMethod_ZeroLengthInput_ReturnsZero {
+    int result = [sut add:@","];
+    int expected = 0;
+
+    STAssertEquals(expected, result, @"Zero length input should return 0.");
 }
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
 
 @end
