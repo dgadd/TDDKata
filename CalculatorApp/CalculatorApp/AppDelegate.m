@@ -7,16 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "CalculatorAddViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize rootViewController = _rootViewController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.rootViewController = [[CalculatorAddViewController alloc] init];
+    self.window.rootViewController = self.rootViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

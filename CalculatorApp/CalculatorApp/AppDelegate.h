@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class CalculatorAddViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) CalculatorAddViewController *rootViewController;
 
 @end
