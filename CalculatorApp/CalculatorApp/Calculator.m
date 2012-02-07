@@ -1,0 +1,18 @@
+//
+//  Created by dgadd on 12-02-06.
+//
+// To change the template use AppCode | Preferences | File Templates.
+//
+
+
+#import "Calculator.h"
+
+
+@implementation Calculator {
+
+}
+
+- (int)add:(NSString *)numbersToAdd {
+    return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
+}
+@end
