@@ -14,7 +14,13 @@
         return total;
     }
 
+- (NSString *)handleNewLineDelimiters:(NSString *)numbers {
+    numbers = [numbers stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbers;
+}
+
 - (int)add:(NSString *)numbers {
+    numbers = [self handleNewLineDelimiters:numbers];
     if ([numbers rangeOfString:@","].location != NSNotFound)
         return [self sum:numbers];
     return [numbers length] > 0 ? [numbers intValue] : 0;
