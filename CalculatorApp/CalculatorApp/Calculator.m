@@ -14,12 +14,8 @@
         return total;
     }
 
-- (BOOL)containsWithin:(NSString *)numbers theValue:(NSString *)someValue {
-    return [numbers rangeOfString:someValue].location != NSNotFound;
-}
-
 - (int)add:(NSString *)numbers {
-    if ([self containsWithin:numbers theValue:@","])
+    if ([numbers rangeOfString:@","].location != NSNotFound)
         return [self sum:numbers];
     return [numbers length] > 0 ? [numbers intValue] : 0;
 }
