@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
 
 @implementation ViewController
 @synthesize inputText;
@@ -62,6 +63,14 @@
 }
 
 - (IBAction)calculateButton:(id)sender {
-    self.resultText.text = @"Hello World";
+    @try{
+        NSString *input = self.inputText.text;
+        Calculator *calculator = [[Calculator alloc] init];
+        int result = [calculator add:input];
+        self.resultText.text = [NSString stringWithFormat:@"%d", result];
+    }
+    @catch (NSException *e) {
+        self.resultText.text = [e name];
+    }
 }
 @end
