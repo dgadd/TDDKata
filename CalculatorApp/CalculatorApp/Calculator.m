@@ -19,8 +19,14 @@
     return numbers;
 }
 
+- (void)guardConditionRejectDuplicateDelimiters:(NSString *)numbers {
+    if ([numbers rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@""];
+}
+
 - (int)add:(NSString *)numbers {
     numbers = [self handleNewLineDelimiters:numbers];
+    [self guardConditionRejectDuplicateDelimiters:numbers];
     if ([numbers rangeOfString:@","].location != NSNotFound)
         return [self sum:numbers];
     return [numbers length] > 0 ? [numbers intValue] : 0;
