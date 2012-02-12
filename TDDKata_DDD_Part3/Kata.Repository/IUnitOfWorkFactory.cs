@@ -2,5 +2,6 @@
 {
     public interface IUnitOfWorkFactory
     {
+        IUnitOfWork Create();
     }
 }

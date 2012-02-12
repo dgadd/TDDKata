@@ -16,5 +16,12 @@ namespace Kata.Repository.Tests.Unit
             Assert.IsInstanceOf(typeof(IUnitOfWorkFactory), sut);
         }
 
+        [Test]
+        public void CreateMethod_NoInputs_ReturnsIUnitOfWork()
+        {
+            IUnitOfWorkFactory sut = new UnitOfWorkFactory();
+            Assert.IsInstanceOf(typeof(IUnitOfWork), sut.Create());
+        }
+
     }
 }
