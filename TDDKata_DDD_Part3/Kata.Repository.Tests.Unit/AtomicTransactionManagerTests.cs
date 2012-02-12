@@ -15,5 +15,13 @@ namespace Kata.Repository.Tests.Unit
             var sut = new AtomicTransactionManager();
             Assert.IsInstanceOf(typeof(IAtomicTransactionManager), sut);
         }
+
+        [Test]
+        public void Constructor_NoInputs_TransactionStatePropertyEqualsIsBegun()
+        {
+            var sut = new AtomicTransactionManager();
+            TransactionStateEnum transactionStateEnum = TransactionStateEnum.IsBegun;
+            Assert.AreEqual(transactionStateEnum, sut.TransactionState);
+        }
     }
 }
