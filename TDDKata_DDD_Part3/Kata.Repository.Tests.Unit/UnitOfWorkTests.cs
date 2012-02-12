@@ -7,19 +7,19 @@ using NUnit.Framework;
 namespace Kata.Repository.Tests.Unit
 {
     [TestFixture]
-    public class AtomicTransactionManagerTests
+    public class UnitOfWorkTests
     {
         [Test]
         public void Constructor_NoInputs_IsInstanceOfInterface()
         {
-            var sut = new AtomicTransactionManager();
-            Assert.IsInstanceOf(typeof(IAtomicTransactionManager), sut);
+            var sut = new UnitOfWork();
+            Assert.IsInstanceOf(typeof(IUnitOfWork), sut);
         }
 
         [Test]
         public void Constructor_NoInputs_TransactionStatePropertyEqualsIsBegun()
         {
-            IAtomicTransactionManager sut = new AtomicTransactionManager();
+            IUnitOfWork sut = new UnitOfWork();
             TransactionStateEnum transactionStateEnum = TransactionStateEnum.IsBegun;
             Assert.AreEqual(transactionStateEnum, sut.TransactionState);
         }
@@ -27,7 +27,7 @@ namespace Kata.Repository.Tests.Unit
         [Test]
         public void CommitMethod_NoInputs_TransactionStatePropertyEqualsCommitRequested()
         {
-            IAtomicTransactionManager sut = new AtomicTransactionManager();
+            IUnitOfWork sut = new UnitOfWork();
             sut.Commit();
             TransactionStateEnum transactionStateEnum = TransactionStateEnum.CommitRequested;
             Assert.AreEqual(transactionStateEnum, sut.TransactionState);

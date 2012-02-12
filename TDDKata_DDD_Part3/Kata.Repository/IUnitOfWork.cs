@@ -1,6 +1,6 @@
 ﻿namespace Kata.Repository
 {
-    public interface IAtomicTransactionManager
+    public interface IUnitOfWork
     {
         void Commit();
         TransactionStateEnum TransactionState { get; }

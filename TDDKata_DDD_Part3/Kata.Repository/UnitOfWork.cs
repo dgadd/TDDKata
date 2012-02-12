@@ -2,11 +2,11 @@
 
 namespace Kata.Repository
 {
-    public class AtomicTransactionManager : IAtomicTransactionManager
+    public class UnitOfWork : IUnitOfWork
     {
         private TransactionStateEnum _transactionState;
 
-        public AtomicTransactionManager()
+        public UnitOfWork()
         {
             _transactionState = TransactionStateEnum.IsBegun;
         }
