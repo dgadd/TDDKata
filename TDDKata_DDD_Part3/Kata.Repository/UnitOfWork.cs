@@ -25,7 +25,7 @@ namespace Kata.Repository
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _transactionState = TransactionStateEnum.RolledBack;
         }
     }
 }

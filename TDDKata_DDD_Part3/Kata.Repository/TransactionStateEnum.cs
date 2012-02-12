@@ -4,6 +4,7 @@
     {
         None,
         CommitRequested,
-        IsBegun
+        IsBegun,
+        RolledBack
     }
 }

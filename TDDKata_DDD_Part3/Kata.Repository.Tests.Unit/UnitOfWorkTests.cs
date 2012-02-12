@@ -40,5 +40,14 @@ namespace Kata.Repository.Tests.Unit
             Assert.IsInstanceOf(typeof(IDisposable), sut);
         }
 
+        [Test]
+        public void DisposeMethod_NoInputs_TransactionStatePropertyEqualsRolledBack()
+        {
+            IUnitOfWork sut = new UnitOfWork();
+            sut.Dispose();
+            TransactionStateEnum transactionStateEnum = TransactionStateEnum.RolledBack;
+            Assert.AreEqual(transactionStateEnum, sut.TransactionState);
+        }
+
     }
 }
