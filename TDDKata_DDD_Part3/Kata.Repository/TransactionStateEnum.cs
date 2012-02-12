@@ -5,6 +5,7 @@
         None,
         CommitRequested,
         IsBegun,
-        RolledBack
+        RolledBack,
+        Committed
     }
 }

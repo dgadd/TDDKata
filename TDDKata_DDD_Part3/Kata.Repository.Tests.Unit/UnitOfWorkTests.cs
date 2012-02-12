@@ -49,5 +49,15 @@ namespace Kata.Repository.Tests.Unit
             Assert.AreEqual(transactionStateEnum, sut.TransactionState);
         }
 
+        [Test]
+        public void CommitThenDisposeMethod_NoInputs_TransactionStatePropertyEqualsCommitted()
+        {
+            IUnitOfWork sut = new UnitOfWork();
+            sut.Commit();
+            sut.Dispose();
+            TransactionStateEnum transactionStateEnum = TransactionStateEnum.Committed;
+            Assert.AreEqual(transactionStateEnum, sut.TransactionState);
+        }
+
     }
 }

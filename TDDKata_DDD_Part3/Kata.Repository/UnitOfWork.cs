@@ -25,7 +25,15 @@ namespace Kata.Repository
 
         public void Dispose()
         {
-            _transactionState = TransactionStateEnum.RolledBack;
+            switch(_transactionState)
+            {
+                case TransactionStateEnum.CommitRequested:
+                    _transactionState = TransactionStateEnum.Committed;
+                    break;
+                default:
+                    _transactionState = TransactionStateEnum.RolledBack;
+                    break;
+            }
         }
     }
 }
