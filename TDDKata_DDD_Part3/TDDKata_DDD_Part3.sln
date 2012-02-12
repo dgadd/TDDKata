@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Services.Tests.Unit", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Services", "Kata.Services\Kata.Services.csproj", "{138CB4F0-6B53-4B5D-A7CE-67E70DC4B686}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Repository.Tests.Unit", "Kata.Repository.Tests.Unit\Kata.Repository.Tests.Unit.csproj", "{61919922-155C-4E81-8F3D-9CB2B99AADB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Repository", "Kata.Repository\Kata.Repository.csproj", "{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{138CB4F0-6B53-4B5D-A7CE-67E70DC4B686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138CB4F0-6B53-4B5D-A7CE-67E70DC4B686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138CB4F0-6B53-4B5D-A7CE-67E70DC4B686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61919922-155C-4E81-8F3D-9CB2B99AADB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61919922-155C-4E81-8F3D-9CB2B99AADB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61919922-155C-4E81-8F3D-9CB2B99AADB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61919922-155C-4E81-8F3D-9CB2B99AADB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
