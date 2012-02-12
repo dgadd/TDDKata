@@ -1,6 +1,8 @@
-﻿namespace Kata.Repository
+﻿using System;
+
+namespace Kata.Repository
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         void Commit();
         TransactionStateEnum TransactionState { get; }

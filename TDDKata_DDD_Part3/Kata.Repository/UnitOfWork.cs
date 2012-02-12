@@ -22,5 +22,10 @@ namespace Kata.Repository
         {
             _transactionState = TransactionStateEnum.CommitRequested;
         }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

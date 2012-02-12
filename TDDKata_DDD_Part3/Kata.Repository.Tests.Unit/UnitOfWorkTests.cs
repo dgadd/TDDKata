@@ -33,5 +33,12 @@ namespace Kata.Repository.Tests.Unit
             Assert.AreEqual(transactionStateEnum, sut.TransactionState);
         }
 
+        [Test]
+        public void Constructor_NoInputs_IsInstanceOfIDisposable()
+        {
+            IUnitOfWork sut = new UnitOfWork();
+            Assert.IsInstanceOf(typeof(IDisposable), sut);
+        }
+
     }
 }
