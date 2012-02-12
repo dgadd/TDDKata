@@ -19,9 +19,19 @@ namespace Kata.Repository.Tests.Unit
         [Test]
         public void Constructor_NoInputs_TransactionStatePropertyEqualsIsBegun()
         {
-            var sut = new AtomicTransactionManager();
+            IAtomicTransactionManager sut = new AtomicTransactionManager();
             TransactionStateEnum transactionStateEnum = TransactionStateEnum.IsBegun;
             Assert.AreEqual(transactionStateEnum, sut.TransactionState);
         }
+
+        [Test]
+        public void CommitMethod_NoInputs_TransactionStatePropertyEqualsCommitRequested()
+        {
+            IAtomicTransactionManager sut = new AtomicTransactionManager();
+            sut.Commit();
+            TransactionStateEnum transactionStateEnum = TransactionStateEnum.CommitRequested;
+            Assert.AreEqual(transactionStateEnum, sut.TransactionState);
+        }
+
     }
 }

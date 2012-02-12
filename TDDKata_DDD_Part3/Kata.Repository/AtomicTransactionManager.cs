@@ -17,5 +17,10 @@ namespace Kata.Repository
                 return _transactionState;
             }
         }
+
+        public void Commit()
+        {
+            _transactionState = TransactionStateEnum.CommitRequested;
+        }
     }
 }
