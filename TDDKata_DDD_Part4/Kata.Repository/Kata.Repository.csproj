@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IInventoryRepository.cs" />
+    <Compile Include="IInvoiceRepository.cs" />
     <Compile Include="IUnitOfWorkFactory.cs" />
     <Compile Include="UnitOfWork.cs" />
     <Compile Include="IUnitOfWork.cs" />

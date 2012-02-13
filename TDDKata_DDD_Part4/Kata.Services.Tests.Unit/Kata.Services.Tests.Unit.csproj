@@ -54,6 +54,10 @@
       <Project>{DC1ADF12-3C42-4979-95EC-0D85C3E5CAA0}</Project>
       <Name>Kata.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Kata.Repository\Kata.Repository.csproj">
+      <Project>{5A1E258B-0EE1-4CEF-8A46-67F8DAF00C60}</Project>
+      <Name>Kata.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Kata.Services\Kata.Services.csproj">
       <Project>{138CB4F0-6B53-4B5D-A7CE-67E70DC4B686}</Project>
       <Name>Kata.Services</Name>

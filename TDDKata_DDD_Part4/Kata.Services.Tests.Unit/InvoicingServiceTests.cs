@@ -3,13 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Gaddzeit.Kata.Domain;
+using Kata.Repository;
 using NUnit.Framework;
+using Rhino.Mocks;
 
 namespace Kata.Services.Tests.Unit
 {
     [TestFixture]
     public class InvoicingServiceTests
     {
+        private MockRepository _mockRepository;
+        private IInvoiceRepository _invoiceRepository;
+        private IInventoryRepository _inventoryRepository;
+        private IUnitOfWorkFactory _unitOfWorkFactory;
+        private IUnitOfWork _unitOfWork;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _mockRepository = new MockRepository();
+            _invoiceRepository = _mockRepository.StrictMock<IInvoiceRepository>();
+            _inventoryRepository = _mockRepository.StrictMock<IInventoryRepository>();
+            _unitOfWorkFactory = _mockRepository.StrictMock<IUnitOfWorkFactory>();
+            _unitOfWork = _mockRepository.StrictMock<IUnitOfWork>();
+        }
+
+        [Test]
+        public void CreateSimpleInvoiceMethod_ProductCodeAndSerialNumberInputs_GenratesSimpleInvoice()
+        {
+            // declare constants
+
+            // expectations
+            
+            _mockRepository.ReplayAll();
+            // call to new service method
+            _mockRepository.VerifyAll();
+        }
+
+
+
         [Test]
         public void CreateSimpleInvoicePrePersistenceExampleMethod_ProductCodeInput_CreatesOneLineInvoice()
         {
@@ -27,7 +59,7 @@ namespace Kata.Services.Tests.Unit
 
         private static Inventory CreateFakeInventoryIncludingProductCode(string productCode, string serialNumber)
         {
-            var fakeInventory = new Inventory {Id = 1234};
+            var fakeInventory = new Inventory { Id = 1234 };
             fakeInventory.StockItemBy(productCode, serialNumber);
             return fakeInventory;
         }
