@@ -49,6 +49,12 @@
     <Compile Include="TransactionStateEnum.cs" />
     <Compile Include="UnitOfWorkFactory.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kata.Domain\Kata.Domain.csproj">
+      <Project>{DC1ADF12-3C42-4979-95EC-0D85C3E5CAA0}</Project>
+      <Name>Kata.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

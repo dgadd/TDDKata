@@ -32,9 +32,21 @@ namespace Kata.Services.Tests.Unit
         public void CreateSimpleInvoiceMethod_ProductCodeAndSerialNumberInputs_GenratesSimpleInvoice()
         {
             // declare constants
+            const string productCode = "ABCD1234";
+            const string serialNumber = "BB2135315";
+            var inventory = new Inventory { Id = 1234 };
+            inventory.StockItemBy(productCode, serialNumber);
+            var invoice = new Invoice() { Id = 1234 };
 
             // expectations
-            
+            Expect.Call(_unitOfWorkFactory.Create()).Return(_unitOfWork);
+            Expect.Call(_inventoryRepository.LoadInventoryByProduct(_unitOfWork, productCode)).Return(inventory);
+            // Call to Inventory.PullItemBy(productCode)
+            // Call to Invoice.BillItem(item)
+            _invoiceRepository.Save(_unitOfWork, invoice);
+            _unitOfWork.Commit();
+            _unitOfWork.Dispose();
+
             _mockRepository.ReplayAll();
             // call to new service method
             _mockRepository.VerifyAll();
