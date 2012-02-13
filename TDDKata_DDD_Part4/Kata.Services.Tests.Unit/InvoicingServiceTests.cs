@@ -44,11 +44,15 @@ namespace Kata.Services.Tests.Unit
             // Call to Inventory.PullItemBy(productCode)
             // Call to Invoice.BillItem(item)
             _invoiceRepository.Save(_unitOfWork, invoice);
+            LastCall.IgnoreArguments();
             _unitOfWork.Commit();
             _unitOfWork.Dispose();
 
             _mockRepository.ReplayAll();
-            // call to new service method
+
+            var sut = new InvoicingService(_unitOfWorkFactory, _inventoryRepository, _invoiceRepository);
+            Invoice actualInvoice = sut.CreateSimpleInvoice(productCode, serialNumber);
+
             _mockRepository.VerifyAll();
         }
 
