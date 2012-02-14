@@ -35,7 +35,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
+            <state line="18" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.68010074">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="80" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+            <state line="28" column="73" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -275,14 +275,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="80" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+        <state line="28" column="73" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="158" selection-end="158" vertical-scroll-proportion="0.30226701">
+        <state line="18" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.68010074">
           <folding />
         </state>
       </provider>
