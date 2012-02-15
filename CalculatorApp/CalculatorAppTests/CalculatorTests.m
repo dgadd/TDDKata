@@ -62,6 +62,10 @@
     STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
 }
 
+- (void)testAddMethod_NegativeNumberInput_ThrowsNSException {
+    STAssertThrowsSpecificNamed([sut add:@"3,4,-5,-7"], NSException, @"NegativeNumbersException", @"");
+}
+
 
 
 @end

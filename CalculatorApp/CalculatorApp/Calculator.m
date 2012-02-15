@@ -9,7 +9,10 @@
         int total = 0;
         NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
         for(NSString *numberString in numbersArray) {
-            total += [numberString intValue];
+            int number = [numberString intValue];
+            if (number < 0)
+                [NSException raise:@"NegativeNumbersException" format:@""];
+            total += number;
         }
         return total;
     }
