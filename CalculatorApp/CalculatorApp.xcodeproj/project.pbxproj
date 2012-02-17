@@ -200,6 +200,9 @@
 /* Begin PBXProject section */
 		1A9C6F16233E5654C29F2CC7 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1A9C6F16233E5654C29F2CC8 /* Build configuration list for PBXProject "CalculatorApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -432,6 +435,7 @@
 				1A9C6F16233E5654C29F2CD1 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A9C6F16233E5654C29F2CF0 /* Build configuration list for PBXNativeTarget "CalculatorAppTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +444,7 @@
 				1A9C6F16233E5654C29F2CF2 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

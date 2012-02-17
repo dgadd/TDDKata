@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
 
 @implementation ViewController
+@synthesize inputField;
+@synthesize resultField;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +29,8 @@
 
 - (void)viewDidUnload
 {
+    [self setInputField:nil];
+    [self setResultField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +62,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)calculateButtonClicked:(id)sender {
+    Calculator *calculator = [[Calculator alloc] init];
+    int result = [calculator add:inputField.text];
+    resultField.text = [NSString stringWithFormat:@"%d", result];
+}
 @end
