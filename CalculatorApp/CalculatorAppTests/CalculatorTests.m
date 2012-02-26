@@ -22,5 +22,12 @@
     STAssertEquals(expected, result, @"");
 }
 
+- (void)testAddMethod_TwoLengthInput_ReturnsSum {
+    int result = [sut add:@"7,3"];
+    int expected = 10;
+
+    STAssertEquals(expected, result, @"");
+}
+
 
 @end
