@@ -29,5 +29,20 @@
     STAssertEquals(expected, result, @"");
 }
 
+- (void)testAddMethod_AnyLengthInput_ReturnsSum {
+    int howMany = arc4random() % 999;
+    int expected = 0;
+    NSMutableString *numbersToAdd = [NSMutableString string];
+
+    for(int i = 0; i <howMany; i++) {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%d,",i]];
+        expected += i;
+    }
+
+    int result = [sut add:numbersToAdd];
+
+    STAssertEquals(expected, result, @"");
+}
+
 
 @end

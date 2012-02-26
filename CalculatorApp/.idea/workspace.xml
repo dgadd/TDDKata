@@ -53,7 +53,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.66831684">
+            <state line="41" column="38" selection-start="982" selection-end="982" vertical-scroll-proportion="1.4508816">
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
         <option value="$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorApp/Calculator.h" />
         <option value="$PROJECT_DIR$/CalculatorApp/ViewController.m" />
-        <option value="$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m" />
         <option value="$PROJECT_DIR$/CalculatorApp/Calculator.m" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m" />
       </list>
     </option>
   </component>
@@ -321,7 +321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.66831684">
+        <state line="41" column="38" selection-start="982" selection-end="982" vertical-scroll-proportion="1.4508816">
           <folding />
         </state>
       </provider>
