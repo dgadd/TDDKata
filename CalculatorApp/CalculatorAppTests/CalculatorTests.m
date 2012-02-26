@@ -15,5 +15,12 @@
     STAssertEquals(expected, result, @"");
 }
 
+- (void)testAddMethod_OneLengthInput_ReturnsEquivalent {
+    int result = [sut add:@"7"];
+    int expected = 7;
+
+    STAssertEquals(expected, result, @"");
+}
+
 
 @end
