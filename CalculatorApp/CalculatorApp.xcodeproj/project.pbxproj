@@ -208,6 +208,9 @@
 /* Begin PBXProject section */
 		7C805BF2948FFBD48FFD0A13 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 7C805BF2948FFBD48FFD0A14 /* Build configuration list for PBXProject "CalculatorApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -440,6 +443,7 @@
 				7C805BF2948FFBD48FFD0A1D /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C805BF2948FFBD48FFD0A3C /* Build configuration list for PBXNativeTarget "CalculatorAppTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +452,7 @@
 				7C805BF2948FFBD48FFD0A3E /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

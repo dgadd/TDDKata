@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *inputField;
 
+@property (strong, nonatomic) IBOutlet UITextField *resultField;
+- (IBAction)calculateButtonClicked:(id)sender;
 @end
