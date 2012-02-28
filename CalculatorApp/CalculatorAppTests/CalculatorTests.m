@@ -44,5 +44,12 @@
     STAssertEquals(expected, result, @"");
 }
 
+- (void)testAddMethod_NewLineDelimiterInput_ReturnsSum {
+    int result = [sut add:@"7,3\n4"];
+    int expected = 14;
+
+    STAssertEquals(expected, result, @"");
+}
+
 
 @end

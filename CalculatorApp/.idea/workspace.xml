@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+            <state line="22" column="4" selection-start="568" selection-end="627" vertical-scroll-proportion="0.8312343">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="38" selection-start="982" selection-end="982" vertical-scroll-proportion="1.4508816">
+            <state line="50" column="21" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
         <option value="$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorApp/Calculator.h" />
         <option value="$PROJECT_DIR$/CalculatorApp/ViewController.m" />
-        <option value="$PROJECT_DIR$/CalculatorApp/Calculator.m" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m" />
+        <option value="$PROJECT_DIR$/CalculatorApp/Calculator.m" />
       </list>
     </option>
   </component>
@@ -231,7 +231,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -298,30 +298,26 @@
         <state line="5" column="10" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="70" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0">
+        <state line="67" column="70" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="21" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorApp/Calculator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="982" selection-end="982" vertical-scroll-proportion="1.4508816">
+        <state line="22" column="4" selection-start="568" selection-end="627" vertical-scroll-proportion="0.8312343">
           <folding />
         </state>
       </provider>
