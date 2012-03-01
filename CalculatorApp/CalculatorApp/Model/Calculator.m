@@ -19,11 +19,16 @@
     return numbersToAdd;
 }
 
+- (void)guardCondition_RejectDuplicateDelimiters:(NSString *)numbersToAdd {
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@""];
+}
+
 - (int)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
-    if ([numbersToAdd rangeOfString:@","].location != NSNotFound) {
+    [self guardCondition_RejectDuplicateDelimiters:numbersToAdd];
+    if ([numbersToAdd rangeOfString:@","].location != NSNotFound)
         return [self sum:numbersToAdd];
-    }
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
 }
 @end
