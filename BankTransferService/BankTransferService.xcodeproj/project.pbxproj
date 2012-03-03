@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB67BD11448047003E1D57F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57EF /* UIKit.framework */; };
+		DB67BD11448047003E1D57F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57F1 /* Foundation.framework */; };
+		DB67BD11448047003E1D57F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57F3 /* CoreGraphics.framework */; };
+		DB67BD11448047003E1D57FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57F9 /* InfoPlist.strings */; };
+		DB67BD11448047003E1D57FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57FB /* main.m */; };
+		DB67BD11448047003E1D5800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57FF /* AppDelegate.m */; };
+		DB67BD11448047003E1D5803 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D5802 /* MainStoryboard.storyboard */; };
+		DB67BD11448047003E1D5806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D5805 /* ViewController.m */; };
+		DB67BD11448047003E1D5811 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D5810 /* SenTestingKit.framework */; };
+		DB67BD11448047003E1D5812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57EF /* UIKit.framework */; };
+		DB67BD11448047003E1D5813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D57F1 /* Foundation.framework */; };
+		DB67BD11448047003E1D581B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D581A /* InfoPlist.strings */; };
+		DB67BD11448047003E1D581E /* BankTransferServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D581D /* BankTransferServiceTests.m */; };
+		DB67BD11448047003E1D5821 /* BankTransferService.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67BD11448047003E1D5820 /* BankTransferService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB67BD11448047003E1D5814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB67BD11448047003E1D57E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB67BD11448047003E1D57E7;
+			remoteInfo = BankTransferService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB67BD11448047003E1D57E6 /* BankTransferService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankTransferService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB67BD11448047003E1D57EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB67BD11448047003E1D57F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB67BD11448047003E1D57F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB67BD11448047003E1D57F7 /* BankTransferService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BankTransferService-Info.plist"; sourceTree = "<group>"; };
+		DB67BD11448047003E1D57F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB67BD11448047003E1D57FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB67BD11448047003E1D57FD /* BankTransferService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankTransferService-Prefix.pch"; sourceTree = "<group>"; };
+		DB67BD11448047003E1D57FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB67BD11448047003E1D57FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5801 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5805 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5807 /* BankTransferServiceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankTransferServiceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB67BD11448047003E1D5810 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB67BD11448047003E1D5818 /* BankTransferServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BankTransferServiceTests-Info.plist"; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5819 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB67BD11448047003E1D581C /* BankTransferServiceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankTransferServiceTests.h; sourceTree = "<group>"; };
+		DB67BD11448047003E1D581D /* BankTransferServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankTransferServiceTests.m; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5820 /* BankTransferService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankTransferService.m; sourceTree = "<group>"; };
+		DB67BD11448047003E1D5822 /* BankTransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankTransferService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB67BD11448047003E1D57EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D57F0 /* UIKit.framework in Frameworks */,
+				DB67BD11448047003E1D57F2 /* Foundation.framework in Frameworks */,
+				DB67BD11448047003E1D57F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67BD11448047003E1D580D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D5811 /* SenTestingKit.framework in Frameworks */,
+				DB67BD11448047003E1D5812 /* UIKit.framework in Frameworks */,
+				DB67BD11448047003E1D5813 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB67BD11448047003E1D57E2 = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D57E3 /* Products */,
+				DB67BD11448047003E1D57EE /* Frameworks */,
+				DB67BD11448047003E1D57F5 /* BankTransferService */,
+				DB67BD11448047003E1D5816 /* BankTransferServiceTests */,
+			);
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D57E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D57E6 /* BankTransferService.app */,
+				DB67BD11448047003E1D5807 /* BankTransferServiceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D57EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D5810 /* SenTestingKit.framework */,
+				DB67BD11448047003E1D57F3 /* CoreGraphics.framework */,
+				DB67BD11448047003E1D57F1 /* Foundation.framework */,
+				DB67BD11448047003E1D57EF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D57F5 /* BankTransferService */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D5805 /* ViewController.m */,
+				DB67BD11448047003E1D5804 /* ViewController.h */,
+				DB67BD11448047003E1D5802 /* MainStoryboard.storyboard */,
+				DB67BD11448047003E1D57FF /* AppDelegate.m */,
+				DB67BD11448047003E1D57FE /* AppDelegate.h */,
+				DB67BD11448047003E1D57F6 /* Supporting Files */,
+				DB67BD11448047003E1D581F /* Services */,
+			);
+			path = BankTransferService;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D57F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D57FD /* BankTransferService-Prefix.pch */,
+				DB67BD11448047003E1D57FB /* main.m */,
+				DB67BD11448047003E1D57F9 /* InfoPlist.strings */,
+				DB67BD11448047003E1D57F7 /* BankTransferService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D5816 /* BankTransferServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D581D /* BankTransferServiceTests.m */,
+				DB67BD11448047003E1D581C /* BankTransferServiceTests.h */,
+				DB67BD11448047003E1D5817 /* Supporting Files */,
+			);
+			path = BankTransferServiceTests;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D5817 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D581A /* InfoPlist.strings */,
+				DB67BD11448047003E1D5818 /* BankTransferServiceTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D581F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB67BD11448047003E1D5822 /* BankTransferService.h */,
+				DB67BD11448047003E1D5820 /* BankTransferService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB67BD11448047003E1D57E7 /* BankTransferService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB67BD11448047003E1D57E8 /* Build configuration list for PBXNativeTarget "BankTransferService" */;
+			buildPhases = (
+				DB67BD11448047003E1D57EB /* Sources */,
+				DB67BD11448047003E1D57EC /* Frameworks */,
+				DB67BD11448047003E1D57ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankTransferService;
+			productName = BankTransferService;
+			productReference = DB67BD11448047003E1D57E6 /* BankTransferService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB67BD11448047003E1D5808 /* BankTransferServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB67BD11448047003E1D5809 /* Build configuration list for PBXNativeTarget "BankTransferServiceTests" */;
+			buildPhases = (
+				DB67BD11448047003E1D580C /* Sources */,
+				DB67BD11448047003E1D580D /* Frameworks */,
+				DB67BD11448047003E1D580E /* Resources */,
+				DB67BD11448047003E1D580F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB67BD11448047003E1D5815 /* PBXTargetDependency */,
+			);
+			name = BankTransferServiceTests;
+			productName = BankTransferServiceTests;
+			productReference = DB67BD11448047003E1D5807 /* BankTransferServiceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB67BD11448047003E1D57E0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DB67BD11448047003E1D57E1 /* Build configuration list for PBXProject "BankTransferService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB67BD11448047003E1D57E2;
+			productRefGroup = DB67BD11448047003E1D57E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB67BD11448047003E1D57E7 /* BankTransferService */,
+				DB67BD11448047003E1D5808 /* BankTransferServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB67BD11448047003E1D57ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D57FA /* InfoPlist.strings in Resources */,
+				DB67BD11448047003E1D5803 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67BD11448047003E1D580E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D581B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB67BD11448047003E1D580F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB67BD11448047003E1D57EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D57FC /* main.m in Sources */,
+				DB67BD11448047003E1D5800 /* AppDelegate.m in Sources */,
+				DB67BD11448047003E1D5806 /* ViewController.m in Sources */,
+				DB67BD11448047003E1D5821 /* BankTransferService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67BD11448047003E1D580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67BD11448047003E1D581E /* BankTransferServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB67BD11448047003E1D5815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB67BD11448047003E1D57E7 /* BankTransferService */;
+			targetProxy = DB67BD11448047003E1D5814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB67BD11448047003E1D57F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB67BD11448047003E1D57F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D5802 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB67BD11448047003E1D5801 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DB67BD11448047003E1D581A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB67BD11448047003E1D5819 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB67BD11448047003E1D57E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB67BD11448047003E1D57E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB67BD11448047003E1D57E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferService/BankTransferService-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferService/BankTransferService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB67BD11448047003E1D57EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferService/BankTransferService-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferService/BankTransferService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB67BD11448047003E1D580A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankTransferService.app/BankTransferService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferService/BankTransferService-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferServiceTests/BankTransferServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		DB67BD11448047003E1D580B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankTransferService.app/BankTransferService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferService/BankTransferService-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferServiceTests/BankTransferServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB67BD11448047003E1D57E1 /* Build configuration list for PBXProject "BankTransferService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB67BD11448047003E1D57E4 /* Release */,
+				DB67BD11448047003E1D57E5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB67BD11448047003E1D57E8 /* Build configuration list for PBXNativeTarget "BankTransferService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB67BD11448047003E1D57E9 /* Release */,
+				DB67BD11448047003E1D57EA /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB67BD11448047003E1D5809 /* Build configuration list for PBXNativeTarget "BankTransferServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB67BD11448047003E1D580A /* Release */,
+				DB67BD11448047003E1D580B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB67BD11448047003E1D57E0 /* Project object */;
+}
