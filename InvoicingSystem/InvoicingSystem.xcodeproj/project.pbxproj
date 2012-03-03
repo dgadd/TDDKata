@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B9121965CAFA1009324182 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324181 /* UIKit.framework */; };
+		76B9121965CAFA1009324184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324183 /* Foundation.framework */; };
+		76B9121965CAFA1009324186 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324185 /* CoreGraphics.framework */; };
+		76B9121965CAFA100932418C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA100932418B /* InfoPlist.strings */; };
+		76B9121965CAFA100932418E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA100932418D /* main.m */; };
+		76B9121965CAFA1009324192 /* PBPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324191 /* PBPAppDelegate.m */; };
+		76B9121965CAFA1009324195 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324194 /* MainStoryboard.storyboard */; };
+		76B9121965CAFA1009324198 /* PBPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324197 /* PBPViewController.m */; };
+		76B9121965CAFA10093241A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241A2 /* SenTestingKit.framework */; };
+		76B9121965CAFA10093241A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324181 /* UIKit.framework */; };
+		76B9121965CAFA10093241A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA1009324183 /* Foundation.framework */; };
+		76B9121965CAFA10093241AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241AC /* InfoPlist.strings */; };
+		76B9121965CAFA10093241B0 /* DomainEntityBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241AF /* DomainEntityBaseTests.m */; };
+		76B9121965CAFA10093241B3 /* DomainEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241B2 /* DomainEntityBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B9121965CAFA10093241A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B9121965CAFA1009324172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B9121965CAFA1009324179;
+			remoteInfo = InvoicingSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B9121965CAFA1009324178 /* InvoicingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvoicingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B9121965CAFA1009324181 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76B9121965CAFA1009324183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76B9121965CAFA1009324185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76B9121965CAFA1009324189 /* InvoicingSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "InvoicingSystem-Info.plist"; sourceTree = "<group>"; };
+		76B9121965CAFA100932418A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76B9121965CAFA100932418D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76B9121965CAFA100932418F /* InvoicingSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InvoicingSystem-Prefix.pch"; sourceTree = "<group>"; };
+		76B9121965CAFA1009324190 /* PBPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPAppDelegate.h; sourceTree = "<group>"; };
+		76B9121965CAFA1009324191 /* PBPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPAppDelegate.m; sourceTree = "<group>"; };
+		76B9121965CAFA1009324193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		76B9121965CAFA1009324196 /* PBPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPViewController.h; sourceTree = "<group>"; };
+		76B9121965CAFA1009324197 /* PBPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPViewController.m; sourceTree = "<group>"; };
+		76B9121965CAFA1009324199 /* InvoicingSystemTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvoicingSystemTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B9121965CAFA10093241A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		76B9121965CAFA10093241AA /* InvoicingSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "InvoicingSystemTests-Info.plist"; sourceTree = "<group>"; };
+		76B9121965CAFA10093241AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76B9121965CAFA10093241AE /* DomainEntityBaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainEntityBaseTests.h; sourceTree = "<group>"; };
+		76B9121965CAFA10093241AF /* DomainEntityBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBaseTests.m; sourceTree = "<group>"; };
+		76B9121965CAFA10093241B2 /* DomainEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBase.m; sourceTree = "<group>"; };
+		76B9121965CAFA10093241B4 /* DomainEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainEntityBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B9121965CAFA100932417E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA1009324182 /* UIKit.framework in Frameworks */,
+				76B9121965CAFA1009324184 /* Foundation.framework in Frameworks */,
+				76B9121965CAFA1009324186 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B9121965CAFA100932419F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA10093241A3 /* SenTestingKit.framework in Frameworks */,
+				76B9121965CAFA10093241A4 /* UIKit.framework in Frameworks */,
+				76B9121965CAFA10093241A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B9121965CAFA1009324174 = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA1009324175 /* Products */,
+				76B9121965CAFA1009324180 /* Frameworks */,
+				76B9121965CAFA1009324187 /* InvoicingSystem */,
+				76B9121965CAFA10093241A8 /* InvoicingSystemTests */,
+			);
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA1009324175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA1009324178 /* InvoicingSystem.app */,
+				76B9121965CAFA1009324199 /* InvoicingSystemTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA1009324180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA10093241A2 /* SenTestingKit.framework */,
+				76B9121965CAFA1009324185 /* CoreGraphics.framework */,
+				76B9121965CAFA1009324183 /* Foundation.framework */,
+				76B9121965CAFA1009324181 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA1009324187 /* InvoicingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA1009324197 /* PBPViewController.m */,
+				76B9121965CAFA1009324196 /* PBPViewController.h */,
+				76B9121965CAFA1009324194 /* MainStoryboard.storyboard */,
+				76B9121965CAFA1009324191 /* PBPAppDelegate.m */,
+				76B9121965CAFA1009324190 /* PBPAppDelegate.h */,
+				76B9121965CAFA1009324188 /* Supporting Files */,
+				76B9121965CAFA10093241B1 /* Domain */,
+			);
+			path = InvoicingSystem;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA1009324188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA100932418F /* InvoicingSystem-Prefix.pch */,
+				76B9121965CAFA100932418D /* main.m */,
+				76B9121965CAFA100932418B /* InfoPlist.strings */,
+				76B9121965CAFA1009324189 /* InvoicingSystem-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA10093241A8 /* InvoicingSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA10093241AF /* DomainEntityBaseTests.m */,
+				76B9121965CAFA10093241AE /* DomainEntityBaseTests.h */,
+				76B9121965CAFA10093241A9 /* Supporting Files */,
+			);
+			path = InvoicingSystemTests;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA10093241A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA10093241AC /* InfoPlist.strings */,
+				76B9121965CAFA10093241AA /* InvoicingSystemTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA10093241B1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				76B9121965CAFA10093241B4 /* DomainEntityBase.h */,
+				76B9121965CAFA10093241B2 /* DomainEntityBase.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B9121965CAFA1009324179 /* InvoicingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B9121965CAFA100932417A /* Build configuration list for PBXNativeTarget "InvoicingSystem" */;
+			buildPhases = (
+				76B9121965CAFA100932417D /* Sources */,
+				76B9121965CAFA100932417E /* Frameworks */,
+				76B9121965CAFA100932417F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvoicingSystem;
+			productName = InvoicingSystem;
+			productReference = 76B9121965CAFA1009324178 /* InvoicingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B9121965CAFA100932419A /* InvoicingSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B9121965CAFA100932419B /* Build configuration list for PBXNativeTarget "InvoicingSystemTests" */;
+			buildPhases = (
+				76B9121965CAFA100932419E /* Sources */,
+				76B9121965CAFA100932419F /* Frameworks */,
+				76B9121965CAFA10093241A0 /* Resources */,
+				76B9121965CAFA10093241A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B9121965CAFA10093241A7 /* PBXTargetDependency */,
+			);
+			name = InvoicingSystemTests;
+			productName = InvoicingSystemTests;
+			productReference = 76B9121965CAFA1009324199 /* InvoicingSystemTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B9121965CAFA1009324172 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 76B9121965CAFA1009324173 /* Build configuration list for PBXProject "InvoicingSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76B9121965CAFA1009324174;
+			productRefGroup = 76B9121965CAFA1009324175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B9121965CAFA1009324179 /* InvoicingSystem */,
+				76B9121965CAFA100932419A /* InvoicingSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B9121965CAFA100932417F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA100932418C /* InfoPlist.strings in Resources */,
+				76B9121965CAFA1009324195 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B9121965CAFA10093241A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA10093241AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76B9121965CAFA10093241A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B9121965CAFA100932417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA100932418E /* main.m in Sources */,
+				76B9121965CAFA1009324192 /* PBPAppDelegate.m in Sources */,
+				76B9121965CAFA1009324198 /* PBPViewController.m in Sources */,
+				76B9121965CAFA10093241B3 /* DomainEntityBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B9121965CAFA100932419E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B9121965CAFA10093241B0 /* DomainEntityBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B9121965CAFA10093241A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B9121965CAFA1009324179 /* InvoicingSystem */;
+			targetProxy = 76B9121965CAFA10093241A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B9121965CAFA100932418B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B9121965CAFA100932418A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA1009324194 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B9121965CAFA1009324193 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		76B9121965CAFA10093241AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B9121965CAFA10093241AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B9121965CAFA1009324176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B9121965CAFA1009324177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76B9121965CAFA100932417B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvoicingSystem/InvoicingSystem-Prefix.pch";
+				INFOPLIST_FILE = "InvoicingSystem/InvoicingSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76B9121965CAFA100932417C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvoicingSystem/InvoicingSystem-Prefix.pch";
+				INFOPLIST_FILE = "InvoicingSystem/InvoicingSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76B9121965CAFA100932419C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InvoicingSystem.app/InvoicingSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvoicingSystem/InvoicingSystem-Prefix.pch";
+				INFOPLIST_FILE = "InvoicingSystemTests/InvoicingSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		76B9121965CAFA100932419D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InvoicingSystem.app/InvoicingSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvoicingSystem/InvoicingSystem-Prefix.pch";
+				INFOPLIST_FILE = "InvoicingSystemTests/InvoicingSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B9121965CAFA1009324173 /* Build configuration list for PBXProject "InvoicingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B9121965CAFA1009324176 /* Release */,
+				76B9121965CAFA1009324177 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B9121965CAFA100932417A /* Build configuration list for PBXNativeTarget "InvoicingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B9121965CAFA100932417B /* Release */,
+				76B9121965CAFA100932417C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76B9121965CAFA100932419B /* Build configuration list for PBXNativeTarget "InvoicingSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B9121965CAFA100932419C /* Release */,
+				76B9121965CAFA100932419D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B9121965CAFA1009324172 /* Project object */;
+}
