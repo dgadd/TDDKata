@@ -9,7 +9,7 @@
     sut = [[Invoice alloc] init];
 }
 
-- (void)testAllocAndInit_NoInputs_IsInstanceOfDomainEntityBase {
+- (void)testInit_NoInputs_IsInstanceOfDomainEntityBase {
     STAssertTrue([sut isKindOfClass:[DomainEntityBase class]], @"Invoice should be instance of DomainEntityBase.");
 }
 

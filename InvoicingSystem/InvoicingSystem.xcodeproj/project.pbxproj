@@ -23,6 +23,8 @@
 		76B9121965CAFA10093241B3 /* DomainEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241B2 /* DomainEntityBase.m */; };
 		76B9121965CAFA10093241B7 /* InvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241B6 /* InvoiceTests.m */; };
 		76B9121965CAFA10093241B9 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241B8 /* Invoice.m */; };
+		76B9121965CAFA10093241BD /* LineItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241BC /* LineItemTests.m */; };
+		76B9121965CAFA10093241BF /* LineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9121965CAFA10093241BE /* LineItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		76B9121965CAFA10093241B6 /* InvoiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceTests.m; sourceTree = "<group>"; };
 		76B9121965CAFA10093241B8 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
 		76B9121965CAFA10093241BA /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		76B9121965CAFA10093241BB /* LineItemTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineItemTests.h; sourceTree = "<group>"; };
+		76B9121965CAFA10093241BC /* LineItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineItemTests.m; sourceTree = "<group>"; };
+		76B9121965CAFA10093241BE /* LineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineItem.m; sourceTree = "<group>"; };
+		76B9121965CAFA10093241C0 /* LineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,8 @@
 		76B9121965CAFA10093241A8 /* InvoicingSystemTests */ = {
 			isa = PBXGroup;
 			children = (
+				76B9121965CAFA10093241BC /* LineItemTests.m */,
+				76B9121965CAFA10093241BB /* LineItemTests.h */,
 				76B9121965CAFA10093241B6 /* InvoiceTests.m */,
 				76B9121965CAFA10093241B5 /* InvoiceTests.h */,
 				76B9121965CAFA10093241AF /* DomainEntityBaseTests.m */,
@@ -166,6 +174,8 @@
 		76B9121965CAFA10093241B1 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				76B9121965CAFA10093241C0 /* LineItem.h */,
+				76B9121965CAFA10093241BE /* LineItem.m */,
 				76B9121965CAFA10093241BA /* Invoice.h */,
 				76B9121965CAFA10093241B8 /* Invoice.m */,
 				76B9121965CAFA10093241B4 /* DomainEntityBase.h */,
@@ -282,6 +292,7 @@
 				76B9121965CAFA1009324198 /* PBPViewController.m in Sources */,
 				76B9121965CAFA10093241B3 /* DomainEntityBase.m in Sources */,
 				76B9121965CAFA10093241B9 /* Invoice.m in Sources */,
+				76B9121965CAFA10093241BF /* LineItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +302,7 @@
 			files = (
 				76B9121965CAFA10093241B0 /* DomainEntityBaseTests.m in Sources */,
 				76B9121965CAFA10093241B7 /* InvoiceTests.m in Sources */,
+				76B9121965CAFA10093241BD /* LineItemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
