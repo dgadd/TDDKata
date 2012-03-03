@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DomainEntityBase.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DomainEntityBase.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="31" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+            <state line="15" column="26" selection-start="373" selection-end="373" vertical-scroll-proportion="0.56675065">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DomainEntityBaseTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DomainEntityBaseTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InvoicingSystemTests/DomainEntityBaseTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="68" selection-start="629" selection-end="629" vertical-scroll-proportion="0.86901766">
+            <state line="29" column="15" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/InvoicingSystemTests/DomainEntityBaseTests.h" />
         <option value="$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.h" />
-        <option value="$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.m" />
         <option value="$PROJECT_DIR$/InvoicingSystemTests/DomainEntityBaseTests.m" />
+        <option value="$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.m" />
       </list>
     </option>
   </component>
@@ -298,16 +298,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.m">
+    <entry file="file://$PROJECT_DIR$/InvoicingSystemTests/DomainEntityBaseTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+        <state line="29" column="15" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InvoicingSystemTests/DomainEntityBaseTests.m">
+    <entry file="file://$PROJECT_DIR$/InvoicingSystem/Domain/DomainEntityBase.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="68" selection-start="629" selection-end="629" vertical-scroll-proportion="0.86901766">
+        <state line="15" column="26" selection-start="373" selection-end="373" vertical-scroll-proportion="0.56675065">
           <folding />
         </state>
       </provider>

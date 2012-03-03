@@ -13,7 +13,7 @@
     // if object is DomainEntityBase and Id equals Id return true
     if (object == nil) return false;
     DomainEntityBase *other = (DomainEntityBase *)object;
-    return other.Id == self.Id;
+    return other.Id > 0 && other.Id == self.Id;
 }
 
 - (NSUInteger)hash {

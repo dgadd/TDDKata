@@ -24,5 +24,13 @@
     STAssertFalse([sut isEqual:sut2], @"sut should not equal sut2");
 }
 
+- (void)testTwoInstances_ZeroIdInput_AreNotEqual {
+    DomainEntityBase *sut2 = [[DomainEntityBase alloc] init];
+    sut.Id = 0;
+    sut2.Id = 0;
+
+    STAssertFalse([sut isEqual:sut2], @"sut should not equal sut2");
+}
+
 
 @end
