@@ -1,3 +1,6 @@
 [submodule "Libs"]
 	path = Libs
 	url = c:/FakeGitRepoServer/Libs.git/
+[submodule "OCMock-iPhone"]
+	path = OCMock-iPhone
+	url = git@github.com:jonah-carbonfive/OCMock-iPhone.git
