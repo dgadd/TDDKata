@@ -22,7 +22,7 @@
 		72AA7187150BC739001F9669 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA7186150BC739001F9669 /* libOCMock.a */; };
 		72AA7187150BC739001F966D /* AVStockPortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F966C /* AVStockPortfolioTests.m */; };
 		72AA7187150BC739001F9670 /* AVStockPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F966F /* AVStockPortfolio.m */; };
-		72AA7187150BC739001F9675 /* AVQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F9674 /* AVQuoteService.m */; };
+		72AA7187150BC739001F9675 /* AVQuoteGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F9674 /* AVQuoteGateway.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +64,9 @@
 		72AA7187150BC739001F966E /* AVStockPortfolioTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVStockPortfolioTests.h; sourceTree = "<group>"; };
 		72AA7187150BC739001F966F /* AVStockPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVStockPortfolio.m; sourceTree = "<group>"; };
 		72AA7187150BC739001F9671 /* AVStockPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVStockPortfolio.h; sourceTree = "<group>"; };
-		72AA7187150BC739001F9673 /* AVQuoteServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteServiceProtocol.h; sourceTree = "<group>"; };
-		72AA7187150BC739001F9674 /* AVQuoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVQuoteService.m; sourceTree = "<group>"; };
-		72AA7187150BC739001F9676 /* AVQuoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteService.h; sourceTree = "<group>"; };
+		72AA7187150BC739001F9673 /* AVQuoteGatewayProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteGatewayProtocol.h; sourceTree = "<group>"; };
+		72AA7187150BC739001F9674 /* AVQuoteGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVQuoteGateway.m; sourceTree = "<group>"; };
+		72AA7187150BC739001F9676 /* AVQuoteGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteGateway.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +136,7 @@
 				72AA714F150BC722001F9669 /* Supporting Files */,
 				72AA7187150BC739001F966A /* Services */,
 				72AA7187150BC739001F9672 /* Protocols */,
+				72AA7187150BC739001F9677 /* Repositories */,
 			);
 			path = AVStockPortfolioProject;
 			sourceTree = "<group>";
@@ -212,11 +213,18 @@
 		72AA7187150BC739001F9672 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				72AA7187150BC739001F9676 /* AVQuoteService.h */,
-				72AA7187150BC739001F9674 /* AVQuoteService.m */,
-				72AA7187150BC739001F9673 /* AVQuoteServiceProtocol.h */,
+				72AA7187150BC739001F9673 /* AVQuoteGatewayProtocol.h */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		72AA7187150BC739001F9677 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7187150BC739001F9674 /* AVQuoteGateway.m */,
+				72AA7187150BC739001F9676 /* AVQuoteGateway.h */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +337,7 @@
 				72AA7159150BC722001F9669 /* AppDelegate.m in Sources */,
 				72AA715F150BC722001F9669 /* ViewController.m in Sources */,
 				72AA7187150BC739001F9670 /* AVStockPortfolio.m in Sources */,
-				72AA7187150BC739001F9675 /* AVQuoteService.m in Sources */,
+				72AA7187150BC739001F9675 /* AVQuoteGateway.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

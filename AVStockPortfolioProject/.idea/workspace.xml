@@ -26,7 +26,7 @@
       <file leaf-file-name="AVStockPortfolio.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="65" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="9" column="1" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -35,25 +35,34 @@
       <file leaf-file-name="AVStockPortfolio.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVQuoteServiceProtocol.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h">
+      <file leaf-file-name="AVQuoteGatewayProtocol.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="4" column="53" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVQuoteService.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m">
+      <file leaf-file-name="AVQuoteGateway.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Repositories/AVQuoteGateway.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+            <state line="3" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVQuoteGateway.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Repositories/AVQuoteGateway.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +71,7 @@
       <file leaf-file-name="AVStockPortfolioTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="90" selection-start="328" selection-end="328" vertical-scroll-proportion="0.30226701">
+            <state line="11" column="8" selection-start="246" selection-end="246" vertical-scroll-proportion="0.30226701">
               <folding />
             </state>
           </provider>
@@ -87,9 +96,11 @@
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.h" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h" />
-        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Repositories/AVQuoteGateway.h" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h" />
       </list>
     </option>
   </component>
@@ -125,7 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,12 +204,31 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Repositories" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AVStockPortfolioProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AVStockPortfolioProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Protocols" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,49 +352,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.12376238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.12376238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.12376238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+        <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="65" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+        <state line="9" column="1" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Repositories/AVQuoteGateway.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Repositories/AVQuoteGateway.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="53" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="90" selection-start="328" selection-end="328" vertical-scroll-proportion="0.30226701">
+        <state line="11" column="8" selection-start="246" selection-end="246" vertical-scroll-proportion="0.30226701">
           <folding />
         </state>
       </provider>

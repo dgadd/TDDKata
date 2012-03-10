@@ -1,12 +1,12 @@
 #import <Foundation/Foundation.h>
 
-@class AVQuoteService;
+@class AVQuoteGateway;
 
 
 @interface AVStockPortfolio : NSObject
-- (AVStockPortfolio *)initWithService:(AVQuoteService*)quoteService;
+- (AVStockPortfolio *)initWithService:(AVQuoteGateway *)quoteService;
 
-@property (retain,readonly) AVQuoteService *quoteService;
+@property (retain,readonly) AVQuoteGateway *quoteService;
 
 - (double)getQuoteFor:(NSString *)stockTitle;
 @end

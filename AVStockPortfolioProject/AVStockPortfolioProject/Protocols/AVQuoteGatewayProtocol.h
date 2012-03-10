@@ -1,4 +1,4 @@
-@protocol AVQuoteServiceProtocol
+@protocol AVQuoteGatewayProtocol
 
 @required
 

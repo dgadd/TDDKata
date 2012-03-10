@@ -1,7 +1,7 @@
-#import "AVQuoteService.h"
+#import "AVQuoteGateway.h"
 
 
-@implementation AVQuoteService
+@implementation AVQuoteGateway
 
 - (void)initiateConnection {
 }
