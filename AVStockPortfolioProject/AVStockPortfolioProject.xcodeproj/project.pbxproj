@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72AA7149150BC722001F9669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA7148150BC722001F9669 /* UIKit.framework */; };
+		72AA714B150BC722001F9669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA714A150BC722001F9669 /* Foundation.framework */; };
+		72AA714D150BC722001F9669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA714C150BC722001F9669 /* CoreGraphics.framework */; };
+		72AA7153150BC722001F9669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72AA7151150BC722001F9669 /* InfoPlist.strings */; };
+		72AA7155150BC722001F9669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7154150BC722001F9669 /* main.m */; };
+		72AA7159150BC722001F9669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7158150BC722001F9669 /* AppDelegate.m */; };
+		72AA715C150BC722001F9669 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AA715A150BC722001F9669 /* MainStoryboard.storyboard */; };
+		72AA715F150BC722001F9669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA715E150BC722001F9669 /* ViewController.m */; };
+		72AA7167150BC722001F9669 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA7166150BC722001F9669 /* SenTestingKit.framework */; };
+		72AA7168150BC722001F9669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA7148150BC722001F9669 /* UIKit.framework */; };
+		72AA7169150BC722001F9669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA714A150BC722001F9669 /* Foundation.framework */; };
+		72AA7171150BC722001F9669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72AA716F150BC722001F9669 /* InfoPlist.strings */; };
+		72AA7187150BC739001F9669 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AA7186150BC739001F9669 /* libOCMock.a */; };
+		72AA7187150BC739001F966D /* AVStockPortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F966C /* AVStockPortfolioTests.m */; };
+		72AA7187150BC739001F9670 /* AVStockPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F966F /* AVStockPortfolio.m */; };
+		72AA7187150BC739001F9675 /* AVQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AA7187150BC739001F9674 /* AVQuoteService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72AA716A150BC722001F9669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AA713B150BC722001F9669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AA7143150BC722001F9669;
+			remoteInfo = AVStockPortfolioProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72AA7144150BC722001F9669 /* AVStockPortfolioProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVStockPortfolioProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AA7148150BC722001F9669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72AA714A150BC722001F9669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72AA714C150BC722001F9669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72AA7150150BC722001F9669 /* AVStockPortfolioProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVStockPortfolioProject-Info.plist"; sourceTree = "<group>"; };
+		72AA7152150BC722001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AA7154150BC722001F9669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72AA7156150BC722001F9669 /* AVStockPortfolioProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVStockPortfolioProject-Prefix.pch"; sourceTree = "<group>"; };
+		72AA7157150BC722001F9669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72AA7158150BC722001F9669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72AA715B150BC722001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		72AA715D150BC722001F9669 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72AA715E150BC722001F9669 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72AA7165150BC722001F9669 /* AVStockPortfolioProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVStockPortfolioProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AA7166150BC722001F9669 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		72AA716E150BC722001F9669 /* AVStockPortfolioProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVStockPortfolioProjectTests-Info.plist"; sourceTree = "<group>"; };
+		72AA7170150BC722001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AA7180150BC739001F9669 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		72AA7181150BC739001F9669 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		72AA7182150BC739001F9669 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		72AA7183150BC739001F9669 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		72AA7184150BC739001F9669 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		72AA7185150BC739001F9669 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		72AA7186150BC739001F9669 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		72AA7187150BC739001F966C /* AVStockPortfolioTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVStockPortfolioTests.m; sourceTree = "<group>"; };
+		72AA7187150BC739001F966E /* AVStockPortfolioTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVStockPortfolioTests.h; sourceTree = "<group>"; };
+		72AA7187150BC739001F966F /* AVStockPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVStockPortfolio.m; sourceTree = "<group>"; };
+		72AA7187150BC739001F9671 /* AVStockPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVStockPortfolio.h; sourceTree = "<group>"; };
+		72AA7187150BC739001F9673 /* AVQuoteServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteServiceProtocol.h; sourceTree = "<group>"; };
+		72AA7187150BC739001F9674 /* AVQuoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVQuoteService.m; sourceTree = "<group>"; };
+		72AA7187150BC739001F9676 /* AVQuoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVQuoteService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72AA7141150BC722001F9669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7149150BC722001F9669 /* UIKit.framework in Frameworks */,
+				72AA714B150BC722001F9669 /* Foundation.framework in Frameworks */,
+				72AA714D150BC722001F9669 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AA7161150BC722001F9669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7167150BC722001F9669 /* SenTestingKit.framework in Frameworks */,
+				72AA7168150BC722001F9669 /* UIKit.framework in Frameworks */,
+				72AA7169150BC722001F9669 /* Foundation.framework in Frameworks */,
+				72AA7187150BC739001F9669 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72AA7139150BC722001F9669 = {
+			isa = PBXGroup;
+			children = (
+				72AA714E150BC722001F9669 /* AVStockPortfolioProject */,
+				72AA716C150BC722001F9669 /* AVStockPortfolioProjectTests */,
+				72AA7147150BC722001F9669 /* Frameworks */,
+				72AA7145150BC722001F9669 /* Products */,
+				72AA717D150BC739001F9669 /* Library */,
+			);
+			sourceTree = "<group>";
+		};
+		72AA7145150BC722001F9669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7144150BC722001F9669 /* AVStockPortfolioProject.app */,
+				72AA7165150BC722001F9669 /* AVStockPortfolioProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72AA7147150BC722001F9669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7148150BC722001F9669 /* UIKit.framework */,
+				72AA714A150BC722001F9669 /* Foundation.framework */,
+				72AA714C150BC722001F9669 /* CoreGraphics.framework */,
+				72AA7166150BC722001F9669 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72AA714E150BC722001F9669 /* AVStockPortfolioProject */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7157150BC722001F9669 /* AppDelegate.h */,
+				72AA7158150BC722001F9669 /* AppDelegate.m */,
+				72AA715A150BC722001F9669 /* MainStoryboard.storyboard */,
+				72AA715D150BC722001F9669 /* ViewController.h */,
+				72AA715E150BC722001F9669 /* ViewController.m */,
+				72AA714F150BC722001F9669 /* Supporting Files */,
+				72AA7187150BC739001F966A /* Services */,
+				72AA7187150BC739001F9672 /* Protocols */,
+			);
+			path = AVStockPortfolioProject;
+			sourceTree = "<group>";
+		};
+		72AA714F150BC722001F9669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7150150BC722001F9669 /* AVStockPortfolioProject-Info.plist */,
+				72AA7151150BC722001F9669 /* InfoPlist.strings */,
+				72AA7154150BC722001F9669 /* main.m */,
+				72AA7156150BC722001F9669 /* AVStockPortfolioProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72AA716C150BC722001F9669 /* AVStockPortfolioProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7187150BC739001F966E /* AVStockPortfolioTests.h */,
+				72AA7187150BC739001F966C /* AVStockPortfolioTests.m */,
+				72AA716D150BC722001F9669 /* Supporting Files */,
+			);
+			path = AVStockPortfolioProjectTests;
+			sourceTree = "<group>";
+		};
+		72AA716D150BC722001F9669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AA716E150BC722001F9669 /* AVStockPortfolioProjectTests-Info.plist */,
+				72AA716F150BC722001F9669 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72AA717D150BC739001F9669 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				72AA717E150BC739001F9669 /* Headers */,
+				72AA7186150BC739001F9669 /* libOCMock.a */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		72AA717E150BC739001F9669 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				72AA717F150BC739001F9669 /* OCMock */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		72AA717F150BC739001F9669 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7180150BC739001F9669 /* NSNotificationCenter+OCMAdditions.h */,
+				72AA7181150BC739001F9669 /* OCMArg.h */,
+				72AA7182150BC739001F9669 /* OCMConstraint.h */,
+				72AA7183150BC739001F9669 /* OCMock.h */,
+				72AA7184150BC739001F9669 /* OCMockObject.h */,
+				72AA7185150BC739001F9669 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		72AA7187150BC739001F966A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7187150BC739001F9671 /* AVStockPortfolio.h */,
+				72AA7187150BC739001F966F /* AVStockPortfolio.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		72AA7187150BC739001F9672 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				72AA7187150BC739001F9676 /* AVQuoteService.h */,
+				72AA7187150BC739001F9674 /* AVQuoteService.m */,
+				72AA7187150BC739001F9673 /* AVQuoteServiceProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72AA7143150BC722001F9669 /* AVStockPortfolioProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AA7177150BC722001F9669 /* Build configuration list for PBXNativeTarget "AVStockPortfolioProject" */;
+			buildPhases = (
+				72AA7140150BC722001F9669 /* Sources */,
+				72AA7141150BC722001F9669 /* Frameworks */,
+				72AA7142150BC722001F9669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVStockPortfolioProject;
+			productName = AVStockPortfolioProject;
+			productReference = 72AA7144150BC722001F9669 /* AVStockPortfolioProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AA7164150BC722001F9669 /* AVStockPortfolioProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AA717A150BC722001F9669 /* Build configuration list for PBXNativeTarget "AVStockPortfolioProjectTests" */;
+			buildPhases = (
+				72AA7160150BC722001F9669 /* Sources */,
+				72AA7161150BC722001F9669 /* Frameworks */,
+				72AA7162150BC722001F9669 /* Resources */,
+				72AA7163150BC722001F9669 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AA716B150BC722001F9669 /* PBXTargetDependency */,
+			);
+			name = AVStockPortfolioProjectTests;
+			productName = AVStockPortfolioProjectTests;
+			productReference = 72AA7165150BC722001F9669 /* AVStockPortfolioProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72AA713B150BC722001F9669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 72AA713E150BC722001F9669 /* Build configuration list for PBXProject "AVStockPortfolioProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72AA7139150BC722001F9669;
+			productRefGroup = 72AA7145150BC722001F9669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72AA7143150BC722001F9669 /* AVStockPortfolioProject */,
+				72AA7164150BC722001F9669 /* AVStockPortfolioProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72AA7142150BC722001F9669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7153150BC722001F9669 /* InfoPlist.strings in Resources */,
+				72AA715C150BC722001F9669 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AA7162150BC722001F9669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7171150BC722001F9669 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72AA7163150BC722001F9669 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72AA7140150BC722001F9669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7155150BC722001F9669 /* main.m in Sources */,
+				72AA7159150BC722001F9669 /* AppDelegate.m in Sources */,
+				72AA715F150BC722001F9669 /* ViewController.m in Sources */,
+				72AA7187150BC739001F9670 /* AVStockPortfolio.m in Sources */,
+				72AA7187150BC739001F9675 /* AVQuoteService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AA7160150BC722001F9669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AA7187150BC739001F966D /* AVStockPortfolioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72AA716B150BC722001F9669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AA7143150BC722001F9669 /* AVStockPortfolioProject */;
+			targetProxy = 72AA716A150BC722001F9669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72AA7151150BC722001F9669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AA7152150BC722001F9669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72AA715A150BC722001F9669 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AA715B150BC722001F9669 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		72AA716F150BC722001F9669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AA7170150BC722001F9669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72AA7175150BC722001F9669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72AA7176150BC722001F9669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72AA7178150BC722001F9669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVStockPortfolioProject/AVStockPortfolioProject-Prefix.pch";
+				INFOPLIST_FILE = "AVStockPortfolioProject/AVStockPortfolioProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72AA7179150BC722001F9669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVStockPortfolioProject/AVStockPortfolioProject-Prefix.pch";
+				INFOPLIST_FILE = "AVStockPortfolioProject/AVStockPortfolioProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72AA717B150BC722001F9669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVStockPortfolioProject.app/AVStockPortfolioProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVStockPortfolioProject/AVStockPortfolioProject-Prefix.pch";
+				INFOPLIST_FILE = "AVStockPortfolioProjectTests/AVStockPortfolioProjectTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		72AA717C150BC722001F9669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVStockPortfolioProject.app/AVStockPortfolioProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVStockPortfolioProject/AVStockPortfolioProject-Prefix.pch";
+				INFOPLIST_FILE = "AVStockPortfolioProjectTests/AVStockPortfolioProjectTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72AA713E150BC722001F9669 /* Build configuration list for PBXProject "AVStockPortfolioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AA7175150BC722001F9669 /* Debug */,
+				72AA7176150BC722001F9669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AA7177150BC722001F9669 /* Build configuration list for PBXNativeTarget "AVStockPortfolioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AA7178150BC722001F9669 /* Debug */,
+				72AA7179150BC722001F9669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72AA717A150BC722001F9669 /* Build configuration list for PBXNativeTarget "AVStockPortfolioProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AA717B150BC722001F9669 /* Debug */,
+				72AA717C150BC722001F9669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72AA713B150BC722001F9669 /* Project object */;
+}
