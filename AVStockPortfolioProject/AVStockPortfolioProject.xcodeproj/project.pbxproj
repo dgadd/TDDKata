@@ -459,6 +459,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Library\"",
 				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Library/libOCMock.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -479,6 +483,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Library\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Library/libOCMock.a,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -505,6 +513,7 @@
 				72AA7179150BC722001F9669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72AA717A150BC722001F9669 /* Build configuration list for PBXNativeTarget "AVStockPortfolioProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				72AA717C150BC722001F9669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
