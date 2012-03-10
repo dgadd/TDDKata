@@ -23,10 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="AVStockPortfolio.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="65" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVStockPortfolio.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="10" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVQuoteServiceProtocol.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AVQuoteService.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AVStockPortfolioTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="66" selection-start="454" selection-end="454" vertical-scroll-proportion="0.56675065">
+            <state line="11" column="90" selection-start="328" selection-end="328" vertical-scroll-proportion="0.30226701">
               <folding />
             </state>
           </provider>
@@ -48,12 +84,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.h" />
-        <option value="$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m" />
-        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.h" />
-        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m" />
         <option value="$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m" />
+        <option value="$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m" />
       </list>
     </option>
   </component>
@@ -89,6 +125,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,11 +200,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
@@ -204,6 +241,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="f0bcc3d9-1500-4f48-a4c6-d6d1f4a61cc0" name="Default" comment="" />
       <created>1331400758446</created>
       <updated>1331400758446</updated>
     </task>
@@ -211,25 +249,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1353" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962406" sideWeight="0.6703297" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -283,23 +321,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="0.22277227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.12376238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -313,21 +337,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteService.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="45" selection-end="45" vertical-scroll-proportion="0.074257426">
+        <state line="9" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Protocols/AVQuoteServiceProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.14851485">
+        <state line="10" column="10" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVStockPortfolioProject/Services/AVStockPortfolio.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="65" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVStockPortfolioProjectTests/AVStockPortfolioTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="66" selection-start="454" selection-end="454" vertical-scroll-proportion="0.56675065">
+        <state line="11" column="90" selection-start="328" selection-end="328" vertical-scroll-proportion="0.30226701">
           <folding />
         </state>
       </provider>

@@ -9,11 +9,15 @@
     [super setUp];
 }
 
-- (void)testInit {
+- (void)testGetQuoteForMethod_StockIdentifierInput_ExpectedProtocolServiceMethodsAreCalled {
   id mockService = [OCMockObject mockForProtocol:@protocol(AVQuoteServiceProtocol)];
-  [[mockService expect] initiateConnection];
+    NSString *stockIdentifier = @"AAPL";
+
+    [[mockService expect] initiateConnection];
+    [[mockService expect] callDowJonesForQuote:stockIdentifier];
 
   AVStockPortfolio *portfolio = [[AVStockPortfolio alloc] initWithService:mockService];
+  [portfolio getQuoteFor:stockIdentifier];
 
   [mockService verify];
 }
