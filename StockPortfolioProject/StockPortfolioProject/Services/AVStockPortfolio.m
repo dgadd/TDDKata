@@ -18,9 +18,8 @@
 
 }
 
-- (double)getQuote:(NSString *)stockAbbreviation {
+- (NSNumber *)getQuote:(NSString *)stockAbbreviation {
     [_quoteService initiateConnection];
-    double quote = [_quoteService retrieveQuoteFor:stockAbbreviation];
-    return quote;
+    return [_quoteService retrieveQuoteFor:stockAbbreviation];
 }
 @end

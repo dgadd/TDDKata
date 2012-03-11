@@ -3,6 +3,7 @@
 #import "../StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h"
 #import "AVStockPortfolio.h"
 #import "../StockPortfolioProject/Gateways/AVQuoteGateway.h"
+#import "OCMockRecorder.h"
 
 
 @implementation AVStockPortfolioTests
@@ -13,14 +14,15 @@
 
 - (void)testGetQuoteMethod_StockAbbreviationInput_ExpectedMethodsCalledOnQuoteGateway {
     NSString *stockAbbreviation = @"AAPL";
+    NSNumber *quoteAmount = [NSNumber numberWithFloat:35.0];
     id mockService = [OCMockObject mockForProtocol:@protocol(AVQuoteGatewayProtocol)];
     [[mockService expect] initiateConnection];
-    [[mockService expect] retrieveQuoteFor:stockAbbreviation];
+    [[[mockService expect] andReturn:quoteAmount] retrieveQuoteFor:stockAbbreviation];
 
     AVStockPortfolio *portfolio = [[AVStockPortfolio alloc] initWithService:mockService];
-    double quote = [portfolio getQuote:stockAbbreviation];
+    NSNumber *quote = [portfolio getQuote:stockAbbreviation];
 
-    //STAssertTrue(quote > 0.0, @"Returned quote should be greater than zero.");
+    STAssertEqualObjects(quoteAmount, quote, @"The returned quote matches the expected mock amount");
     [mockService verify];
 }
 

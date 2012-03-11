@@ -8,5 +8,5 @@
 
 - (AVStockPortfolio *)initWithService:(AVQuoteGateway *)quoteService;
 
-- (double)getQuote:(NSString *)stockAbbreviation;
+- (NSNumber *)getQuote:(NSString *)stockAbbreviation;
 @end

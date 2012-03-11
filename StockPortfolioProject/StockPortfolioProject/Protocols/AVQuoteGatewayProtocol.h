@@ -3,6 +3,6 @@
 @required
 
 - (void) initiateConnection;
-- (double) retrieveQuoteFor: (NSString *)stockAbbreviation;
+- (NSNumber *) retrieveQuoteFor: (NSString *)stockAbbreviation;
 
 @end
