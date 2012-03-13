@@ -1,16 +1,17 @@
 #import "AVStockPortfolio.h"
 #import "../Gateways/AVQuoteGateway.h"
+#import "AVQuoteGatewayProtocol.h"
 
 
 @implementation AVStockPortfolio {
 
 @private
-    AVQuoteGateway *_quoteService;
+    id <AVQuoteGatewayProtocol> _quoteService;
 }
 
 @synthesize quoteService = _quoteService;
 
-- (AVStockPortfolio *)initWithService:(AVQuoteGateway *)quoteService {
+- (AVStockPortfolio *)initWithService:(id <AVQuoteGatewayProtocol>)quoteService {
     if (self = [super init]) {
         _quoteService = quoteService;
     }

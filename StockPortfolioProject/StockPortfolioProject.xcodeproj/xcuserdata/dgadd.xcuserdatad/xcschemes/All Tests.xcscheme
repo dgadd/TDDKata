@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64B57B52E3CE6EB4C256487C"
+               BuildableName = "StockPortfolioProjectTests.octest"
+               BlueprintName = "StockPortfolioProjectTests"
+               ReferencedContainer = "container:StockPortfolioProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64B57B52E3CE6EB4C256487C"
+               BuildableName = "StockPortfolioProjectTests.octest"
+               BlueprintName = "StockPortfolioProjectTests"
+               ReferencedContainer = "container:StockPortfolioProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

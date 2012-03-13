@@ -1,4 +1,4 @@
-@protocol AVQuoteGatewayProtocol
+@protocol AVQuoteGatewayProtocol<NSObject>
 
 @required
 

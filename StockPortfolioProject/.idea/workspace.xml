@@ -13,7 +13,6 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -23,11 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AVStockPortfolio.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AVStockPortfolio.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="13" column="50" selection-start="293" selection-end="293" vertical-scroll-proportion="0.49872124">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +54,7 @@
       <file leaf-file-name="AVQuoteGatewayProtocol.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,16 +63,16 @@
       <file leaf-file-name="AVStockPortfolio.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+            <state line="6" column="23" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVStockPortfolioTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AVStockPortfolioTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StockPortfolioProjectTests/AVStockPortfolioTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="100" selection-start="992" selection-end="992" vertical-scroll-proportion="0.906801">
+            <state line="21" column="64" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,8 +86,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
   </component>
   <component name="IdeDocumentHistory">
@@ -96,19 +95,19 @@
         <option value="$PROJECT_DIR$/StockPortfolioProject/Gateways/AVQuoteService.h" />
         <option value="$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteServiceProtocol.h" />
         <option value="$PROJECT_DIR$/StockPortfolioProject/Gateways/AVQuoteService.m" />
-        <option value="$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h" />
         <option value="$PROJECT_DIR$/StockPortfolioProject/Gateways/AVQuoteGateway.m" />
-        <option value="$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.m" />
-        <option value="$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.h" />
         <option value="$PROJECT_DIR$/StockPortfolioProjectTests/AVStockPortfolioTests.m" />
+        <option value="$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h" />
+        <option value="$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.h" />
+        <option value="$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1353" />
-    <option name="height" value="735" />
+    <option name="x" value="18" />
+    <option name="y" value="36" />
+    <option name="width" value="1314" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -136,6 +135,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StockPortfolioProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeDirectoryView$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,7 +201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,33 +210,38 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="OCUnit.All Tests">
-    <configuration default="false" name="StockPortfolioProject - Debug" type="AppleRunConfiguration" factoryName="Application" temporary="true" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProject" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPHONE" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="StockPortfolioProject - Debug" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="StockPortfolioProject - Debug" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProject" CONFIG_NAME="Debug" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProjectTests" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPHONE" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProjectTests" CONFIG_NAME="Debug" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method>
         <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProject" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPHONE" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProject" CONFIG_NAME="Debug" DEBUGGER="GDB" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method>
         <option name="com.jetbrains.cidr.execution.BuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="com.jetbrains.cidr.execution.StopCurrentSessionBeforeRunTaskProvider$StopCurrentSessionBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="All Tests" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProjectTests" CONFIG_NAME="Debug" SDK_NAME="iphonesimulator5.0" ARCH_ID="Standard" DEVICE="IPHONE" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="All Tests" type="OCUnitRunConfiguration" factoryName="OCUnit" SCHEME_NAME="All Tests" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProjectTests" CONFIG_NAME="Debug" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="StockPortfolioProject" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="StockPortfolioProject" PROJECT_NAME="StockPortfolioProject" TARGET_NAME="StockPortfolioProject" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.0_1" RUN_TARGET_PROJECT_NAME="StockPortfolioProject" RUN_TARGET_NAME="StockPortfolioProject" DEBUGGER="GDB" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.StockPortfolioProject - Debug" />
       <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StockPortfolioProject" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -241,18 +254,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1353" height="735" extended-state="0" />
+    <frame x="18" y="36" width="1314" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932332" sideWeight="0.6703297" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920218" sideWeight="0.67419356" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32580644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -295,6 +308,8 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -321,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Gateways/AVQuoteGateway.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="60" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
@@ -342,24 +350,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.m">
+    <entry file="file://$PROJECT_DIR$/StockPortfolioProjectTests/AVStockPortfolioTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+        <state line="21" column="64" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Protocols/AVQuoteGatewayProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+        <state line="6" column="23" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockPortfolioProjectTests/AVStockPortfolioTests.m">
+    <entry file="file://$PROJECT_DIR$/StockPortfolioProject/Services/AVStockPortfolio.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="100" selection-start="992" selection-end="992" vertical-scroll-proportion="0.906801">
-          <folding />
+        <state line="13" column="50" selection-start="293" selection-end="293" vertical-scroll-proportion="0.49872124">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
