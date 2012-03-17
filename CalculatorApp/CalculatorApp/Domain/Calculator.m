@@ -15,7 +15,15 @@
         return total;
     }
 
+- (NSString *)handleNewLineDelimiters:(NSString *)numbersToAdd {
+    numbersToAdd = [numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
+    return numbersToAdd;
+}
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@""];
     if ([numbersToAdd rangeOfString:@","].location != NSNotFound)
         return [self sum:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd intValue] : 0;
