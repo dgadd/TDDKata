@@ -16,4 +16,12 @@
      STAssertEquals(expected, result, @"0-length input should return 0.");
  }
 
+ - (void)testAddMethod_oneLengthInput_returnsEquivalent {
+     NSString *numbersToAdd = @"3";
+     int expected = 3;
+
+     int result = [sut add:numbersToAdd];
+     STAssertEquals(expected, result, @"One length input should return equivalent.");
+ }
+
  @end
