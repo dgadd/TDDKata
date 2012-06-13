@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E371E8FB30665EF21998C37D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C37C /* UIKit.framework */; };
+		E371E8FB30665EF21998C37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C37E /* Foundation.framework */; };
+		E371E8FB30665EF21998C381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C380 /* CoreGraphics.framework */; };
+		E371E8FB30665EF21998C387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C386 /* InfoPlist.strings */; };
+		E371E8FB30665EF21998C389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C388 /* main.m */; };
+		E371E8FB30665EF21998C38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C38C /* AppDelegate.m */; };
+		E371E8FB30665EF21998C390 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C38F /* MainStoryboard.storyboard */; };
+		E371E8FB30665EF21998C393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C392 /* ViewController.m */; };
+		E371E8FB30665EF21998C39E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C39D /* SenTestingKit.framework */; };
+		E371E8FB30665EF21998C39F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C37C /* UIKit.framework */; };
+		E371E8FB30665EF21998C3A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C37E /* Foundation.framework */; };
+		E371E8FB30665EF21998C3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3A7 /* InfoPlist.strings */; };
+		E371E8FB30665EF21998C3AB /* DomainKataTests.m in Sources */ = {isa = PBXBuildFile; };
+		E371E8FB30665EF21998C3AF /* DomainEntityBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */; };
+		E371E8FB30665EF21998C3B1 /* DomainEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E371E8FB30665EF21998C3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E371E8FB30665EF21998C36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E371E8FB30665EF21998C374;
+			remoteInfo = DomainKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E371E8FB30665EF21998C373 /* DomainKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomainKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E371E8FB30665EF21998C37C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E371E8FB30665EF21998C37E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E371E8FB30665EF21998C380 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E371E8FB30665EF21998C384 /* DomainKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DomainKata-Info.plist"; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C38A /* DomainKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DomainKata-Prefix.pch"; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C38B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C38C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C38E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C391 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C392 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C394 /* DomainKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E371E8FB30665EF21998C39D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E371E8FB30665EF21998C3A5 /* DomainKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DomainKataTests-Info.plist"; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3AD /* DomainEntityBaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainEntityBaseTests.h; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBaseTests.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBase.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B2 /* DomainEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainEntityBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E371E8FB30665EF21998C379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C37D /* UIKit.framework in Frameworks */,
+				E371E8FB30665EF21998C37F /* Foundation.framework in Frameworks */,
+				E371E8FB30665EF21998C381 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E371E8FB30665EF21998C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C39E /* SenTestingKit.framework in Frameworks */,
+				E371E8FB30665EF21998C39F /* UIKit.framework in Frameworks */,
+				E371E8FB30665EF21998C3A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E371E8FB30665EF21998C36F = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C370 /* Products */,
+				E371E8FB30665EF21998C37B /* Frameworks */,
+				E371E8FB30665EF21998C382 /* DomainKata */,
+				E371E8FB30665EF21998C3A3 /* DomainKataTests */,
+			);
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C373 /* DomainKata.app */,
+				E371E8FB30665EF21998C394 /* DomainKataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C39D /* SenTestingKit.framework */,
+				E371E8FB30665EF21998C380 /* CoreGraphics.framework */,
+				E371E8FB30665EF21998C37E /* Foundation.framework */,
+				E371E8FB30665EF21998C37C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C382 /* DomainKata */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C392 /* ViewController.m */,
+				E371E8FB30665EF21998C391 /* ViewController.h */,
+				E371E8FB30665EF21998C38F /* MainStoryboard.storyboard */,
+				E371E8FB30665EF21998C38C /* AppDelegate.m */,
+				E371E8FB30665EF21998C38B /* AppDelegate.h */,
+				E371E8FB30665EF21998C383 /* Supporting Files */,
+				E371E8FB30665EF21998C3AC /* Domain */,
+			);
+			path = DomainKata;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C38A /* DomainKata-Prefix.pch */,
+				E371E8FB30665EF21998C388 /* main.m */,
+				E371E8FB30665EF21998C386 /* InfoPlist.strings */,
+				E371E8FB30665EF21998C384 /* DomainKata-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C3A3 /* DomainKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C3B2 /* DomainEntityBase.h */,
+				E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */,
+				E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */,
+				E371E8FB30665EF21998C3AD /* DomainEntityBaseTests.h */,
+				E371E8FB30665EF21998C3A4 /* Supporting Files */,
+			);
+			path = DomainKataTests;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E371E8FB30665EF21998C3A7 /* InfoPlist.strings */,
+				E371E8FB30665EF21998C3A5 /* DomainKataTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C3AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E371E8FB30665EF21998C374 /* DomainKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E371E8FB30665EF21998C375 /* Build configuration list for PBXNativeTarget "DomainKata" */;
+			buildPhases = (
+				E371E8FB30665EF21998C378 /* Sources */,
+				E371E8FB30665EF21998C379 /* Frameworks */,
+				E371E8FB30665EF21998C37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomainKata;
+			productName = DomainKata;
+			productReference = E371E8FB30665EF21998C373 /* DomainKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E371E8FB30665EF21998C395 /* DomainKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E371E8FB30665EF21998C396 /* Build configuration list for PBXNativeTarget "DomainKataTests" */;
+			buildPhases = (
+				E371E8FB30665EF21998C399 /* Sources */,
+				E371E8FB30665EF21998C39A /* Frameworks */,
+				E371E8FB30665EF21998C39B /* Resources */,
+				E371E8FB30665EF21998C39C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E371E8FB30665EF21998C3A2 /* PBXTargetDependency */,
+			);
+			name = DomainKataTests;
+			productName = DomainKataTests;
+			productReference = E371E8FB30665EF21998C394 /* DomainKataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E371E8FB30665EF21998C36D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E371E8FB30665EF21998C36E /* Build configuration list for PBXProject "DomainKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E371E8FB30665EF21998C36F;
+			productRefGroup = E371E8FB30665EF21998C370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E371E8FB30665EF21998C374 /* DomainKata */,
+				E371E8FB30665EF21998C395 /* DomainKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E371E8FB30665EF21998C37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C387 /* InfoPlist.strings in Resources */,
+				E371E8FB30665EF21998C390 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E371E8FB30665EF21998C39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C3A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E371E8FB30665EF21998C39C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E371E8FB30665EF21998C378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C389 /* main.m in Sources */,
+				E371E8FB30665EF21998C38D /* AppDelegate.m in Sources */,
+				E371E8FB30665EF21998C393 /* ViewController.m in Sources */,
+				E371E8FB30665EF21998C3B1 /* DomainEntityBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E371E8FB30665EF21998C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E8FB30665EF21998C3AB /* DomainKataTests.m in Sources */,
+				E371E8FB30665EF21998C3AF /* DomainEntityBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E371E8FB30665EF21998C3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E371E8FB30665EF21998C374 /* DomainKata */;
+			targetProxy = E371E8FB30665EF21998C3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E371E8FB30665EF21998C386 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E371E8FB30665EF21998C385 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C38F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E371E8FB30665EF21998C38E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E371E8FB30665EF21998C3A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E371E8FB30665EF21998C3A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E371E8FB30665EF21998C371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E371E8FB30665EF21998C372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E371E8FB30665EF21998C376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomainKata/DomainKata-Prefix.pch";
+				INFOPLIST_FILE = "DomainKata/DomainKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E371E8FB30665EF21998C377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomainKata/DomainKata-Prefix.pch";
+				INFOPLIST_FILE = "DomainKata/DomainKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E371E8FB30665EF21998C397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DomainKata.app/DomainKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomainKata/DomainKata-Prefix.pch";
+				INFOPLIST_FILE = "DomainKataTests/DomainKataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		E371E8FB30665EF21998C398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DomainKata.app/DomainKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DomainKata/DomainKata-Prefix.pch";
+				INFOPLIST_FILE = "DomainKataTests/DomainKataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E371E8FB30665EF21998C36E /* Build configuration list for PBXProject "DomainKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E371E8FB30665EF21998C371 /* Release */,
+				E371E8FB30665EF21998C372 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E371E8FB30665EF21998C375 /* Build configuration list for PBXNativeTarget "DomainKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E371E8FB30665EF21998C376 /* Release */,
+				E371E8FB30665EF21998C377 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E371E8FB30665EF21998C396 /* Build configuration list for PBXNativeTarget "DomainKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E371E8FB30665EF21998C397 /* Release */,
+				E371E8FB30665EF21998C398 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E371E8FB30665EF21998C36D /* Project object */;
+}
