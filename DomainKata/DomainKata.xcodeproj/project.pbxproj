@@ -22,6 +22,8 @@
 		E371E8FB30665EF21998C3AB /* DomainKataTests.m in Sources */ = {isa = PBXBuildFile; };
 		E371E8FB30665EF21998C3AF /* DomainEntityBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */; };
 		E371E8FB30665EF21998C3B1 /* DomainEntityBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */; };
+		E371E8FB30665EF21998C3B5 /* InvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3B4 /* InvoiceTests.m */; };
+		E371E8FB30665EF21998C3B7 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = E371E8FB30665EF21998C3B6 /* Invoice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBaseTests.m; sourceTree = "<group>"; };
 		E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainEntityBase.m; sourceTree = "<group>"; };
 		E371E8FB30665EF21998C3B2 /* DomainEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainEntityBase.h; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B3 /* InvoiceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceTests.h; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B4 /* InvoiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceTests.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B6 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
+		E371E8FB30665EF21998C3B8 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,8 @@
 		E371E8FB30665EF21998C3A3 /* DomainKataTests */ = {
 			isa = PBXGroup;
 			children = (
+				E371E8FB30665EF21998C3B4 /* InvoiceTests.m */,
+				E371E8FB30665EF21998C3B3 /* InvoiceTests.h */,
 				E371E8FB30665EF21998C3B2 /* DomainEntityBase.h */,
 				E371E8FB30665EF21998C3B0 /* DomainEntityBase.m */,
 				E371E8FB30665EF21998C3AE /* DomainEntityBaseTests.m */,
@@ -161,6 +169,8 @@
 		E371E8FB30665EF21998C3AC /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				E371E8FB30665EF21998C3B8 /* Invoice.h */,
+				E371E8FB30665EF21998C3B6 /* Invoice.m */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -272,6 +282,7 @@
 				E371E8FB30665EF21998C38D /* AppDelegate.m in Sources */,
 				E371E8FB30665EF21998C393 /* ViewController.m in Sources */,
 				E371E8FB30665EF21998C3B1 /* DomainEntityBase.m in Sources */,
+				E371E8FB30665EF21998C3B7 /* Invoice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +292,7 @@
 			files = (
 				E371E8FB30665EF21998C3AB /* DomainKataTests.m in Sources */,
 				E371E8FB30665EF21998C3AF /* DomainEntityBaseTests.m in Sources */,
+				E371E8FB30665EF21998C3B5 /* InvoiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
