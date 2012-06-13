@@ -22,4 +22,11 @@
     STAssertFalse([sut1 isEqual:sut2], @"Two intances of entity with same key should not be equal");
 }
 
+- (void)testInitWithId_twoInstancesZeroId_areNotEqual {
+    DomainEntityBase *sut1 = [[DomainEntityBase alloc] initWithKey:0];
+    DomainEntityBase *sut2 = [[DomainEntityBase alloc] initWithKey:0];
+
+    STAssertFalse([sut1 isEqual:sut2], @"Two intances of entity with 0 key should not be equal");
+}
+
 @end
