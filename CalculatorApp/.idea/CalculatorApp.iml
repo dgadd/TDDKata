@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/CalculatorApp-341d0c6/Build/Products/Debug-iphonesimulator/CalculatorApp.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/CalculatorApp-341d0c6/Build/Products/Debug-iphonesimulator/CalculatorApp.app" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/CalculatorApp-341d0c6/Build/Products/Debug-iphonesimulator/CalculatorAppTests.octest">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/CalculatorApp-341d0c6/Build/Products/Debug-iphonesimulator/CalculatorAppTests.octest" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
