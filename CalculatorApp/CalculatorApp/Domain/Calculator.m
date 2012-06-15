@@ -7,6 +7,8 @@
 
 - (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd;
 
+- (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd;
+
 - (int)sum:(NSString *)numbersToAdd;
 
 @end
@@ -15,7 +17,9 @@
 
 }
 
+
 - (int)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleCustomDelimiter:numbersToAdd];
     numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
     [self guardCondition_rejectDuplicateDelimiters:numbersToAdd];
     if ([numbersToAdd rangeOfString:@","].location != NSNotFound)
@@ -42,6 +46,15 @@
 - (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
     if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
         [NSException raise:@"DuplicateDelimitersException" format:@""];
+}
+
+- (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd {
+    if ([numbersToAdd hasPrefix:@"//"]) {
+        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
+        NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
+        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    }
+    return numbersToAdd;
 }
 
 @end
