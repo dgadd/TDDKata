@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5C1FDB433AEEF454D927BDED"
+               BuildableName = "CalculatorKataTests.octest"
+               BlueprintName = "CalculatorKataTests"
+               ReferencedContainer = "container:CalculatorKata.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5C1FDB433AEEF454D927BDED"
+               BuildableName = "CalculatorKataTests.octest"
+               BlueprintName = "CalculatorKataTests"
+               ReferencedContainer = "container:CalculatorKata.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
