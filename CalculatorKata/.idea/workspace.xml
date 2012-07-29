@@ -31,19 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSString.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="11" selection-start="6652" selection-end="6665" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorKata/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="610" selection-end="610" vertical-scroll-proportion="0.81108314">
+            <state line="24" column="45" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -60,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="73" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="1.4433249">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -85,8 +76,8 @@
         <option value="$PROJECT_DIR$/CalculatorKataTests/CalcualtorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorKata/Domain/Calculator.h" />
-        <option value="$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.m" />
         <option value="$PROJECT_DIR$/CalculatorKata/Domain/Calculator.m" />
+        <option value="$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.m" />
       </list>
     </option>
   </component>
@@ -322,27 +313,27 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="73" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="11" selection-start="6652" selection-end="6665" vertical-scroll-proportion="0.0">
+        <state line="117" column="11" selection-start="6652" selection-end="6665" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorKata/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="610" selection-end="610" vertical-scroll-proportion="0.81108314">
+        <state line="24" column="45" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorKataTests/CalculatorTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="1.4433249">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
