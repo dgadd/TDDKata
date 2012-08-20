@@ -34,7 +34,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="4" selection-start="923" selection-end="984" vertical-scroll-proportion="0.696">
+            <state line="37" column="4" selection-start="1294" selection-end="1351" vertical-scroll-proportion="1.3387097">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -54,7 +54,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="35" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
+            <state line="61" column="55" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +219,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48312885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48312885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -290,13 +290,6 @@
         <state line="5" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="35" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
@@ -304,9 +297,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="55" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="923" selection-end="984" vertical-scroll-proportion="0.696">
+        <state line="37" column="4" selection-start="1294" selection-end="1351" vertical-scroll-proportion="1.3387097">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
