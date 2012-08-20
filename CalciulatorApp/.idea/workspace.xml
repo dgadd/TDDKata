@@ -22,19 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="4" selection-start="1294" selection-end="1351" vertical-scroll-proportion="1.3387097">
+            <state line="19" column="119" selection-start="681" selection-end="681" vertical-scroll-proportion="0.91935486">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -42,19 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTests.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="55" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+            <state line="65" column="39" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -287,26 +269,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
+        <state line="5" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.12">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalciulatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="55" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+        <state line="65" column="39" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalciulatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1294" selection-end="1351" vertical-scroll-proportion="1.3387097">
+        <state line="19" column="119" selection-start="681" selection-end="681" vertical-scroll-proportion="0.91935486">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

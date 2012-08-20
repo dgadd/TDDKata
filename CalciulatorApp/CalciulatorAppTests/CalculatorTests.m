@@ -52,7 +52,7 @@
 }
 
 - (void)testAddMethod_duplicateDelimiterInput_throwsException {
-    STAssertThrowsSpecific([sut add:@"3,5\n,4"], NSException, @"DuplicateDelimitersException");
+    STAssertThrowsSpecificNamed([sut add:@"3,5,\n4"], NSException, @"DuplicateDelimitersException", @"Should have rejected duplicate delimiters.");
 }
 
 - (void)testAddMethod_customDelimiterInput_returnsSum {
@@ -60,6 +60,10 @@
     NSInteger result = [sut add:@"//%\n2%3,5\n4"];
 
     STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
+}
+
+- (void)testAddMethod_negativeNumberInput_throwsException {
+    STAssertThrowsSpecificNamed([sut add:@"3,5,4,-5,-6"], NSException, @"NegativeNumbersException", @"Should have rejected negative numbers.");
 }
 
 

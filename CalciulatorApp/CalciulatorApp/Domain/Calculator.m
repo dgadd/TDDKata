@@ -9,9 +9,15 @@
 - (NSInteger)sum:(NSString *)numbersToAdd {
     NSArray *const numbersArray = [numbersToAdd componentsSeparatedByString:@","];
     int total = 0;
+    NSString *negativeNumbers = @"";
     for (NSString *numberString in numbersArray) {
-            total += [numberString integerValue];
-        }
+        int number = [numberString integerValue];
+        if (number < 0)
+            negativeNumbers = [NSString stringWithFormat:@"%@,%i", negativeNumbers, number];
+        total += number;
+    }
+    if ([negativeNumbers length] > 0)
+        [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: %@", negativeNumbers];
     return total;
 }
 
