@@ -20,8 +20,14 @@
     return numbersToAdd;
 }
 
+- (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
+}
+
 - (NSInteger)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
+    [self guardCondition_rejectDuplicateDelimiters:numbersToAdd];
     if ([numbersToAdd rangeOfString:@","].location != NSNotFound)
         return [self sum:numbersToAdd];
 
