@@ -7,6 +7,9 @@
 
 - (NSInteger)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@"You cannot submit duplicate delimiters"];
+
     if([numbersToAdd rangeOfString:@","].location != NSNotFound)
         return [self sum:numbersToAdd];
     return [numbersToAdd length] > 0 ? [numbersToAdd integerValue] : 0;
