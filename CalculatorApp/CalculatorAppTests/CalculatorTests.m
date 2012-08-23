@@ -68,5 +68,16 @@
     STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
 }
 
+- (void)testAddMethod_negativeNumberInput_throwsException {
+    @try {
+        [sut add:@"3,4\n5,-7,-2"];
+        STAssertTrue(false, @"This code should never be reached.");
+    } @catch (NSException *ex) {
+        STAssertEqualObjects(@"NegativeNumbersException", [ex name], @"Negative numbers exception name should match");
+        STAssertEqualObjects(@"You cannot input negative numbers: -7,-2,", [ex description], @"Negative numbers exception description should match");
+    }
+}
+
+
 
 @end

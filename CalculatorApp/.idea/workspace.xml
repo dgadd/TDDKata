@@ -41,7 +41,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.216">
+            <state line="41" column="42" selection-start="1620" selection-end="1780" vertical-scroll-proportion="0.712">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="16" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
+            <state line="76" column="72" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -166,7 +166,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
   </component>
-  <component name="RunManager" selected="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]">
+  <component name="RunManager" selected="OCUnit.All Tests">
     <configuration default="false" name="CalculatorApp" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="CalculatorApp" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorApp" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CalculatorApp" RUN_TARGET_NAME="CalculatorApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method />
@@ -290,7 +290,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -310,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="16" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
+        <state line="76" column="72" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -319,7 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.216">
+        <state line="41" column="42" selection-start="1620" selection-end="1780" vertical-scroll-proportion="0.712">
           <folding />
         </state>
       </provider>
