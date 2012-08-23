@@ -29,4 +29,19 @@
     STAssertEquals(expected, result, @"Two length input should return sum.");
 }
 
+- (void)testAddMethod_anyLengthInput_returnsEquivlent {
+    NSInteger howMany = arc4random() % 999;
+    NSInteger expected = 0;
+    NSMutableString *numbersToAdd = [NSMutableString string];
+
+    for (int i = 0; i < howMany; i++) {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
+        expected += i;
+    }
+
+    NSInteger result = [sut add:numbersToAdd];
+
+    STAssertEquals(expected, result, @"Two length input should return sum.");
+}
+
 @end
