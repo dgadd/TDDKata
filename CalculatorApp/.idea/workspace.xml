@@ -41,7 +41,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="64" selection-start="166" selection-end="343" vertical-scroll-proportion="0.3292683">
+            <state line="9" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.216">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="69" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0">
+            <state line="65" column="16" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -166,9 +166,15 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
   </component>
-  <component name="RunManager" selected="OCUnit.All Tests">
+  <component name="RunManager" selected="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]">
     <configuration default="false" name="CalculatorApp" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="CalculatorApp" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorApp" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CalculatorApp" RUN_TARGET_NAME="CalculatorApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorAppTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CalculatorTests" TEST_METHOD="testAddMethod_customDelimiterInput_returnsSum">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
     <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorAppTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE">
@@ -185,13 +191,15 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.CalculatorApp" />
       <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CalculatorApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CalculatorApp" />
       </list>
     </recent_temporary>
   </component>
@@ -207,15 +215,15 @@
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.4973861" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.4973861" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.4973861" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -282,7 +290,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -302,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="69" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0">
+        <state line="65" column="16" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -311,7 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="166" selection-end="343" vertical-scroll-proportion="0.3292683">
+        <state line="9" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.216">
           <folding />
         </state>
       </provider>
