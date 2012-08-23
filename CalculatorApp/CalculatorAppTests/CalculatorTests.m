@@ -51,5 +51,15 @@
     STAssertEquals(expected, result, @"New line delimiter input should return sum.");
 }
 
+- (void)testAddMethod_duplicateDelimiterInput_throwsException {
+    @try {
+        [sut add:@"3,4\n,5"];
+        STAssertTrue(false, @"This code should never be reached.");
+    } @catch (NSException *ex) {
+        STAssertEqualObjects(@"DuplicateDelimitersException", [ex name], @"Duplicate delimiters exception name should match");
+        STAssertEqualObjects(@"You cannot input duplicate delimiters.", [ex description], @"Duplicate delimiters exception description should match");
+    }
+}
+
 
 @end
