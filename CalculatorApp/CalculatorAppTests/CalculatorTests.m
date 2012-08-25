@@ -43,4 +43,11 @@
     STAssertEquals(expected, result, @"Two length input returns sum.");
 }
 
+- (void)testAddMethod_newLineDelimiterInput_returnsSum {
+    NSInteger expected = 15;
+    NSInteger result = [sut add:@"5,7\n3"];
+
+    STAssertEquals(expected, result, @"New line delimiter input returns sum.");
+}
+
 @end
