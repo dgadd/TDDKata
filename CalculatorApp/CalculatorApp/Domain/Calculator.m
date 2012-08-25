@@ -19,12 +19,23 @@
 }
 
 - (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd {
-    if ([numbersToAdd hasPrefix:@"//"]) {
-        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
-        NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
-        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    if (![numbersToAdd hasPrefix:@"//"])
+        return numbersToAdd;
+
+    NSString *customDelimiter = @"";
+    NSString *suffix = @"";
+    if ([numbersToAdd rangeOfString:@"["].location != NSNotFound) {
+        NSInteger leftBrace = [numbersToAdd rangeOfString:@"["].location;
+        NSInteger rightBrace = [numbersToAdd rangeOfString:@"]"].location;
+        NSInteger afterRightBrace = rightBrace + 2;
+        customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(leftBrace + 1, rightBrace - leftBrace - 1)];
+        suffix = [numbersToAdd substringWithRange:NSMakeRange(afterRightBrace, [numbersToAdd length] - afterRightBrace)];
     }
-    return numbersToAdd;
+    else {
+        customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
+        suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
+    }
+    return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
 }
 
 - (void)guardCondition_duplicateDelimitersNotAllowed:(NSString *)numbersToAdd {
@@ -53,12 +64,12 @@
 
 - (void)accumulateNegativeNumbersFromString:(NSMutableString *)negativeNumbers number:(NSInteger)number {
     if (number < 0)
-            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
+        [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
 }
 
 - (int)incrementTotalWhenLessThanOneThousand:(int)total number:(NSInteger)number {
-    if(number < 1001)
-            total += number;
+    if (number < 1001)
+        total += number;
     return total;
 }
 
