@@ -37,7 +37,8 @@
     for (NSString *numberString in array) {
         NSInteger number = [numberString integerValue];
         [self guardCondition_handleNegativeNumbers:negativeNumbers number:number];
-        total += number;
+        if(number < 1001)
+            total += number;
     }
     if ([negativeNumbers length] > 0)
         [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: %@", negativeNumbers];
