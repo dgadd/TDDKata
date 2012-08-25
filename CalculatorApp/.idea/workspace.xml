@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="52" selection-start="1973" selection-end="1973" vertical-scroll-proportion="1.1219512">
+            <state line="45" column="8" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.5365854">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="72" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.0">
+            <state line="83" column="83" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -282,7 +282,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -302,7 +302,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="72" selection-start="2492" selection-end="2492" vertical-scroll-proportion="0.0">
+        <state line="83" column="83" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -311,7 +311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="52" selection-start="1973" selection-end="1973" vertical-scroll-proportion="1.1219512">
+        <state line="45" column="8" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.5365854">
           <folding />
         </state>
       </provider>

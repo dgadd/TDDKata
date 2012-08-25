@@ -44,11 +44,21 @@
     NSMutableString *negativeNumbers = [NSMutableString string];
     for (NSString *numberString in array) {
         NSInteger number = [numberString integerValue];
-        if (number < 0)
-            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
-        total += number;
+        [self accumulateNegativeNumbersFromString:negativeNumbers number:number];
+        total = [self incrementTotalWhenLessThanOneThousand:total number:number];
     }
     [self guardCondition_negativeNumbersNotAllowed:negativeNumbers];
+    return total;
+}
+
+- (void)accumulateNegativeNumbersFromString:(NSMutableString *)negativeNumbers number:(NSInteger)number {
+    if (number < 0)
+            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
+}
+
+- (int)incrementTotalWhenLessThanOneThousand:(int)total number:(NSInteger)number {
+    if(number < 1001)
+            total += number;
     return total;
 }
 
