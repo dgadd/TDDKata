@@ -22,4 +22,11 @@
     STAssertEquals(expected, result, @"One length input returns equivalent.");
 }
 
+- (void)testAddMethod_twoLengthInput_returnsSum {
+    NSInteger expected = 12;
+    NSInteger result = [sut add:@"8,4"];
+
+    STAssertEquals(expected, result, @"Two length input returns sum.");
+}
+
 @end
