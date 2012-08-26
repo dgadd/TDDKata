@@ -61,4 +61,12 @@
     }
 }
 
+- (void)testAddMethod_customDelimiterInput_returnsSum {
+    NSInteger expected = 14;
+    NSInteger result = [sut add:@"//&\n3,5&6"];
+
+    STAssertEquals(expected, result, @"Custom delimiter input should return sum");
+}
+
+
 @end
