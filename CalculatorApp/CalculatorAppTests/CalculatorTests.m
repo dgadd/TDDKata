@@ -44,4 +44,11 @@
     STAssertEquals(expected, result, @"Two length input returns sum.");
 }
 
+- (void)testAddMethod_newLineInput_returnsSum {
+    NSInteger expected = 14;
+    NSInteger result = [sut add:@"8,4\n2"];
+
+    STAssertEquals(expected, result, @"New line input returns sum.");
+}
+
 @end
