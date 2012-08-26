@@ -9,14 +9,14 @@
     numbersToAdd = [self handleCustomDelimiters:numbersToAdd];
     numbersToAdd = [self handleNewLineDelimiters:numbersToAdd];
     [self guardCondition_rejectDuplicateDelimiters:numbersToAdd];
-    if([numbersToAdd rangeOfString:@","].location > 0)
+    if ([numbersToAdd rangeOfString:@","].location > 0)
         return [self sum:numbersToAdd];
 
     return [numbersToAdd length] > 0 ? [numbersToAdd integerValue] : 0;
 }
 
 - (NSString *)handleCustomDelimiters:(NSString *)numbersToAdd {
-    if([numbersToAdd hasPrefix:@"//"]) {
+    if ([numbersToAdd hasPrefix:@"//"]) {
         NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
         NSString *suffix = [numbersToAdd substringWithRange:NSMakeRange(4, [numbersToAdd length] - 4)];
         numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
@@ -25,7 +25,7 @@
 }
 
 - (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
-    if([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
         [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
 }
 
@@ -37,9 +37,15 @@
 - (NSInteger)sum:(NSString *)numbersToAdd {
     NSArray *array = [numbersToAdd componentsSeparatedByString:@","];
     NSInteger total = 0;
+    NSMutableString *negativeNumbers = [NSMutableString string];
     for (NSString *numberString in array) {
-            total += [numberString integerValue];
-        }
+        NSInteger number = [numberString integerValue];
+        if (number < 0)
+            [negativeNumbers appendString:[NSString stringWithFormat:@"%d,",number]];
+        total += number;
+    }
+    if ([negativeNumbers length] > 0)
+        [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: %@", negativeNumbers];
     return total;
 }
 @end
