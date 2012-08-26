@@ -85,6 +85,12 @@
     STAssertEquals(expected, result, @"Numbers > 1000 should be ignored");
 }
 
+- (void)testAddMethod_customMultiLengthDelimiterInput_returnsSum {
+    NSInteger expected = 14;
+    NSInteger result = [sut add:@"//[#####]\n3,5#####6"];
+
+    STAssertEquals(expected, result, @"Custom multi-length delimiter input should return sum");
+}
 
 
 @end

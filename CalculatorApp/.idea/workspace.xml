@@ -29,10 +29,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NSRange.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="12" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.902439">
+            <state line="24" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.50731707">
               <folding />
             </state>
           </provider>
@@ -50,7 +59,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="71" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.0">
+            <state line="89" column="53" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -176,10 +185,12 @@
       <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_negativeNumbers_throwsException]" />
-        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_negativeNumbers_throwsException]" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CalculatorApp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customMultiLengthDelimiterInput_returnsSum]" />
+        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customMultiLengthDelimiterInput_returnsSum]" />
+        <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="3" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="4" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +281,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="76" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -290,16 +301,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="71" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.0">
+        <state line="89" column="53" selection-start="3001" selection-end="3001" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="14" selection-start="4609" selection-end="4609" vertical-scroll-proportion="0.3324937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="12" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.902439">
+        <state line="24" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.50731707">
           <folding />
         </state>
       </provider>
