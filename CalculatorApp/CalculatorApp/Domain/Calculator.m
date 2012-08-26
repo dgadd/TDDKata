@@ -40,12 +40,21 @@
     NSMutableString *negativeNumbers = [NSMutableString string];
     for (NSString *numberString in array) {
         NSInteger number = [numberString integerValue];
-        if (number < 0)
-            [negativeNumbers appendString:[NSString stringWithFormat:@"%d,",number]];
-        total += number;
+        [self checkFor:negativeNumbers number:number];
+        if (number < 1001)
+            total += number;
     }
+    [self guardCondition_rejectNegativeNumbers:negativeNumbers];
+    return total;
+}
+
+- (void)checkFor:(NSMutableString *)negativeNumbers number:(NSInteger)number {
+    if (number < 0)
+            [negativeNumbers appendString:[NSString stringWithFormat:@"%d,",number]];
+}
+
+- (void)guardCondition_rejectNegativeNumbers:(NSMutableString *)negativeNumbers {
     if ([negativeNumbers length] > 0)
         [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: %@", negativeNumbers];
-    return total;
 }
 @end
