@@ -16,12 +16,20 @@
 }
 
 - (NSString *)handleCustomDelimiter:(NSString *)numbersToAdd {
-    if ([numbersToAdd hasPrefix:@"//"]) {
+    if (![numbersToAdd hasPrefix:@"//"])
+        return numbersToAdd;
+
+    if ([numbersToAdd rangeOfString:@"["].location != NSNotFound) {
+        NSInteger leftBrace = [numbersToAdd rangeOfString:@"["].location;
+        NSInteger rightBrace = [numbersToAdd rangeOfString:@"]"].location;
+        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(leftBrace+1, rightBrace - leftBrace - 1)];
+        NSString *suffix = [numbersToAdd substringFromIndex:rightBrace + 2];
+        return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    } else{
         NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
         NSString *suffix = [numbersToAdd substringFromIndex:4];
-        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+        return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
     }
-    return numbersToAdd;
 }
 
 - (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
