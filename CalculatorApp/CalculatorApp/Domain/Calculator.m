@@ -41,7 +41,8 @@
     for (NSString *numberString in array) {
         NSInteger number = [numberString integerValue];
         [self checkForNegativeNumbers:negativeNumbers number:number];
-        total += number;
+        if (number < 1001)
+            total += number;
     }
     [self guardCondition_rejectNegativeNumbers:negativeNumbers];
     return total;
@@ -54,6 +55,6 @@
 
 - (void)checkForNegativeNumbers:(NSMutableString *)negativeNumbers number:(NSInteger)number {
     if (number < 0)
-            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,",number]];
+        [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
 }
 @end
