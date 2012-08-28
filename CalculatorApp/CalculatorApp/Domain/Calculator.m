@@ -20,16 +20,27 @@
         return numbersToAdd;
 
     if ([numbersToAdd rangeOfString:@"["].location != NSNotFound) {
-        NSInteger leftBrace = [numbersToAdd rangeOfString:@"["].location;
+        NSArray *customDelimiters = [self parseCustomDelimiters:numbersToAdd];
+
         NSInteger rightBrace = [numbersToAdd rangeOfString:@"]"].location;
-        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(leftBrace+1, rightBrace - leftBrace - 1)];
         NSString *suffix = [numbersToAdd substringFromIndex:rightBrace + 2];
-        return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+        for(NSString *delimiter in customDelimiters) {
+            suffix = [suffix stringByReplacingOccurrencesOfString:delimiter withString:@","];
+        }
+        return suffix;
     } else{
         NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
         NSString *suffix = [numbersToAdd substringFromIndex:4];
         return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
     }
+}
+
+- (NSArray *)parseCustomDelimiters:(NSString *)numbersToAdd {
+    NSInteger endOfPrefix = [numbersToAdd rangeOfString:@"\n"].location;
+    NSString *prefix = [numbersToAdd substringWithRange:NSMakeRange(2, endOfPrefix - 2)];
+    NSCharacterSet *characterSet = [NSCharacterSet characterSetWithCharactersInString:@"[]"];
+    NSArray *customDelimiters = [prefix componentsSeparatedByCharactersInSet:characterSet];
+    return customDelimiters;
 }
 
 - (void)guardCondition_rejectDuplicateDelimiters:(NSString *)numbersToAdd {
