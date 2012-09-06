@@ -6,6 +6,6 @@
 }
 
 - (NSInteger)add:(NSString *)numbersToAdd {
-        return 0;
+    return [numbersToAdd length] > 0 ? [numbersToAdd integerValue] : 0;
 }
 @end
