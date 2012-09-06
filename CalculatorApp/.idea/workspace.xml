@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="12" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.40487805">
+            <state line="30" column="0" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.51463413">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="63" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.0">
+            <state line="88" column="53" selection-start="3095" selection-end="3095" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -163,6 +163,18 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="-[CalculatorTests testAddMethod_multiLengthCustomDelimiterInput_returnsSum]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CalculatorTests testAddMethod_multiLengthCustomDelimiterInput_returnsSum]" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorAppTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CalculatorTests" TEST_METHOD="testAddMethod_multiLengthCustomDelimiterInput_returnsSum">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorAppTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="CalculatorTests" TEST_METHOD="testAddMethod_customDelimiterInput_returnsSum">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="CalculatorApp" TARGET_NAME="CalculatorAppTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE">
       <envs />
       <method />
@@ -177,15 +189,20 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CalculatorApp" />
       <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
       <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_oneLengthInput_returnsEquivalent]" />
+      <item index="3" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_multiLengthCustomDelimiterInput_returnsSum]" />
+      <item index="4" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_oneLengthInput_returnsEquivalent]" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CalculatorApp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="1" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="2" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="3" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_customDelimiterInput_returnsSum]" />
+        <item index="4" class="java.lang.String" itemvalue="OCUnit.-[CalculatorTests testAddMethod_multiLengthCustomDelimiterInput_returnsSum]" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +293,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="66" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -296,7 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="63" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.0">
+        <state line="88" column="53" selection-start="3095" selection-end="3095" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -305,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="12" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.40487805">
+        <state line="30" column="0" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.51463413">
           <folding />
         </state>
       </provider>
