@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="8" column="4" selection-start="106" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="42" selection-start="1196" selection-end="1196" vertical-scroll-proportion="1.1585366">
+            <state line="44" column="29" selection-start="1264" selection-end="1264" vertical-scroll-proportion="1.0121951">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -276,7 +276,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -296,14 +296,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+        <state line="8" column="4" selection-start="106" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1196" selection-end="1196" vertical-scroll-proportion="1.1585366">
+        <state line="44" column="29" selection-start="1264" selection-end="1264" vertical-scroll-proportion="1.0121951">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
