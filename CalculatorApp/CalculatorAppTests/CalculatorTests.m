@@ -58,4 +58,12 @@
         STAssertEqualObjects(@"You cannot input duplicate delimiters.", [ex description], @"The expected exception description should match.");
     }
 }
+
+- (void)testAddMethod_customDelimiterInput_returnsSum {
+    NSInteger expected = 14;
+    NSInteger result = [sut add:@"//$\n4$5,3\n2"];
+
+    STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
+}
+
 @end
