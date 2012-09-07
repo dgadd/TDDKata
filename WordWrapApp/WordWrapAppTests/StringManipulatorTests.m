@@ -35,4 +35,14 @@
     STAssertEqualObjects(expected, result, @"When break at word boundaries is true, result should break at word boundaries within specified column width.");
 }
 
+- (void)testWrapTextByColumnWidthMethod_inputTextLessThanColumnWidth_lineIsReturnedWithNoBreaks {
+    NSString *input = @"Short input";
+    NSString *expected = input;
+
+    NSString *result = [sut wrapText:input byColumnWidth:20 breakWhere:YES];
+
+    STAssertEqualObjects(expected, result, @"When input text is less than column width, line should be returned with no breaks.");
+}
+
+
 @end

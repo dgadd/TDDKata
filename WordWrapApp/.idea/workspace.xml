@@ -50,7 +50,7 @@
       <file leaf-file-name="StringManipulatorTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="83" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.6599496">
+            <state line="43" column="127" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.8488665">
               <folding />
             </state>
           </provider>
@@ -288,7 +288,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -315,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="83" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.6599496">
+        <state line="43" column="127" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.8488665">
           <folding />
         </state>
       </provider>
