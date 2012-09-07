@@ -5,23 +5,34 @@
 
 }
 
-- (NSString *)wrapText:(NSString *)inputText byColumnWidth:(int)width breakWhere:(BOOL)atWordBoundaries {
+- (NSString *)wrapText:(NSString *)inputText byColumnWidth:(NSInteger)width wordBreak:(BOOL)wordBreak {
     if (width == 0)
         return inputText;
 
+    [self guardCondition_columnWidthMustBeAtLeast20:width];
     NSMutableString *versionWithLineBreaks = [NSMutableString string];
     if(width > 19) {
         while ([inputText length] > width) {
             NSString *segment = [inputText substringToIndex:width];
-            if (atWordBoundaries) {
-                NSInteger lastIndexOf = [segment rangeOfString:@" " options:NSBackwardsSearch].location;
-                segment = [segment substringToIndex:lastIndexOf + 1];
-            }
+            segment = [self ifWordBreak:wordBreak useWordBreakFor:segment];
             [versionWithLineBreaks appendString:[NSString stringWithFormat:@"%@\n", segment]];
             inputText = [inputText stringByReplacingOccurrencesOfString:segment withString:@""];
         }
         [versionWithLineBreaks appendString:[NSString stringWithFormat:@"%@", inputText]];
     }
     return versionWithLineBreaks;
+}
+
+- (NSString *)ifWordBreak:(BOOL)wordBreak useWordBreakFor:(NSString *)segment {
+    if (wordBreak) {
+                NSInteger lastIndexOf = [segment rangeOfString:@" " options:NSBackwardsSearch].location;
+                segment = [segment substringToIndex:lastIndexOf + 1];
+            }
+    return segment;
+}
+
+- (void)guardCondition_columnWidthMustBeAtLeast20:(NSInteger)width {
+    if(width < 20)
+        [NSException raise:@"ColumnWidthTooNarrowException" format:@"Column width must be at least 20."];
 }
 @end
