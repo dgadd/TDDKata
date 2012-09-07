@@ -54,5 +54,15 @@
     }
 }
 
+- (void)testWrapTextByColumnWidthMethod_wordLengthGreaterThanTwenty_throwsException {
+    @try {
+        [sut wrapText:@"supercalifragilisticexpialidotious" byColumnWidth:20 wordBreak:YES];
+        STAssertFalse(true, @"When word break true, words > 20 length should throw exception");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"WordLengthGreaterThanWordBreakException", [ex name], @"The exception name does not match expected");
+        STAssertEqualObjects(@"Words greater width than column width cannot word break.", [ex description], @"The exception description does not match expected");
+    }
+}
+
 
 @end
