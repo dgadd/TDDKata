@@ -2,5 +2,6 @@
 
 
 @interface StringManipulator : NSObject
-- (NSString *)wrapText:(NSString *)inputText byColumnWidth:(NSInteger)width;
+
+- (NSString *)wrapText:(NSString *)inputText byColumnWidth:(int)width breakWhere:(BOOL)atWordBoundaries;
 @end
