@@ -1,5 +1,6 @@
 #import "StringManipulatorTests.h"
 #import "StringManipulator.h"
+#import "NSString+StringUtils.h"
 
 @implementation StringManipulatorTests
 

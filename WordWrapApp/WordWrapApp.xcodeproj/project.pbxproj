@@ -14,12 +14,14 @@
 		5B1796608092BBF6EB9FA643 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179AA8CF7C2BEBD52E440E /* SenTestingKit.framework */; };
 		5B1797350DE1CD60AB5AD563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179571C4F9D72E4F7D2628 /* InfoPlist.strings */; };
 		5B1798340F45A389C07A8F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E20ED7943357BB6B372 /* UIKit.framework */; };
+		5B17984EBF5B997301D9878C /* NSString+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179499E4865655C48EA776 /* NSString+StringUtils.m */; };
 		5B179A0BB461FF5D111474BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E20ED7943357BB6B372 /* UIKit.framework */; };
 		5B179A15F4B982B470373374 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179D9A16432DD2B61864DC /* CoreGraphics.framework */; };
 		5B179A4AD4DE181487C19100 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179B0A6EA7A7D206558842 /* InfoPlist.strings */; };
 		5B179B06954E6365F07697FA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179C25391EF0AB5B7597A8 /* ViewController.xib */; };
 		5B179BE6028E03C4DD81B62E /* StringManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1798671F86349252667702 /* StringManipulator.m */; };
 		5B179D1784C9D667E7C51D86 /* StringManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179C8752D43FE69423BA27 /* StringManipulatorTests.m */; };
+		5B179D976203C8ABD7DAA796 /* StringUtilsCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179079DC3761FB3B88C6D8 /* StringUtilsCategoryTests.m */; };
 		5B179EF3DB39CBE1F37BEE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1797D7B8C0179DF5F4AADF /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,9 @@
 
 /* Begin PBXFileReference section */
 		5B17903E27F58B092CD24C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B179043C4747E3DCDECB8CB /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
+		5B179079DC3761FB3B88C6D8 /* StringUtilsCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilsCategoryTests.m; sourceTree = "<group>"; };
+		5B1790F8A292B2C6548AC3B3 /* StringUtilsCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilsCategoryTests.h; sourceTree = "<group>"; };
 		5B179163B712B3ECD874F797 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		5B1791A676E92C536C60376D /* WordWrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B179295120FB57926CEC7CF /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
@@ -42,6 +47,7 @@
 		5B1793114E54146C22D88D30 /* WordWrapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapApp-Info.plist"; sourceTree = "<group>"; };
 		5B17938FBD7314F5E01007CA /* WordWrapAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1793D81E8DB059B7433C1B /* StringManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringManipulator.h; sourceTree = "<group>"; };
+		5B179499E4865655C48EA776 /* NSString+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtils.m"; sourceTree = "<group>"; };
 		5B1795AACD17D4B5E9FDC70E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B1797096807795ACCF8A9A6 /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
 		5B1797D7B8C0179DF5F4AADF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +154,8 @@
 		5B179EFAE568DBA1E441D984 /* WordWrapAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B179079DC3761FB3B88C6D8 /* StringUtilsCategoryTests.m */,
+				5B1790F8A292B2C6548AC3B3 /* StringUtilsCategoryTests.h */,
 				5B179C8752D43FE69423BA27 /* StringManipulatorTests.m */,
 				5B179DFE8D1D6FC23097A602 /* StringManipulatorTests.h */,
 				5B179CD26774BB6F4D773108 /* Supporting Files */,
@@ -158,6 +166,8 @@
 		5B179FDC865869F0702346C8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B179043C4747E3DCDECB8CB /* NSString+StringUtils.h */,
+				5B179499E4865655C48EA776 /* NSString+StringUtils.m */,
 				5B1793D81E8DB059B7433C1B /* StringManipulator.h */,
 				5B1798671F86349252667702 /* StringManipulator.m */,
 			);
@@ -268,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B179D1784C9D667E7C51D86 /* StringManipulatorTests.m in Sources */,
+				5B179D976203C8ABD7DAA796 /* StringUtilsCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +290,7 @@
 				5B17918E7EC039F48E71B08B /* AppDelegate.m in Sources */,
 				5B1790414A1A5EEF18F3E738 /* ViewController.m in Sources */,
 				5B179BE6028E03C4DD81B62E /* StringManipulator.m in Sources */,
+				5B17984EBF5B997301D9878C /* NSString+StringUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

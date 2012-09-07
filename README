@@ -27,6 +27,4 @@ Create a string manipulation class with method Wrap(string) byColumnWidth(int wi
 
 6) When words are included that are > than column width, reject the line as not compatible with word wrap
 
-7) Add parameter breakWords which when true, breaks words > column width at the column-width length, less the hyphen.
-
-8) Convert the class to be an NSString category extension
+7) Convert the class to be an NSString category extension
