@@ -1,0 +1,30 @@
+WORD WRAP KATA
+Source: http://codingdojo.org/cgi-bin/wiki.pl?KataWordWrap
+
+Original:
+
+Problem Description
+
+You write a class called Wrapper, that has a single static function named wrap that takes two arguments, a string, and a column number. The function returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the column number. You try to break lines at word boundaries.
+
+Like a word processor, break the line by replacing the last space in a line with a newline. 
+
+MODIFIED VERSION
+
+Modified to have "steps-per-test" as follows:
+
+Create a string manipulation class with method Wrap(string) byColumnWidth(int width)
+
+1) When the column width is 0, the string should have no line breaks.
+
+2) When the column width is > 19, the string should return with line breaks at exactly the width specified
+
+3) Add a new boolean parameter breakAtWordBoundaries which when true, breaks the line at word boundaries
+
+4) When the column width < 20, the column width is rejected as too short for a line wrap
+
+5) When words are included that are > than column width, reject the line as not compatible with word wrap
+
+6) Add parameter breakWords which when true, breaks words > column width at the column-width length, less the hyphen.
+
+7) Convert the class to be an NSString category extension

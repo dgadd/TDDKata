@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringManipulator.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StringManipulator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+            <state line="18" column="75" selection-start="679" selection-end="679" vertical-scroll-proportion="0.63414633">
               <folding />
             </state>
           </provider>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringManipulatorTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StringManipulatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="56" selection-start="593" selection-end="658" vertical-scroll-proportion="0.60453403">
+            <state line="21" column="203" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.h" />
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.h" />
-        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.m" />
         <option value="$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.m" />
       </list>
     </option>
   </component>
@@ -169,6 +169,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="-[StringManipulatorTests testWrapTextByColumnWidthMethod_greaterThanNineteenLengthInput_lineHasNoBreaks]" type="OCUnitRunConfiguration" factoryName="OCUnit" temporary="true" SCHEME_NAME="-[StringManipulatorTests testWrapTextByColumnWidthMethod_greaterThanNineteenLengthInput_lineHasNoBreaks]" PROJECT_NAME="WordWrapApp" TARGET_NAME="WordWrapAppTests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_CLASS="StringManipulatorTests" TEST_METHOD="testWrapTextByColumnWidthMethod_greaterThanNineteenLengthInput_lineHasNoBreaks">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="WordWrapApp" TARGET_NAME="WordWrapAppTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE">
       <envs />
       <method />
@@ -183,13 +189,15 @@
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.WordWrapApp" />
       <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="2" class="java.lang.String" itemvalue="OCUnit.-[StringManipulatorTests testWrapTextByColumnWidthMethod_greaterThanNineteenLengthInput_lineHasNoBreaks]" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.WordWrapApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="OCUnit.-[StringManipulatorTests testWrapTextByColumnWidthMethod_greaterThanNineteenLengthInput_lineHasNoBreaks]" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordWrapApp" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +218,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -280,7 +288,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -298,16 +306,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.m">
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+        <state line="21" column="203" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringManipulatorTests.m">
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringManipulator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="593" selection-end="658" vertical-scroll-proportion="0.60453403">
+        <state line="18" column="75" selection-start="679" selection-end="679" vertical-scroll-proportion="0.63414633">
           <folding />
         </state>
       </provider>
