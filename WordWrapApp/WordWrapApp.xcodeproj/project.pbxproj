@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B17905489389A1CFB9BED9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E0D22723644A36A2F81 /* UIKit.framework */; };
+		5B1790A44D9F4A9D461F7D24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179CBE9F2324EA759E6974 /* ViewController.m */; };
+		5B17925D8FCBAB800A46F95F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17949F0BEF62441C9DF993 /* Foundation.framework */; };
+		5B1792724FC5303AF2B3500D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E0D22723644A36A2F81 /* UIKit.framework */; };
+		5B1793FCEF80BF9C3F55F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179399CF48591D6D4C7563 /* AppDelegate.m */; };
+		5B17941373881F09523B595E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1794C9D5670270D1AD0456 /* InfoPlist.strings */; };
+		5B17975B6571478435C9CA6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1797C21A3C422B777B2302 /* InfoPlist.strings */; };
+		5B17991872229E90363DD184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1797DE47F6E1E53CA3D0F3 /* main.m */; };
+		5B17991B9C173AF90D867281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1797BCC82522447C55CCD0 /* CoreGraphics.framework */; };
+		5B179C3D56EB2BD41130C521 /* StringManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179A35A80FCCA184919E79 /* StringManipulator.m */; };
+		5B179D0AE5A146D50A16BEC3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179C7E4D3ADAB2FA21F2B6 /* SenTestingKit.framework */; };
+		5B179DA9301FEACDD66529A8 /* StringManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179D455F0775F74FE2FB89 /* StringManipulatorTests.m */; };
+		5B179F08C83B156F287AF2E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17949F0BEF62441C9DF993 /* Foundation.framework */; };
+		5B179F3919CB9A51E73631FB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B17946F16B389D26465E1D4 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B179BED6F4ADB52268FEAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B179D4AE69A507CA79CD94A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1792A7502B4E15612B827A;
+			remoteInfo = WordWrapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B179313CEFFE25297E3408D /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B17938D675B1E74AAA0862B /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
+		5B179399CF48591D6D4C7563 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B1793F5AB22C8B4D06F5723 /* StringManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringManipulator.h; sourceTree = "<group>"; };
+		5B17949F0BEF62441C9DF993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B1794E619660C5B5DFCBE12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B17970AAEDDBDCF7BD478DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B1797633D480A7DF1FAD2CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B1797BCC82522447C55CCD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1797DE47F6E1E53CA3D0F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B179858C7E39C87D861C5C9 /* WordWrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B17989B33F34A597AE747B5 /* StringManipulatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringManipulatorTests.h; sourceTree = "<group>"; };
+		5B179A278F60710E7B58581B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B179A35A80FCCA184919E79 /* StringManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringManipulator.m; sourceTree = "<group>"; };
+		5B179ADE3341D42211A23E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B179C3204A6219336E0B31A /* WordWrapAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179C7E4D3ADAB2FA21F2B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B179CBE9F2324EA759E6974 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B179D455F0775F74FE2FB89 /* StringManipulatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringManipulatorTests.m; sourceTree = "<group>"; };
+		5B179E0D22723644A36A2F81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B179EA47A21100A866062CD /* WordWrapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapApp-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1796BA8646D412EBAA6096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179D0AE5A146D50A16BEC3 /* SenTestingKit.framework in Frameworks */,
+				5B17905489389A1CFB9BED9C /* UIKit.framework in Frameworks */,
+				5B17925D8FCBAB800A46F95F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B179800801B25D90CC12ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1792724FC5303AF2B3500D /* UIKit.framework in Frameworks */,
+				5B179F08C83B156F287AF2E5 /* Foundation.framework in Frameworks */,
+				5B17991B9C173AF90D867281 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1792A08C0063CDA608C0FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B179C7E4D3ADAB2FA21F2B6 /* SenTestingKit.framework */,
+				5B1797BCC82522447C55CCD0 /* CoreGraphics.framework */,
+				5B17949F0BEF62441C9DF993 /* Foundation.framework */,
+				5B179E0D22723644A36A2F81 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B1792D7FCC27828684517CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1797C21A3C422B777B2302 /* InfoPlist.strings */,
+				5B17938D675B1E74AAA0862B /* WordWrapAppTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B1793404AD8823499C22614 = {
+			isa = PBXGroup;
+			children = (
+				5B17985B6146A051C4D9C46E /* Products */,
+				5B1792A08C0063CDA608C0FA /* Frameworks */,
+				5B17964123538F2443FEF757 /* WordWrapApp */,
+				5B179936A7F8A7E5526B027D /* WordWrapAppTests */,
+			);
+			sourceTree = "<group>";
+		};
+		5B17964123538F2443FEF757 /* WordWrapApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B17946F16B389D26465E1D4 /* ViewController.xib */,
+				5B179CBE9F2324EA759E6974 /* ViewController.m */,
+				5B1794E619660C5B5DFCBE12 /* ViewController.h */,
+				5B179399CF48591D6D4C7563 /* AppDelegate.m */,
+				5B179ADE3341D42211A23E2F /* AppDelegate.h */,
+				5B179663B4F93CA2972790A9 /* Supporting Files */,
+				5B17975A22D54CD9B5368A83 /* Utils */,
+			);
+			path = WordWrapApp;
+			sourceTree = "<group>";
+		};
+		5B179663B4F93CA2972790A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B179313CEFFE25297E3408D /* WordWrapApp-Prefix.pch */,
+				5B1797DE47F6E1E53CA3D0F3 /* main.m */,
+				5B1794C9D5670270D1AD0456 /* InfoPlist.strings */,
+				5B179EA47A21100A866062CD /* WordWrapApp-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B17975A22D54CD9B5368A83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B1793F5AB22C8B4D06F5723 /* StringManipulator.h */,
+				5B179A35A80FCCA184919E79 /* StringManipulator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5B17985B6146A051C4D9C46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B179858C7E39C87D861C5C9 /* WordWrapApp.app */,
+				5B179C3204A6219336E0B31A /* WordWrapAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B179936A7F8A7E5526B027D /* WordWrapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B179D455F0775F74FE2FB89 /* StringManipulatorTests.m */,
+				5B17989B33F34A597AE747B5 /* StringManipulatorTests.h */,
+				5B1792D7FCC27828684517CB /* Supporting Files */,
+			);
+			path = WordWrapAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B17915684C21376A6EC7450 /* WordWrapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1792A93FA3E02A9B852873 /* Build configuration list for PBXNativeTarget "WordWrapAppTests" */;
+			buildPhases = (
+				5B1794BB021D123A1CAF5C3C /* Sources */,
+				5B1796BA8646D412EBAA6096 /* Frameworks */,
+				5B1792797418AD4E89F77C22 /* Resources */,
+				5B179900D2506AA35FE81812 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B179D57D4C2E0F6306D0D38 /* PBXTargetDependency */,
+			);
+			name = WordWrapAppTests;
+			productName = WordWrapAppTests;
+			productReference = 5B179C3204A6219336E0B31A /* WordWrapAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B1792A7502B4E15612B827A /* WordWrapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B179DC2B89DE3326F9DE109 /* Build configuration list for PBXNativeTarget "WordWrapApp" */;
+			buildPhases = (
+				5B179A01455AD932735FE1B4 /* Sources */,
+				5B179800801B25D90CC12ACC /* Frameworks */,
+				5B179452152204378D5D576C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordWrapApp;
+			productName = WordWrapApp;
+			productReference = 5B179858C7E39C87D861C5C9 /* WordWrapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B179D4AE69A507CA79CD94A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B179CA433605529306F6D46 /* Build configuration list for PBXProject "WordWrapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B1793404AD8823499C22614;
+			productRefGroup = 5B17985B6146A051C4D9C46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1792A7502B4E15612B827A /* WordWrapApp */,
+				5B17915684C21376A6EC7450 /* WordWrapAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1792797418AD4E89F77C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B17975B6571478435C9CA6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B179452152204378D5D576C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B17941373881F09523B595E /* InfoPlist.strings in Resources */,
+				5B179F3919CB9A51E73631FB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B179900D2506AA35FE81812 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1794BB021D123A1CAF5C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179DA9301FEACDD66529A8 /* StringManipulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B179A01455AD932735FE1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B17991872229E90363DD184 /* main.m in Sources */,
+				5B1793FCEF80BF9C3F55F0C6 /* AppDelegate.m in Sources */,
+				5B1790A44D9F4A9D461F7D24 /* ViewController.m in Sources */,
+				5B179C3D56EB2BD41130C521 /* StringManipulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B179D57D4C2E0F6306D0D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1792A7502B4E15612B827A /* WordWrapApp */;
+			targetProxy = 5B179BED6F4ADB52268FEAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B17946F16B389D26465E1D4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B17970AAEDDBDCF7BD478DA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		5B1794C9D5670270D1AD0456 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B179A278F60710E7B58581B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B1797C21A3C422B777B2302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1797633D480A7DF1FAD2CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1790AEBCAE0CF96F79B7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B17927AF7976C18468DE00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordWrapApp.app/WordWrapApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordWrapApp/WordWrapApp-Prefix.pch";
+				INFOPLIST_FILE = "WordWrapAppTests/WordWrapAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B179508596A7EDBA8E490F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordWrapApp/WordWrapApp-Prefix.pch";
+				INFOPLIST_FILE = "WordWrapApp/WordWrapApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B179731C3A3EA24ED0BA7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordWrapApp.app/WordWrapApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordWrapApp/WordWrapApp-Prefix.pch";
+				INFOPLIST_FILE = "WordWrapAppTests/WordWrapAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		5B179839FA257F239BD86FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B179CA5F9733D78B61D0112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordWrapApp/WordWrapApp-Prefix.pch";
+				INFOPLIST_FILE = "WordWrapApp/WordWrapApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1792A93FA3E02A9B852873 /* Build configuration list for PBXNativeTarget "WordWrapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B179731C3A3EA24ED0BA7D8 /* Release */,
+				5B17927AF7976C18468DE00E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B179CA433605529306F6D46 /* Build configuration list for PBXProject "WordWrapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1790AEBCAE0CF96F79B7EC /* Release */,
+				5B179839FA257F239BD86FB7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B179DC2B89DE3326F9DE109 /* Build configuration list for PBXNativeTarget "WordWrapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B179508596A7EDBA8E490F3 /* Release */,
+				5B179CA5F9733D78B61D0112 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B179D4AE69A507CA79CD94A /* Project object */;
+}
