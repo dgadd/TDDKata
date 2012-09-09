@@ -6,7 +6,7 @@
 }
 
 - (NSString *)wrapLine:(NSString *)input byColumnWidth:(int)width {
-    if(width == 0)
+    if(width == 0 || width > [input length])
         return input;
 
     NSMutableString *inputWithLineBreaks = [NSMutableString string];

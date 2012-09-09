@@ -17,13 +17,22 @@
     STAssertEqualObjects(expected, result, @"When column width is 0, result should have no line breaks.");
 }
 
-- (void)testWrapLineByColumnWidthMethod_inputAndColumnWidthTwenty_returnHasNoExactBreaks {
+- (void)testWrapLineByColumnWidthMethod_inputAndColumnWidthTwenty_returnHasExactBreaks {
     NSString *input = @"Here is some input that is greater than 20 character long, with almost-maybe some hyphens.";
     NSString *expected = @"Here is some input t\nhat is greater than \n20 character long, w\nith almost-maybe som\ne hyphens.\n";
 
     NSString *result = [sut wrapLine:input byColumnWidth:20];
 
     STAssertEqualObjects(expected, result, @"When column width is 20, result should have exact line breaks.");
+}
+
+- (void)testWrapLineByColumnWidthMethod_inputLengthLessThanColumnWidth_returnHasNoBreaks {
+    NSString *input = @"A short line";
+    NSString *expected = input;
+
+    NSString *result = [sut wrapLine:input byColumnWidth:20];
+
+    STAssertEqualObjects(expected, result, @"When input line length is shorter than column width, result should have no line breaks.");
 }
 
 @end
