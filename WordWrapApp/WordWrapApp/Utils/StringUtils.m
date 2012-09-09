@@ -14,16 +14,23 @@
     NSMutableString *inputWithLineBreaks = [NSMutableString string];
     while ([input length] > width) {
         NSString *segment = [input substringToIndex:width];
-        if (wordBreak) {
-            NSInteger breakPosition = [segment rangeOfString:@" " options:NSBackwardsSearch].location;
-            segment = [segment substringToIndex:breakPosition + 1];
-        }
+        segment = [self guardCondition_handleWordBreaksOn:segment ifWordBreak:wordBreak];
         input = [input stringByReplacingOccurrencesOfString:segment withString:@""];
         [inputWithLineBreaks appendString:[NSString stringWithFormat:@"%@\n", segment]];
     }
     [inputWithLineBreaks appendString:[NSString stringWithFormat:@"%@\n", input]];
 
     return inputWithLineBreaks;
+}
+
+- (NSString *)guardCondition_handleWordBreaksOn:(NSString *)segment ifWordBreak:(BOOL)wordBreak {
+    if (wordBreak) {
+        NSInteger breakPosition = [segment rangeOfString:@" " options:NSBackwardsSearch].location;
+        if (breakPosition == NSNotFound)
+            [NSException raise:@"WordsLongerThanWordBreakWidthException" format:@"The word %@ is longer than word break width.", segment];
+        return [segment substringToIndex:breakPosition + 1];
+    }
+    return segment;
 }
 
 - (void)guardCondition_widthLessThanTwentyIsNotAllowed:(int)width {

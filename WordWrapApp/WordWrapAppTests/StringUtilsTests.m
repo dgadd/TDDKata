@@ -54,4 +54,14 @@
     STAssertEqualObjects(expected, result, @"When word break is true, result should have word breaks.");
 }
 
+- (void)testWrapLineByColumnWidthMethod_includesWordLongerThanColumnWidth_throwsException {
+    @try {
+        [sut wrapLine:@"My supercalifragilisticexpialidotious day." byColumnWidth:20 andWordBreak:YES];
+        STAssertFalse(true, @"Words longer than column width when word break true should throw exception");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"WordsLongerThanWordBreakWidthException", [ex name], @"The expected exception name was not returned.");
+        STAssertEqualObjects(@"The word supercalifragilistic is longer than word break width.", [ex description], @"The expected exception description was not returned.");
+    }
+}
+
 @end

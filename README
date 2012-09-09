@@ -24,6 +24,6 @@ Create a string manipulation class with method wrapLine(input) byColumnWidth(int
 
 5) Add a new boolean parameter breakAtWordBoundaries which when true, breaks the line at word boundaries, AFTER the space.
 
-6) When words are included that are > than column width, reject the line as not compatible with word wrap
+6) When words are included that are > than column width and word break is true, reject the line as not compatible with word wrap
 
-7) Convert the class to be an NSString category extension
+7) Repeat test #2 only in a new test class against a String category (an extension class).
