@@ -20,43 +20,59 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_5.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringUtils.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="19" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.86901766">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtilsTests.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="60" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
+            <state line="50" column="31" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtils.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSString+StringExtensions.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.14634146">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSString+StringExtensions.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCategoryTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringCategoryTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="39" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -65,6 +81,9 @@
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h" />
         <option value="$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m" />
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.m" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.h" />
+        <option value="$PROJECT_DIR$/WordWrapAppTests/StringCategoryTests.m" />
       </list>
     </option>
   </component>
@@ -189,7 +208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -266,13 +285,13 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="70" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12">
           <folding />
         </state>
       </provider>
@@ -286,14 +305,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="60" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
+        <state line="50" column="31" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.86901766">
+        <state line="21" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringCategoryTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="76" selection-end="76" vertical-scroll-proportion="0.14634146">
           <folding />
         </state>
       </provider>

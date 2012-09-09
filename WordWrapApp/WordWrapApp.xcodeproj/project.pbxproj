@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5B17931AEFDEC19D4B8DB8BB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BA43FD0C99210B16382 /* SenTestingKit.framework */; };
+		5B1793C27A8AA83FB829FCBD /* NSString+StringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179B324B1A3FE8D8C92049 /* NSString+StringExtensions.m */; };
 		5B17943FDFA91E56D3946857 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179B218A926D13E09466EE /* CoreGraphics.framework */; };
 		5B1796E62333F9240893F956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179816DA14B05226CD8098 /* AppDelegate.m */; };
+		5B17987EE020A6A0D8B3214A /* StringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17948C7C7549A343F57769 /* StringCategoryTests.m */; };
 		5B1798885AC853CEA255C2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17957A8D667A70BF6F8B48 /* UIKit.framework */; };
 		5B179944FBD28C9D4A86162A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1791C3A0450B47AFBD12EB /* main.m */; };
 		5B17998AF53F79CC52B06045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1796C8C4A07BFA49E3B418 /* InfoPlist.strings */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		5B1791C3A0450B47AFBD12EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B1792478802398A9E834341 /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B179479BFE3C6054DB64C6F /* NSString+StringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtensions.h"; sourceTree = "<group>"; };
+		5B17948C7C7549A343F57769 /* StringCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCategoryTests.m; sourceTree = "<group>"; };
 		5B17957A8D667A70BF6F8B48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B179731FD875DF36B863EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179816DA14B05226CD8098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,11 +48,13 @@
 		5B1798E849E5AA1B564857B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B179B1F65518BA03EE80BAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B179B218A926D13E09466EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B179B324B1A3FE8D8C92049 /* NSString+StringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtensions.m"; sourceTree = "<group>"; };
 		5B179BA43FD0C99210B16382 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B179CE7EF92D21712DA0E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179D0F1ABF2B81440A2630 /* StringUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilsTests.m; sourceTree = "<group>"; };
 		5B179DEC5E82C5980A0020CB /* WordWrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B179E1EF61E66DA25D9A6FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B179E3CF17527A8A2DAEB0F /* StringCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCategoryTests.h; sourceTree = "<group>"; };
 		5B179E7C025D62A3130821BF /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
 		5B179EA2042B27EC5B7D6DE6 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 		5B179EC20CC209179C51999F /* WordWrapAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +101,8 @@
 		5B179871ABE46C42E87B5F51 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B179479BFE3C6054DB64C6F /* NSString+StringExtensions.h */,
+				5B179B324B1A3FE8D8C92049 /* NSString+StringExtensions.m */,
 				5B179F9AFC1380AF573712C9 /* StringUtils.h */,
 				5B179EA2042B27EC5B7D6DE6 /* StringUtils.m */,
 			);
@@ -104,6 +112,8 @@
 		5B17992BD763B1ACDF91769B /* WordWrapAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B17948C7C7549A343F57769 /* StringCategoryTests.m */,
+				5B179E3CF17527A8A2DAEB0F /* StringCategoryTests.h */,
 				5B179D0F1ABF2B81440A2630 /* StringUtilsTests.m */,
 				5B179ECF5A4AB0F6FC7E04DA /* StringUtilsTests.h */,
 				5B179D2336BFD72844780CFB /* Supporting Files */,
@@ -268,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B179B7E24C0F2B7774B3E4D /* StringUtilsTests.m in Sources */,
+				5B17987EE020A6A0D8B3214A /* StringCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +290,7 @@
 				5B1796E62333F9240893F956 /* AppDelegate.m in Sources */,
 				5B179E4D8B2175D75FCED069 /* ViewController.m in Sources */,
 				5B179D59214F4BCFC7A3B3C5 /* StringUtils.m in Sources */,
+				5B1793C27A8AA83FB829FCBD /* NSString+StringExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
