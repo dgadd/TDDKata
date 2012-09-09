@@ -15,4 +15,11 @@
     STAssertEquals(result, expected, @"Zero length input should return 0");
 }
 
+- (void)testAddMethod_oneLengthInput_returnsEquivalent {
+    NSInteger expected = 8;
+    NSInteger result = [sut add:@"8"];
+
+    STAssertEquals(result, expected, @"One length input should return equivalent");
+}
+
 @end
