@@ -5,7 +5,7 @@
 
 }
 
-- (NSString *)wrapLine:(NSString *)input byColumnWidth:(int)width {
+- (NSString *)wrapLine:(NSString *)input byColumnWidth:(int)width andWordBreak:(BOOL)wordBreak {
     [self guardCondition_widthLessThanTwentyIsNotAllowed:width];
     if(width == 0 || width > [input length])
         return input;
@@ -14,6 +14,10 @@
     NSMutableString *inputWithLineBreaks = [NSMutableString string];
     while ([input length] > width) {
         NSString *segment = [input substringToIndex:width];
+        if (wordBreak) {
+            NSInteger breakPosition = [segment rangeOfString:@" " options:NSBackwardsSearch].location;
+            segment = [segment substringToIndex:breakPosition + 1];
+        }
         input = [input stringByReplacingOccurrencesOfString:segment withString:@""];
         [inputWithLineBreaks appendString:[NSString stringWithFormat:@"%@\n", segment]];
     }
