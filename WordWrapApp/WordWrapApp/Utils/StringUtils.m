@@ -6,8 +6,10 @@
 }
 
 - (NSString *)wrapLine:(NSString *)input byColumnWidth:(int)width {
+    [self guardCondition_widthLessThanTwentyIsNotAllowed:width];
     if(width == 0 || width > [input length])
         return input;
+
 
     NSMutableString *inputWithLineBreaks = [NSMutableString string];
     while ([input length] > width) {
@@ -18,5 +20,10 @@
     [inputWithLineBreaks appendString:[NSString stringWithFormat:@"%@\n", input]];
 
     return inputWithLineBreaks;
+}
+
+- (void)guardCondition_widthLessThanTwentyIsNotAllowed:(int)width {
+    if (width > 0  && width < 20)
+        [NSException raise:@"ColumnWidthTooShortException" format:@"The column width cannot be less than 20."];
 }
 @end
