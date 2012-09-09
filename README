@@ -12,18 +12,18 @@ Modified:
 
 STEP-INSTRUCTION-PER-TEST VERSION
 
-Create a string manipulation class with method wrapLine(input) byColumnWidth(int width)
+Create a string manipulation class with method wrapLine(NSString* input) byColumnWidth(NSInteger width)
 
 1) When the column width is 0, the return value should have no line breaks.
 
-2) When the column width is 20, the return value should have line breaks at exactly the width specified
+2) When the column width is 20, the return value should have line breaks at exactly the width specified.
 
 3) When the input text is shorter than the column width, the return value should have no line breaks.
 
 4) When the column width < 20, the column width is rejected as too short for a line wrap
 
-5) Add a new boolean parameter breakAtWordBoundaries which when true, breaks the line at word boundaries, AFTER the space.
+5) Add a new boolean parameter BOOL breakAtWordBoundaries which when true, breaks the line at word boundaries, AFTER the space.
 
 6) When words are included that are > than column width and word break is true, reject the line as not compatible with word wrap
 
-7) Repeat test #2 only in a new test class against a String category (an extension class).
+7) Repeat test #5 only in a new test class against an string extension / NSString category class.
