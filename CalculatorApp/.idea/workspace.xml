@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="121" selection-start="2040" selection-end="2040" vertical-scroll-proportion="1.2682927">
+            <state line="44" column="12" selection-start="1716" selection-end="1716" vertical-scroll-proportion="1.0121951">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="72" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.0">
+            <state line="84" column="72" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -266,7 +266,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -286,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="72" selection-start="2582" selection-end="2582" vertical-scroll-proportion="0.0">
+        <state line="84" column="72" selection-start="2900" selection-end="2900" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="121" selection-start="2040" selection-end="2040" vertical-scroll-proportion="1.2682927">
+        <state line="44" column="12" selection-start="1716" selection-end="1716" vertical-scroll-proportion="1.0121951">
           <folding />
         </state>
       </provider>
