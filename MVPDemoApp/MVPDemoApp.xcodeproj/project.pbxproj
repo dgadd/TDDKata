@@ -10,6 +10,8 @@
 		5B179032F69F80615A8EF1E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1796A8945CCBD187B3B212 /* SenTestingKit.framework */; };
 		5B179038DACB41251AC8519B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179E6BAB0B859FB87AB69C /* first@2x.png */; };
 		5B17908A43F0B24FD7373CD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1799BE8E4EA9CC4B8FF47C /* InfoPlist.strings */; };
+		5B1792995165A34F6281B810 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 5B179BD8DCF70B23F3245A67 /* README */; };
+		5B1792B889CFD67090C01FD4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1794B5E78F0CC004943D4A /* libOCMock.a */; };
 		5B1792E0B9AA23C720BB943D /* AppDelegatePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17958D8B96E3C34F82F395 /* AppDelegatePresenter.m */; };
 		5B1792E673224DDBA26B4689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1795345F0C5A6CDCD92913 /* InfoPlist.strings */; };
 		5B179493B9C305A944D67C5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179C8CAEA9987F0AABFA71 /* AppDelegate.m */; };
@@ -26,7 +28,6 @@
 		5B179D60D4A5D0772FCFA94D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179130263F6F472323799E /* UIKit.framework */; };
 		5B179D6CA40C62D1699877C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17991AD4DBEDCB6AED4AC0 /* Foundation.framework */; };
 		5B179E5C07CAE9D59F27935D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179049DDEA6863722340CB /* FirstViewController.m */; };
-		5B179F183C1533EDB2122769 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179959A1DD6DAA9ABD9C62 /* libOCMock.a */; };
 		5B179FBB69BCCC7794BB6458 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179F31D47AF3FC21673668 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -44,37 +45,38 @@
 		5B17903F9C3F914D2B1D27C2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		5B179049DDEA6863722340CB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5B179098773DC231D19C7994 /* MVPDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MVPDemoApp-Info.plist"; sourceTree = "<group>"; };
+		5B1790EBD820F49843042839 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B179130263F6F472323799E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B17916AB75142C982492DB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B1791B6F54E24BDDB8F4437 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5B1791E3DB5488359AF9C93A /* IAppDelegateTabRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAppDelegateTabRepository.h; sourceTree = "<group>"; };
-		5B1791EB9ECA975A7F32C536 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B179223F2B6A128B0273C80 /* AppDelegatePresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegatePresenterTests.m; sourceTree = "<group>"; };
 		5B1792240CD50999AFC8392E /* MVPDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MVPDemoAppTests-Info.plist"; sourceTree = "<group>"; };
-		5B1792672CC73CE101C90BCA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B17927A9FEE3509BBE26C3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B1792CD0689FF7DA29CE7AC /* AppDelegatePresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegatePresenterTests.h; sourceTree = "<group>"; };
+		5B1794B5E78F0CC004943D4A /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ThirdPartyLibraries/OCMocksLibs/libOCMock.a; sourceTree = "<group>"; };
 		5B1794BBCA289FF964A1A8A0 /* MVPDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVPDemoApp-Prefix.pch"; sourceTree = "<group>"; };
-		5B17952763D43DB2459F5F0E /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B17958D8B96E3C34F82F395 /* AppDelegatePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegatePresenter.m; sourceTree = "<group>"; };
-		5B1795FD49D4371C2B245759 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		5B1795FD49D4371C2B245759 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		5B17960452269A8912321608 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
 		5B179613AF8C786D70220093 /* MVPDemoAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPDemoAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B179680F4E2D4022D03800B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1796A8945CCBD187B3B212 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B1796FA75D480F50316BB16 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5B17970BE1CB1B00932E29AD /* AppDelegatePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegatePresenter.h; sourceTree = "<group>"; };
-		5B1798053D30FE539C6FB49D /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		5B1798B3B40777A74EA1A9C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		5B1798B3B40777A74EA1A9C5 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondViewController.xib; path = ../en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		5B17991AD4DBEDCB6AED4AC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B17991F36F332A755B870A8 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		5B17993698C04ED7A0069B70 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		5B179959A1DD6DAA9ABD9C62 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ThirdPartyLibraries/OCMocksLibs/libOCMock.a; sourceTree = "<group>"; };
 		5B179AB38BFFBBF39110B1DB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5B179AC45E0070A043D09CD3 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B179B943891988534C1561F /* MVPDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179BD8DCF70B23F3245A67 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../../README; sourceTree = "<group>"; };
 		5B179C8CAEA9987F0AABFA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B179CD0CD7B17BE742A2B3E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5B179D5B0543901A1D641114 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B179DB8A50EF282EE7E690F /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B179E6BAB0B859FB87AB69C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		5B179E8BBF2FB1A41346CBEE /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		5B179F0C5D1874CC97B738E6 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
 		5B179F0D50D0BFF987BB77BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179F76C54CF0F5173EB90C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +89,7 @@
 				5B179032F69F80615A8EF1E5 /* SenTestingKit.framework in Frameworks */,
 				5B179B4287517E06D45F3F93 /* UIKit.framework in Frameworks */,
 				5B179D6CA40C62D1699877C3 /* Foundation.framework in Frameworks */,
-				5B179F183C1533EDB2122769 /* libOCMock.a in Frameworks */,
+				5B1792B889CFD67090C01FD4 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B179167B110EE04E4BB2C91 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				5B179AC45E0070A043D09CD3 /* OCMockRecorder.h */,
+				5B179DB8A50EF282EE7E690F /* OCMockObject.h */,
+				5B17991F36F332A755B870A8 /* OCMock.h */,
+				5B17960452269A8912321608 /* OCMConstraint.h */,
+				5B1790EBD820F49843042839 /* OCMArg.h */,
+				5B1796FA75D480F50316BB16 /* NSNotificationCenter+OCMAdditions.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		5B1792F16943AE8DC64BBB63 /* OCMocksLibs */ = {
+			isa = PBXGroup;
+			children = (
+				5B179167B110EE04E4BB2C91 /* OCMock */,
+			);
+			path = OCMocksLibs;
+			sourceTree = "<group>";
+		};
 		5B179387808BD6FE6896C2F7 = {
 			isa = PBXGroup;
 			children = (
@@ -124,30 +147,10 @@
 			path = Presenters;
 			sourceTree = "<group>";
 		};
-		5B179476D446C425342CA8F1 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				5B17952763D43DB2459F5F0E /* OCMockRecorder.h */,
-				5B1791EB9ECA975A7F32C536 /* OCMockObject.h */,
-				5B179E8BBF2FB1A41346CBEE /* OCMock.h */,
-				5B179F0C5D1874CC97B738E6 /* OCMConstraint.h */,
-				5B1792672CC73CE101C90BCA /* OCMArg.h */,
-				5B1798053D30FE539C6FB49D /* NSNotificationCenter+OCMAdditions.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		5B1794C90F9AD77C507738B8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		5B1797908BC14842AA58A8E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B179959A1DD6DAA9ABD9C62 /* libOCMock.a */,
+				5B1794B5E78F0CC004943D4A /* libOCMock.a */,
 				5B1796A8945CCBD187B3B212 /* SenTestingKit.framework */,
 				5B17927A9FEE3509BBE26C3C /* CoreGraphics.framework */,
 				5B17991AD4DBEDCB6AED4AC0 /* Foundation.framework */,
@@ -159,7 +162,8 @@
 		5B17998FE3D4907FB2C57D62 /* ThirdPartyLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				5B179AF96764D6ED7DB97599 /* OCMocksLibs */,
+				5B179BD8DCF70B23F3245A67 /* README */,
+				5B1792F16943AE8DC64BBB63 /* OCMocksLibs */,
 			);
 			path = ThirdPartyLibraries;
 			sourceTree = "<group>";
@@ -182,43 +186,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5B179AF96764D6ED7DB97599 /* OCMocksLibs */ = {
-			isa = PBXGroup;
-			children = (
-				5B179476D446C425342CA8F1 /* OCMock */,
-			);
-			path = OCMocksLibs;
-			sourceTree = "<group>";
-		};
-		5B179CA6B6D146BE167F6B38 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		5B179D10D9E11BF33412F9E5 /* MVPDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				5B17939E17520B9FC6F4C539 /* SecondViewController.xib */,
-				5B179F31D47AF3FC21673668 /* FirstViewController.xib */,
 				5B179AB38BFFBBF39110B1DB /* second@2x.png */,
 				5B17903F9C3F914D2B1D27C2 /* second.png */,
-				5B1791B6F54E24BDDB8F4437 /* SecondViewController.m */,
-				5B179D5B0543901A1D641114 /* SecondViewController.h */,
 				5B179E6BAB0B859FB87AB69C /* first@2x.png */,
 				5B17993698C04ED7A0069B70 /* first.png */,
-				5B179049DDEA6863722340CB /* FirstViewController.m */,
-				5B179CD0CD7B17BE742A2B3E /* FirstViewController.h */,
 				5B179C8CAEA9987F0AABFA71 /* AppDelegate.m */,
 				5B17916AB75142C982492DB6 /* AppDelegate.h */,
 				5B179FBE20D9615BB81D54BA /* Supporting Files */,
-				5B1794C90F9AD77C507738B8 /* Model */,
-				5B179CA6B6D146BE167F6B38 /* Views */,
 				5B179472B3D727B7A8DC686D /* Presenters */,
 				5B179E1C3F712E002F95F5BD /* Repositories */,
+				5B179E010CBE2706BD3738F9 /* ViewControllers */,
 			);
 			path = MVPDemoApp;
+			sourceTree = "<group>";
+		};
+		5B179E010CBE2706BD3738F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B179F31D47AF3FC21673668 /* FirstViewController.xib */,
+				5B17939E17520B9FC6F4C539 /* SecondViewController.xib */,
+				5B179CD0CD7B17BE742A2B3E /* FirstViewController.h */,
+				5B1791B6F54E24BDDB8F4437 /* SecondViewController.m */,
+				5B179D5B0543901A1D641114 /* SecondViewController.h */,
+				5B179049DDEA6863722340CB /* FirstViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5B179E1C3F712E002F95F5BD /* Repositories */ = {
@@ -332,6 +327,7 @@
 				5B179D4DE9E598DE0F2FD686 /* second@2x.png in Resources */,
 				5B179FBB69BCCC7794BB6458 /* FirstViewController.xib in Resources */,
 				5B1798B1EDFB468C557AA339 /* SecondViewController.xib in Resources */,
+				5B1792995165A34F6281B810 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +384,7 @@
 		5B17939E17520B9FC6F4C539 /* SecondViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B1798B3B40777A74EA1A9C5 /* en */,
+				5B1798B3B40777A74EA1A9C5 /* SecondViewController.xib */,
 			);
 			name = SecondViewController.xib;
 			sourceTree = "<group>";
@@ -412,7 +408,7 @@
 		5B179F31D47AF3FC21673668 /* FirstViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B1795FD49D4371C2B245759 /* en */,
+				5B1795FD49D4371C2B245759 /* FirstViewController.xib */,
 			);
 			name = FirstViewController.xib;
 			sourceTree = "<group>";
@@ -432,10 +428,12 @@
 				GCC_PREFIX_HEADER = "MVPDemoApp/MVPDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MVPDemoAppTests/MVPDemoAppTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					ThirdPartyLibraries/OCMocksLibs,
+					"ThirdPartyLibraries/OCMocksLibs/**",
+					"\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**",
 				);
 				OTHER_LDFLAGS = (
-					"\"-force_load ThirdPartyLibraries/OCMocksLibs/libOCMock.a\"",
+					"-force_load",
+					ThirdPartyLibraries/OCMocksLibs/libOCMock.a,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -449,10 +447,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVPDemoApp/MVPDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MVPDemoApp/MVPDemoApp-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"\"${PROJECT_DIR}/OCMocksLibs\"/**",
-					"\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**",
-				);
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,10 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVPDemoApp/MVPDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MVPDemoApp/MVPDemoApp-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"\"${PROJECT_DIR}/OCMocksLibs\"/**",
-					"\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**",
-				);
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -485,10 +477,12 @@
 				GCC_PREFIX_HEADER = "MVPDemoApp/MVPDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MVPDemoAppTests/MVPDemoAppTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					ThirdPartyLibraries/OCMocksLibs,
+					"ThirdPartyLibraries/OCMocksLibs/**",
+					"\"${PROJECT_DIR}/ThirdPartyLibraries/OCMocksLibs\"/**",
 				);
 				OTHER_LDFLAGS = (
-					"\"-force_load ThirdPartyLibraries/OCMocksLibs/libOCMock.a\"",
+					"-force_load",
+					ThirdPartyLibraries/OCMocksLibs/libOCMock.a,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -519,9 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					ThirdPartyLibraries/OCMocksLibs,
-				);
+				LIBRARY_SEARCH_PATHS = ThirdPartyLibraries/OCMocksLibs;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -542,9 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					ThirdPartyLibraries/OCMocksLibs,
-				);
+				LIBRARY_SEARCH_PATHS = ThirdPartyLibraries/OCMocksLibs;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -570,6 +560,7 @@
 				5B1798DF858B12E649707D3B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B1797CDE86E27CDF9996BA6 /* Build configuration list for PBXNativeTarget "MVPDemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +569,7 @@
 				5B179BF8247D3394CD0ADCC8 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

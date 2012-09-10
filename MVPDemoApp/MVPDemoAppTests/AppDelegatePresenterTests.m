@@ -5,9 +5,10 @@
 
 @implementation AppDelegatePresenterTests
 
-- (void)testWithMock {
+- (void)testConfigureControllersAtRoot_variousProtocolsInjectedToInit_areCalledAsExpected {
     id appDelegateTabRepository = [OCMockObject mockForProtocol:@protocol(IAppDelegateTabRepository)];
     [[appDelegateTabRepository expect] configureControllersAtRoot];
+
 
     sut = [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository];
     [sut configureControllersAtRoot];

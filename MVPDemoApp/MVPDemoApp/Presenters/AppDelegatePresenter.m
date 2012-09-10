@@ -5,12 +5,18 @@
 @implementation AppDelegatePresenter {
 
 }
+@synthesize appDelegateTabRepository = _appDelegateTabRepository;
+
 
 - (id)initWithTabRepository:(id <IAppDelegateTabRepository>)appDelegateTabRepository {
- return nil;
+    if (self = [super init]) {
+        _appDelegateTabRepository = appDelegateTabRepository;
+    }
+
+    return self;
 }
 
 - (void)configureControllersAtRoot {
-
+    [_appDelegateTabRepository configureControllersAtRoot];
 }
 @end
