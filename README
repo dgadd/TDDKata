@@ -1,0 +1,37 @@
+iOS Model-View-Presenter Kata
+
+iOS applications are initiated by an app delegate, and then run by the code of the currently active view controllers. As applications need to coordinate many activities and often third party libraries or external dependencies, both app delegates and view controllers often end up as god classes (doing everything) that are heavily coupled to their dependencies, and often even entangled between those dependencies.
+
+Since AppDelegates and ViewControllers are by architecture necessarily coupled to views,  IB-attached objects, and event-handling/delegate methods, attempting to solve the dependency and code entanglement problems directly in the app delegate and view controller would not be possible. Instead, the Model-View-Presenter pattern presents a solution that allows for effective decoupling of dependencies, and therefore testability. 
+
+The M-V-P pattern delegates from the current, heavily coupled controller to a separate "presenter" class, which coordinates its dependencies via protocols that are injected into the class via the init method. The presenter can then be tested via both unit tests using mocks, and simple integration tests.
+
+This M-V-P kata will practise a scenario with 2 presenters (one for the AppDelegate, one for the first ViewController of the application) and multiple dependencies exposed through protocols.
+
+APPLICATION SETUP (INCLUDING OCMOCKS STATIC LIBRARY)
+a) Create an iOS Tabbed application as follows:
+* ARC (Automatic Reference Counting) - true
+* Include Unit Tests - true
+* Use Storyboards - false. In a real project, feel free to use storyboards. This option adds extra code to the app delegate which will be part of the kata exercise.
+
+b) Add the OCMock static library.
+You can follow the official instructions here:
+http://ocmock.org (click on the iOS 5 tab for specific instructions)
+OR
+Use these local instructions instead.
+In XCode or AppCode, make all of the following build settings changes against the target: [AppName]Tests
+1) Drag the ThirdPartyLibraries/OCMocksLibs folder from the root of this github branch and drag it to the root of your project.
+2) Drag libOCMock.a to the Frameworks folder (it will add the path reference)
+3) Add to: Search Paths/Library Search Paths:
+ThirdPartyLibraries/OCMocksLibs
+b) Add to: Linking/Other Linker Flags:
+-force_load ThirdPartyLibraries/OCMocksLibs/libOCMock.a
+
+Your OCMocks static library is now linked.
+
+MVP KATA STEP-BY-STEP
+
+1) Delete any auto-generated test class in the [AppName]Tests library.
+2) Create a new OCUnit test class: AppDelegatePresenterTests
+TO BE CONTINUED...
+
