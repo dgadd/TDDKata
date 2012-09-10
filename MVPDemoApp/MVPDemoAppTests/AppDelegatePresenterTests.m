@@ -5,7 +5,7 @@
 
 @implementation AppDelegatePresenterTests
 
-- (void)test_when_I_ask_to_display_books_from_bookstore_then_repository_finds_and_returns_all_books {
+- (void)testWithMock {
     id appDelegateTabRepository = [OCMockObject mockForProtocol:@protocol(IAppDelegateTabRepository)];
     [[appDelegateTabRepository expect] configureControllersAtRoot];
 

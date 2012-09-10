@@ -14,24 +14,33 @@ a) Create an iOS Tabbed application as follows:
 * Include Unit Tests - true
 * Use Storyboards - false. In a real project, feel free to use storyboards. This option adds extra code to the app delegate which will be part of the kata exercise.
 
-b) Add the OCMock static library.
-You can follow the official instructions here:
-http://ocmock.org (click on the iOS 5 tab for specific instructions)
-OR
-Use these local instructions instead.
-In XCode or AppCode, make all of the following build settings changes against the target: [AppName]Tests
-1) Drag the ThirdPartyLibraries/OCMocksLibs folder from the root of this github branch and drag it to the root of your project.
-2) Drag libOCMock.a to the Frameworks folder (it will add the path reference)
-3) Add to: Search Paths/Library Search Paths:
-ThirdPartyLibraries/OCMocksLibs
-b) Add to: Linking/Other Linker Flags:
--force_load ThirdPartyLibraries/OCMocksLibs/libOCMock.a
+b) Create the following groups/folders within the App:
+   * Model
+   * Views
+   * Presenters
+   * Repositories
+   
+c) Add the OCMock static library.
+* You can follow the official instructions here:
+  http://ocmock.org (click on the iOS 5 tab for specific instructions
+* OR use these local instructions instead.
+  1) In XCode or AppCode, make all of the following build settings changes against the target: [AppName]Tests
+  2) Drag the ThirdPartyLibraries/OCMocksLibs folder from the root of this github branch and drag it to the root of your project.
+  3) Drag libOCMock.a to the Frameworks folder (it will add the path reference)
+  4) Add to: Search Paths/Library Search Paths:
+     ThirdPartyLibraries/OCMocksLibs
+  5) Add to: Linking/Other Linker Flags:
+    -force_load ThirdPartyLibraries/OCMocksLibs/libOCMock.a
+  6) In the Tests project, create a new OCUnit test class named AppDelegatePresenterTests.
+  7) Add the following test with OCMock references and make sure that it will build.
 
-Your OCMocks static library is now linked.
+c) Create two test classes
+   1) Delete any auto-generated test class.
+   2) Make sure you have 2 test classes, AppDelegatePresenterTests and ViewControllerTests.
+   
+Finally, build the whole project, and run all unit tests (just the one.)
 
-MVP KATA STEP-BY-STEP
+STEP-BY-STEP MVP KATA
 
-1) Delete any auto-generated test class in the [AppName]Tests library.
-2) Create a new OCUnit test class: AppDelegatePresenterTests
-TO BE CONTINUED...
+1) 
 
