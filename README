@@ -42,5 +42,24 @@ Finally, build the whole project, and run all unit tests (just the one.)
 
 STEP-BY-STEP MVP KATA
 
-1) 
+1) Verify that the AppDelegatePresenter sets up the application tab structure through a protocol.
+2) Verify that the AppDelegatePresenter loads cached app user info through a protocol.
+3) Verify that the AppDelegatePresenter initiates an external advertising service through a protocol.
+4) Verify that the FirstTabPresenter calls to a dependency #1 through a protocol.
+5) Verify that the FirstTabPresenter calls to a dependency #2 through a protocol.
+6) Verify that the FirstTabPresenter calls to a dependency #3 through a protocol.
+7) Verify that the FirstTabPresenter calls to a dependency #4 through a protocol.
+8) Verify that the FirstTabPresenter calls to a dependency #5 through a protocol.
+
+TBD... 
+
+
+
+
+
+
+
+
+
+
 
