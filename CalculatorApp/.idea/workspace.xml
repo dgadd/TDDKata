@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="12" selection-start="1714" selection-end="1714" vertical-scroll-proportion="1.0121951">
+            <state line="25" column="4" selection-start="801" selection-end="801" vertical-scroll-proportion="0.6170732">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="72" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.0">
+            <state line="89" column="59" selection-start="3142" selection-end="3142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -268,7 +268,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -288,14 +288,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="72" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.0">
+        <state line="89" column="59" selection-start="3142" selection-end="3142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="13" selection-start="8421" selection-end="8421" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="12" selection-start="1714" selection-end="1714" vertical-scroll-proportion="1.0121951">
+        <state line="25" column="4" selection-start="801" selection-end="801" vertical-scroll-proportion="0.6170732">
           <folding />
         </state>
       </provider>
