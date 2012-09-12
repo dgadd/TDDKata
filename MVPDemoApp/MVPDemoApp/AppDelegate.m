@@ -1,30 +1,22 @@
-//
-//  AppDelegate.m
-//  MVPDemoApp
-//
-//  Created by David Gadd on 09/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "AppDelegate.h"
-
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "ServiceLocator.h"
+#import "AppDelegatePresenter.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
+    [self setupControls];
+
+    ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithWindow:self.window andTabBarController:self.tabBarController];
+    AppDelegatePresenter *appDelegatePresenter = (AppDelegatePresenter *)[serviceLocator register:AppDelegateService];
+    [appDelegatePresenter configureControllersAtRoot];
     return YES;
+}
+
+- (void)setupControls {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.tabBarController = [[UITabBarController alloc] init];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

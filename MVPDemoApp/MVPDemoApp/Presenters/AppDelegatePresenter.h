@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
+#import "BasePresenter.h"
 
 @protocol IAppDelegateTabRepository;
 
 
-@interface AppDelegatePresenter : NSObject
+@interface AppDelegatePresenter : BasePresenter
 
 @property(nonatomic, strong) id<IAppDelegateTabRepository> appDelegateTabRepository;
 

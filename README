@@ -42,6 +42,7 @@ Finally, build the whole project, and run all unit tests (just the one.)
 
 STEP-BY-STEP MVP KATA
 
+1) Verify that ServiceLocator can register (and return) AppDelegatePresenter by an ServiceType enum value.
 1) Verify that the AppDelegatePresenter sets up the application tab structure through a protocol.
 2) Verify that the AppDelegatePresenter loads cached app user info through a protocol.
 3) Verify that the AppDelegatePresenter initiates an external advertising service through a protocol.
