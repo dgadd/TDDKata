@@ -19,7 +19,7 @@
     if (![numbersToAdd hasPrefix:@"//"])
         return numbersToAdd;
 
-    NSInteger rightBrace = [numbersToAdd rangeOfString:@"]"].location;
+    NSInteger rightBrace = [numbersToAdd rangeOfString:@"]" options:NSBackwardsSearch].location;
     if (rightBrace != NSNotFound)
         return [self handleMultiLengthIn:numbersToAdd from:rightBrace];
 
