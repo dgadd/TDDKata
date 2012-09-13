@@ -41,7 +41,8 @@
     for (NSString *numberString in numbersArray) {
         NSInteger number = [numberString integerValue];
         [self check:negativeNumbers for:number];
-        total += number;
+        if(number < 1001)
+            total += number;
     }
     [self guardCondition_rejectNegativeNumbersFor:negativeNumbers];
     return total;
