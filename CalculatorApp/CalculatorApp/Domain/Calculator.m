@@ -37,8 +37,23 @@
 - (NSInteger)sum:(NSString *)numbersToAdd {
     NSInteger total = 0;
     NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
-    for (NSString *numberString in numbersArray)
-        total += [numberString integerValue];
+    NSMutableString *negativeNumbers = [NSMutableString string];
+    for (NSString *numberString in numbersArray) {
+        NSInteger number = [numberString integerValue];
+        [self check:negativeNumbers for:number];
+        total += number;
+    }
+    [self guardCondition_rejectNegativeNumbersFor:negativeNumbers];
     return total;
+}
+
+- (void)check:(NSMutableString *)negativeNumbers for:(NSInteger)number {
+    if (number < 0)
+            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
+}
+
+- (void)guardCondition_rejectNegativeNumbersFor:(NSMutableString *)negativeNumbers {
+    if ([negativeNumbers length] > 0)
+        [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: -5,-7,"];
 }
 @end
