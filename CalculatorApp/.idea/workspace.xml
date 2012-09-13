@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="109" selection-start="669" selection-end="669" vertical-scroll-proportion="0.6219512">
+            <state line="23" column="10" selection-start="775" selection-end="775" vertical-scroll-proportion="0.8414634">
               <folding />
             </state>
           </provider>
@@ -42,15 +42,6 @@
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.h">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="12" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="126" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,7 +170,7 @@
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -254,7 +245,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -274,14 +265,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="126" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
+        <state line="66" column="45" selection-start="2140" selection-end="2140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="109" selection-start="669" selection-end="669" vertical-scroll-proportion="0.6219512">
+        <state line="23" column="10" selection-start="775" selection-end="775" vertical-scroll-proportion="0.8414634">
           <folding />
         </state>
       </provider>
