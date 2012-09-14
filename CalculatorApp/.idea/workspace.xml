@@ -20,19 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTests.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTests.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="32" column="39" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.64190984">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.5570292">
+            <state line="10" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -300,7 +302,9 @@
     <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -318,17 +322,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
+    <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+        <state line="10" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator.py">
+    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.5570292">
-          <folding />
+        <state line="32" column="39" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.64190984">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

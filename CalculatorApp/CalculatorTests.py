@@ -1,3 +1,4 @@
+from random import randint
 from Calculator import Calculator
 
 __author__ = 'dgadd'
@@ -23,6 +24,18 @@ class MyTestCase(unittest.TestCase):
         sut = Calculator()
         result = sut.add("3,7")
         self.assertEqual(expected, result, msg="Two length input should return sum.")
+
+    def test_addMethod_anyLengthInput_returnsSum(self):
+        randomNumber = randint(111,999)
+        expected = 0
+        numbersToAdd = ""
+        for i in range(111, randomNumber):
+            numbersToAdd += "%s," % (i)
+            expected += i
+
+        sut = Calculator()
+        result = sut.add(numbersToAdd)
+        self.assertEqual(expected, result, msg="Any length input should return sum.")
 
 if __name__ == '__main__':
     unittest.main()

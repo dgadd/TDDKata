@@ -7,7 +7,8 @@ class Calculator(object):
         numbersArray = re.split(r',', numbersToAdd)
         total = 0
         for numberString in numbersArray:
-            total += int(numberString)
+            if len(numberString) > 0:
+                total += int(numberString)
         return total
 
     def add(self, numbersToAdd):
