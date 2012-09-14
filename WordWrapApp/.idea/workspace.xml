@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="11" column="105" selection-start="293" selection-end="293" vertical-scroll-proportion="0.40243903">
               <folding />
             </state>
           </provider>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtilsTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="95" selection-start="532" selection-end="532" vertical-scroll-proportion="0.19512194">
+            <state line="43" column="65" selection-start="1758" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.h" />
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h" />
-        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
         <option value="$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
       </list>
     </option>
   </component>
@@ -252,7 +252,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -270,16 +270,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+        <state line="43" column="65" selection-start="1758" selection-end="1796" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="95" selection-start="532" selection-end="532" vertical-scroll-proportion="0.19512194">
+        <state line="11" column="105" selection-start="293" selection-end="293" vertical-scroll-proportion="0.40243903">
           <folding />
         </state>
       </provider>
