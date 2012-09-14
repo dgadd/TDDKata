@@ -18,6 +18,11 @@ class MyTestCase(unittest.TestCase):
         result = sut.add("8")
         self.assertEqual(expected, result, msg="One length input should return equivalent.")
 
+    def test_addMethod_twoLengthInput_returnsSum(self):
+        expected = 10
+        sut = Calculator()
+        result = sut.add("3,7")
+        self.assertEqual(expected, result, msg="Two length input should return sum.")
 
 if __name__ == '__main__':
     unittest.main()

@@ -20,19 +20,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTests.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CalculatorTests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.72148544">
+            <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="64" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+            <state line="14" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.5570292">
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Calculator.py" />
         <option value="$PROJECT_DIR$/CalculatorTests.py" />
+        <option value="$PROJECT_DIR$/Calculator.py" />
       </list>
     </option>
   </component>
@@ -123,7 +123,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python's test.Unittests in CalculatorTests">
+  <component name="RunManager" selected="Python's test.All Tests">
     <configuration default="false" name="Unittests in CalculatorTests" type="tests" factoryName="Unittests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,7 +233,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -318,16 +318,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator.py">
+    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
+    <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.72148544">
+        <state line="14" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.5570292">
           <folding />
         </state>
       </provider>
