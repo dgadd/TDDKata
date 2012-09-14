@@ -32,7 +32,7 @@
       <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.85365856">
+            <state line="15" column="94" selection-start="522" selection-end="522" vertical-scroll-proportion="0.2770781">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="89" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0">
+            <state line="62" column="49" selection-start="2985" selection-end="3072" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -252,7 +252,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -272,14 +272,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="89" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0">
+        <state line="62" column="49" selection-start="2985" selection-end="3072" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.85365856">
+        <state line="15" column="94" selection-start="522" selection-end="522" vertical-scroll-proportion="0.2770781">
           <folding />
         </state>
       </provider>
