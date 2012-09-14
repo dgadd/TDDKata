@@ -14,8 +14,10 @@
 		5B1793FBA12129BD426E6E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E012CA90D4DA72826C3 /* Foundation.framework */; };
 		5B1796175907F0BE058A5DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E012CA90D4DA72826C3 /* Foundation.framework */; };
 		5B17964654B747574C22E518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179F398DA4A6FA4746DA21 /* InfoPlist.strings */; };
+		5B17975BBAC5586D5B41269B /* NSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179DC9086CB8D03762C3A5 /* NSStringCategoryTests.m */; };
 		5B1798C48977D5F369FD1F13 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1799F7C586347DBCE205AE /* StringUtils.m */; };
 		5B179A81CD40986AD67DD49F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17928BA292B27E5ADBF06E /* CoreGraphics.framework */; };
+		5B179C7461D0F3A68E212693 /* NSString+KataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179AB9E8B1EB00CCF84D66 /* NSString+KataUtils.m */; };
 		5B179E2C4F19C5BE91666AAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1795D3553567BB73D5E932 /* SenTestingKit.framework */; };
 		5B179E4D35161CD9C38B94E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1799B077BC46186590904E /* InfoPlist.strings */; };
 		5B179E5CA265861F73A3BAB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1794AC98DD29C4739CCAD2 /* ViewController.xib */; };
@@ -45,13 +47,17 @@
 		5B17953052936E6E3BB34BA5 /* StringUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilsTests.h; sourceTree = "<group>"; };
 		5B1795D3553567BB73D5E932 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B1795DBE2663F8C797F963E /* WordWrapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapApp-Info.plist"; sourceTree = "<group>"; };
+		5B1796BCCF2D7B17D7F33FA1 /* NSStringCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCategoryTests.h; sourceTree = "<group>"; };
 		5B17973FC0DA0042AEFFA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1799985AF338175E6D8BE6 /* WordWrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1799F7C586347DBCE205AE /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 		5B179A2013738D075D1E6818 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
 		5B179AA6AAB88E12B7E3F432 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B179AB9E8B1EB00CCF84D66 /* NSString+KataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KataUtils.m"; sourceTree = "<group>"; };
+		5B179C11CA6890BCCF6119AE /* NSString+KataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KataUtils.h"; sourceTree = "<group>"; };
 		5B179D2FD650185B17F4EC31 /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B179D8F23CE0CC0445C940F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B179DC9086CB8D03762C3A5 /* NSStringCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCategoryTests.m; sourceTree = "<group>"; };
 		5B179DD15EC3C220D73F95F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179E012CA90D4DA72826C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B179EAAC8FAFFCF977C3E29 /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
@@ -148,6 +154,8 @@
 		5B179ADA1A35C138C385A2CA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B179C11CA6890BCCF6119AE /* NSString+KataUtils.h */,
+				5B179AB9E8B1EB00CCF84D66 /* NSString+KataUtils.m */,
 				5B179A2013738D075D1E6818 /* StringUtils.h */,
 				5B1799F7C586347DBCE205AE /* StringUtils.m */,
 			);
@@ -157,6 +165,8 @@
 		5B179F3CD7A3BEF6610CF6A5 /* WordWrapAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B179DC9086CB8D03762C3A5 /* NSStringCategoryTests.m */,
+				5B1796BCCF2D7B17D7F33FA1 /* NSStringCategoryTests.h */,
 				5B1790B07DFB3C7B9002D87B /* StringUtilsTests.m */,
 				5B17953052936E6E3BB34BA5 /* StringUtilsTests.h */,
 				5B179047B0A342ABE57315A6 /* Supporting Files */,
@@ -271,6 +281,7 @@
 				5B179E6B1D7ABCF0F8E18046 /* AppDelegate.m in Sources */,
 				5B179F30FC5E97938F6EF772 /* ViewController.m in Sources */,
 				5B1798C48977D5F369FD1F13 /* StringUtils.m in Sources */,
+				5B179C7461D0F3A68E212693 /* NSString+KataUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B17916808910925A3750EA4 /* StringUtilsTests.m in Sources */,
+				5B17975BBAC5586D5B41269B /* NSStringCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
