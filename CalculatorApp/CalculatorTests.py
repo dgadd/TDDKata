@@ -18,5 +18,6 @@ class MyTestCase(unittest.TestCase):
         result = sut.add("8")
         self.assertEqual(expected, result, msg="One length input should return equivalent.")
 
+
 if __name__ == '__main__':
     unittest.main()

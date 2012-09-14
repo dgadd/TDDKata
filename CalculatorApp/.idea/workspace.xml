@@ -20,19 +20,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatorTests.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTests.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.72148544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Calculator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="152" selection-end="152" vertical-scroll-proportion="0.2387268">
+            <state line="4" column="64" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CalculatorTests.py" />
         <option value="$PROJECT_DIR$/Calculator.py" />
+        <option value="$PROJECT_DIR$/CalculatorTests.py" />
       </list>
     </option>
   </component>
@@ -123,7 +123,28 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python's test.All Tests">
+  <component name="RunManager" selected="Python's test.Unittests in CalculatorTests">
+    <configuration default="false" name="Unittests in CalculatorTests" type="tests" factoryName="Unittests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CalculatorApp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalculatorTests.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,9 +201,16 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python's test.All Tests" />
+      <item index="1" class="java.lang.String" itemvalue="Python's test.Unittests in CalculatorTests" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python's test.Unittests in CalculatorTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python's test.Unittests in CalculatorTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -205,7 +233,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -285,19 +313,21 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="505" column="8" selection-start="18128" selection-end="18128" vertical-scroll-proportion="0.331565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+        <state line="505" column="8" selection-start="18128" selection-end="18128" vertical-scroll-proportion="0.331565">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="152" selection-end="152" vertical-scroll-proportion="0.2387268">
+        <state line="4" column="64" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.72148544">
           <folding />
         </state>
       </provider>
