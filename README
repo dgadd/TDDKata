@@ -22,7 +22,7 @@ Create a string manipulation class with method wrapLine(NSString* input) byColum
 
 4) When the column width < 20, the column width is rejected as too short for a line wrap
 
-5) Add a new boolean parameter BOOL breakAtWordBoundaries which when true, breaks the line at word boundaries, AFTER the space.
+5) Add a new boolean parameter BOOL withWordBreak which when true, breaks the line at word boundaries, AFTER the space.
 
 6) When words are included that are > than column width and word break is true, reject the line as not compatible with word wrap
 
