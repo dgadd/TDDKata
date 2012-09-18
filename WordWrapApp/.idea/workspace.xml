@@ -19,44 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_5.1_1" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StringUtils.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="91" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="72" selection-start="573" selection-end="573" vertical-scroll-proportion="0.3324937">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtilsTests.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="89" selection-start="2771" selection-end="2771" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -65,6 +28,10 @@
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h" />
         <option value="$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m" />
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
+        <option value="$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringCategoryTests.h" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.h" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.m" />
+        <option value="$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringCategoryTests.m" />
       </list>
     </option>
   </component>
@@ -111,48 +78,6 @@
               <option name="myItemId" value="WordWrapApp" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordWrapAppTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordWrapApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordWrapApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordWrapApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Products" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordWrapApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -162,6 +87,7 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
   </component>
   <component name="RunManager" selected="OCUnit.All Tests">
@@ -203,17 +129,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -280,17 +206,10 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="52" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="11" selection-start="6698" selection-end="6698" vertical-scroll-proportion="0.3324937">
@@ -298,23 +217,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringCategoryTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="91" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="9" column="39" selection-start="490" selection-end="490" vertical-scroll-proportion="0.216">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="89" selection-start="2771" selection-end="2771" vertical-scroll-proportion="0.0">
+        <state line="48" column="41" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.3872549">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="83" selection-start="329" selection-end="329" vertical-scroll-proportion="0.168">
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/NSString+StringExtensions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringCategoryTests.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="72" selection-start="573" selection-end="573" vertical-scroll-proportion="0.3324937">
+        <state line="17" column="72" selection-start="573" selection-end="573" vertical-scroll-proportion="0.24019608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="91" selection-start="161" selection-end="161" vertical-scroll-proportion="0.096">
           <folding />
         </state>
       </provider>
