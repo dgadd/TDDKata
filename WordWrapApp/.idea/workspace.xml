@@ -32,7 +32,7 @@
       <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="64" selection-start="572" selection-end="572" vertical-scroll-proportion="0.6219512">
+            <state line="11" column="118" selection-start="306" selection-end="306" vertical-scroll-proportion="0.40243903">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="116" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+            <state line="43" column="61" selection-start="1825" selection-end="1876" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.h" />
         <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h" />
-        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
         <option value="$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m" />
+        <option value="$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m" />
       </list>
     </option>
   </component>
@@ -213,7 +213,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -280,7 +280,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -300,14 +300,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="116" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.0">
+        <state line="43" column="61" selection-start="1825" selection-end="1876" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="64" selection-start="572" selection-end="572" vertical-scroll-proportion="0.6219512">
+        <state line="11" column="118" selection-start="306" selection-end="306" vertical-scroll-proportion="0.40243903">
           <folding />
         </state>
       </provider>
