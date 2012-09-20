@@ -23,7 +23,7 @@
       <file leaf-file-name="StringUtils.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="95" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,7 @@
       <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.29268292">
+            <state line="15" column="4" selection-start="429" selection-end="429" vertical-scroll-proportion="0.4414634">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="33" selection-start="1785" selection-end="1825" vertical-scroll-proportion="0.0">
+            <state line="49" column="72" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -279,14 +279,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="95" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapAppTests/Utils.Tests.Unit/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="1785" selection-end="1825" vertical-scroll-proportion="0.0">
+        <state line="49" column="72" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -295,7 +295,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapApp/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.29268292">
+        <state line="15" column="4" selection-start="429" selection-end="429" vertical-scroll-proportion="0.4414634">
           <folding />
         </state>
       </provider>
