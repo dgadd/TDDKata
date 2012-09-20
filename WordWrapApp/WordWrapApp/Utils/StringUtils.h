@@ -2,5 +2,5 @@
 
 
 @interface StringUtils : NSObject
-- (NSString *)wrapLine:(NSString *)input byColumnWdith:(int)wdith;
+- (NSString *)wrapLine:(NSString *)input byColumnWdith:(int)width;
 @end
