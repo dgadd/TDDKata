@@ -3,31 +3,28 @@
 #import "AppDelegatePresenter.h"
 #import "IAppDelegateTabRepository.h"
 #import "AppDelegateTabRepository.h"
+#import "AppDelegate.h"
 
 
 @implementation ServiceLocator {
 
 }
 @synthesize serviceType = _serviceType;
-@synthesize window = _window;
-@synthesize tabBarController = _tabBarController;
+@synthesize appDelegate = _appDelegate;
 
 
 - (BasePresenter *)register:(ServiceType)serviceType {
-    id<IAppDelegateTabRepository> appDelegateTabRepository = [[AppDelegateTabRepository alloc] initWithWindow:_window andTabBarController:_tabBarController];
-
-    switch (serviceType) {
-        case AppDelegateService:
-            return [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository];
-        default:
-            return nil;
+    if (_appDelegate && serviceType == AppDelegateService) {
+        id <IAppDelegateTabRepository> appDelegateTabRepository = [[AppDelegateTabRepository alloc] initWithAppDelegate:_appDelegate];
+        return [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository];
     }
+
+    return nil;
 }
 
-- (id)initWithWindow:(UIWindow *)window andTabBarController:(UITabBarController *)tabBarController {
+- (id)initWithAppDelegate:(AppDelegate *)appDelegate {
     if (self = [super init]) {
-        _window = window;
-        _tabBarController = tabBarController;
+        _appDelegate = appDelegate;
     }
 
     return self;

@@ -6,17 +6,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self setupControls];
-
-    ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithWindow:self.window andTabBarController:self.tabBarController];
+    ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithAppDelegate:self];
     AppDelegatePresenter *appDelegatePresenter = (AppDelegatePresenter *)[serviceLocator register:AppDelegateService];
     [appDelegatePresenter configureControllersAtRoot];
     return YES;
-}
-
-- (void)setupControls {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.tabBarController = [[UITabBarController alloc] init];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -28,7 +21,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 
 }

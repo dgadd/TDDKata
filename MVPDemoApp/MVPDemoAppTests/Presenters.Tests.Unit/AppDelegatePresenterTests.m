@@ -19,9 +19,8 @@
 }
 
 - (void)testConfigureControllersAtRoot_withFakeImplementation_configurationOccurs {
-    UIWindow *window = [[UIWindow alloc] init];
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    id<IAppDelegateTabRepository> appDelegateTabRepository = [[AppDelegateTabRepository alloc] initWithWindow:window andTabBarController:tabBarController];
+    AppDelegate *appDelegate = [[AppDelegate alloc] init];
+    id<IAppDelegateTabRepository> appDelegateTabRepository = [[AppDelegateTabRepository alloc] initWithAppDelegate:appDelegate];
     [appDelegateTabRepository configureControllersAtRoot];
     AppDelegatePresenter *appDelegatePresenter = [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository];
     [appDelegatePresenter configureControllersAtRoot];

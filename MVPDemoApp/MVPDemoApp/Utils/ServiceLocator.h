@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 
 @class BasePresenter;
+@class AppDelegate;
 
 typedef enum {
     AppDelegateService,
@@ -10,12 +11,9 @@ typedef enum {
 @interface ServiceLocator : NSObject
 @property(nonatomic) ServiceType serviceType;
 
-
-@property(nonatomic, strong) UIWindow *window;
-
-@property(nonatomic, strong) UITabBarController *tabBarController;
+@property(nonatomic, strong) AppDelegate *appDelegate;
 
 - (BasePresenter *)register:(ServiceType)serviceType;
 
-- (id)initWithWindow:(UIWindow *)window andTabBarController:(UITabBarController *)tabBarController;
+- (id)initWithAppDelegate:(AppDelegate *)appDelegate;
 @end

@@ -1,11 +1,12 @@
 #import <Foundation/Foundation.h>
 
+@class AppDelegate;
+
 
 @interface AppDelegateTabRepository : NSObject <IAppDelegateTabRepository>
 
 
-@property(nonatomic, strong) UIWindow *window;
-@property(nonatomic, strong) UITabBarController *tabBarController;
+@property(nonatomic, strong) AppDelegate *appDelegate;
 
-- (id)initWithWindow:(UIWindow *)window andTabBarController:(UITabBarController *)tabBarController;
+- (id)initWithAppDelegate:(AppDelegate *)appDelegate;
 @end

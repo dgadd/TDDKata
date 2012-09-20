@@ -2,6 +2,7 @@
 #import "ServiceLocator.h"
 #import "BasePresenter.h"
 #import "AppDelegatePresenter.h"
+#import "AppDelegate.h"
 
 @implementation ServiceLocatorTests
 
@@ -10,9 +11,8 @@
 }
 
 - (void)testRegisterMethod_appDelegateEnumValue_returnsAppDelegatePresenter {
-    UIWindow *window = nil;
-    UITabBarController *tabBarController = nil;
-    ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithWindow:window andTabBarController:tabBarController];
+    AppDelegate *appDelegate = [[AppDelegate alloc] init];
+    ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithAppDelegate:appDelegate];
     AppDelegatePresenter *appDelegatePresenter = (AppDelegatePresenter *)[serviceLocator register:AppDelegateService];
     STAssertTrue([appDelegatePresenter isKindOfClass:[BasePresenter class]], @"The return type should contain base presenter");
 }

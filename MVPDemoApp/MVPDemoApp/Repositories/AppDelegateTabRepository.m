@@ -2,32 +2,33 @@
 #import "AppDelegateTabRepository.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "AppDelegate.h"
 
 
 @implementation AppDelegateTabRepository {
 
 @private
-    UITabBarController *_tabBarController;
+    AppDelegate *_appDelegate;
 }
-@synthesize window = _window;
-@synthesize tabBarController = _tabBarController;
+@synthesize appDelegate = _appDelegate;
 
 
-- (id)initWithWindow:(UIWindow *)window andTabBarController:(UITabBarController *)tabBarController {
+- (id)initWithAppDelegate:(AppDelegate *)appDelegate {
     if (self = [super init]) {
-        _window = window;
-        _tabBarController = tabBarController;
+        _appDelegate = appDelegate;
     }
 
     return self;
 }
 
 - (void)configureControllersAtRoot {
+    _appDelegate.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _appDelegate.tabBarController = [[UITabBarController alloc] init];
     UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
     UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    _tabBarController.viewControllers = @[viewController1, viewController2];
-    _window.rootViewController = self.tabBarController;
-    [_window makeKeyAndVisible];
+    _appDelegate.tabBarController.viewControllers = @[viewController1, viewController2];
+    _appDelegate.window.rootViewController = _appDelegate.tabBarController;
+    [_appDelegate.window makeKeyAndVisible];
 }
 
 
