@@ -79,6 +79,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -93,20 +94,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editing.templates" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="OCUnit.All Tests">
+  <component name="RunManager" selected="Application.MVPDemoApp">
     <configuration default="false" name="MVPDemoApp" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="MVPDemoApp" PROJECT_NAME="MVPDemoApp" TARGET_NAME="MVPDemoApp" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="MVPDemoApp" RUN_TARGET_NAME="MVPDemoApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
@@ -345,16 +345,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVPDemoApp/AppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/MVPDemoApp/Repositories/AppDelegateTabRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.29411766">
+        <state line="28" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.672">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVPDemoApp/Repositories/AppDelegateTabRepository.m">
+    <entry file="file://$PROJECT_DIR$/MVPDemoApp/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="919" selection-end="919" vertical-scroll-proportion="0.672">
+        <state line="12" column="1" selection-start="504" selection-end="504" vertical-scroll-proportion="0.24">
           <folding />
         </state>
       </provider>
