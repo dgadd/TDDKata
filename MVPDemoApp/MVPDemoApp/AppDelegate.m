@@ -8,7 +8,7 @@
 {
     ServiceLocator *serviceLocator = [[ServiceLocator alloc] initWithAppDelegate:self];
     AppDelegatePresenter *appDelegatePresenter = (AppDelegatePresenter *)[serviceLocator register:AppDelegateService];
-    [appDelegatePresenter configureControllersAtRoot];
+    [appDelegatePresenter applicationSetup];
     return YES;
 }
 

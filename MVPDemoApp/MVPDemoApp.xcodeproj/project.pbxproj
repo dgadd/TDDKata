@@ -23,6 +23,7 @@
 		5B179B201985E54A01A353CA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17993698C04ED7A0069B70 /* first.png */; };
 		5B179B2AF706DD443EE2127C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179F0D50D0BFF987BB77BB /* main.m */; };
 		5B179B4287517E06D45F3F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179130263F6F472323799E /* UIKit.framework */; };
+		5B179BD9EC8D34B492C5631A /* ExternalAdvertisementManagerRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1796FC3F64FEA4FBE55B77 /* ExternalAdvertisementManagerRepository.m */; };
 		5B179C82232688E56F6D8C54 /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179B41DFDF903661D5C39B /* BasePresenter.m */; };
 		5B179C9E291EF10B612229C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17991AD4DBEDCB6AED4AC0 /* Foundation.framework */; };
 		5B179CE5EBE39E1A24E1DD06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17927A9FEE3509BBE26C3C /* CoreGraphics.framework */; };
@@ -49,6 +50,7 @@
 		5B17903F9C3F914D2B1D27C2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		5B179049DDEA6863722340CB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5B179098773DC231D19C7994 /* MVPDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MVPDemoApp-Info.plist"; sourceTree = "<group>"; };
+		5B17909D305CC6BA3D058FEB /* IExternalAdvertisementManagerRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IExternalAdvertisementManagerRepository.h; sourceTree = "<group>"; };
 		5B1790EBD820F49843042839 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B179130263F6F472323799E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B17916AB75142C982492DB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		5B179680F4E2D4022D03800B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1796A8945CCBD187B3B212 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B1796FA75D480F50316BB16 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		5B1796FC3F64FEA4FBE55B77 /* ExternalAdvertisementManagerRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalAdvertisementManagerRepository.m; sourceTree = "<group>"; };
 		5B17970BE1CB1B00932E29AD /* AppDelegatePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegatePresenter.h; sourceTree = "<group>"; };
 		5B179730E74CDBBCD6AE28AB /* AppDelegateTabRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTabRepository.m; sourceTree = "<group>"; };
 		5B1797FB1738BF38AF948295 /* ServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocatorTests.m; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		5B179B41DFDF903661D5C39B /* BasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresenter.m; sourceTree = "<group>"; };
 		5B179B943891988534C1561F /* MVPDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B179BD8DCF70B23F3245A67 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../../README; sourceTree = "<group>"; };
+		5B179C86FFC960708D90FD58 /* ExternalAdvertisementManagerRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalAdvertisementManagerRepository.h; sourceTree = "<group>"; };
 		5B179C8CAEA9987F0AABFA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B179CD0CD7B17BE742A2B3E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5B179D5B0543901A1D641114 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -252,6 +256,9 @@
 		5B179E1C3F712E002F95F5BD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				5B179C86FFC960708D90FD58 /* ExternalAdvertisementManagerRepository.h */,
+				5B1796FC3F64FEA4FBE55B77 /* ExternalAdvertisementManagerRepository.m */,
+				5B17909D305CC6BA3D058FEB /* IExternalAdvertisementManagerRepository.h */,
 				5B179B03365590A7305D8A39 /* AppDelegateTabRepository.h */,
 				5B179730E74CDBBCD6AE28AB /* AppDelegateTabRepository.m */,
 				5B1791E3DB5488359AF9C93A /* IAppDelegateTabRepository.h */,
@@ -406,6 +413,7 @@
 				5B179F5558997905AFEFEE9D /* AppDelegateTabRepository.m in Sources */,
 				5B1795517C53B5E5D17B7949 /* ServiceLocator.m in Sources */,
 				5B179C82232688E56F6D8C54 /* BasePresenter.m in Sources */,
+				5B179BD9EC8D34B492C5631A /* ExternalAdvertisementManagerRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

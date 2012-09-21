@@ -4,6 +4,7 @@
 #import "IAppDelegateTabRepository.h"
 #import "AppDelegateTabRepository.h"
 #import "AppDelegate.h"
+#import "ExternalAdvertisementManagerRepository.h"
 
 
 @implementation ServiceLocator {
@@ -16,7 +17,9 @@
 - (BasePresenter *)register:(ServiceType)serviceType {
     if (_appDelegate && serviceType == AppDelegateService) {
         id <IAppDelegateTabRepository> appDelegateTabRepository = [[AppDelegateTabRepository alloc] initWithAppDelegate:_appDelegate];
-        return [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository];
+        id<IExternalAdvertisementManagerRepository> externalAdvertisementManagerRepository = [[ExternalAdvertisementManagerRepository alloc] init];
+        return [[AppDelegatePresenter alloc] initWithTabRepository:appDelegateTabRepository
+                                           andAdvertisementManager:externalAdvertisementManagerRepository];
     }
 
     return nil;
