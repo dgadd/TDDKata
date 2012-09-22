@@ -6,6 +6,16 @@
 }
 
 - (NSString *)wrapLine:(NSString *)input byColumnWidth:(int)width {
-    return input;
+    if(width == 0)
+        return input;
+
+    NSMutableString *lineWithBreaks = [NSMutableString string];
+    while ([input length] > width) {
+        NSString *sequence = [input substringToIndex:width];
+        input = [input stringByReplacingOccurrencesOfString:sequence withString:@""];
+        [lineWithBreaks appendString:[NSString stringWithFormat:@"%@\n",sequence]];
+    }
+    [lineWithBreaks appendString:[NSString stringWithFormat:@"%@",input]];
+    return lineWithBreaks;
 }
 @end
