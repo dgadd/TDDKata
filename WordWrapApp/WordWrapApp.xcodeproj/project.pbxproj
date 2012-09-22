@@ -10,6 +10,8 @@
 		5B1791EAB172E097F3621BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179CF66E090ED4B8E01303 /* Foundation.framework */; };
 		5B17938D7BAF6A821A60EAD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179F25A8627FF6E082EEED /* UIKit.framework */; };
 		5B179478E4CB615913F23099 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1796AF6D8CCE2A8BDF05CA /* CoreGraphics.framework */; };
+		5B1794A9899D93FD4B1A9E5F /* NSString+NSStringCategoryMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1799AE65C14F20CC7F5AA1 /* NSString+NSStringCategoryMethods.m */; };
+		5B1795A7C7CC6EDC297FC37A /* NSStringCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17915316C5B39466D0D99B /* NSStringCategoryTests.m */; };
 		5B1796644B948F10B92CF7B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179288955EAD788C1E0CFB /* AppDelegate.m */; };
 		5B1797C8B5BE7C07C6C968EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1798C6177A741AFB97A02F /* InfoPlist.strings */; };
 		5B1797CA54F1832FC4383C20 /* StringUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179238CFC77A6FE478BD08 /* StringUtilsTests.m */; };
@@ -35,8 +37,10 @@
 
 /* Begin PBXFileReference section */
 		5B179022576D514A5BB6ABF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B179093298F9C7D0E55A5C7 /* NSString+NSStringCategoryMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringCategoryMethods.h"; sourceTree = "<group>"; };
 		5B17909FD721D58453736863 /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
 		5B1790E9125BAC8F28AA62F5 /* WordWrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B17915316C5B39466D0D99B /* NSStringCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCategoryTests.m; sourceTree = "<group>"; };
 		5B179238CFC77A6FE478BD08 /* StringUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilsTests.m; sourceTree = "<group>"; };
 		5B179254BC18395FFD6E5B7F /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 		5B179288955EAD788C1E0CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,8 +50,10 @@
 		5B179583E4E26BEF03225D8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B1795DE59D8AF5BB37FC007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1796AF6D8CCE2A8BDF05CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1799AE65C14F20CC7F5AA1 /* NSString+NSStringCategoryMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringCategoryMethods.m"; sourceTree = "<group>"; };
 		5B1799CAA66755357A539E68 /* WordWrapAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1799FACDD3E685968237B9 /* StringUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilsTests.h; sourceTree = "<group>"; };
+		5B179A061F950EC3907797EB /* NSStringCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCategoryTests.h; sourceTree = "<group>"; };
 		5B179AB18AE128B739D0C067 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B179B74B9F47A2756E985FE /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B179C3C4F1145CE48E9EF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +110,10 @@
 		5B1791A7944B07D2DB9FD36D /* Utils.Tests.Unit */ = {
 			isa = PBXGroup;
 			children = (
+				5B179093298F9C7D0E55A5C7 /* NSString+NSStringCategoryMethods.h */,
+				5B1799AE65C14F20CC7F5AA1 /* NSString+NSStringCategoryMethods.m */,
+				5B17915316C5B39466D0D99B /* NSStringCategoryTests.m */,
+				5B179A061F950EC3907797EB /* NSStringCategoryTests.h */,
 				5B179238CFC77A6FE478BD08 /* StringUtilsTests.m */,
 				5B1799FACDD3E685968237B9 /* StringUtilsTests.h */,
 			);
@@ -276,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1797CA54F1832FC4383C20 /* StringUtilsTests.m in Sources */,
+				5B1795A7C7CC6EDC297FC37A /* NSStringCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +298,7 @@
 				5B1796644B948F10B92CF7B9 /* AppDelegate.m in Sources */,
 				5B1798300AE94736A44AF2C9 /* ViewController.m in Sources */,
 				5B179983FC3E757B3B774563 /* StringUtils.m in Sources */,
+				5B1794A9899D93FD4B1A9E5F /* NSString+NSStringCategoryMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
