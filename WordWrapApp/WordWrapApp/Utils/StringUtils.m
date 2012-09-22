@@ -26,6 +26,8 @@
         return sequence;
 
     NSUInteger spacePosition = [sequence rangeOfString:@" " options:NSBackwardsSearch].location;
+    if(spacePosition == NSNotFound)
+        [NSException raise:@"WordLongerThanColumnWidthException" format:@"You cannot input word wider than column width when word break is true."];
     return [sequence substringToIndex:spacePosition + 1];
 }
 

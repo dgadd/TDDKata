@@ -11,7 +11,7 @@
 - (void)testWrapLineByColumnWidthMethod_columnWidth0_returnsLineWithNoBreaks {
     NSString *input = @"A complex, multi-hyphenated, 3.758315 number-heavy complex sentence.";
     NSString *expected = input;
-    NSString *result = [sut wrapLine:input byColumnWidth:0 withWordBreak:0];
+    NSString *result = [sut wrapLine:input byColumnWidth:0 withWordBreak:NO];
 
     STAssertEqualObjects(expected, result, @"When column width is 0, line should return with no breaks.");
 }
@@ -19,7 +19,7 @@
 - (void)testWrapLineByColumnWidthMethod_columnWidth20_returnsLineWithExactBreaks {
     NSString *input = @"A complex, multi-hyphenated, 3.758315 number-heavy complex sentence.";
     NSString *expected = @"A complex, multi-hyp\nhenated, 3.758315 nu\nmber-heavy complex s\nentence.";
-    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:0];
+    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:NO];
 
     STAssertEqualObjects(expected, result, @"When column width is 20, line should return with exact breaks.");
 }
@@ -27,7 +27,7 @@
 - (void)testWrapLineByColumnWidthMethod_inputShorterThanColumnWidth_returnsLineWithNoBreaks {
     NSString *input = @"Short input";
     NSString *expected = input;
-    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:0];
+    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:NO];
 
     STAssertEqualObjects(expected, result, @"When input is less than column width, line should return with no breaks.");
 }
@@ -48,6 +48,16 @@
     NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:YES];
 
     STAssertEqualObjects(expected, result, @"When column width is 20 and word break true, line should return with word breaks.");
+}
+
+- (void)testWrapLineByColumnWidthMethod_wordsLongerThanBreakWhenColumnWidthTrue_throwsException {
+    @try {
+        [sut wrapLine:@"supercalifragilisticexpialidotious" byColumnWidth:20 withWordBreak:YES];
+        STAssertFalse(true, @"When word is wider than column width and word break true, should throw exception.");
+    } @catch (NSException *ex) {
+        STAssertEqualObjects(@"WordLongerThanColumnWidthException", [ex name], @"Expected exception name should be thrown.");
+        STAssertEqualObjects(@"You cannot input word wider than column width when word break is true.", [ex description], @"Expected exception description should be thrown.");
+    }
 }
 
 @end
