@@ -32,4 +32,13 @@
     STAssertEqualObjects(expected, result, @"When input is less than column width, line should return with no breaks.");
 }
 
+- (void)testWrapLineByColumnWidthMethod_columnWidthLessThan20_throwsException {
+    @try {
+        [sut wrapLine:@"blah" byColumnWidth:19];
+        STAssertFalse(true, @"Column width shorter than 20 should throw exception.");
+    } @catch (NSException *ex) {
+        STAssertEqualObjects(@"ColumnWidthTooNarrowException", [ex name], @"Expected exception name should be thrown.");
+        STAssertEqualObjects(@"The column width must be at least 20.", [ex description], @"Expected exception description should be thrown.");
+    }
+}
 @end
