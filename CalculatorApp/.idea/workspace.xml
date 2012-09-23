@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="834" selection-end="834" vertical-scroll-proportion="0.3682927">
+            <state line="21" column="94" selection-start="712" selection-end="712" vertical-scroll-proportion="0.25853658">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="59" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.0">
+            <state line="96" column="65" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -284,15 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="59" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="15" selection-start="203" selection-end="203" vertical-scroll-proportion="0.3292683">
@@ -300,9 +291,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="65" selection-start="3430" selection-end="3430" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="834" selection-end="834" vertical-scroll-proportion="0.3682927">
+        <state line="21" column="94" selection-start="712" selection-end="712" vertical-scroll-proportion="0.25853658">
           <folding />
         </state>
       </provider>
