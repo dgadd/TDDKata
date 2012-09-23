@@ -66,5 +66,23 @@
     STAssertEquals(expected, result, @"Custom delimiter input should reutrn sum.");
 }
 
+- (void)testAddMethod_negativeNumberInput_throwsException {
+    @try {
+        [sut add:@"3,-7,-2"];
+        STAssertFalse(true, @"Negative number input should have thrown exception.");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"NegativeNumbersException", [ex name], @"The expected exception name was not thrown.");
+        STAssertEqualObjects(@"You cannot input negative numbers: -7,-2,", [ex description], @"The expected exception description was not thrown.");
+    }
+}
+
+- (void)testAddMethod_numbersGreaterThan1000_areIgnored {
+    NSInteger expected = 1009;
+    NSInteger result = [sut add:@"3,7,999,1001"];
+
+    STAssertEquals(expected, result, @"Numbers > 1000 should be ignored.");
+}
+
+
 
 @end
