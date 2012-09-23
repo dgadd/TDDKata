@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="7" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.25609756">
               <folding />
             </state>
           </provider>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTests.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="22" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.9268293">
+            <state line="48" column="57" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -70,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.h" />
         <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.h" />
-        <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m" />
+        <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m" />
       </list>
     </option>
   </component>
@@ -284,19 +284,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.9268293">
+        <state line="48" column="57" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.25609756">
+          <folding />
         </state>
       </provider>
     </entry>
