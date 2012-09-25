@@ -19,6 +19,17 @@
     if (![numbersToAdd hasPrefix:@"//"])
         return numbersToAdd;
 
+    NSUInteger rightBraceLocation = [numbersToAdd rangeOfString:@"]"].location;
+    if(rightBraceLocation != NSNotFound) {
+        NSString *prefix = [numbersToAdd substringToIndex:rightBraceLocation];
+        NSString *suffix = [numbersToAdd substringFromIndex:rightBraceLocation + 2];
+        NSCharacterSet *braces = [NSCharacterSet characterSetWithCharactersInString:@"[]"];
+        NSArray *customDelimitersArray = [prefix componentsSeparatedByCharactersInSet:braces];
+        for (NSString *customDelimiter in customDelimitersArray)
+            suffix = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+        return suffix;
+    }
+
     NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
     NSString *suffix = [numbersToAdd substringFromIndex:4];
     return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
