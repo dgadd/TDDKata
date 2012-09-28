@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B179083228A06A3BE51D197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179219DBC8D403D1F64914 /* ViewController.m */; };
+		5B17916730676EE8A6ADB14E /* NSStringPlusCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179C774234240839AA1AEC /* NSStringPlusCategoryTests.m */; };
 		5B17921A0D75E15B8349406A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179D9D86ABA4A4B3BDBF27 /* AppDelegate.m */; };
 		5B1795EF0E13AB2775CD4EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17915EBB63649599D83F4C /* UIKit.framework */; };
 		5B1796E6635AFB7F10D4D7B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795615142CE5842DAF029 /* main.m */; };
@@ -20,6 +21,7 @@
 		5B179A59F7D1C9C2AFE5349A /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179B52FCC16C6C1705477D /* StringUtils.m */; };
 		5B179B3150EE5280AFC71F43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BA515D4DB8C452B1D67 /* CoreGraphics.framework */; };
 		5B179BECFD33795B56C0D349 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B17996F47B0AE2CA40FAF70 /* ViewController.xib */; };
+		5B179CADAAAFEF2DEF537387 /* NSString+KataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1792B847A4CBD22E353582 /* NSString+KataUtils.m */; };
 		5B179D98DA48DECAC4DE7B37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1798E6024F79ABADBA6354 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		5B17915EBB63649599D83F4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B179219DBC8D403D1F64914 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B1792B847A4CBD22E353582 /* NSString+KataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KataUtils.m"; sourceTree = "<group>"; };
+		5B1792F26DB712C6DE867D28 /* NSStringPlusCategoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringPlusCategoryTests.h; sourceTree = "<group>"; };
 		5B1795615142CE5842DAF029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179572733F2314F7140D33 /* StringUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtilsTests.m; sourceTree = "<group>"; };
 		5B1795CE5DC521DB5F12AB81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,12 +47,14 @@
 		5B17971B5EC21B74C09C2B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		5B1797423B8EEB03D761FD61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B179790B72EB3B64C2940E4 /* WordWrapAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordWrapAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1798D9B004DCB2844CE316 /* NSString+KataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KataUtils.h"; sourceTree = "<group>"; };
 		5B1799153D9CEFB5CD1EDA8C /* StringUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtilsTests.h; sourceTree = "<group>"; };
 		5B179B2AE13BC1DC07EF63B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179B52FCC16C6C1705477D /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 		5B179BA515D4DB8C452B1D67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B179C37894FD56685CDD0D2 /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
 		5B179C463855F74A5DA52116 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B179C774234240839AA1AEC /* NSStringPlusCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringPlusCategoryTests.m; sourceTree = "<group>"; };
 		5B179CC081E16558FB7DDB73 /* WordWrapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "WordWrapAppTests-Info.plist"; sourceTree = "<group>"; };
 		5B179D8EFB8006B1AF9C4346 /* WordWrapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordWrapApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B179D9D86ABA4A4B3BDBF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +114,8 @@
 		5B1793099A80DB94678BA5AA /* Utils.Tests.Unit */ = {
 			isa = PBXGroup;
 			children = (
+				5B179C774234240839AA1AEC /* NSStringPlusCategoryTests.m */,
+				5B1792F26DB712C6DE867D28 /* NSStringPlusCategoryTests.h */,
 				5B179572733F2314F7140D33 /* StringUtilsTests.m */,
 				5B1799153D9CEFB5CD1EDA8C /* StringUtilsTests.h */,
 			);
@@ -157,6 +165,8 @@
 		5B179EC3BDB2EB97C6A7D496 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B1798D9B004DCB2844CE316 /* NSString+KataUtils.h */,
+				5B1792B847A4CBD22E353582 /* NSString+KataUtils.m */,
 				5B179C37894FD56685CDD0D2 /* StringUtils.h */,
 				5B179B52FCC16C6C1705477D /* StringUtils.m */,
 			);
@@ -276,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1797F29812788D41F07FC4 /* StringUtilsTests.m in Sources */,
+				5B17916730676EE8A6ADB14E /* NSStringPlusCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +298,7 @@
 				5B17921A0D75E15B8349406A /* AppDelegate.m in Sources */,
 				5B179083228A06A3BE51D197 /* ViewController.m in Sources */,
 				5B179A59F7D1C9C2AFE5349A /* StringUtils.m in Sources */,
+				5B179CADAAAFEF2DEF537387 /* NSString+KataUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
