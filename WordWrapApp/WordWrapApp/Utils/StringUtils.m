@@ -15,14 +15,19 @@
         NSString *sequence = [input substringToIndex:width];
         if(wordBreak) {
             NSUInteger wordSpacePosition = [sequence rangeOfString:@" " options:NSBackwardsSearch].location;
-            if(wordSpacePosition != NSNotFound)
-                sequence = [sequence substringToIndex:wordSpacePosition + 1];
+            [self guardCondition_rejectTooLargeWordsWithout:wordSpacePosition];
+            sequence = [sequence substringToIndex:wordSpacePosition + 1];
         }
         input = [input stringByReplacingOccurrencesOfString:sequence withString:@""];
         [lineWithBreaks appendString:[NSString stringWithFormat:@"%@\n", sequence]];
     }
     [lineWithBreaks appendString:[NSString stringWithFormat:@"%@", input]];
     return lineWithBreaks;
+}
+
+- (void)guardCondition_rejectTooLargeWordsWithout:(NSUInteger)wordSpacePosition {
+    if(wordSpacePosition == NSNotFound)
+        [NSException raise:@"WordTooLargeForWordBreakException" format:@"When word break is true, words cannot be wider than column width."];
 }
 
 - (void)guardCondition_rejectTooNarrow:(int)width {
