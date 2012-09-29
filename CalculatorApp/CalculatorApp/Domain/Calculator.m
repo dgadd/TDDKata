@@ -9,23 +9,38 @@
     numbersToAdd = [self handleCustomDelimitersFor:numbersToAdd];
     numbersToAdd = [self handleNewLineDelimitersFor:numbersToAdd];
     [self guardCondition_rejectDuplicateDelimitersFor:numbersToAdd];
-    if([numbersToAdd rangeOfString:@","].location != NSNotFound)
+    if ([numbersToAdd rangeOfString:@","].location != NSNotFound)
         return [self sum:numbersToAdd];
 
     return [numbersToAdd length] > 0 ? [numbersToAdd integerValue] : 0;
 }
 
 - (NSString *)handleCustomDelimitersFor:(NSString *)numbersToAdd {
-    if([numbersToAdd hasPrefix:@"//"]) {
-        NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
-        NSString *suffix = [numbersToAdd substringFromIndex:4];
-        numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
-    }
-    return numbersToAdd;
+    if (![numbersToAdd hasPrefix:@"//"])
+        return numbersToAdd;
+
+    NSUInteger rightBraceLocation = [numbersToAdd rangeOfString:@"]"].location;
+    if (rightBraceLocation != NSNotFound)
+        return [self parseCustomDelimitersIn:numbersToAdd upTo:rightBraceLocation];
+
+
+    NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
+    NSString *suffix = [numbersToAdd substringFromIndex:4];
+    return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+}
+
+- (NSString *)parseCustomDelimitersIn:(NSString *)numbersToAdd upTo:(NSUInteger)rightBraceLocation {
+    NSString *prefix = [numbersToAdd substringToIndex:rightBraceLocation];
+    NSString *suffix = [numbersToAdd substringFromIndex:rightBraceLocation + 2];
+    NSCharacterSet *braces = [NSCharacterSet characterSetWithCharactersInString:@"[]"];
+    NSArray *customDelimitersArray = [prefix componentsSeparatedByCharactersInSet:braces];
+    for (NSString *customDelimiter in customDelimitersArray)
+            suffix = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+    return suffix;
 }
 
 - (void)guardCondition_rejectDuplicateDelimitersFor:(NSString *)numbersToAdd {
-    if([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+    if ([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
         [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
 }
 
@@ -41,7 +56,7 @@
     for (NSString *numberString in numbersArray) {
         NSInteger number = [numberString integerValue];
         [self checkFor:negativeNumbers in:number];
-        if(number < 1001)
+        if (number < 1001)
             total += number;
     }
     [self guardCondition_rejectNegativeNumbersFor:negativeNumbers];
@@ -55,6 +70,6 @@
 
 - (void)checkFor:(NSMutableString *)negativeNumbers in:(NSInteger)number {
     if (number < 0)
-            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,",number]];
+        [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
 }
 @end
