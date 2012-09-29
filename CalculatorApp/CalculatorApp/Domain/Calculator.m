@@ -19,7 +19,7 @@
     if (![numbersToAdd hasPrefix:@"//"])
         return numbersToAdd;
 
-    NSUInteger rightBraceLocation = [numbersToAdd rangeOfString:@"]"].location;
+    NSUInteger rightBraceLocation = [numbersToAdd rangeOfString:@"]" options:NSBackwardsSearch].location;
     if (rightBraceLocation != NSNotFound)
         return [self parseCustomDelimitersIn:numbersToAdd upTo:rightBraceLocation];
 
