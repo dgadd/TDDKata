@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="878" selection-end="878" vertical-scroll-proportion="0.37027708">
+            <state line="22" column="94" selection-start="760" selection-end="760" vertical-scroll-proportion="0.25692695">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="58" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.0">
+            <state line="83" column="65" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -284,14 +284,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="58" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.0">
+        <state line="83" column="65" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="878" selection-end="878" vertical-scroll-proportion="0.37027708">
+        <state line="22" column="94" selection-start="760" selection-end="760" vertical-scroll-proportion="0.25692695">
           <folding />
         </state>
       </provider>
