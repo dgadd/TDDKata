@@ -12,7 +12,14 @@
     NSInteger expected = 0;
     NSInteger result = [sut add:@""];
 
-    STAssertEquals(expected, result, @'Zero length input should return 0.');
+    STAssertEquals(expected, result, @"Zero length input should return 0.");
+}
+
+- (void)testAddMethod_oneLengthInput_shouldReturnEquivalent {
+    NSInteger expected = 3;
+    NSInteger result = [sut add:@"3"];
+
+    STAssertEquals(expected, result, @"One length input should return numeric equivalent.");
 }
 
 @end
