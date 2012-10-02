@@ -8,10 +8,16 @@
 - (NSInteger)add:(NSString *)numbersToAdd {
     numbersToAdd = [self handleNewLineDelimiter:numbersToAdd];
     NSUInteger commaPosition = [numbersToAdd rangeOfString:@","].location;
+    [self guardCondition_rejectDuplicateDelimitersFor:numbersToAdd];
     if (commaPosition != NSNotFound)
         return [self sum:numbersToAdd];
 
     return [numbersToAdd length] > 0 ? [numbersToAdd integerValue] : 0;
+}
+
+- (void)guardCondition_rejectDuplicateDelimitersFor:(NSString *)numbersToAdd {
+    if([numbersToAdd rangeOfString:@",,"].location != NSNotFound)
+        [NSException raise:@"DuplicateDelimitersException" format:@"You cannot input duplicate delimiters."];
 }
 
 - (NSString *)handleNewLineDelimiter:(NSString *)numbersToAdd {
