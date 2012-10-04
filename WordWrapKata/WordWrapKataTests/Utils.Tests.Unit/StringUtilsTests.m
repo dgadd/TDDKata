@@ -12,7 +12,7 @@
     NSString *input = @"Here is a fancy-hyphentated line with 3.14 as PI and also; even a semi-colon.";
     NSString *expected = input;
 
-    NSString *result = [sut wrapLine:input byColumnWidth:0];
+    NSString *result = [sut wrapLine:input byColumnWidth:0 withWordBreak:0];
 
     STAssertEqualObjects(expected, result, @"When column width is 0, line should return with no breaks.");
 }
@@ -21,7 +21,7 @@
     NSString *input = @"Here is a fancy-hyphentated line with 3.14 as PI and also; even a semi-colon.";
     NSString *expected = @"Here is a fancy-hyph\nentated line with 3.\n14 as PI and also; e\nven a semi-colon.";
 
-    NSString *result = [sut wrapLine:input byColumnWidth:20];
+    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:0];
 
     STAssertEqualObjects(expected, result, @"When column width is 20, line should return with exact breaks.");
 }
@@ -30,9 +30,28 @@
     NSString *input = @"very short";
     NSString *expected = input;
 
-    NSString *result = [sut wrapLine:input byColumnWidth:0];
+    NSString *result = [sut wrapLine:input byColumnWidth:0 withWordBreak:0];
 
     STAssertEqualObjects(expected, result, @"When input is shorter than column width, line should return with no breaks.");
+}
+
+- (void)testWrapLineByColumnWidthMethod_columnWidthLessThan20_shouldThrowException {
+    @try {
+        [sut wrapLine:@"blah" byColumnWidth:19 withWordBreak:0];
+        STAssertFalse(true, @"Column width less than 20 should throw exception.");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"ColumnWidthTooNarrowException", [ex name], @"The expected exception name was not thrown.");
+        STAssertEqualObjects(@"The column width cannot be less than 20.", [ex description], @"The expected exception description was not thrown.");
+    }
+}
+
+- (void)testWrapLineByColumnWidthWithWordBreakMethod_columnWidth20_lineShouldReturnWithWordBreaks {
+    NSString *input = @"Here is a fancy-hyphentated line with 3.14 as PI and also; even a semi-colon.";
+    NSString *expected = @"Here is a \nfancy-hyphentated \nline with 3.14 as \nPI and also; even a \nsemi-colon.";
+
+    NSString *result = [sut wrapLine:input byColumnWidth:20 withWordBreak:TRUE];
+
+    STAssertEqualObjects(expected, result, @"When column width is 20, line should return with exact breaks.");
 }
 
 
