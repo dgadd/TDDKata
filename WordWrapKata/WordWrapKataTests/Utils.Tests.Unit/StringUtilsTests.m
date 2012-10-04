@@ -17,4 +17,13 @@
     STAssertEqualObjects(expected, result, @"When column width is 0, line should return with no breaks.");
 }
 
+- (void)testWrapLineByColumnWidthMethod_columnWidth20_lineShouldReturnWithExactBreaks {
+    NSString *input = @"Here is a fancy-hyphentated line with 3.14 as PI and also; even a semi-colon.";
+    NSString *expected = @"Here is a fancy-hyph\nentated line with 3.\n14 as PI and also; e\nven a semi-colon.";
+
+    NSString *result = [sut wrapLine:input byColumnWidth:20];
+
+    STAssertEqualObjects(expected, result, @"When column width is 20, line should return with exact breaks.");
+}
+
 @end
