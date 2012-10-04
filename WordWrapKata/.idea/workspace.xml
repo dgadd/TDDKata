@@ -50,7 +50,7 @@
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapKataTests/Utils.Tests.Unit/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="93" selection-start="842" selection-end="842" vertical-scroll-proportion="0.70731705">
+            <state line="34" column="84" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.85365856">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -279,7 +279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapKataTests/Utils.Tests.Unit/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="93" selection-start="842" selection-end="842" vertical-scroll-proportion="0.70731705">
+        <state line="34" column="84" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.85365856">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

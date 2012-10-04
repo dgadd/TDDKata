@@ -26,4 +26,14 @@
     STAssertEqualObjects(expected, result, @"When column width is 20, line should return with exact breaks.");
 }
 
+- (void)testWrapLineByColumnWidthMethod_inputShorterThanColumnWidth_lineShouldReturnWithNoBreaks {
+    NSString *input = @"very short";
+    NSString *expected = input;
+
+    NSString *result = [sut wrapLine:input byColumnWidth:0];
+
+    STAssertEqualObjects(expected, result, @"When input is shorter than column width, line should return with no breaks.");
+}
+
+
 @end
