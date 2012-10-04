@@ -32,7 +32,7 @@
       <file leaf-file-name="StringUtils.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWrapKata/Utils/StringUtils.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="577" selection-end="577" vertical-scroll-proportion="0.41463414">
+            <state line="33" column="87" selection-start="1276" selection-end="1276" vertical-scroll-proportion="1.2468514">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="StringUtilsTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWrapKataTests/Utils.Tests.Unit/StringUtilsTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="101" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0">
+            <state line="62" column="65" selection-start="2994" selection-end="3063" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -272,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapKataTests/Utils.Tests.Unit/StringUtilsTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="101" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0">
+        <state line="62" column="65" selection-start="2994" selection-end="3063" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -281,7 +281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWrapKata/Utils/StringUtils.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="577" selection-end="577" vertical-scroll-proportion="0.41463414">
+        <state line="33" column="87" selection-start="1276" selection-end="1276" vertical-scroll-proportion="1.2468514">
           <folding />
         </state>
       </provider>

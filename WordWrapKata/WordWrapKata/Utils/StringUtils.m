@@ -26,8 +26,13 @@
 
 - (NSString *)trimToWordSpaceThis:(NSString *)sequence {
     NSUInteger finalSpacePosition = [sequence rangeOfString:@" " options:NSBackwardsSearch].location;
-    if (finalSpacePosition != NSNotFound)
-                sequence = [sequence substringToIndex:finalSpacePosition + 1];
+    [self guardCondition_wordLongerThanColumnWidthCheckFor:finalSpacePosition];
+    sequence = [sequence substringToIndex:finalSpacePosition + 1];
     return sequence;
+}
+
+- (void)guardCondition_wordLongerThanColumnWidthCheckFor:(NSUInteger)finalSpacePosition {
+    if (finalSpacePosition == NSNotFound)
+        [NSException raise:@"WordLongerThanColumnWidthException" format:@"When word break is true, words cannot be longer than column width."];
 }
 @end
