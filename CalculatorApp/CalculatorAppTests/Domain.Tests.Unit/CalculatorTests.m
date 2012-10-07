@@ -70,4 +70,11 @@
     }
 }
 
+- (void)testAddMethod_numbersGreaterThan1000_shouldBeIgnored {
+    NSInteger expected = 1010;
+    NSInteger result = [sut add:@"4,7,999,1001"];
+
+    STAssertEquals(expected, result, @"Numbers > 1000 should be ignored.");
+}
+
 @end
