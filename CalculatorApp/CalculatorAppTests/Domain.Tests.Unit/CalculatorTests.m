@@ -53,5 +53,11 @@
     STAssertThrowsSpecificNamed([sut add:@"3\n,4,5"], NSException, @"DuplicateDelimitersException", @"Duplciate delimiters should throw exception");
 }
 
+- (void)testAddMethod_customDelimiterInput_shouldReturnSum {
+    NSInteger expected = 15;
+    NSInteger result = [sut add:@"//#\n3#5,4\n3"];
+
+    STAssertEquals(expected, result, @"Custom delimiter input should return sum.");
+}
 
 @end
