@@ -21,7 +21,6 @@
 		5B179B00A6B111009902EA52 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1794FABE99042DB1A6F256 /* Default@2x.png */; };
 		5B179BD6DB12800B4DF5B3A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179F668FC53B812055A492 /* SenTestingKit.framework */; };
 		5B179C4E680ED3252D60EC79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179993F688358EDB864F1F /* ViewController.m */; };
-		5B179D82933D4103D3A03719 /* CalculatorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17976CD30DC526B0CC3B0C /* CalculatorAppTests.m */; };
 		5B179EF004AD323E2FA0A92E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17935D9C6BFD89BE62914E /* main.m */; };
 		5B179EFE8C9F990163577A25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179654CA93DA704B995B65 /* Default.png */; };
 		5B179F42295BAA8E19D21C66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1797547FACBFE74C486B91 /* UIKit.framework */; };
@@ -52,7 +51,6 @@
 		5B1796A7ADACEDCDE1038587 /* CalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		5B179743F08CFA05F2B90433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B1797547FACBFE74C486B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B17976CD30DC526B0CC3B0C /* CalculatorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppTests.m; sourceTree = "<group>"; };
 		5B17982B88D871B6200E6BD4 /* CalculatorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B17983F922FECFB765D033E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B179888D487D8B1A2AB8F60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 		5B179993F688358EDB864F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B179ACC5D53EC7FE77CF2E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179F11C8AC40C28B26E8FD /* CalculatorApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CalculatorApp-Info.plist"; sourceTree = "<group>"; };
-		5B179F1EDD6D44EE6EB26356 /* CalculatorAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppTests.h; sourceTree = "<group>"; };
 		5B179F668FC53B812055A492 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B179FB115046CAE9AC52D99 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,8 +142,6 @@
 		5B179B3A159B093D63A7DA6C /* CalculatorAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B17976CD30DC526B0CC3B0C /* CalculatorAppTests.m */,
-				5B179F1EDD6D44EE6EB26356 /* CalculatorAppTests.h */,
 				5B179A9672E167108CA72BCD /* Supporting Files */,
 				5B179C9C3219894947416669 /* Domain.Tests.Unit */,
 			);
@@ -292,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B179D82933D4103D3A03719 /* CalculatorAppTests.m in Sources */,
 				5B17934FD2B74F8C06D49AE3 /* CalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
