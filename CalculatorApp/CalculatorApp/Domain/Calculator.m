@@ -19,9 +19,25 @@
     if (![numbersToAdd hasPrefix:@"//"])
         return numbersToAdd;
 
+    NSUInteger rightBracePosition = [numbersToAdd rangeOfString:@"]"].location;
+    if(rightBracePosition != NSNotFound)
+        return [self handleMultiLengthDelimitersIn:numbersToAdd from:rightBracePosition];
+
+
     NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
     NSString *suffix = [numbersToAdd substringFromIndex:4];
     return [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+}
+
+- (NSString *)handleMultiLengthDelimitersIn:(NSString *)numbersToAdd from:(NSUInteger)rightBracePosition {
+    NSString *prefix = [numbersToAdd substringToIndex:rightBracePosition];
+    NSString *suffix = [numbersToAdd substringFromIndex:rightBracePosition + 2];
+    NSCharacterSet *braces = [NSCharacterSet characterSetWithCharactersInString:@"[]"];
+    NSArray *customDelimitersArray = [prefix componentsSeparatedByCharactersInSet:braces];
+    for (NSString *customDelimiter in customDelimitersArray) {
+            suffix = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
+        }
+    return suffix;
 }
 
 - (void)guardCondition_rejectDuplicateDelimitersIn:(NSString *)numbersToAdd {
