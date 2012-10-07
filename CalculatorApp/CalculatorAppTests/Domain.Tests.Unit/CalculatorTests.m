@@ -84,5 +84,12 @@
     STAssertEquals(expected, result, @"Custom multi-length delimiter input should return sum.");
 }
 
+- (void)testAddMethod_customMultiLengthMultiDelimiterInput_shouldReturnSum {
+    NSInteger expected = 17;
+    NSInteger result = [sut add:@"//[######][@@@]\n3######5@@@2,4\n3"];
+
+    STAssertEquals(expected, result, @"Custom multi-length multi-delimiter input should return sum.");
+}
+
 
 @end
