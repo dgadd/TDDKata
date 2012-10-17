@@ -4,7 +4,9 @@
 
 
 @interface AppLaunchPresenter : NSObject
-@property(nonatomic, strong) id <IMapLocationRepository> mapLocationRepository;
+@property(nonatomic, strong, readonly) id <IMapLocationRepository> mapLocationRepository;
 
 - (void)setup;
+
+- (id)initWithMapLocation:(id <IMapLocationRepository>)mapLocationRepository;
 @end
