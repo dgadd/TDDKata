@@ -9,8 +9,7 @@
     id mapLocationRepository = [OCMockObject mockForProtocol:@protocol(IMapLocationRepository)];
     [[mapLocationRepository expect] registerLocation];
 
-    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] init];
-    sut.mapLocationRepository = (id<IMapLocationRepository>)mapLocationRepository;
+    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] initWithMapLocation:mapLocationRepository];
     [sut setup];
 
     [mapLocationRepository verify];
