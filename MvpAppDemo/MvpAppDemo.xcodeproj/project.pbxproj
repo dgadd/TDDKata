@@ -14,6 +14,7 @@
 		5B179294B7F76FEF87B1BCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179473E755FE6CAA279CEB /* AppDelegate.m */; };
 		5B17935DA227FAB9439C284C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179DD2AD075D432BC0D293 /* UIKit.framework */; };
 		5B1793B8F723D7503B99511D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179D9FADDE6D9FDC51E800 /* Foundation.framework */; };
+		5B17942A917ABF7639365A2C /* AppLaunchPresenterIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1797A123434FC19C677F13 /* AppLaunchPresenterIntegrationTests.m */; };
 		5B1794710874424F151A4BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B17976AB885220678ACC19A /* InfoPlist.strings */; };
 		5B179523AAC19B97CF6978E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179B288B4220FA3AF7C2EC /* CoreGraphics.framework */; };
 		5B179939800E9AA6BAD26EC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179673D01F31912107CBED /* InfoPlist.strings */; };
@@ -21,6 +22,7 @@
 		5B179A1C07FB319FE328E46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179DD2AD075D432BC0D293 /* UIKit.framework */; };
 		5B179A3726F6639EF271A11C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179CB9B5853C533CEACC56 /* ViewController.xib */; };
 		5B179AD1BBFCF8C48978351B /* SanityCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179169A1DAFEA13E582E4F /* SanityCheckTests.m */; };
+		5B179B2B59E2624C45D42CB6 /* MapLocationRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179561EE53874C767E3B04 /* MapLocationRepository.m */; };
 		5B179B87025D57978CB3482C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1791C19DC64BE23E962112 /* main.m */; };
 		5B179CEE8CD6D10BFFF4DB1B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1799F42ABF929364F6DF0C /* SenTestingKit.framework */; };
 		5B179D01C5D35697786193F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17937C4FEA435BA610F486 /* Default.png */; };
@@ -54,20 +56,24 @@
 		5B179479844D74E0B77E75CE /* SanityCheckTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanityCheckTests.h; sourceTree = "<group>"; };
 		5B1794B2EAF42530A90F36A2 /* MvpAppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MvpAppDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5B1794C555B0CAA253540453 /* AppLaunchPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLaunchPresenterTests.m; sourceTree = "<group>"; };
+		5B179561EE53874C767E3B04 /* MapLocationRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationRepository.m; sourceTree = "<group>"; };
 		5B17958DACAA564F58DD612A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B1796010CE965CD7E8BCC60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B179614A69E9FF202F5EB4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B1796B6E05B87CA4ECFBABB /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B1796E9EC4F275489CDB8AC /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		5B1797A123434FC19C677F13 /* AppLaunchPresenterIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLaunchPresenterIntegrationTests.m; sourceTree = "<group>"; };
 		5B1798213F6BC81A2FC801F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B179890F2BA61B4C9024D56 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B1799F42ABF929364F6DF0C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B1799FE76FB196EA778802B /* ISanityCheckRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheckRepository.h; sourceTree = "<group>"; };
 		5B179A24AD39C3FA7D283898 /* IMapLocationRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapLocationRepository.h; sourceTree = "<group>"; };
+		5B179A558A8AF1ABF508169C /* MapLocationRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationRepository.h; sourceTree = "<group>"; };
 		5B179ABE64AAADCF3EF95A5E /* AppLaunchPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenterTests.h; sourceTree = "<group>"; };
 		5B179B288B4220FA3AF7C2EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B179B3CC0DFB83BF5C34955 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
 		5B179CA795F348577FD92262 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B179CE877F80B6B278E941D /* AppLaunchPresenterIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenterIntegrationTests.h; sourceTree = "<group>"; };
 		5B179D409A55A6119673F353 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/OCMock/libOCMock.a; sourceTree = "<group>"; };
 		5B179D432996D2A4202BED47 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B179D9FADDE6D9FDC51E800 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -158,6 +164,15 @@
 			path = Presenters.Tests.Unit;
 			sourceTree = "<group>";
 		};
+		5B17963AE2CAC66CECA72D35 /* Presenters.Tests.Integration */ = {
+			isa = PBXGroup;
+			children = (
+				5B179CE877F80B6B278E941D /* AppLaunchPresenterIntegrationTests.h */,
+				5B1797A123434FC19C677F13 /* AppLaunchPresenterIntegrationTests.m */,
+			);
+			path = Presenters.Tests.Integration;
+			sourceTree = "<group>";
+		};
 		5B179730FD4D15AC2B356613 /* MvpAppDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +231,7 @@
 			children = (
 				5B179CA7676AB2C82E0D0491 /* Supporting Files */,
 				5B17927B8F959B7E76E61C0D /* Presenters.Tests.Unit */,
+				5B17963AE2CAC66CECA72D35 /* Presenters.Tests.Integration */,
 			);
 			path = MvpAppDemoTests;
 			sourceTree = "<group>";
@@ -234,6 +250,8 @@
 			children = (
 				5B1799FE76FB196EA778802B /* ISanityCheckRepository.h */,
 				5B179A24AD39C3FA7D283898 /* IMapLocationRepository.h */,
+				5B179561EE53874C767E3B04 /* MapLocationRepository.m */,
+				5B179A558A8AF1ABF508169C /* MapLocationRepository.h */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -356,6 +374,7 @@
 				5B179294B7F76FEF87B1BCDB /* AppDelegate.m in Sources */,
 				5B179106B0BC51A00A34558C /* ViewController.m in Sources */,
 				5B179D32FD9676002A335917 /* AppLaunchPresenter.m in Sources */,
+				5B179B2B59E2624C45D42CB6 /* MapLocationRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +384,7 @@
 			files = (
 				5B179AD1BBFCF8C48978351B /* SanityCheckTests.m in Sources */,
 				5B1790B035F5DC5C48E82639 /* AppLaunchPresenterTests.m in Sources */,
+				5B17942A917ABF7639365A2C /* AppLaunchPresenterIntegrationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

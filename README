@@ -14,7 +14,7 @@ Then the IMapLocationRepository protocol should call its registerLocation method
 2) Integration test:
 Given the presenter for AppLaunch
 When the setup method is called
-Then the MapLocationRepository implementation class should call its registerLocation method and return success.
+Then the MapLocationRepository implementation class should call its registerLocation method and (for now) launch a UIAlertView.
 
 3) Unit test:
 Given the ServiceLocator
