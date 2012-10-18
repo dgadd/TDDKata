@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceLocator.h" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemo/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.4836272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLocator.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MvpAppDemo/Utils/ServiceLocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.25609756">
+            <state line="7" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -82,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Repository/IMapLocationRepository.h" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.m" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.h" />
@@ -98,6 +106,7 @@
         <option value="$PROJECT_DIR$/MvpAppDemoTests/Utils.Tests.Unit/ServiceLocatorTests.m" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Utils/ServiceLocator.m" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Utils/ServiceLocator.h" />
+        <option value="$PROJECT_DIR$/MvpAppDemo/AppDelegate.m" />
       </list>
     </option>
   </component>
@@ -215,9 +224,11 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="MvpAppDemo" />
   </component>
-  <component name="RunManager" selected="OCUnit.All Tests">
+  <component name="RunManager" selected="Application.MvpAppDemo">
     <configuration default="false" name="MvpAppDemo" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="MvpAppDemo" PROJECT_NAME="MvpAppDemo" TARGET_NAME="MvpAppDemo" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="MvpAppDemo" RUN_TARGET_NAME="MvpAppDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
     <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="MvpAppDemo" TARGET_NAME="MvpAppDemoTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE">
@@ -264,7 +275,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -328,13 +339,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/SanityCheckTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="291" selection-end="291" vertical-scroll-proportion="0.4390244">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="37" selection-start="149" selection-end="149" vertical-scroll-proportion="0.2195122">
@@ -373,9 +377,7 @@
     <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="117" selection-start="622" selection-end="622" vertical-scroll-proportion="0.4390244">
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,18 +391,14 @@
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.2195122">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="16" selection-start="177" selection-end="258" vertical-scroll-proportion="0.25609756">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -446,10 +444,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Utils/ServiceLocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.25609756">
+        <state line="7" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.4836272">
+          <folding />
         </state>
       </provider>
     </entry>
