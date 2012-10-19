@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B1790BAFD8C395017516079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179102B9C9C6DBCA1D3407 /* UIKit.framework */; };
+		5B1790EE926468D66475F4F2 /* AppLaunchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17978B19D05BD3EDC1824E /* AppLaunchPresenter.m */; };
 		5B1791B08C66D3164DAFFA06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1795A186A081E42B3D8178 /* CoreGraphics.framework */; };
 		5B179227482A38CD0C8A9261 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1795E2874E3A373F6C3E27 /* ViewController.xib */; };
 		5B17925E20731F25677F690F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1794F97A48B548906F1E0D /* SenTestingKit.framework */; };
@@ -19,6 +20,7 @@
 		5B1797D20C0FBA04EB1FE5D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179D0CE7E4754C90B51785 /* Default-568h@2x.png */; };
 		5B179818714B8983A8EA97BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17987E886970D6F905854A /* ViewController.m */; };
 		5B179881AE5D2043E6291447 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179C6CBA9344C7DCAFBB25 /* Default@2x.png */; };
+		5B1798BE54233BA2596403BC /* AppLaunchPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179F36B7741D9B788ADA67 /* AppLaunchPresenterTests.m */; };
 		5B1798DD2683D6BCB3758D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17935C1A6A672F19F659D7 /* Foundation.framework */; };
 		5B179C5628D52A91DB48089A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17904BE4D7972DECB9E64E /* main.m */; };
 		5B179C9A9DF117F63640AF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17935C1A6A672F19F659D7 /* Foundation.framework */; };
@@ -45,6 +47,7 @@
 		5B179298DD52893AE78CA1F3 /* MvpAppDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MvpAppDemo-Prefix.pch"; sourceTree = "<group>"; };
 		5B179302DF381EA78E93692C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B17935C1A6A672F19F659D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B179369E4CF0C19E34467D9 /* IAdManagerRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAdManagerRepository.h; sourceTree = "<group>"; };
 		5B1793B0C15C94C7303A754C /* MvpAppDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MvpAppDemo-Info.plist"; sourceTree = "<group>"; };
 		5B1794A9A89099F9940D5975 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B1794F97A48B548906F1E0D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -53,11 +56,15 @@
 		5B1796143063A330D0549B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		5B17968D48619CE8E25807C4 /* MvpAppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MvpAppDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5B1796E82C29C154C46A5DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B17978B19D05BD3EDC1824E /* AppLaunchPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLaunchPresenter.m; sourceTree = "<group>"; };
 		5B17980A7CBD316CEDC5EFDC /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B17981282CE62E32F2C6CE5 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
 		5B17987E886970D6F905854A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B1798F469A41D2FC8A45E63 /* SanityCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTests.m; sourceTree = "<group>"; };
 		5B179A427C66B2BC592B55A3 /* MvpAppDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvpAppDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179A8D752A9381E8B16A45 /* IMapLocationRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapLocationRepository.h; sourceTree = "<group>"; };
+		5B179A9419272A1444091279 /* AppLaunchPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenterTests.h; sourceTree = "<group>"; };
+		5B179AC6C2D2E14373899991 /* AppLaunchPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenter.h; sourceTree = "<group>"; };
 		5B179B208E5E7DD631024249 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B179C6CBA9344C7DCAFBB25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5B179C9C6E2024697B85AE17 /* SanityCheckTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanityCheckTests.h; sourceTree = "<group>"; };
@@ -67,6 +74,7 @@
 		5B179DBA4AE34B15B53C5904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179E4C9EF9C7E781E1AC63 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B179EB840A17AD28DAB6D53 /* MvpAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvpAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179F36B7741D9B788ADA67 /* AppLaunchPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLaunchPresenterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				5B179DB3F2455AF1BFE80770 /* ISanityCheckRepository.h */,
+				5B179A8D752A9381E8B16A45 /* IMapLocationRepository.h */,
+				5B179369E4CF0C19E34467D9 /* IAdManagerRepository.h */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -175,6 +185,8 @@
 		5B1799BB00044DABECD51667 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				5B17978B19D05BD3EDC1824E /* AppLaunchPresenter.m */,
+				5B179AC6C2D2E14373899991 /* AppLaunchPresenter.h */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -230,6 +242,8 @@
 			children = (
 				5B179C9C6E2024697B85AE17 /* SanityCheckTests.h */,
 				5B1798F469A41D2FC8A45E63 /* SanityCheckTests.m */,
+				5B179A9419272A1444091279 /* AppLaunchPresenterTests.h */,
+				5B179F36B7741D9B788ADA67 /* AppLaunchPresenterTests.m */,
 			);
 			path = Presenters.Tests.Unit;
 			sourceTree = "<group>";
@@ -341,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1796B9F54CDB4048873E00 /* SanityCheckTests.m in Sources */,
+				5B1798BE54233BA2596403BC /* AppLaunchPresenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +366,7 @@
 				5B179C5628D52A91DB48089A /* main.m in Sources */,
 				5B17978DAF2CB68BA606D4E8 /* AppDelegate.m in Sources */,
 				5B179818714B8983A8EA97BF /* ViewController.m in Sources */,
+				5B1790EE926468D66475F4F2 /* AppLaunchPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

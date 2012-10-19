@@ -10,6 +10,7 @@ The AppDelegatePresenter needs to delegate to 4 protocols, and run all of those 
 Given the presenter for AppLaunch
 When the setup method is called
 Then the IMapLocationRepository protocol should call its registerLocation method
+Then the IAdManagerRepository protocol should call its registerAdvertising method
 
 2) Integration test:
 Given the presenter for AppLaunch
@@ -24,7 +25,7 @@ Then the AppLaunchPresenter should be returned as BasePresenter with all reposit
 4) Unit test: 
 Given the presenter for ParkNow
 When the getLocationDetails method is called
-Then the ILocationRepository protocol should call its findLocation method
+Then the ILocationRepository protocol should call its findLocation methoqd
 
 5) Integration test:
 Given the presenter for the AppDelegate
