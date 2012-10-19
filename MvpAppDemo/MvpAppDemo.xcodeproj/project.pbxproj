@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B17905E77E8547A5CACD3B1 /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179956D3CE01EBB96DCCA1 /* ServiceLocator.m */; };
 		5B1790BAFD8C395017516079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179102B9C9C6DBCA1D3407 /* UIKit.framework */; };
 		5B1790EE926468D66475F4F2 /* AppLaunchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17978B19D05BD3EDC1824E /* AppLaunchPresenter.m */; };
 		5B1791B08C66D3164DAFFA06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1795A186A081E42B3D8178 /* CoreGraphics.framework */; };
@@ -27,6 +28,7 @@
 		5B179C8DEE35D04959AB34CF /* AdManagerRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179765084170DA11F1BEA3 /* AdManagerRepository.m */; };
 		5B179C9A9DF117F63640AF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17935C1A6A672F19F659D7 /* Foundation.framework */; };
 		5B179F8D30D1AE0544BB81F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17912886BC6F4614A652C7 /* Default.png */; };
+		5B179FAEE3505A32520A12C6 /* ServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795B63243874F93C26088 /* ServiceLocatorTests.m */; };
 		5B179FB44A6CD949C3223B11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179102B9C9C6DBCA1D3407 /* UIKit.framework */; };
 		5B179FEAB37C1C1367B2D4D4 /* AppLaunchPresenterIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17924F067F0F5F71C7CA64 /* AppLaunchPresenterIntegrationTests.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,7 @@
 		5B179102B9C9C6DBCA1D3407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B17912886BC6F4614A652C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5B179134EA7939519B564743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B1791656D0265E1B5407C96 /* ServiceLocatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocatorTests.h; sourceTree = "<group>"; };
 		5B1791C729A4D12744188555 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		5B17924F067F0F5F71C7CA64 /* AppLaunchPresenterIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLaunchPresenterIntegrationTests.m; sourceTree = "<group>"; };
 		5B179298DD52893AE78CA1F3 /* MvpAppDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MvpAppDemo-Prefix.pch"; sourceTree = "<group>"; };
@@ -57,8 +60,11 @@
 		5B1794F97A48B548906F1E0D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B179576027B1F3669DE34FE /* MapLocationRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationRepository.m; sourceTree = "<group>"; };
 		5B1795A186A081E42B3D8178 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1795B63243874F93C26088 /* ServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocatorTests.m; sourceTree = "<group>"; };
 		5B1795FAABC560764236A48C /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/OCMock/libOCMock.a; sourceTree = "<group>"; };
+		5B17961330258365DDB86476 /* PresenterTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenterTypeEnum.h; sourceTree = "<group>"; };
 		5B1796143063A330D0549B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B17962EEF9AC66DB9C26849 /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocator.h; sourceTree = "<group>"; };
 		5B17968D48619CE8E25807C4 /* MvpAppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MvpAppDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5B1796E82C29C154C46A5DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179765084170DA11F1BEA3 /* AdManagerRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdManagerRepository.m; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 		5B179897993F2BCC9BBE50C2 /* MapLocationRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationRepository.h; sourceTree = "<group>"; };
 		5B1798BF20C987C027C7E341 /* AppLaunchPresenterIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenterIntegrationTests.h; sourceTree = "<group>"; };
 		5B1798F469A41D2FC8A45E63 /* SanityCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTests.m; sourceTree = "<group>"; };
+		5B179956D3CE01EBB96DCCA1 /* ServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocator.m; sourceTree = "<group>"; };
 		5B179A427C66B2BC592B55A3 /* MvpAppDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvpAppDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B179A8D752A9381E8B16A45 /* IMapLocationRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMapLocationRepository.h; sourceTree = "<group>"; };
 		5B179A9419272A1444091279 /* AppLaunchPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLaunchPresenterTests.h; sourceTree = "<group>"; };
@@ -161,6 +168,9 @@
 		5B1796A39F779A6727CB7715 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B17961330258365DDB86476 /* PresenterTypeEnum.h */,
+				5B179956D3CE01EBB96DCCA1 /* ServiceLocator.m */,
+				5B17962EEF9AC66DB9C26849 /* ServiceLocator.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -180,6 +190,7 @@
 				5B17974E0182F66EEC297523 /* Supporting Files */,
 				5B179F738FDB1838D2515AEC /* Presenters.Tests.Unit */,
 				5B1792FA42C2DF6ED50989C7 /* Presenter.Tests.Integration */,
+				5B179993DA0D61A070E94CE0 /* Utils.Tests.Unit */,
 			);
 			path = MvpAppDemoTests;
 			sourceTree = "<group>";
@@ -203,6 +214,15 @@
 				5B179A427C66B2BC592B55A3 /* MvpAppDemoTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5B179993DA0D61A070E94CE0 /* Utils.Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				5B1791656D0265E1B5407C96 /* ServiceLocatorTests.h */,
+				5B1795B63243874F93C26088 /* ServiceLocatorTests.m */,
+			);
+			path = Utils.Tests.Unit;
 			sourceTree = "<group>";
 		};
 		5B1799BB00044DABECD51667 /* Presenters */ = {
@@ -380,6 +400,7 @@
 				5B1796B9F54CDB4048873E00 /* SanityCheckTests.m in Sources */,
 				5B1798BE54233BA2596403BC /* AppLaunchPresenterTests.m in Sources */,
 				5B179FEAB37C1C1367B2D4D4 /* AppLaunchPresenterIntegrationTests.m in Sources */,
+				5B179FAEE3505A32520A12C6 /* ServiceLocatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +414,7 @@
 				5B1790EE926468D66475F4F2 /* AppLaunchPresenter.m in Sources */,
 				5B1796E98BF971C714B187A4 /* MapLocationRepository.m in Sources */,
 				5B179C8DEE35D04959AB34CF /* AdManagerRepository.m in Sources */,
+				5B17905E77E8547A5CACD3B1 /* ServiceLocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
