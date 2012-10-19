@@ -20,28 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.0_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppLaunchPresenterTests.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h">
+      <file leaf-file-name="AppLaunchPresenterIntegrationTests.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMapLocationRepository.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/IMapLocationRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAdManagerRepository.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/IAdManagerRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,7 +32,7 @@
       <file leaf-file-name="AppLaunchPresenter.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+            <state line="7" column="37" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -61,7 +43,7 @@
       <file leaf-file-name="AppLaunchPresenter.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="49" selection-start="303" selection-end="303" vertical-scroll-proportion="0.40243903">
+            <state line="18" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="0.64231735">
               <folding />
             </state>
           </provider>
@@ -70,11 +52,54 @@
       <file leaf-file-name="AppLaunchPresenterTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapLocationRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapLocationRepository.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdManagerRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdManagerRepository.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppLaunchPresenterIntegrationTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="38" selection-start="265" selection-end="575" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1350656243000" expanded="true" signature="200:899" placeholder="..." />
-                <marker date="1350656243000" expanded="true" signature="277:897" placeholder="{...}" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +120,14 @@
         <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Repository/IMapLocationRepository.h" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Repository/IAdManagerRepository.h" />
-        <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m" />
+        <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.h" />
+        <option value="$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.h" />
+        <option value="$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.m" />
+        <option value="$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.h" />
+        <option value="$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.m" />
+        <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.m" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.h" />
+        <option value="$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m" />
         <option value="$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.m" />
       </list>
     </option>
@@ -232,7 +263,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -317,50 +348,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h">
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/IAdManagerRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+        <state line="3" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.1097561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/IMapLocationRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="3" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.1097561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/IAdManagerRepository.h">
+    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+        <state line="2" column="48" selection-start="89" selection-end="89" vertical-scroll-proportion="0.07317073">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m">
+    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/MapLocationRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemo/Repository/AdManagerRepository.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenter.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="265" selection-end="575" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1350656243000" expanded="true" signature="200:899" placeholder="..." />
-            <marker date="1350656243000" expanded="true" signature="277:897" placeholder="{...}" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+        <state line="7" column="37" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MvpAppDemoTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MvpAppDemo/Presenters/AppLaunchPresenter.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="303" selection-end="303" vertical-scroll-proportion="0.40243903">
+        <state line="18" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="0.64231735">
           <folding />
         </state>
       </provider>

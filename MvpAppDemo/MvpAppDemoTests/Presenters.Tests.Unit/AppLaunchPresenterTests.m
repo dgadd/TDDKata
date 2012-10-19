@@ -12,9 +12,7 @@
     id adManagerRepository = [OCMockObject mockForProtocol:@protocol(IAdManagerRepository)];
     [[adManagerRepository expect] registerWithAdManager];
 
-    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] init];
-    sut.mapLocationRepository = (id<IMapLocationRepository>)mapLocationRepository;
-    sut.adManagerRepository = (id<IAdManagerRepository>)adManagerRepository;
+    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] initWithMapLocation:mapLocationRepository andAdManager:adManagerRepository];
     [sut setup];
 
     [mapLocationRepository verify];

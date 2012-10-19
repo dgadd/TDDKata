@@ -12,4 +12,12 @@
     [_mapLocationRepository registerLocation];
     [_adManagerRepository registerWithAdManager];
 }
+
+- (id)initWithMapLocation:(id <IMapLocationRepository>)mapLocationRepository andAdManager:(id <IAdManagerRepository>)adManagerRepository {
+    if(self = [super init]) {
+        _mapLocationRepository = mapLocationRepository;
+        _adManagerRepository = adManagerRepository;
+    }
+    return self;
+}
 @end
