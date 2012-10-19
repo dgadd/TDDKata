@@ -1,5 +1,7 @@
 #import <Foundation/Foundation.h>
+#import "IMapLocationRepository.h"
 
 
-@interface MapLocationRepository : NSObject
+@interface MapLocationRepository : NSObject <IMapLocationRepository>
+
 @end

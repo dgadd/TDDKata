@@ -1,5 +1,8 @@
 #import <Foundation/Foundation.h>
+#import "IAdManagerRepository.h"
 
 
-@interface AdManagerRepository : NSObject
+@interface AdManagerRepository : NSObject <IAdManagerRepository>
+
+
 @end
