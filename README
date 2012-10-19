@@ -1,0 +1,86 @@
+iOS MVP KATA INSTRUCTIONS
+
+1 of 3: SETUP
+As per Appendix A below, do setup and create the first mock test with a sanity check protocol, and ultimately refactor the assigned protocol property to an init method.
+
+2 of 3: MVP KATA
+The AppDelegatePresenter needs to delegate to 4 protocols, and run all of those activities as part of the presenter's setup method.
+
+1) Unit test: 
+Given the presenter for AppLaunch
+When the setup method is called
+Then the IMapLocationRepository protocol should call its registerLocation method
+
+2) Integration test:
+Given the presenter for AppLaunch
+When the setup method is called
+Then the MapLocationRepository implementation class should call its registerLocation method and (for now) launch a UIAlertView.
+
+3) Unit test:
+Given the ServiceLocator
+When the AppLaunch enum value is passed to the register method
+Then the AppLaunchPresenter should be returned as BasePresenter with all repository injection completed.
+
+4) Unit test: 
+Given the presenter for ParkNow
+When the getLocationDetails method is called
+Then the ILocationRepository protocol should call its findLocation method
+
+5) Integration test:
+Given the presenter for the AppDelegate
+When the setup method is called
+Then the LocationRepository implementation class should call its findLocation method and return a populated Location class.
+
+6) Unit test:
+Given the ServiceLocator
+When the ParkNow enum value is passed to the register method
+
+Then the ParkNowPresenter should be returned as BasePresenter with all repository injection completed.
+
+3 of 3: Call both presenters from AppDelegate and ViewController
+
+APPENDIX A: SETUP
+1) Create a library root folder named: Libs
+2) Drag and drop OCMock folder (containing .a and header files) into the library root folder
+3) From within app code, drag and drop the libOCMock.a file into the Frameworks folder.  
+4) Open ProjectSettings (Apple-;) and make sure that the tests target (only) is selected.
+5) Apply the following changes:
+a) Linking / Other Linker Flags: -force_load Libs/OCMock/libOCMock.a
+b) Search Paths / Library Search Paths: "Libs/OCMock"_x_ recursive
+6) Create a sanity check test that contains 2 lines (generate files as needed to appropriate groups):
+
+    id sanityCheckRepository = [OCMockObject mockForProtocol:@protocol(ISanityCheckRepository)];
+    [sanityCheckRepository verify];
+
+7) Build project, generate All Tests, verify that test passes successfully (it has no expectations, so it will pass.)
+8) Git commit.
+
+FIRST TEST
+1) Expect that repository will call its "sayHelloWorld" method:
+[[sanityCheckRepository expect] sayHelloWorld];
+
+2) Declare a presenter. For now USE THE DEFAULT init:
+SanityCheckPresenter *sut = [[SanityCheckPresenter alloc] init];
+
+3) Create a property and assign the repository to that property. 
+NOTE You'll need to cast the property to id<PROTOCOL_NAME>
+sut.sanityCheckRepository = (id<ISanityCheckRepository>)sanityCheckRepository;
+
+4) Create the first method on the Presenter:
+[sanityCheckPresenter setup];
+
+5) Leave the implementation of this method for the time being.
+
+6) Now: run All tests; the test should fail.
+
+7) Now implement the setup method, to call to the sanityCheckRepository sayHelloWorld method.
+
+9) Re-run the test, it should now pass.
+
+10) Git commit
+
+REFACTORING
+1) Refactor by assigning the repository to the Presenter in an overload of the init method; be sure to KEEP the property in the presenter (as that is what the constructor should assign to) but change it to readonly.
+2) Obviously, remove the property assignment line from your test.
+3) Re-run the test and verify that it passes.
+4) Git commit.
