@@ -9,17 +9,27 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "AppLaunchPresenter.h"
+#import "ServiceLocator.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self windowSetup];
+
+    AppLaunchPresenter *appLaunchPresenter = [ServiceLocator register:AppLaunch];
+    [appLaunchPresenter setup];
+
+    return YES;
+}
+
+- (void)windowSetup {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
