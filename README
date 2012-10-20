@@ -17,14 +17,10 @@ The presenter for the AccountTransferViewController (which we'll call AccountTra
 ACCEPTANCE CRITERIA: 
 Given the presenter for AccountTransfer
 When the transferAmount: method is called
+Then the IAccountTransferView protocol should call its getTransferAmount: method
 Then the IRemoteAccountRepository protocol should call its withdrawAmount: method
 Then the ILocalAccountRepository protocol should call its depositAmount: method
-Then the IAccountTransferView protocol should call its methods:
-getWithdrawAmount:
-getDepositAmount:
-setWithdrawAmount:
-setDepositAmount:
-setResultMessage:
+Then the IAccountTransferView protocol should call its setResultMessage: method
 
 1) Unit test: 
 * test with OCMockObject

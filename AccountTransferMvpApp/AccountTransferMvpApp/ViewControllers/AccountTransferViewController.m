@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  AccountTransferViewController.m
 //  AccountTransferMvpApp
 //
 //  Created by David Gadd on 10/20/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AccountTransferViewController.h"
 
-@interface ViewController ()
+@interface AccountTransferViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AccountTransferViewController
 
 - (void)viewDidLoad
 {
