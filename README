@@ -1,0 +1,129 @@
+iOS MVP KATA INSTRUCTIONS
+
+1 of 3: SETUP
+As per Appendix A below, do setup and create the first mock test with a sanity check protocol, and ultimately refactor the assigned protocol property to an init method.
+
+2 of 3: MVP KATA
+Start with either the AppDelegate presenter or the ViewController presenter below (choose one).
+
+############################################################
+
+OPTION 1: VIEWCONTROLLER
+
+First, rename the ViewController to AccountTransferViewController.
+
+The presenter for the AccountTransferViewController (which we'll call AccountTransferPresenter) needs to delegate to 3 protocols, and run all of those activities as part of the presenter's setup method.
+
+ACCEPTANCE CRITERIA: 
+Given the presenter for AccountTransfer
+When the transferAmount: method is called
+Then the IRemoteAccountRepository protocol should call its withdrawAmount: method
+Then the ILocalAccountRepository protocol should call its depositAmount: method
+Then the IAccountTransferView protocol should call its methods:
+getWithdrawAmount:
+getDepositAmount:
+setWithdrawAmount:
+setDepositAmount:
+setResultMessage:
+
+1) Unit test: 
+* test with OCMockObject
+
+2) Integration test: 
+* test with implementation classes of each protocol
+* each implementation class method for now should trigger a UIAlertView show method (which will be invisible to the integration test output).
+* ViewController should implement the IAccountTransferView protocol.
+
+3) Unit test:
+Given the ServiceLocator
+When the AppLaunch enum value is passed to the register method
+Then the AppLaunchPresenter should be returned with all repository injection completed.
+
+BONUS POINTS:
+1) Refactor the register method to return a id<IPresenter> (to support many common presenters and cast it to AccountTransferPresenter
+2) From the AccountTransferViewController method viewDidLoad , use the ServiceLocator to retrieve the AppLaunchPresenter and assign it to a property.
+3) In XCode GUI view, add the following controls to the UIView:
+* a "Amount from Remote Account" text field
+* a "Amount to Local Account" text field
+* a "Result Message" label
+* a "Transfer Money to Local Account" button
+Hook up each text field control to a property using IB_____
+Hook up the label control to a property using IB_____
+Hook up the button control to an event method using IBAction
+3) From the event method, call the AccountTransferPresenter's transferAmount: method.
+4) Run the application, and verify that the AccountTransfer occurs and displays the final state in the ResultMessage label.
+
+############################################################
+
+OPTION 2: APPDELEGATE
+The presenter for the AppDelegate (which we'll call AppLaunchPresenter) needs to delegate to 2 protocols, and run all of those activities as part of the presenter's setup method.
+
+ACCEPTANCE CRITERIA:
+Given the presenter for AppLaunch
+When the setup method is called
+Then the IMapLocationRepository protocol should call its registerLocation method
+Then the IAdManagerRepository protocol should call its registerAdvertising method
+
+1) Unit test: 
+* test with OCMockObject
+
+2) Integration test: 
+* test with implementation classes of each protocol
+* each implementation class method for now should trigger a UIAlertView show method (which will be invisible to the integration test output).
+
+3) Unit test:
+Given the ServiceLocator
+When the AppLaunch enum value is passed to the register method
+Then the AppLaunchPresenter should be returned with all repository injection completed.
+
+BONUS POINTS:
+1) Refactor the register method to return a id<IPresenter> (to support many common presenters and cast it to AppLaunchPresenter
+2) From the AppDelegate method didFinishLaunching... , use the ServiceLocator to retrieve the AppLaunchPresenter, and then call its setup method.
+3) Run the application, and verify that each UIAlertView displays from its delegate method calls.
+
+
+APPENDIX A: SETUP
+1) Create a library root folder named: Libs
+2) Drag and drop OCMock folder (containing .a and header files) into the library root folder
+3) From within app code, drag and drop the libOCMock.a file into the Frameworks folder.  
+4) Open ProjectSettings (Apple-;) and make sure that the tests target (only) is selected.
+5) Apply the following changes:
+a) Linking / Other Linker Flags: -force_load Libs/OCMock/libOCMock.a
+b) Search Paths / Library Search Paths: "Libs/OCMock"_x_ recursive
+6) Create a sanity check test that contains 2 lines (generate files as needed to appropriate groups):
+
+    id sanityCheckRepository = [OCMockObject mockForProtocol:@protocol(ISanityCheckRepository)];
+    [sanityCheckRepository verify];
+
+7) Build project, generate All Tests, verify that test passes successfully (it has no expectations, so it will pass.)
+8) Git commit.
+
+FIRST TEST
+1) Expect that repository will call its "sayHelloWorld" method:
+[[sanityCheckRepository expect] sayHelloWorld];
+
+2) Declare a presenter. For now USE THE DEFAULT init:
+SanityCheckPresenter *sut = [[SanityCheckPresenter alloc] init];
+
+3) Create a property and assign the repository to that property. 
+NOTE You'll need to cast the property to id<PROTOCOL_NAME>
+sut.sanityCheckRepository = (id<ISanityCheckRepository>)sanityCheckRepository;
+
+4) Create the first method on the Presenter:
+[sanityCheckPresenter setup];
+
+5) Leave the implementation of this method for the time being.
+
+6) Now: run All tests; the test should fail.
+
+7) Now implement the setup method, to call to the sanityCheckRepository sayHelloWorld method.
+
+9) Re-run the test, it should now pass.
+
+10) Git commit
+
+REFACTORING
+1) Refactor by assigning the repository to the Presenter in an overload of the init method; be sure to KEEP the property in the presenter (as that is what the constructor should assign to) but change it to readonly.
+2) Obviously, remove the property assignment line from your test.
+3) Re-run the test and verify that it passes.
+4) Git commit.
