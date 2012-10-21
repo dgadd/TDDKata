@@ -12,9 +12,7 @@
     [[mapLocationRepository expect] registerLocation];
     [[adManagerRepository expect] registerAdvertising];
 
-    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] init];
-    sut.mapLocationRepository = (id<IMapLocationReository>) mapLocationRepository;
-    sut.adManagerRepository = (id<IAdManagerRepository>)adManagerRepository;
+    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] initWithMap:mapLocationRepository andAdManager:adManagerRepository];
     [sut setup];
 
     [mapLocationRepository verify];
