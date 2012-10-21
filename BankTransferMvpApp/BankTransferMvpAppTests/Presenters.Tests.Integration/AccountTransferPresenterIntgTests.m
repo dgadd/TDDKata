@@ -19,9 +19,9 @@
     id<ILocalAccountRepository> localAccountRepository = [[LocalAccountRepository alloc] init];
     [[accountTransferViewStub expect] setResultMessage:@"The transfer request of $150 succeeded."];
 
-    AccountTransferPresenter *sut = [[AccountTransferPresenter alloc] initWithView:accountTransferViewStub
-                                                                         andRemote:remoteAccountRepository
+    AccountTransferPresenter *sut = [[AccountTransferPresenter alloc] initWithRemote:remoteAccountRepository
                                                                           andLocal:localAccountRepository];
+    sut.accountTransferView = accountTransferViewStub;
     [sut transferBetweenAccounts];
     [accountTransferViewStub verify];
 }

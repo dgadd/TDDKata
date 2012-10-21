@@ -13,10 +13,12 @@
 		5B1791586FB4DCC832814F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1792CEF53FBE8D06974817 /* Foundation.framework */; };
 		5B17931534ADFA57707D91D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179D4C1FA3EF543FEB0E9B /* CoreGraphics.framework */; };
 		5B1793D78A03A712BEDC8262 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BD9ECBECB8E80AA0A0A /* UIKit.framework */; };
+		5B1795D482B9F711E31208F9 /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179E33503B61027AEB035E /* ServiceLocator.m */; };
 		5B1798D79DADCFE55D232F33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179FEAC9A345444C980A55 /* Default-568h@2x.png */; };
 		5B1799B90C9A9FCCAC9A3A47 /* AccountTransferPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179C53F34A9F684F0D6445 /* AccountTransferPresenter.m */; };
 		5B179AC08B92442BE083398B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179A3BA44D425EBFEDE2B7 /* Default@2x.png */; };
 		5B179B428CE97985C9752368 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17931C530A32797F8ABC6B /* libOCMock.a */; };
+		5B179B482EF0E07A230A7ECD /* ServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1790077B682C2F36ECFCFF /* ServiceLocatorTests.m */; };
 		5B179BD21923D6DA8954F99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BD9ECBECB8E80AA0A0A /* UIKit.framework */; };
 		5B179C98B7A452BBEE870C9C /* LocalAccountRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1796B40024B9C6F251B4DE /* LocalAccountRepository.m */; };
 		5B179D5AC1B770FFF7C42262 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179AF452713AE0ED78CCED /* SenTestingKit.framework */; };
@@ -42,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1790077B682C2F36ECFCFF /* ServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocatorTests.m; sourceTree = "<group>"; };
 		5B17903B1D4FABD75989EA05 /* ILocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILocalAccountRepository.h; sourceTree = "<group>"; };
 		5B1790F9E9306798881E83C4 /* AccountTransferPresenterIntgTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterIntgTests.m; sourceTree = "<group>"; };
 		5B1791E413D731EBDFB6B7A9 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -57,8 +60,10 @@
 		5B179450CB5337E72E4D4A36 /* AccountTransferPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterTests.m; sourceTree = "<group>"; };
 		5B17949070DE00936AFBBBD0 /* BankTransferMvpApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BankTransferMvpApp-Info.plist"; sourceTree = "<group>"; };
 		5B1794B2DB7335E4D8D7CBBD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B1794C4D9DE9B82F710A1DA /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocator.h; sourceTree = "<group>"; };
 		5B1794FD4A9EC3EDB57E0CE7 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B17950FA8D2C99E06C49E24 /* AccountTransferPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenter.h; sourceTree = "<group>"; };
+		5B1795E219E7423B64F2184F /* ServiceLocatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocatorTests.h; sourceTree = "<group>"; };
 		5B17963DD6EB178AFA15C4EF /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		5B1796B40024B9C6F251B4DE /* LocalAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAccountRepository.m; sourceTree = "<group>"; };
 		5B179787B99E11D76481BB43 /* SanityCheckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SanityCheckTests.h; sourceTree = "<group>"; };
@@ -81,7 +86,9 @@
 		5B179D9E5D428C46BC41557A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179DB745395B21FFE9A7F7 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5B179DEFDE4C5392B15F1E45 /* IAccountTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccountTransferView.h; sourceTree = "<group>"; };
+		5B179E33503B61027AEB035E /* ServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocator.m; sourceTree = "<group>"; };
 		5B179EA15277424AD841A4F2 /* RemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteAccountRepository.h; sourceTree = "<group>"; };
+		5B179ED7472226FB9D0E1B1A /* PresenterTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenterTypeEnum.h; sourceTree = "<group>"; };
 		5B179EF304F38062C10BC026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179FCA4BA2E77AEDD4FED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B179FEAC9A345444C980A55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -131,6 +138,7 @@
 				5B179CED98A3018127B07857 /* SanityCheckTests.m */,
 				5B179D5F53F952D505FD6BF7 /* Presenters.Tests.Unit */,
 				5B1791973A29B05014A881B9 /* Presenters.Tests.Integration */,
+				5B17981D62D6181BF8FD2236 /* Utils.Tests.Unit */,
 			);
 			path = BankTransferMvpAppTests;
 			sourceTree = "<group>";
@@ -175,11 +183,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		5B1795A28D452332985E7700 /* Utiles */ = {
+		5B1795A28D452332985E7700 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B179ED7472226FB9D0E1B1A /* PresenterTypeEnum.h */,
+				5B179E33503B61027AEB035E /* ServiceLocator.m */,
+				5B1794C4D9DE9B82F710A1DA /* ServiceLocator.h */,
 			);
-			path = Utiles;
+			lastKnownFileType = text;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		5B1797DB48F05680BCB4DCEB /* OCMock */ = {
@@ -201,6 +213,15 @@
 				5B179F98E9B3E02E922AEE98 /* OCMock */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		5B17981D62D6181BF8FD2236 /* Utils.Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				5B1795E219E7423B64F2184F /* ServiceLocatorTests.h */,
+				5B1790077B682C2F36ECFCFF /* ServiceLocatorTests.m */,
+			);
+			path = Utils.Tests.Unit;
 			sourceTree = "<group>";
 		};
 		5B179AA134720B7105744740 /* Products */ = {
@@ -251,7 +272,7 @@
 				5B1793450F581C25FDEE8FCA /* ViewController.xib */,
 				5B179C6BD0D84044DBCD2903 /* Presenters */,
 				5B17946090E6FF91497510E0 /* Repositories */,
-				5B1795A28D452332985E7700 /* Utiles */,
+				5B1795A28D452332985E7700 /* Utils */,
 				5B17915ED9A1EECD3927A50D /* Views */,
 				5B17947D40931123F3BD0E13 /* ViewControllers */,
 			);
@@ -398,6 +419,7 @@
 				5B179E177424D5694797BD10 /* SanityCheckTests.m in Sources */,
 				5B17911A9952D99CE43BD64B /* AccountTransferPresenterTests.m in Sources */,
 				5B1790FB56536EBA24AA03B4 /* AccountTransferPresenterIntgTests.m in Sources */,
+				5B179B482EF0E07A230A7ECD /* ServiceLocatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +433,7 @@
 				5B1799B90C9A9FCCAC9A3A47 /* AccountTransferPresenter.m in Sources */,
 				5B179E1E8A9DABC4CBA9F00B /* RemoteAccountRepository.m in Sources */,
 				5B179C98B7A452BBEE870C9C /* LocalAccountRepository.m in Sources */,
+				5B1795D482B9F711E31208F9 /* ServiceLocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

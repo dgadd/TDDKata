@@ -5,7 +5,7 @@
 
 
 @interface AccountTransferPresenter : NSObject
-@property(nonatomic, strong, readonly) id <IAccountTransferView> accountTransferView;
+@property(nonatomic, strong) id <IAccountTransferView> accountTransferView;
 
 @property(nonatomic, strong, readonly) id <IRemoteAccountRepository> remoteAccountRepository;
 
@@ -13,5 +13,5 @@
 
 - (void)transferBetweenAccounts;
 
-- (id)initWithView:(id <IAccountTransferView>)accountTransferView andRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository;
+- (id)initWithRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository;
 @end

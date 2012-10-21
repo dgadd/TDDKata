@@ -16,9 +16,8 @@
     [_accountTransferView setResultMessage:[NSString stringWithFormat:@"The transfer request of $%@ succeeded.", amount]];
 }
 
-- (id)initWithView:(id <IAccountTransferView>)accountTransferView andRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository {
+- (id)initWithRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository {
     if (self = [super init]) {
-        _accountTransferView = accountTransferView;
         _remoteAccountRepository = remoteAccountRepository;
         _localAccountRepository = localAccountRepository;
     }
