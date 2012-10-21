@@ -11,9 +11,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    AccountTransferPresenter * accountTransferPresenter = [ServiceLocator register:AccountTransfer];
+    accountTransferPresenter = [ServiceLocator register:AccountTransfer];
     accountTransferPresenter.accountTransferView = self;
-    [accountTransferPresenter transferBetweenAccounts];
 }
 
 - (void)didReceiveMemoryWarning
@@ -23,14 +22,17 @@
 }
 
 - (NSNumber *)getTransferAmount {
-    return [NSNumber numberWithDouble:150.0];
+    NSNumberFormatter *numberFormat = [[NSNumberFormatter alloc] init];
+    [numberFormat setNumberStyle:NSNumberFormatterDecimalStyle];
+    return [numberFormat numberFromString:self.transferAmountText.text];
 }
 
 - (void)setResultMessage:(NSString *)message {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"View method setResultMessage hit."
-                                                        message:message delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-    [alertView show];
+    self.transferResultMessage.text = message;
 }
 
 
+- (IBAction)transferFunds:(id)sender {
+    [accountTransferPresenter transferBetweenAccounts];
+}
 @end
