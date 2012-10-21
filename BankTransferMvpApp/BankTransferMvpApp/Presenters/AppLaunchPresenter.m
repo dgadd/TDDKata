@@ -1,5 +1,5 @@
 #import "AppLaunchPresenter.h"
-#import "IMapLocationReository.h"
+#import "IMapLocationRepository.h"
 #import "IAdManagerRepository.h"
 
 
@@ -15,7 +15,7 @@
     [_adManagerRepository registerAdvertising];
 }
 
-- (id)initWithMap:(id <IMapLocationReository>)mapLocationRepository andAdManager:(id <IAdManagerRepository>)adManagerRepository {
+- (id)initWithMap:(id <IMapLocationRepository>)mapLocationRepository andAdManager:(id <IAdManagerRepository>)adManagerRepository {
     if (self = [super init]) {
         _mapLocationRepository = mapLocationRepository;
         _adManagerRepository = adManagerRepository;

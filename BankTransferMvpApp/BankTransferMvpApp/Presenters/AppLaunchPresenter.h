@@ -1,14 +1,14 @@
 #import <Foundation/Foundation.h>
 
-@protocol IMapLocationReository;
+@protocol IMapLocationRepository;
 @protocol IAdManagerRepository;
 
 
 @interface AppLaunchPresenter : NSObject
-@property(nonatomic, strong, readonly) id <IMapLocationReository> mapLocationRepository;
+@property(nonatomic, strong, readonly) id <IMapLocationRepository> mapLocationRepository;
 @property(nonatomic, strong, readonly) id <IAdManagerRepository> adManagerRepository;
 
 - (void)setup;
 
-- (id)initWithMap:(id <IMapLocationReository>)mapLocationRepository andAdManager:(id <IAdManagerRepository>)adManagerRepository;
+- (id)initWithMap:(id <IMapLocationRepository>)mapLocationRepository andAdManager:(id <IAdManagerRepository>)adManagerRepository;
 @end
