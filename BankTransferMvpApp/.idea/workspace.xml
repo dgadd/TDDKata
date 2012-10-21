@@ -19,7 +19,41 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.0_1" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AppLaunchPresenterIntegrationTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLocator.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Utils/ServiceLocator.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="26" selection-start="522" selection-end="522" vertical-scroll-proportion="0.30487806">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLocatorTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Utils.Tests.Unit/ServiceLocatorTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="51" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -29,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BankTransferMvpApp/ViewControllers/ViewController.m" />
-        <option value="$PROJECT_DIR$/BankTransferMvpApp/ViewControllers/AccountTransferViewController.h" />
         <option value="$PROJECT_DIR$/BankTransferMvpApp/ViewControllers/AccountTransferViewController.m" />
         <option value="$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h" />
         <option value="$PROJECT_DIR$/BankTransferMvpApp/Repositories/IAdManagerRepository.h" />
@@ -45,6 +77,8 @@
         <option value="$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Integration/AppLaunchPresenterIntegrationTests.m" />
         <option value="$PROJECT_DIR$/BankTransferMvpApp/Repositories/MapLocationRepository.m" />
         <option value="$PROJECT_DIR$/BankTransferMvpApp/Repositories/AdManagerLocationRepository.m" />
+        <option value="$PROJECT_DIR$/BankTransferMvpAppTests/Utils.Tests.Unit/ServiceLocatorTests.m" />
+        <option value="$PROJECT_DIR$/BankTransferMvpApp/Utils/ServiceLocator.m" />
       </list>
     </option>
   </component>
@@ -120,39 +154,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Presenters.Tests.Integration" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankTransferMvpApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankTransferMvpApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankTransferMvpApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankTransferMvpApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repositories" />
+              <option name="myItemId" value="Utils.Tests.Unit" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,7 +211,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -219,7 +221,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.4973861" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.4973861" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.4973861" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -285,32 +287,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/ViewControllers/AccountTransferViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="208" selection-end="208" vertical-scroll-proportion="0.144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Presenters/AccountTransferPresenter.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="0.31862745">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Repositories/LocalAccountRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.288">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Repositories/RemoteAccountRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.264">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.264" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/ViewControllers/AccountTransferViewController.m">
@@ -338,16 +322,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Repositories/IAdManagerRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="80" selection-end="80" vertical-scroll-proportion="0.1097561">
-          <folding />
-        </state>
+        <state line="3" column="27" selection-start="80" selection-end="80" vertical-scroll-proportion="0.1097561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Unit/AppLaunchPresenterTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.07317073">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.07317073" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Unit/AppLaunchPresenterTests.m">
@@ -373,15 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="75" selection-start="704" selection-end="704" vertical-scroll-proportion="0.58536583">
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Repositories/AdManagerLocationRepository.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.2195122">
@@ -403,6 +374,33 @@
         <state line="6" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.2195122">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Utils.Tests.Unit/ServiceLocatorTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankTransferMvpAppTests/Presenters.Tests.Integration/AppLaunchPresenterIntegrationTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankTransferMvpApp/Utils/ServiceLocator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="522" selection-end="522" vertical-scroll-proportion="0.30487806">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
