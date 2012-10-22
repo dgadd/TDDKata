@@ -2,5 +2,5 @@
 #import "ILocalAccountRepository.h"
 
 
-@interface LocalAccountRepository : NSObject
+@interface LocalAccountRepository : NSObject <ILocalAccountRepository>
 @end
