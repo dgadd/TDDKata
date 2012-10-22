@@ -18,9 +18,9 @@
     [[localAccountRepository expect] depositAmount:amount];
     [[accountTransferView expect] setTransferMessage:@"Amount $150 transferred successfully."];
 
-    AccountTransferPresenter *sut = [[AccountTransferPresenter alloc] initWithView:accountTransferView
-                                                                  andRemoteAccount:remoteAccountRepository
-                                                                   andLocalAccount:localAccountRepository];
+    AccountTransferPresenter *sut = [[AccountTransferPresenter alloc] initWithRemoteAccount:remoteAccountRepository
+                                                                            andLocalAccount:localAccountRepository];
+    sut.accountTransferView = accountTransferView;
 
     [sut setup];
 
