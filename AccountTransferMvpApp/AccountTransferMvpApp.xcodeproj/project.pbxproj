@@ -21,7 +21,7 @@
 		5B179578C7BD839DFED55013 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179A02B41F85B14290CC20 /* SenTestingKit.framework */; };
 		5B1796614DA5EC71E690171C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179C49E263F68E322115F5 /* Default-568h@2x.png */; };
 		5B179695D5303E19C201BC35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1798F0CCC9D556EAC3C913 /* Foundation.framework */; };
-		5B1797C7C9A6C0875E3391C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17904210E67247BAB840F6 /* ViewController.m */; };
+		5B1797C7C9A6C0875E3391C9 /* AccountTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17904210E67247BAB840F6 /* AccountTransferViewController.m */; };
 		5B17995909EB19B24A65E4C0 /* AccountTransferPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179DDB16C57FD361DDD2B2 /* AccountTransferPresenterTests.m */; };
 		5B179A8A7E35D10F57321FFD /* ServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1793B1DBC8CF043F6814A1 /* ServiceLocatorTests.m */; };
 		5B179BFBD5788F28E00D90F2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B17961C1861755DB520FA72 /* ViewController.xib */; };
@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		5B17902017749E7DD765169D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5B17904210E67247BAB840F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B17904210E67247BAB840F6 /* AccountTransferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTransferViewController.m; sourceTree = "<group>"; };
 		5B179045570CA76115C57CAD /* AccountTransferPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenter.h; sourceTree = "<group>"; };
 		5B179073275C08ECDC3AD558 /* ISanityCheckProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheckProtocol.h; sourceTree = "<group>"; };
 		5B1790A16AAAD393E9079F7D /* RemoteAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteAccountRepository.m; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		5B179CF13532CEED6482B05A /* AccountTransferPresenterIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterIntegrationTests.h; sourceTree = "<group>"; };
 		5B179DDB16C57FD361DDD2B2 /* AccountTransferPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterTests.m; sourceTree = "<group>"; };
 		5B179E0511AA66236D31597F /* IAccountTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccountTransferView.h; sourceTree = "<group>"; };
-		5B179E0DD8BEB2914A264604 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B179E0DD8BEB2914A264604 /* AccountTransferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTransferViewController.h; sourceTree = "<group>"; };
 		5B179E1BC650E2CEEC623A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179F0456D9D84328F0AE61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B179F0AA6F1A1D49DE374BB /* AccountTransferPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterTests.h; sourceTree = "<group>"; };
@@ -290,8 +290,8 @@
 				5B17949C5DDC1313828A1803 /* Supporting Files */,
 				5B17902017749E7DD765169D /* AppDelegate.h */,
 				5B1790A6AC807842AEF0B6FB /* AppDelegate.m */,
-				5B179E0DD8BEB2914A264604 /* ViewController.h */,
-				5B17904210E67247BAB840F6 /* ViewController.m */,
+				5B179E0DD8BEB2914A264604 /* AccountTransferViewController.h */,
+				5B17904210E67247BAB840F6 /* AccountTransferViewController.m */,
 				5B17961C1861755DB520FA72 /* ViewController.xib */,
 				5B179073275C08ECDC3AD558 /* ISanityCheckProtocol.h */,
 				5B179BD894C8966B3761DB12 /* Presenters */,
@@ -421,7 +421,7 @@
 			files = (
 				5B179361215E73522F3B5AF7 /* main.m in Sources */,
 				5B179D7D8020284908E90F22 /* AppDelegate.m in Sources */,
-				5B1797C7C9A6C0875E3391C9 /* ViewController.m in Sources */,
+				5B1797C7C9A6C0875E3391C9 /* AccountTransferViewController.m in Sources */,
 				5B1790EBB66A2B75D9D8E4BC /* AccountTransferPresenter.m in Sources */,
 				5B17900941B963E9C0155A80 /* RemoteAccountRepository.m in Sources */,
 				5B179D94B06029685F7014FE /* LocalAccountRepository.m in Sources */,
