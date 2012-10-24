@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B179009111073DA9D30507C /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1797916A72470B9DD09A3D /* ServiceLocator.m */; };
 		5B1790C938EE5B36555EE78D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179A34A81BA65131374AF0 /* SenTestingKit.framework */; };
 		5B1790E7778619787D973CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179C0D8E5D4B54FF53F3E9 /* Foundation.framework */; };
 		5B1791BC72420093427D6F4A /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179C8561B76112DEC13D7B /* libOCMock.a */; };
@@ -19,6 +20,7 @@
 		5B179646C8C328249E888C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179E7C570FCFAC1F64BB5E /* InfoPlist.strings */; };
 		5B17978BCFEBF0C13D2DF486 /* AccountTransferPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1793B23D1CBCEB91FF4CB0 /* AccountTransferPresenter.m */; };
 		5B179793074D65600DE271DE /* SanityCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179F76B836A76EF4442E73 /* SanityCheckTests.m */; };
+		5B179904171CCF332974D888 /* ServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179FF88E3E08522DCFD545 /* ServiceLocatorTests.m */; };
 		5B1799ACF462A79D09CFC372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179C0D8E5D4B54FF53F3E9 /* Foundation.framework */; };
 		5B179AAA866C131D98F3CC18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17901DCF85238CEECA218A /* Default.png */; };
 		5B179AFD7F36389C43EC767F /* AccountTransferPresenterIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BA203607622ED4C883B /* AccountTransferPresenterIntegrationTests.m */; };
@@ -58,8 +60,11 @@
 		5B1795402FE298C2A378360D /* AccountTransferPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterTests.m; sourceTree = "<group>"; };
 		5B1795C5625B8CC027BA0FA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B1795DB6C2E6ED1BBCFF4DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1795F163710E7C0CB2D9EC /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocator.h; sourceTree = "<group>"; };
 		5B1796CCCC0A3F2ABA3A08A3 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		5B1797916A72470B9DD09A3D /* ServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocator.m; sourceTree = "<group>"; };
 		5B17988C747FBA4177718DA3 /* AccountTransferPresenterIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterIntegrationTests.h; sourceTree = "<group>"; };
+		5B1798D8A39CF4075C600EA7 /* PresenterTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenterTypeEnum.h; sourceTree = "<group>"; };
 		5B179949CFB4937B078C8CAD /* AccountTransferPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterTests.h; sourceTree = "<group>"; };
 		5B1799ADBDA0167E1E050906 /* IRemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRemoteAccountRepository.h; sourceTree = "<group>"; };
 		5B1799BD3D9832258E187800 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		5B179BA203607622ED4C883B /* AccountTransferPresenterIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterIntegrationTests.m; sourceTree = "<group>"; };
 		5B179C0D8E5D4B54FF53F3E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B179C0DDC4BEEFFA1060578 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B179C23D3D03CC8DFE29B62 /* ServiceLocatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocatorTests.h; sourceTree = "<group>"; };
 		5B179C43C125BEB592DDCE10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179C8561B76112DEC13D7B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/iOS/libOCMock.a; sourceTree = "<group>"; };
 		5B179CD475B6D158CB0A14F2 /* AccountTransferMvpApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferMvpApp-Info.plist"; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		5B179EDB535F9D4F65762C67 /* LocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalAccountRepository.h; sourceTree = "<group>"; };
 		5B179EF66B2822BCE0365B2B /* RemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteAccountRepository.h; sourceTree = "<group>"; };
 		5B179F76B836A76EF4442E73 /* SanityCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTests.m; sourceTree = "<group>"; };
+		5B179FF88E3E08522DCFD545 /* ServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +155,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5B1794B2F057CC51F11D949B /* Utils.Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				5B179C23D3D03CC8DFE29B62 /* ServiceLocatorTests.h */,
+				5B179FF88E3E08522DCFD545 /* ServiceLocatorTests.m */,
+			);
+			path = Utils.Tests.Unit;
+			sourceTree = "<group>";
+		};
 		5B179541C9CA2A7BF5229AE9 /* AccountTransferMvpApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +190,7 @@
 				5B179AB9F199C6F2F7A18970 /* ISanityCheckRepository.h */,
 				5B17987C4A3B27F5106A1ACC /* Presenters.Tests.Unit */,
 				5B179BFDA1962D1240212F13 /* Presenters.Tests.Integration */,
+				5B1794B2F057CC51F11D949B /* Utils.Tests.Unit */,
 			);
 			path = AccountTransferMvpAppTests;
 			sourceTree = "<group>";
@@ -254,6 +271,9 @@
 		5B179B880D2B85062A0A45F4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5B1798D8A39CF4075C600EA7 /* PresenterTypeEnum.h */,
+				5B1797916A72470B9DD09A3D /* ServiceLocator.m */,
+				5B1795F163710E7C0CB2D9EC /* ServiceLocator.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -390,6 +410,7 @@
 				5B179793074D65600DE271DE /* SanityCheckTests.m in Sources */,
 				5B179D73EE241CCAFBB01071 /* AccountTransferPresenterTests.m in Sources */,
 				5B179AFD7F36389C43EC767F /* AccountTransferPresenterIntegrationTests.m in Sources */,
+				5B179904171CCF332974D888 /* ServiceLocatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +424,7 @@
 				5B17978BCFEBF0C13D2DF486 /* AccountTransferPresenter.m in Sources */,
 				5B1795FE55272466598BE083 /* RemoteAccountRepository.m in Sources */,
 				5B179D3FEA43593D0D2ED9E5 /* LocalAccountRepository.m in Sources */,
+				5B179009111073DA9D30507C /* ServiceLocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
