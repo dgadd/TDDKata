@@ -1,0 +1,24 @@
+#import "AppLaunchPresenterTests.h"
+#import "OCMockObject.h"
+#import "IMapLocationRepository.h"
+#import "IAdManagerRepository.h"
+#import "AppLaunchPresenter.h"
+
+@implementation AppLaunchPresenterTests
+
+-(void)test_whenSetupMethodIsCalled_thenDelegatedRepositoryMethodsAreCalled {
+    id mapLocationRepository = [OCMockObject mockForProtocol:@protocol(IMapLocationRepository)];
+    id adManagerRepository = [OCMockObject mockForProtocol:@protocol(IAdManagerRepository)];
+    [[mapLocationRepository expect] registerLocation];
+    [[adManagerRepository expect] registerAdvertising];
+
+    AppLaunchPresenter *sut = [[AppLaunchPresenter alloc] init];
+    sut.mapLocationRepository = (id<IMapLocationRepository>)mapLocationRepository;
+    sut.adManagerRepository = (id<IAdManagerRepository>)adManagerRepository;
+    [sut setup];
+
+    [mapLocationRepository verify];
+    [adManagerRepository verify];
+}
+
+@end
