@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AccountTransferViewController.h
 //  AccountTransferMvpApp
 //
 //  Created by David Gadd on 10/25/12.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IAccountTransferView.h"
 
-@interface ViewController : UIViewController
+@interface AccountTransferViewController : UIViewController <IAccountTransferView>
 
 @end
