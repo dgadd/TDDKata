@@ -16,6 +16,14 @@
     NSNumber *amount = [_accountTransferView getTransferAmount];
     [_remoteAccountRepository withdrawAmount:amount];
     [_localAccountRepository depositAmount:amount];
-    [_accountTransferView displayMessage:[NSString stringWithFormat:@"$%@ was transferred",amount]];
+    [_accountTransferView displayMessage:[NSString stringWithFormat:@"$%@ was transferred", amount]];
+}
+
+- (id)initWithRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository {
+    if (self = [super init]) {
+        _remoteAccountRepository = remoteAccountRepository;
+        _localAccountRepository = localAccountRepository;
+    }
+    return self;
 }
 @end
