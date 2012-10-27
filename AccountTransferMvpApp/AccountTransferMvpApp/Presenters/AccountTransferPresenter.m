@@ -8,6 +8,16 @@
 @synthesize remoteAccountRepository = _remoteAccountRepository;
 @synthesize localAccountRepository = _localAccountRepository;
 
+- (id)initWithRemoteAccountRepository:(id <IRemoteAccountRepository>)remoteAccountRepository localAccountRepository:(id <ILocalAccountRepository>)localAccountRepository {
+    self = [super init];
+    if (self) {
+        _remoteAccountRepository = remoteAccountRepository;
+        _localAccountRepository = localAccountRepository;
+    }
+
+    return self;
+}
+
 
 - (void)transferAmount {
     NSNumber *amount = [_accountTransferView getTransferAmount];
