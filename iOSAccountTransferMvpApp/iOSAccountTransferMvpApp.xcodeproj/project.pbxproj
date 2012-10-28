@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B17904E5DD43DC8E1BB4004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179B20FA3ED198D10F0A0D /* AppDelegate.m */; };
 		5B17910C1546B77E1620C895 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B17909456D9711D36332F97 /* InfoPlist.strings */; };
+		5B1791B151F0C7BDBB70CAA2 /* AccountTransferPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179682B64F1284DD7EB722 /* AccountTransferPresenterTests.m */; };
 		5B179298C8F7DFFE4CF4C824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179E601CC1CA6AEDDFB895 /* Foundation.framework */; };
 		5B1792B12FE27FC5639588A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1796EEBDAE206527438D1A /* CoreGraphics.framework */; };
 		5B17933D175163BD443DB2FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179032A3E21EF2733D0AAA /* ViewController.m */; };
@@ -23,6 +24,7 @@
 		5B179C4A74DDA6BD43E37E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17994EF9B5007732577F1C /* main.m */; };
 		5B179C7204BA5DD372AC7DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1794B950C4ED6731CAAC07 /* UIKit.framework */; };
 		5B179E1D418E0AD605310DC3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BDF7977941C95A649E8 /* SenTestingKit.framework */; };
+		5B179E738D40ABC2FEE8B155 /* AccountTransferPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179E26CB68D02A1E5B5A5A /* AccountTransferPresenter.m */; };
 		5B179FC2068B7D0356FAC708 /* SanityCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1797D4E16936B0D3BDA16B /* SanityCheckTests.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,7 @@
 /* Begin PBXFileReference section */
 		5B179032A3E21EF2733D0AAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B1790AB095A2E97F3C4C796 /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
+		5B1791ADBB4DCB3083018C34 /* AccountTransferPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterTests.h; sourceTree = "<group>"; };
 		5B17923339B58EEE084862C1 /* iOSAccountTransferMvpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAccountTransferMvpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B17924F327F7027114508C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B17933DB0CC788F3803516C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -46,22 +49,28 @@
 		5B1794B950C4ED6731CAAC07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B179519A7A7F309FB7ACB4E /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/iOS/libOCMock.a; sourceTree = "<group>"; };
 		5B1795248C581C3EC35E3F50 /* iOSAccountTransferMvpAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAccountTransferMvpAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1795A8E942E1C54AF1DC7D /* AccountTransferPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenter.h; sourceTree = "<group>"; };
 		5B1795E8653740AE439A8D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		5B17967A6277774ED6788233 /* iOSAccountTransferMvpApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSAccountTransferMvpApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B179682B64F1284DD7EB722 /* AccountTransferPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterTests.m; sourceTree = "<group>"; };
 		5B1796EEBDAE206527438D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B17970C56349229D9FB7265 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		5B1797D4E16936B0D3BDA16B /* SanityCheckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTests.m; sourceTree = "<group>"; };
+		5B1797E8976EB98FEF15BF77 /* IAccountTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccountTransferView.h; sourceTree = "<group>"; };
 		5B179807DD890DDD2C0FB72C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B1798DBFFB4729527AAEA79 /* iOSAccountTransferMvpApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "iOSAccountTransferMvpApp-Info.plist"; sourceTree = "<group>"; };
 		5B17994EF9B5007732577F1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B17999D386A329FB5DB891B /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
 		5B179AB83C9C807EB177A1AE /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B179B20FA3ED198D10F0A0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B179B771E660BBEAD12225F /* ILocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILocalAccountRepository.h; sourceTree = "<group>"; };
 		5B179BDF7977941C95A649E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B179CD9DB88EAF933D49F47 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B179D2AC9EE6748F2AE0168 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		5B179D6B7C0FF5A3487E7A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179D6CF53FCDBA24F2F641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B179DD44144718E98661E1B /* IRemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRemoteAccountRepository.h; sourceTree = "<group>"; };
+		5B179E26CB68D02A1E5B5A5A /* AccountTransferPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenter.m; sourceTree = "<group>"; };
 		5B179E601CC1CA6AEDDFB895 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B179E7F878CEDF71194C5FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5B179EDEF82A274F9B7829A6 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
@@ -94,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1792496CBAD91E25544038 /* Presenters.Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				5B1791ADBB4DCB3083018C34 /* AccountTransferPresenterTests.h */,
+				5B179682B64F1284DD7EB722 /* AccountTransferPresenterTests.m */,
+			);
+			path = Presenters.Tests.Unit;
+			sourceTree = "<group>";
+		};
 		5B1792A678FF4A6CF51F7717 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +121,15 @@
 				5B17965E9C767A9B733D7906 /* iOSAccountTransferMvpAppTests */,
 				5B1797DD6CE1A4D3E50C3293 /* Libs */,
 			);
+			sourceTree = "<group>";
+		};
+		5B1792FE2D066E3039696A44 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5B179DD44144718E98661E1B /* IRemoteAccountRepository.h */,
+				5B179B771E660BBEAD12225F /* ILocalAccountRepository.h */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		5B1794C2650E785662A06ADD /* iOS */ = {
@@ -128,6 +155,7 @@
 				5B1795880F192FD07D58B7C9 /* Supporting Files */,
 				5B1793AE670AF4ABF796D325 /* SanityCheckTests.h */,
 				5B1797D4E16936B0D3BDA16B /* SanityCheckTests.m */,
+				5B1792496CBAD91E25544038 /* Presenters.Tests.Unit */,
 			);
 			path = iOSAccountTransferMvpAppTests;
 			sourceTree = "<group>";
@@ -152,6 +180,14 @@
 			path = Libs;
 			sourceTree = "<group>";
 		};
+		5B179871F337DFE8BA61DD0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B1797E8976EB98FEF15BF77 /* IAccountTransferView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5B179A1942D45B9E09894373 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +200,15 @@
 				5B17924F327F7027114508C5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B179A73EF245DD6F2327DE1 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				5B179E26CB68D02A1E5B5A5A /* AccountTransferPresenter.m */,
+				5B1795A8E942E1C54AF1DC7D /* AccountTransferPresenter.h */,
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 		5B179B1C72B5F91E36032D5B /* OCMock */ = {
@@ -189,6 +234,10 @@
 				5B179032A3E21EF2733D0AAA /* ViewController.m */,
 				5B17934F3D62BE11AB783F18 /* ViewController.xib */,
 				5B1790AB095A2E97F3C4C796 /* ISanityCheck.h */,
+				5B179A73EF245DD6F2327DE1 /* Presenters */,
+				5B179871F337DFE8BA61DD0A /* Views */,
+				5B1792FE2D066E3039696A44 /* Repositories */,
+				5B179DD578085003BA3A5E02 /* Utils */,
 			);
 			path = iOSAccountTransferMvpApp;
 			sourceTree = "<group>";
@@ -200,6 +249,13 @@
 				5B1795248C581C3EC35E3F50 /* iOSAccountTransferMvpAppTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5B179DD578085003BA3A5E02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +367,7 @@
 				5B179C4A74DDA6BD43E37E20 /* main.m in Sources */,
 				5B17904E5DD43DC8E1BB4004 /* AppDelegate.m in Sources */,
 				5B17933D175163BD443DB2FB /* ViewController.m in Sources */,
+				5B179E738D40ABC2FEE8B155 /* AccountTransferPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B179FC2068B7D0356FAC708 /* SanityCheckTests.m in Sources */,
+				5B1791B151F0C7BDBB70CAA2 /* AccountTransferPresenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
