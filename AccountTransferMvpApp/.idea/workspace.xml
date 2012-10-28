@@ -74,6 +74,12 @@
         <option value="$PROJECT_DIR$/src/com/gaddzeit/ISanityCheck.java" />
         <option value="$PROJECT_DIR$/src/com/gaddzeit/ISanityCheckRepository.java" />
         <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/ISanityCheckRepository.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/views/IAccountTransferView.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/ILocalAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/views/IAccountTransferView.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java" />
       </list>
     </option>
   </component>
@@ -162,6 +168,8 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gaddzeit.presenters" />
+      <recent name="com.gaddzeit.repositories" />
+      <recent name="com.gaddzeit.views" />
       <recent name="com.gaddzeit" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -471,10 +479,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/SanityCheckTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="990" selection-end="990" vertical-scroll-proportion="0.80867344">
+        <state line="29" column="43" selection-start="990" selection-end="990" vertical-scroll-proportion="0.7552083">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="66" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.36486486">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="65" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.86279684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/ILocalAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="83" selection-end="87" vertical-scroll-proportion="0.114795916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.114795916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/views/IAccountTransferView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="143" selection-end="143" vertical-scroll-proportion="0.19132653">
+          <folding />
         </state>
       </provider>
     </entry>
