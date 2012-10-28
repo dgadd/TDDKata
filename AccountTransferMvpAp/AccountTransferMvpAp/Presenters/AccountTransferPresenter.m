@@ -18,4 +18,12 @@
     [_localAccountRepository depositAmount:amount];
     [_accountTransferView setDisplayMessage:[NSString stringWithFormat:@"$%@ transferred", amount]];
 }
+
+- (id)initWithRemote:(id <IRemoteAccountRepository>)remoteAccountRepository andLocal:(id <ILocalAccountRepository>)localAccountRepository {
+    if (self = [super init]) {
+        _remoteAccountRepository = remoteAccountRepository;
+        _localAccountRepository = localAccountRepository;
+    }
+    return self;
+}
 @end
