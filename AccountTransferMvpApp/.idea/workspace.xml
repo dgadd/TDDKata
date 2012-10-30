@@ -20,8 +20,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.0_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountTransferPresenterTests.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.h">
+      <file leaf-file-name="AccountTransferPresenterIntegrationTests.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteAccountRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.h">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -29,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IAccountTransferView.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Views/IAccountTransferView.h">
+      <file leaf-file-name="RemoteAccountRepository.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="7" column="62" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IRemoteAccountRepository.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/IRemoteAccountRepository.h">
+      <file leaf-file-name="LocalAccountRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="41" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,39 +59,27 @@
       <file leaf-file-name="ILocalAccountRepository.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/ILocalAccountRepository.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTransferPresenter.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.h">
+      <file leaf-file-name="LocalAccountRepository.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state line="7" column="60" selection-start="184" selection-end="184" vertical-scroll-proportion="0.25609756">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTransferPresenter.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
+      <file leaf-file-name="AccountTransferPresenterIntegrationTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="76" selection-start="965" selection-end="965" vertical-scroll-proportion="0.92443323">
+            <state line="25" column="33" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#191#246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTransferPresenterTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,6 +105,12 @@
         <option value="$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.h" />
         <option value="$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m" />
         <option value="$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.h" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.h" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.h" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.m" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.m" />
+        <option value="$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.m" />
       </list>
     </option>
   </component>
@@ -329,6 +332,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="76" selection-start="965" selection-end="965" vertical-scroll-proportion="0.6127451">
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#191#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.576">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.34313726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/IRemoteAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="98" selection-end="98" vertical-scroll-proportion="0.072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Views/IAccountTransferView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="130" selection-end="130" vertical-scroll-proportion="0.096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -336,50 +379,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/IRemoteAccountRepository.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/ILocalAccountRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Views/IAccountTransferView.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/RemoteAccountRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+        <state line="7" column="62" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/LocalAccountRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+        <state line="7" column="60" selection-start="184" selection-end="184" vertical-scroll-proportion="0.25609756">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="76" selection-start="965" selection-end="965" vertical-scroll-proportion="0.92443323">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#191#246#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
