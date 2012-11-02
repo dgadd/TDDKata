@@ -10,7 +10,7 @@
 
 @implementation AccountTransferPresenterIntegrationTests
 
--(void)testNotSure {
+-(void)test_whenTransferAmountRequested_thenAllDelegatedProtocolsAreCalled {
     id accountTransferView = [OCMockObject mockForProtocol:@protocol(IAccountTransferView)];
     id<IRemoteAccountRepository> remoteAccountRepository = [[RemoteAccountRepository alloc] init];
     id<ILocalAccountRepository> localAccountRepository = [[LocalAccountRepository alloc] init];
