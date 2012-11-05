@@ -2,6 +2,7 @@
 
 @class Calculator;
 
+
 @interface CalculatorTests : SenTestCase {
     Calculator *sut;
 }

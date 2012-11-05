@@ -3,6 +3,12 @@
 
 @implementation CalculatorTests
 
+- (void)setUp {
+    [super setUp];
+    sut = [[Calculator alloc] init];
+}
+
+
 -(void)testAddMethod_zeroLengthInput_shouldReturnZero {
     NSInteger expected = 0;
     NSInteger result = [sut add:@""];
@@ -15,6 +21,13 @@
     NSInteger result = [sut add:@"9"];
 
     STAssertEquals(expected, result, @"One length input should return equivalent.");
+}
+
+-(void)testAddMethod_twoLengthInput_shouldReturnSum {
+    NSInteger expected = 9;
+    NSInteger result = [sut add:@"4,5"];
+
+    STAssertEquals(expected, result, @"Two length input should return sum.");
 }
 
 @end
