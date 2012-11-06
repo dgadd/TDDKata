@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1790F677E20186FC1CE4D3 /* RemoteAccountRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179697522A549E09E22407 /* RemoteAccountRepository.m */; };
 		5B1791297F9CBE4BE2F9C923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1790AF236097EF9533D3DD /* Foundation.framework */; };
 		5B1792FF1B6870227153081B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179AA11D840C8AAD65C80C /* InfoPlist.strings */; };
 		5B1793EBEFB1FBFFF23CA92B /* AccountTransferPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17922FA62EB03F3BB41753 /* AccountTransferPresenterTests.m */; };
 		5B17959EC15253AB9B1CF6CE /* SanityCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17933D49303DBCFB96726C /* SanityCheckTests.m */; };
 		5B1795A7DEA2B90B9BF81161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1795DC4994285407AE185D /* AppDelegate.m */; };
 		5B1795D5B00D54FE90A00905 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1791FDD0CE7C112360AF02 /* libOCMock.a */; };
+		5B1796EFE9C20C7308E31AC3 /* AccountTransferPresenterIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179E8F57C94E03152731FA /* AccountTransferPresenterIntegrationTests.m */; };
 		5B179741249C70AC01670E1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179C7F7E656FAA70311E9A /* CoreGraphics.framework */; };
 		5B1797E372CE7FD8C24FC371 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179163842218D11AC999DE /* Default-568h@2x.png */; };
 		5B17980BD03501BF268AECA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17921FF07BBC1FF56532FA /* main.m */; };
+		5B179867F71EB475CE35EF82 /* LocalAccountRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179E6299083FFFAF61A6CB /* LocalAccountRepository.m */; };
 		5B1798AA8F3ED3F4EF0D5599 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17999DEDF412278D975688 /* Default.png */; };
 		5B1799C9F8BCB0869CF6B45C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179199E42D5DFC33439BAD /* InfoPlist.strings */; };
 		5B179A3624BC2377443FD814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179EE290E7AD4222A5E708 /* UIKit.framework */; };
@@ -53,9 +56,12 @@
 		5B17937CD932B65BA25F53D4 /* AccountTransferMvpApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccountTransferMvpApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B1793C8732591DE2CB02C2E /* AccountTransferMvpAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferMvpAppTests-Info.plist"; sourceTree = "<group>"; };
 		5B1794BDB37AECD234E82EA5 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		5B1794DDB04C2A8FD9787DB0 /* AccountTransferPresenterIntegrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterIntegrationTests.h; sourceTree = "<group>"; };
 		5B1794F8E12DA7F6B362D4F5 /* ILocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILocalAccountRepository.h; sourceTree = "<group>"; };
 		5B1795DC4994285407AE185D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5B17960C4B647C43AE5B300C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B17966C40A079DBFAB5C4A4 /* RemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteAccountRepository.h; sourceTree = "<group>"; };
+		5B179697522A549E09E22407 /* RemoteAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteAccountRepository.m; sourceTree = "<group>"; };
 		5B1796AAD08343E07200D115 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		5B1796AD32FD5C5493DB3D1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B1796CFC1184AB18C06BA4E /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
@@ -71,10 +77,13 @@
 		5B1799C8372B5BAC2EEAD229 /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
 		5B1799F0F9A45845FBBD36F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B179A50F8D945343909DAB9 /* AccountTransferMvpAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountTransferMvpAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179AA0533EA8A784AAF7FF /* LocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalAccountRepository.h; sourceTree = "<group>"; };
 		5B179B0133D00488B41B57AC /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		5B179C7F7E656FAA70311E9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B179CB6721C332F4069D8B1 /* SanityCheckTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanityCheckTests.h; sourceTree = "<group>"; };
+		5B179E6299083FFFAF61A6CB /* LocalAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAccountRepository.m; sourceTree = "<group>"; };
 		5B179E87B93D065ADBB8042A /* AccountTransferMvpApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferMvpApp-Info.plist"; sourceTree = "<group>"; };
+		5B179E8F57C94E03152731FA /* AccountTransferPresenterIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferPresenterIntegrationTests.m; sourceTree = "<group>"; };
 		5B179EE290E7AD4222A5E708 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -149,6 +158,7 @@
 			children = (
 				5B17921A861196A8A34A9DF2 /* Supporting Files */,
 				5B1791BAB1CA1C4F10D2E746 /* Presenters.Tests.Unit */,
+				5B1799E69A0866C8E1AF5CC6 /* Presenters.Tests.Integration */,
 			);
 			path = AccountTransferMvpAppTests;
 			sourceTree = "<group>";
@@ -197,6 +207,15 @@
 				5B179163842218D11AC999DE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B1799E69A0866C8E1AF5CC6 /* Presenters.Tests.Integration */ = {
+			isa = PBXGroup;
+			children = (
+				5B1794DDB04C2A8FD9787DB0 /* AccountTransferPresenterIntegrationTests.h */,
+				5B179E8F57C94E03152731FA /* AccountTransferPresenterIntegrationTests.m */,
+			);
+			path = Presenters.Tests.Integration;
 			sourceTree = "<group>";
 		};
 		5B179AD2912E3C9377AB20AF = {
@@ -262,6 +281,10 @@
 			children = (
 				5B1798F710186E0F6526AD74 /* IRemoteAccountRepository.h */,
 				5B1794F8E12DA7F6B362D4F5 /* ILocalAccountRepository.h */,
+				5B179697522A549E09E22407 /* RemoteAccountRepository.m */,
+				5B17966C40A079DBFAB5C4A4 /* RemoteAccountRepository.h */,
+				5B179E6299083FFFAF61A6CB /* LocalAccountRepository.m */,
+				5B179AA0533EA8A784AAF7FF /* LocalAccountRepository.h */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -376,6 +399,8 @@
 				5B1795A7DEA2B90B9BF81161 /* AppDelegate.m in Sources */,
 				5B179FE69A405B266CC4A8C8 /* ViewController.m in Sources */,
 				5B179E2C6BEBBED0E93B284E /* AccountTransferPresenter.m in Sources */,
+				5B1790F677E20186FC1CE4D3 /* RemoteAccountRepository.m in Sources */,
+				5B179867F71EB475CE35EF82 /* LocalAccountRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +410,7 @@
 			files = (
 				5B17959EC15253AB9B1CF6CE /* SanityCheckTests.m in Sources */,
 				5B1793EBEFB1FBFFF23CA92B /* AccountTransferPresenterTests.m in Sources */,
+				5B1796EFE9C20C7308E31AC3 /* AccountTransferPresenterIntegrationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
