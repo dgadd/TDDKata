@@ -16,7 +16,7 @@
 }
 
 - (NSString *)handleCustomDelimiterIn:(NSString *)numbersToAdd {
-    if([numbersToAdd hasPrefix:@"//"]) {
+    if ([numbersToAdd hasPrefix:@"//"]) {
         NSString *customDelimiter = [numbersToAdd substringWithRange:NSMakeRange(2, 1)];
         NSString *suffix = [numbersToAdd substringFromIndex:4];
         numbersToAdd = [suffix stringByReplacingOccurrencesOfString:customDelimiter withString:@","];
@@ -37,9 +37,23 @@
 - (NSInteger)sum:(NSString *)numbersToAdd {
     NSArray *numbersArray = [numbersToAdd componentsSeparatedByString:@","];
     NSInteger total = 0;
+    NSMutableString *negativeNumbers = [NSMutableString string];
     for (NSString *numberString in numbersArray) {
-        total += [numberString integerValue];
+        NSInteger number = [numberString integerValue];
+        [self checkFor:negativeNumbers in:number];
+        total += number;
     }
+    [self guardCondition_rejectNegativeNumbersIn:negativeNumbers];
     return total;
+}
+
+- (void)guardCondition_rejectNegativeNumbersIn:(NSMutableString *)negativeNumbers {
+    if ([negativeNumbers length] > 0)
+        [NSException raise:@"NegativeNumbersException" format:@"You cannot input negative numbers: %@", negativeNumbers];
+}
+
+- (void)checkFor:(NSMutableString *)negativeNumbers in:(NSInteger)number {
+    if (number < 0)
+            [negativeNumbers appendString:[NSString stringWithFormat:@"%i,", number]];
 }
 @end

@@ -32,7 +32,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Utils/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="106" selection-end="165" vertical-scroll-proportion="0.29268292">
+            <state line="51" column="121" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.74390244">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="CalculatorTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Utils.Tests.Unit/CalculatorTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="45" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
+            <state line="68" column="129" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,7 +198,7 @@
     <frame x="4" y="22" width="1362" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -286,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Utils.Tests.Unit/CalculatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="45" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
+        <state line="68" column="129" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Utils/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="106" selection-end="165" vertical-scroll-proportion="0.29268292">
+        <state line="51" column="121" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.74390244">
           <folding />
         </state>
       </provider>
