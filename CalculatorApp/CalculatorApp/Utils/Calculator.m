@@ -27,8 +27,11 @@
 - (NSInteger)sum:(NSString *)numbersToAdd {
     NSInteger total = 0;
     NSArray *array = [numbersToAdd componentsSeparatedByString:@","];
-    for (NSString *numberString in array)
-            total += [numberString integerValue];
+    for (NSString *numberString in array) {
+        NSInteger number = [numberString integerValue];
+        if (number < 1001)
+            total += number;
+    }
     return total;
 }
 @end

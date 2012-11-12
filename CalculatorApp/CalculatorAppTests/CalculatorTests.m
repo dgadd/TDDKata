@@ -53,6 +53,13 @@
     STAssertThrowsSpecificNamed([sut add:@"3,4\n,5"], NSException, @"DuplicateDelimitersException", @"The expected exception was not thrown");
 }
 
+- (void)testGivenSut_whenNumbersGreaterThan1000Input_thenTheyAreIgnored {
+    NSInteger expected = 1008;
+    NSInteger result = [sut add:@"3,6,999,1001"];
+
+    STAssertEquals(expected, result, @"When numbers > 1000 are input, they are ignored.");
+}
+
 
 
 
