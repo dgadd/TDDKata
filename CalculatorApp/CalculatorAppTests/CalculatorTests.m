@@ -22,6 +22,13 @@
     STAssertEquals(expected, result, @"One length input should return numeric equivalent.");
 }
 
+- (void)testGivenSut_whenTwoLengthInput_thenSumShouldBeReturned {
+    NSInteger expected = 9;
+    NSInteger result = [sut add:@"4,5"];
+
+    STAssertEquals(expected, result, @"Two length input should return sum.");
+}
+
 
 
 @end
