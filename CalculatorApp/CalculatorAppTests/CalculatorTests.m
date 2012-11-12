@@ -49,6 +49,10 @@
     STAssertEquals(expected, result, @"New line input should return sum.");
 }
 
+-(void)testGivenSut_whenDuplicateDelimiterInput_thenExceptionShouldBeThrown {
+    STAssertThrowsSpecificNamed([sut add:@"3,4\n,5"], NSException, @"DuplicateDelimitersException", @"The expected exception was not thrown");
+}
+
 
 
 
