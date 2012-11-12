@@ -42,6 +42,14 @@
     STAssertEquals(expected, result, @"Two length input should return sum.");
 }
 
+- (void)testGivenSut_whenNewLineInput_thenSumShouldBeReturned {
+    NSInteger expected = 12;
+    NSInteger result = [sut add:@"4,5\n3"];
+
+    STAssertEquals(expected, result, @"New line input should return sum.");
+}
+
+
 
 
 @end
