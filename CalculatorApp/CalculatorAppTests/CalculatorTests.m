@@ -60,6 +60,15 @@
     STAssertEquals(expected, result, @"When numbers > 1000 are input, they are ignored.");
 }
 
+- (void)testGivenSut_whenNegativeNumbersInput_thenExceptionWithDetailsShouldBeThrown {
+    @try {
+        [sut add:@"3,-4,-9"];
+        STAssertFalse(true, @"When negative numbers are inpout, an exception should be thrown.");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"NegativeNumbersException", [ex name], @"The expected exception name was not thrown.");
+        STAssertEqualObjects(@"You cannot input negative numbers: -4,-9,", [ex description], @"The expected exception description was not thrown.");
+    }
+}
 
 
 
