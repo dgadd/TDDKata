@@ -15,4 +15,13 @@
     STAssertEquals(expected, result, @"Zero length input should return 0.");
 }
 
+- (void)testGivenSut_whenOneLengthInput_thenNumericEquivalentShouldBeReturned {
+    NSInteger expected = 9;
+    NSInteger result = [sut add:@"9"];
+
+    STAssertEquals(expected, result, @"One length input should return numeric equivalent.");
+}
+
+
+
 @end
