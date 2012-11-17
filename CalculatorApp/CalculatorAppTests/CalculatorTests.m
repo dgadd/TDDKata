@@ -55,5 +55,12 @@
     STAssertThrowsSpecificNamed([_sut add:@"3,,4,5"], NSException, @"DuplicateDelimitersException", @"Expected exception should be thrown.");
 }
 
+-(void)testGivenAddMethod_whenCustomDelimiterInputSubmitted_thenShouldBeTreatedSameAsComma {
+    NSInteger expected = 14;
+    NSInteger result = [_sut add:@"//$\n4,5$5"];
+
+    STAssertEquals(expected, result, @"When custom delimiter delimiter is input, it should be treated the same as a comma.");
+}
+
 
 @end
