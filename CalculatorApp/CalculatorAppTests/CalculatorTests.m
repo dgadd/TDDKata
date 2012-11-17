@@ -51,5 +51,9 @@
     STAssertEquals(expected, result, @"When new line delimiter is input, it should be treated the same as a comma.");
 }
 
+-(void)testGivenAddMethod_whenDuplicateDelimitersAreInput_thenAnExceptionShouldBeThrown {
+    STAssertThrowsSpecificNamed([_sut add:@"3,,4,5"], NSException, @"DuplicateDelimitersException", @"Expected exception should be thrown.");
+}
+
 
 @end
