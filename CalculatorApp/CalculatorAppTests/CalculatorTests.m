@@ -62,5 +62,14 @@
     STAssertEquals(expected, result, @"When custom delimiter delimiter is input, it should be treated the same as a comma.");
 }
 
+-(void)testGivenAddMethod_whenNegativeNumbersAreInput_thenAnExceptionShouldBeThrownWithListOfNumbers {
+    @try {
+        [_sut add:@"3,-5,-2"];
+        STAssertFalse(true, @"When negative numbers are input, then an exception should be thrown.");
+    } @catch(NSException *ex) {
+        STAssertEqualObjects(@"NegativeNumbersException", [ex name], @"The expected exception name was not thrown.");
+        STAssertEqualObjects(@"You cannot input negative numbers: -5,-2,", [ex description], @"The expected exception description was not thrown.");
+    }
+}
 
 @end
