@@ -31,5 +31,18 @@
     STAssertEquals(expected, result, @"When two number comma-delimited is input, then sum should be returned.");
 }
 
+-(void)testGivenAddMethod_whenAnyLengthCommaDelimitedInputSubmitted_thenSumShouldBeReturned {
+    NSInteger expected = 0;
+    NSInteger randomAmount = arc4random() % 999;
+    NSMutableString *numbersToAdd = [NSMutableString string];
+    for (NSInteger i = 0; i < randomAmount; i++) {
+        [numbersToAdd appendString:[NSString stringWithFormat:@"%i,",i]];
+        expected += i;
+    }
+    NSInteger result = [_sut add:numbersToAdd];
+
+    STAssertEquals(expected, result, @"When any length comma-delimited is input, then sum should be returned.");
+}
+
 
 @end
