@@ -44,5 +44,12 @@
     STAssertEquals(expected, result, @"When any length string is input, then sum should be returned.");
 }
 
+-(void)testGivenAddMethod_whenNewLineStringIsInput_thenNewLineShouldBeTreatedLikeAComma {
+    NSInteger expected = 12;
+    NSInteger result = [_sut add:@"4,5\n3"];
+
+    STAssertEquals(expected, result, @"When new line string is input, then new line should be treated like a comma..");
+}
+
 
 @end
