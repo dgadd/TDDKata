@@ -44,5 +44,12 @@
     STAssertEquals(expected, result, @"When a two length comma-delimited string is input, then sum should be returned.");
 }
 
+-(void)testGivenAddMethod_whenANewLineDelimitedStringIsInput_thenNewLineIsTreatedLikeComma {
+    NSInteger expected = 14;
+    NSInteger result = [_sut add:@"4,5\n5"];
+
+    STAssertEquals(expected, result, @"When a new line-delimited string is input, then new line is treated like a comma.");
+}
+
 
 @end
