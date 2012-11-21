@@ -24,5 +24,12 @@
     STAssertEquals(expected, result, @"When a one length string is input, then numeric equivalent should be returned.");
 }
 
+-(void)testGivenAddMethod_whenACommaDelimitedLengthStringIsInput_thenSumIsReturned {
+    NSInteger expected = 9;
+    NSInteger result = [_sut add:@"4,5"];
+
+    STAssertEquals(expected, result, @"When a two length comma-delimited string is input, then sum should be returned.");
+}
+
 
 @end
