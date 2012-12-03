@@ -68,7 +68,7 @@
       <file leaf-file-name="AccountTransferPresenter.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="98" selection-start="945" selection-end="945" vertical-scroll-proportion="0.88664985">
+            <state line="5" column="87" selection-start="154" selection-end="154" vertical-scroll-proportion="0.18891688">
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -80,9 +80,7 @@
         <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenter.Tests.Unit/AccountTransferPresenterTests.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="17" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +89,7 @@
         <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/SanityCheckTests.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="25" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,7 +147,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,16 +189,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editing.templates" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="AccountTransferMvpApp" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="OCUnit.All Tests">
     <configuration default="false" name="AccountTransferMvpApp" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="AccountTransferMvpApp" PROJECT_NAME="AccountTransferMvpApp" TARGET_NAME="AccountTransferMvpApp" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="AccountTransferMvpApp" RUN_TARGET_NAME="AccountTransferMvpApp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -227,8 +224,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.AccountTransferMvpApp" />
-      <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="0" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AccountTransferMvpApp" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -257,6 +254,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="e9324b1e-9f92-4c89-a9f3-76ea31fb544f" name="Default" comment="" />
       <created>1354482350206</created>
       <updated>1354482350206</updated>
     </task>
@@ -266,23 +264,23 @@
     <frame x="4" y="22" width="1362" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -317,7 +315,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -338,6 +336,64 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/SanityCheckTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenter.Tests.Unit/AccountTransferPresenterTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="87" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/ILocalAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/IRemoteAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/IAccountTransferView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/ISanityCheck.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Repositories/ISanityCheck.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
@@ -348,9 +404,7 @@
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/SanityCheckTests.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="25" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,15 +439,13 @@
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpAppTests/Presenter.Tests.Unit/AccountTransferPresenterTests.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="17" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferMvpApp/Presenters/AccountTransferPresenter.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="98" selection-start="945" selection-end="945" vertical-scroll-proportion="0.88664985">
+        <state line="5" column="87" selection-start="154" selection-end="154" vertical-scroll-proportion="0.18891688">
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
