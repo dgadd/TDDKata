@@ -4,7 +4,7 @@ import com.gaddzeit.repositories.IAccountTransferView;
 import com.gaddzeit.repositories.ILocalAccountRepository;
 import com.gaddzeit.repositories.IRemoteAccountRepository;
 
-public class AccountTransferPresenter {
+public class AccountTransferPresenter implements IPresenter {
     private final IRemoteAccountRepository _remoteAccountRepository;
     private final ILocalAccountRepository _localAccountRepository;
     private IAccountTransferView _accountTransferView;

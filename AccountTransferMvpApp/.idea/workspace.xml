@@ -7,7 +7,7 @@
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357512971463" ignored="false" />
     <file path="$PROJECT_DIR$/res/layout/main.xml" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357512972488" ignored="false" />
     <file path="/SanityCheckTests.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357514842980" ignored="false" />
-    <file path="/fragment.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357515497151" ignored="false" />
+    <file path="/fragment.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357529465687" ignored="false" />
     <file path="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/SanityCheckTestsTest.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357513283692" ignored="false" />
     <file path="/Dummy.txt" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357513344452" ignored="false" />
     <file path="/ISanityCheck.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357513968277" ignored="false" />
@@ -16,6 +16,10 @@
     <file path="/IRemoteAccountRepository.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357515412587" ignored="false" />
     <file path="/ILocalAccountRepository.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357515424384" ignored="false" />
     <file path="/AccountTransferPresenter.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357515660201" ignored="false" />
+    <file path="/ServiceLocatorTests.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357517319895" ignored="false" />
+    <file path="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/IPresenter.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357529188419" ignored="false" />
+    <file path="/ServiceLocator.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357529518363" ignored="false" />
+    <file path="/RemoteAccountRepository.java" changelist="ec0c55cb-c42e-4275-a2bc-3057eb81e16c" time="1357529430368" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,49 +78,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountTransferPresenterTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
+      <file leaf-file-name="ServiceLocatorTests.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/ServiceLocatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="24" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
+            <state line="13" column="16" selection-start="346" selection-end="346" vertical-scroll-proportion="0.49618322">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTransferPresenter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="63" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.83146065">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILocalAccountRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/ILocalAccountRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="83" selection-end="87" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IRemoteAccountRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAccountTransferView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IAccountTransferView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +106,14 @@
         <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/ILocalAccountRepository.java" />
         <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/IAccountTransferView.java" />
         <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/PresenterTypeEnum.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/IPresenter.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/IPresenter.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/ServiceLocatorTests.java" />
         <option value="$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/RemoteAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/gaddzeit/repositories/LocalAccountRepository.java" />
+        <option value="$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/ServiceLocator.java" />
       </list>
     </option>
   </component>
@@ -174,6 +149,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,18 +244,43 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gaddzeit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountTransferMvpApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountTransferMvpApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gaddzeit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/gaddzeit/presenters" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/gaddzeit" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="MemberChooser.sorted" value="false" />
@@ -291,20 +293,23 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gaddzeit.presenters.tests.unit" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gaddzeit.presenters" />
       <recent name="com.gaddzeit.repositories" />
+      <recent name="com.gaddzeit.presenters" />
+      <recent name="com.gaddzeit.utils.tests.unit" />
+      <recent name="com.gaddzeit.utils" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All Tests">
@@ -471,27 +476,27 @@
     <frame x="4" y="22" width="1362" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.672524" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32747602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -554,25 +559,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/ISanityCheck.java">
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/ServiceLocatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="96" selection-end="96" vertical-scroll-proportion="0.15306123">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/tests/unit/SanityCheckTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="76" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4264214">
+        <state line="8" column="8" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.0">
+        <state line="31" column="24" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="63" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -584,26 +589,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IAccountTransferView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
+        <state line="30" column="24" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.69899666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/ILocalAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="83" selection-end="87" vertical-scroll-proportion="0.075250834">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.075250834">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="52" selection-start="259" selection-end="259" vertical-scroll-proportion="0.15831135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/ServiceLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="93" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.6756757">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/presenters/IPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.83146065">
+        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.07633588">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/LocalAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="57" selection-start="227" selection-end="227" vertical-scroll-proportion="0.1908397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaddzeit/repositories/RemoteAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="98" selection-start="181" selection-end="275" vertical-scroll-proportion="0.1908397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/PresenterTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.07633588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/src/com/gaddzeit/utils/tests/unit/ServiceLocatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="346" selection-end="346" vertical-scroll-proportion="0.49618322">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
