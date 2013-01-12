@@ -5,13 +5,18 @@
     <ignored path="AccountTransferMvpApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/App/res/values/strings.xml" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027790485" ignored="false" />
-    <file path="$PROJECT_DIR$/App/AndroidManifest.xml" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027790759" ignored="false" />
-    <file path="$PROJECT_DIR$/App/src/com/gaddziet/App/AccountTransferActivity.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027791434" ignored="false" />
     <file path="$PROJECT_DIR$/App/res/layout/main.xml" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027791434" ignored="false" />
-    <file path="$PROJECT_DIR$/App/build.xml" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027791434" ignored="false" />
     <file path="/SanityCheckTests.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027916121" ignored="false" />
-    <file path="/fragment.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027934414" ignored="false" />
+    <file path="/fragment.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028471444" ignored="false" />
     <file path="/Dummy.txt" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358027934414" ignored="false" />
+    <file path="/AccountTransferPresenterTests.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028545079" ignored="false" />
+    <file path="$PROJECT_DIR$/App/gen/com/gaddzeit/App/BuildConfig.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028193308" ignored="false" />
+    <file path="$PROJECT_DIR$/App/gen/com/gaddzeit/App/Manifest.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028189366" ignored="false" />
+    <file path="$PROJECT_DIR$/App/gen/com/gaddzeit/App/R.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028317333" ignored="false" />
+    <file path="/IAccountTransferView.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028447897" ignored="false" />
+    <file path="/IRemoteAccountRepository.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028411655" ignored="false" />
+    <file path="/ILocalAccountRepository.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028425854" ignored="false" />
+    <file path="/AccountTransferPresenter.java" changelist="e765664b-2c40-4e9d-b48b-fc52ecfaf005" time="1358028581076" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SanityCheckTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SanityCheckTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/SanityCheckTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="419" selection-end="419" vertical-scroll-proportion="0.6505102">
+            <state line="17" column="43" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,12 +86,69 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AccountTransferPresenterTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="22" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountTransferPresenter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="64" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.83146065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ILocalAccountRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/repositories/ILocalAccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="102" selection-end="108" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IRemoteAccountRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAccountTransferView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/views/IAccountTransferView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="48" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/SanityCheckTests.java" />
+        <option value="$PROJECT_DIR$/App/src/com/gaddzeit/repositories/IRemoteAccountRepository.java" />
+        <option value="$PROJECT_DIR$/App/src/com/gaddzeit/repositories/ILocalAccountRepository.java" />
+        <option value="$PROJECT_DIR$/App/src/com/gaddzeit/views/IAccountTransferView.java" />
+        <option value="$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java" />
+        <option value="$PROJECT_DIR$/App/src/com/gaddzeit/presenters/AccountTransferPresenter.java" />
       </list>
     </option>
   </component>
@@ -181,6 +243,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AccountTransferMvpApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -203,6 +275,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gaddzeit.presenters" />
+      <recent name="com.gaddzeit.repositories" />
+      <recent name="com.gaddzeit.views" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.All Tests">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -366,7 +445,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1362" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -453,10 +532,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/SanityCheckTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="419" selection-end="419" vertical-scroll-proportion="0.6505102">
+        <state line="17" column="43" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/repositories/IRemoteAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="84" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/repositories/ILocalAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="102" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/views/IAccountTransferView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitAndIntegrationTests/src/com/gaddzeit/presenters/tests/unit/AccountTransferPresenterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/src/com/gaddzeit/presenters/AccountTransferPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="64" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.83146065">
+          <folding />
         </state>
       </provider>
     </entry>

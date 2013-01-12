@@ -1,4 +1,4 @@
-package com.gaddziet.App;
+package com.gaddzeit.App;
 
 import android.app.Activity;
 import android.os.Bundle;
