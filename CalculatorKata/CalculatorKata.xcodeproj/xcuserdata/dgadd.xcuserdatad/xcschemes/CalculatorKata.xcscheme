@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5B179BE93F6D3FB4AAFD7549"
+               BuildableName = "CalculatorKata.app"
+               BlueprintName = "CalculatorKata"
+               ReferencedContainer = "container:CalculatorKata.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B179BE93F6D3FB4AAFD7549"
+            BuildableName = "CalculatorKata.app"
+            BlueprintName = "CalculatorKata"
+            ReferencedContainer = "container:CalculatorKata.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
