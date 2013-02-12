@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B179095D588082ED108FB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17995F2269B441D1D6A765 /* Default-568h@2x.png */; };
+		5B1790B3154C3FFC2F547CEE /* When_I_add_a_one_length_value.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */; };
 		5B1791235B2B7E3BEE57020D /* PBPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1791F000D6C3A7B7DC3536 /* PBPViewController.m */; };
 		5B17912E56AB3B158876F7D5 /* Given_that_I_have_a_Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17904B8A84F1A34909D713 /* Given_that_I_have_a_Calculator.m */; };
 		5B179200FFEE3DA2BF8971B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1795B4844F916FCB6C8F5D /* InfoPlist.strings */; };
@@ -43,8 +44,10 @@
 		5B1791CDA14B3B45AAA3C743 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5B1791F000D6C3A7B7DC3536 /* PBPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPViewController.m; sourceTree = "<group>"; };
 		5B17920F146F3627FF62A197 /* PBPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPAppDelegate.h; sourceTree = "<group>"; };
+		5B179212681FEFD3E59121E1 /* When_I_add_a_one_length_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = When_I_add_a_one_length_value.h; sourceTree = "<group>"; };
 		5B1792906514DAEB0A968359 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B1793368FD08F6AF73F6763 /* When_I_add_an_empty_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_an_empty_value.m; sourceTree = "<group>"; };
+		5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_a_one_length_value.m; sourceTree = "<group>"; };
 		5B179458C7C5F87A5B09A184 /* CalculatorAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1796B8FEFD0127466FA1BA /* CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1796DC2CD1C09FEB68F1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				5B17904B8A84F1A34909D713 /* Given_that_I_have_a_Calculator.m */,
 				5B179703B6DDF19C50239AC7 /* When_I_add_an_empty_value.h */,
 				5B1793368FD08F6AF73F6763 /* When_I_add_an_empty_value.m */,
+				5B179212681FEFD3E59121E1 /* When_I_add_a_one_length_value.h */,
+				5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */,
 			);
 			path = CalculatorAppTests;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			files = (
 				5B17912E56AB3B158876F7D5 /* Given_that_I_have_a_Calculator.m in Sources */,
 				5B17922A771AB05E25416949 /* When_I_add_an_empty_value.m in Sources */,
+				5B1790B3154C3FFC2F547CEE /* When_I_add_a_one_length_value.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
