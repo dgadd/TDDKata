@@ -24,6 +24,7 @@
 		5B179BCACBC1CD39508CB5A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179F7CAB0B1B61A18ABC43 /* UIKit.framework */; };
 		5B179BF036A3138A4308C868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1792906514DAEB0A968359 /* Foundation.framework */; };
 		5B179C801D4F831D11386B3B /* PBPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179E72CDAD8751D675D6B9 /* PBPViewController.xib */; };
+		5B179D0E9713BB22B89BC5B5 /* When_I_add_any_length_value.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17941A0D78E529A31BB1C9 /* When_I_add_any_length_value.m */; };
 		5B179D7B15A5D3FB8A0F0A1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179B9D70096102834CC37F /* CoreGraphics.framework */; };
 		5B179E9B8A01FD3C78E0ED9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1792906514DAEB0A968359 /* Foundation.framework */; };
 		5B179EDE1855C9FA475FC47D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179BEC0C99AF21AB3EB497 /* SenTestingKit.framework */; };
@@ -49,6 +50,7 @@
 		5B1792906514DAEB0A968359 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B1793368FD08F6AF73F6763 /* When_I_add_an_empty_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_an_empty_value.m; sourceTree = "<group>"; };
 		5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_a_one_length_value.m; sourceTree = "<group>"; };
+		5B17941A0D78E529A31BB1C9 /* When_I_add_any_length_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_any_length_value.m; sourceTree = "<group>"; };
 		5B179458C7C5F87A5B09A184 /* CalculatorAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1796B8FEFD0127466FA1BA /* CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1796DC2CD1C09FEB68F1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		5B179CCC84628BFFC6ABF980 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		5B179CDE25D777A66135DE46 /* CalculatorApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CalculatorApp-Info.plist"; sourceTree = "<group>"; };
 		5B179D9D7C89C5DA409641FF /* PBPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPAppDelegate.m; sourceTree = "<group>"; };
+		5B179DBA64F9EE9755C1BF79 /* When_I_add_any_length_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = When_I_add_any_length_value.h; sourceTree = "<group>"; };
 		5B179DC1385B6970724A81BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179EE2C974A1518D1A8EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179F607A441A0F1DF5444B /* PBPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPViewController.h; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */,
 				5B179965B8917193CAF31D77 /* When_I_add_a_two_length_value.h */,
 				5B179F747773387E85E80583 /* When_I_add_a_two_length_value.m */,
+				5B179DBA64F9EE9755C1BF79 /* When_I_add_any_length_value.h */,
+				5B17941A0D78E529A31BB1C9 /* When_I_add_any_length_value.m */,
 			);
 			path = CalculatorAppTests;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				5B17922A771AB05E25416949 /* When_I_add_an_empty_value.m in Sources */,
 				5B1790B3154C3FFC2F547CEE /* When_I_add_a_one_length_value.m in Sources */,
 				5B1792BE90B832C069C0AE2D /* When_I_add_a_two_length_value.m in Sources */,
+				5B179D0E9713BB22B89BC5B5 /* When_I_add_any_length_value.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
