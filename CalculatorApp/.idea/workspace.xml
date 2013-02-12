@@ -20,8 +20,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="When_I_add_a_one_length_value.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.h">
+      <file leaf-file-name="When_I_add_a_two_length_value.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.h">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="73" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding>
@@ -34,16 +34,16 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="64" selection-start="166" selection-end="166" vertical-scroll-proportion="0.29268292">
+            <state line="8" column="66" selection-start="167" selection-end="167" vertical-scroll-proportion="0.29268292">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="When_I_add_a_one_length_value.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.m">
+      <file leaf-file-name="When_I_add_a_two_length_value.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="54" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="14" column="54" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -68,6 +68,8 @@
         <option value="$PROJECT_DIR$/CalculatorAppTests/When_I_add_an_empty_value.m" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.h" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.m" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.h" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.m" />
         <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m" />
       </list>
     </option>
@@ -307,7 +309,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="344" selection-end="344" vertical-scroll-proportion="0.5121951">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="73" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1097561">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="73" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding>
@@ -316,9 +336,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_one_length_value.m">
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/When_I_add_a_two_length_value.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="14" column="54" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -327,7 +347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="166" selection-end="166" vertical-scroll-proportion="0.29268292">
+        <state line="8" column="66" selection-start="167" selection-end="167" vertical-scroll-proportion="0.29268292">
           <folding />
         </state>
       </provider>

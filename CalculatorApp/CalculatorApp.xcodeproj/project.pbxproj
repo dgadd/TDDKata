@@ -14,6 +14,7 @@
 		5B179200FFEE3DA2BF8971B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1795B4844F916FCB6C8F5D /* InfoPlist.strings */; };
 		5B17922A771AB05E25416949 /* When_I_add_an_empty_value.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1793368FD08F6AF73F6763 /* When_I_add_an_empty_value.m */; };
 		5B1792429E21FFC797DFCD82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B17969D9A349F8F6DA06786 /* InfoPlist.strings */; };
+		5B1792BE90B832C069C0AE2D /* When_I_add_a_two_length_value.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179F747773387E85E80583 /* When_I_add_a_two_length_value.m */; };
 		5B179538E9878F27E11C15CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1798E2E98DB4D133915060 /* Default.png */; };
 		5B17966F17C4251D0F5CC3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179EE2C974A1518D1A8EAE /* main.m */; };
 		5B17969B3D263F7FC878F2F2 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BA10B92C5A36DF6E49A /* Calculator.m */; };
@@ -55,6 +56,7 @@
 		5B1798E2E98DB4D133915060 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5B17994F67B4BF2B73286E5A /* CalculatorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorApp-Prefix.pch"; sourceTree = "<group>"; };
 		5B17995F2269B441D1D6A765 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B179965B8917193CAF31D77 /* When_I_add_a_two_length_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = When_I_add_a_two_length_value.h; sourceTree = "<group>"; };
 		5B179A035CEEE4FA03A5330E /* PBPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PBPViewController.xib; path = ../en.lproj/PBPViewController.xib; sourceTree = "<group>"; };
 		5B179B9D70096102834CC37F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B179BA10B92C5A36DF6E49A /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		5B179DC1385B6970724A81BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B179EE2C974A1518D1A8EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B179F607A441A0F1DF5444B /* PBPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPViewController.h; sourceTree = "<group>"; };
+		5B179F747773387E85E80583 /* When_I_add_a_two_length_value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_add_a_two_length_value.m; sourceTree = "<group>"; };
 		5B179F7CAB0B1B61A18ABC43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -203,6 +206,8 @@
 				5B1793368FD08F6AF73F6763 /* When_I_add_an_empty_value.m */,
 				5B179212681FEFD3E59121E1 /* When_I_add_a_one_length_value.h */,
 				5B17934F6E1C673408BE4FC8 /* When_I_add_a_one_length_value.m */,
+				5B179965B8917193CAF31D77 /* When_I_add_a_two_length_value.h */,
+				5B179F747773387E85E80583 /* When_I_add_a_two_length_value.m */,
 			);
 			path = CalculatorAppTests;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				5B17912E56AB3B158876F7D5 /* Given_that_I_have_a_Calculator.m in Sources */,
 				5B17922A771AB05E25416949 /* When_I_add_an_empty_value.m in Sources */,
 				5B1790B3154C3FFC2F547CEE /* When_I_add_a_one_length_value.m in Sources */,
+				5B1792BE90B832C069C0AE2D /* When_I_add_a_two_length_value.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
