@@ -19,39 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.1_1" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.36585367">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="When_I_input_a_two_length_comma_delimited_string.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="When_I_input_a_two_length_comma_delimited_string.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -71,6 +39,8 @@
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m" />
         <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_any_length_of_comma_delimited_string.h" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_any_length_of_comma_delimited_string.m" />
       </list>
     </option>
   </component>
@@ -106,6 +76,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,46 +103,14 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalculatorApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalculatorAppTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalculatorApp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalculatorAppTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domain.Tests.Unit" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="CalculatorApp" />
   </component>
   <component name="RunManager" selected="OCUnit.All Tests">
@@ -194,8 +133,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.CalculatorApp" />
-      <item index="1" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="0" class="java.lang.String" itemvalue="OCUnit.All Tests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CalculatorApp" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -206,6 +145,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="46d99b41-177b-449a-988f-db90ec0d8fa6" name="Default" comment="" />
       <created>1361148945338</created>
       <updated>1361148945338</updated>
     </task>
@@ -213,25 +153,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1362" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943988" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33681852" sideWeight="0.55674845" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44325152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -287,6 +227,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_an_empty_string.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="57" selection-start="335" selection-end="335" vertical-scroll-proportion="0.336">
@@ -305,11 +266,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_an_empty_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="85" selection-start="182" selection-end="182" vertical-scroll-proportion="0.072">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="3" column="85" selection-start="182" selection-end="182" vertical-scroll-proportion="0.072" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.h">
@@ -344,28 +301,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_any_length_of_comma_delimited_string.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+        <state line="15" column="28" selection-start="500" selection-end="500" vertical-scroll-proportion="0.66964287">
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.36585367">
+        <state line="21" column="51" selection-start="553" selection-end="553" vertical-scroll-proportion="0.9375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.13392857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_any_length_of_comma_delimited_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="106" selection-start="203" selection-end="203" vertical-scroll-proportion="0.072">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

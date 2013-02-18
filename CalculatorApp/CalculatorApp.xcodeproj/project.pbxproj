@@ -23,6 +23,7 @@
 		5B179AB91D4D6CC085FDD961 /* PBPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1799B9108834EA659388E1 /* PBPAppDelegate.m */; };
 		5B179B904B96EE9AE6FEDC1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179575C55982D338993DE5 /* main.m */; };
 		5B179CB6DCB576BE1E9AF47B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1794378823F275B8FF5892 /* Foundation.framework */; };
+		5B179CFD9B5D83669AD27F8F /* When_I_input_any_length_of_comma_delimited_string.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17949653658225731FD135 /* When_I_input_any_length_of_comma_delimited_string.m */; };
 		5B179DE69DC3C39A5C277548 /* When_I_input_an_empty_string.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1790D8B4BE5FCB6E07DC27 /* When_I_input_an_empty_string.m */; };
 		5B179E0E7FA364FCD9359541 /* PBPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179B5FA0EC459741F58D08 /* PBPViewController.m */; };
 		5B179E45D51639B1BE4DAB9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1795D7324AE30AEC5D568A /* UIKit.framework */; };
@@ -48,8 +49,10 @@
 		5B17933C1EE659988FB6ADAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5B1794378823F275B8FF5892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B17948F970895B4AF33F150 /* Given_that_I_need_to_add_strings_of_numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Given_that_I_need_to_add_strings_of_numbers.h; sourceTree = "<group>"; };
+		5B17949653658225731FD135 /* When_I_input_any_length_of_comma_delimited_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_input_any_length_of_comma_delimited_string.m; sourceTree = "<group>"; };
 		5B1794DA9B62433FE7FC3707 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		5B1794EEF86B7A912DFC723F /* When_I_input_a_one_length_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_input_a_one_length_string.m; sourceTree = "<group>"; };
+		5B179548ADFB768FB2D110D9 /* When_I_input_any_length_of_comma_delimited_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = When_I_input_any_length_of_comma_delimited_string.h; sourceTree = "<group>"; };
 		5B179575C55982D338993DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B1795D7324AE30AEC5D568A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B17987DF4CC64021DC9AE67 /* When_I_input_a_two_length_comma_delimited_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_input_a_two_length_comma_delimited_string.m; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				5B1794EEF86B7A912DFC723F /* When_I_input_a_one_length_string.m */,
 				5B17988D97FA5F7A46B228B7 /* When_I_input_a_two_length_comma_delimited_string.h */,
 				5B17987DF4CC64021DC9AE67 /* When_I_input_a_two_length_comma_delimited_string.m */,
+				5B179548ADFB768FB2D110D9 /* When_I_input_any_length_of_comma_delimited_string.h */,
+				5B17949653658225731FD135 /* When_I_input_any_length_of_comma_delimited_string.m */,
 			);
 			path = Domain.Tests.Unit;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				5B179DE69DC3C39A5C277548 /* When_I_input_an_empty_string.m in Sources */,
 				5B1795B9AA07F0F5E36597DB /* When_I_input_a_one_length_string.m in Sources */,
 				5B17920A04EFC65F4FB9D3D9 /* When_I_input_a_two_length_comma_delimited_string.m in Sources */,
+				5B179CFD9B5D83669AD27F8F /* When_I_input_any_length_of_comma_delimited_string.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
