@@ -10,6 +10,7 @@
 		5B17929A1A4C0757C61B3208 /* Given_that_I_need_to_add_strings_of_numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179DC4F137517EC8CA98C6 /* Given_that_I_need_to_add_strings_of_numbers.m */; };
 		5B17935096268E4588485898 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179F2AD070AE66789E8415 /* Default-568h@2x.png */; };
 		5B1793B41F11D6BBA8DA7FFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B1792DB58A5E71AEF1E0A38 /* InfoPlist.strings */; };
+		5B1795B9AA07F0F5E36597DB /* When_I_input_a_one_length_string.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1794EEF86B7A912DFC723F /* When_I_input_a_one_length_string.m */; };
 		5B1796609E6032F0B313E567 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B17933C1EE659988FB6ADAD /* Default.png */; };
 		5B17971226DFBD27E50B0AD3 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1792DF6EFA2857D6DABADB /* Calculator.m */; };
 		5B17979C8DBCC2BD46C370CC /* PBPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179A5BC561875DF3805CB5 /* PBPViewController.xib */; };
@@ -47,6 +48,7 @@
 		5B1794378823F275B8FF5892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B17948F970895B4AF33F150 /* Given_that_I_need_to_add_strings_of_numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Given_that_I_need_to_add_strings_of_numbers.h; sourceTree = "<group>"; };
 		5B1794DA9B62433FE7FC3707 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		5B1794EEF86B7A912DFC723F /* When_I_input_a_one_length_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = When_I_input_a_one_length_string.m; sourceTree = "<group>"; };
 		5B179575C55982D338993DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B1795D7324AE30AEC5D568A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B17991B6D75A1D8B1EA443B /* PBPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPAppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		5B179F2AD070AE66789E8415 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B179F59FCB87CE01682172C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5B179FC031370E47B150BFE7 /* CalculatorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B179FD67E901CC46F4C4247 /* When_I_input_a_one_length_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = When_I_input_a_one_length_string.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 				5B179DC4F137517EC8CA98C6 /* Given_that_I_need_to_add_strings_of_numbers.m */,
 				5B179D4C954E7706E3323349 /* When_I_input_an_empty_string.h */,
 				5B1790D8B4BE5FCB6E07DC27 /* When_I_input_an_empty_string.m */,
+				5B179FD67E901CC46F4C4247 /* When_I_input_a_one_length_string.h */,
+				5B1794EEF86B7A912DFC723F /* When_I_input_a_one_length_string.m */,
 			);
 			path = Domain.Tests.Unit;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			files = (
 				5B17929A1A4C0757C61B3208 /* Given_that_I_need_to_add_strings_of_numbers.m in Sources */,
 				5B179DE69DC3C39A5C277548 /* When_I_input_an_empty_string.m in Sources */,
+				5B1795B9AA07F0F5E36597DB /* When_I_input_a_one_length_string.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
