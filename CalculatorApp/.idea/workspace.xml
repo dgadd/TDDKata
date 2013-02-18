@@ -23,16 +23,16 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="71" selection-start="173" selection-end="173" vertical-scroll-proportion="0.29268292">
+            <state line="10" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.36585367">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="When_I_input_a_one_length_string.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.h">
+      <file leaf-file-name="When_I_input_a_two_length_comma_delimited_string.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -40,12 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="When_I_input_a_one_length_string.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.m">
+      <file leaf-file-name="When_I_input_a_two_length_comma_delimited_string.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="57" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +68,8 @@
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_an_empty_string.m" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.h" />
         <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.m" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h" />
+        <option value="$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m" />
         <option value="$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m" />
       </list>
     </option>
@@ -324,18 +326,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.14634146">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="57" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="14" column="57" selection-start="354" selection-end="354" vertical-scroll-proportion="0.5121951">
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_one_length_string.h">
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="14" column="57" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorAppTests/Domain.Tests.Unit/When_I_input_a_two_length_comma_delimited_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="105" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -344,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorApp/Domain/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="71" selection-start="173" selection-end="173" vertical-scroll-proportion="0.29268292">
+        <state line="10" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.36585367">
           <folding />
         </state>
       </provider>
