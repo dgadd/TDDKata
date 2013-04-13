@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B179112277E61FB04A9F7A8 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17928BC5C6A5BAB328E3AF /* libOCMock.a */; };
+		5B179120A3C8A400586CFDFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17946D31AC010328336859 /* ViewController.m */; };
+		5B1791231FA9C57F0D0C7E35 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179DA8B8884BF73DFAA38A /* Default.png */; };
+		5B179134718F7558BF4F2956 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179A13F4A32E810A4E9FC8 /* SenTestingKit.framework */; };
+		5B1791B624C25D0F630F0C73 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B179AD33BBEB59188FC76E1 /* ViewController.xib */; };
+		5B17957E822F750163B1C9EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1791391C7B2A8F288BD035 /* Default@2x.png */; };
+		5B17968DD9CA0052AFBB1357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179A1B874D4012D2FB8422 /* Foundation.framework */; };
+		5B1797B258B253027A54A72B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17930DCBB8A3EA25053AE9 /* UIKit.framework */; };
+		5B1798650E2D80FD2C261EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BD334CFE42FDA68EC22 /* AppDelegate.m */; };
+		5B1799C8490B37C97B7D24D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B17930DCBB8A3EA25053AE9 /* UIKit.framework */; };
+		5B179B82A95D243A8D1DEFC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1799787037EFAFE87B5832 /* CoreGraphics.framework */; };
+		5B179C47451FAF54B50091B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B179FD05F8860CFAFA1C8A5 /* InfoPlist.strings */; };
+		5B179CE1DECFE2BF7FF9B35A /* AccountTransferMvpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179714050A73A6A671BCD8 /* AccountTransferMvpTests.m */; };
+		5B179CF619270325F36DF270 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B179E2AA69A288ABAE91BB0 /* Default-568h@2x.png */; };
+		5B179E152C53E627FEA1E6F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B17954EA2CD513D622690B5 /* InfoPlist.strings */; };
+		5B179EA163E04D3198BDF0E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179BD3F2392362D410B56D /* main.m */; };
+		5B179F2B1A3BA71E10D2CFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B179A1B874D4012D2FB8422 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1790D62161D610DE63209B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1794D230E6F8B9CFCF582B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1790885E4AB41726EC0511;
+			remoteInfo = AccountTransferMvpApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1790170A3FA991CD1EC6BB /* AccountTransferMvpAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountTransferMvpAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B179077CB7B9C2D5C55605C /* AccountTransferMvpTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferMvpTests.h; sourceTree = "<group>"; };
+		5B1791391C7B2A8F288BD035 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B179218EC7EF98F54C9300F /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		5B17928BC5C6A5BAB328E3AF /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ThirdPartyLibs/OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
+		5B17930DCBB8A3EA25053AE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B179338012C19F1FFF78D21 /* AccountTransferMvpApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferMvpApp-Info.plist"; sourceTree = "<group>"; };
+		5B179370BA4F64413F077DCE /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		5B1793BD83A0AAF0DA9A5EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = AccountTransferMvpApp/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		5B1793CA718EE02E3DF6A08D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B17943CF7DEEE56CC1A27CF /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		5B17946D31AC010328336859 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B1794949379022F195E1316 /* AccountTransferMvpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountTransferMvpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1795DCC2B1DEA058D66F82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B179660408DF86D96559000 /* AccountTransferMvpAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferMvpAppTests-Info.plist"; sourceTree = "<group>"; };
+		5B179714050A73A6A671BCD8 /* AccountTransferMvpTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTransferMvpTests.m; sourceTree = "<group>"; };
+		5B17978DE07D5F7E42FF3FA5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B1797FB1B6E2168A8DFA5D5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B1799787037EFAFE87B5832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B179A13F4A32E810A4E9FC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B179A1B874D4012D2FB8422 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B179BD334CFE42FDA68EC22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B179BD3F2392362D410B56D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B179C628D412E0708A92B65 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		5B179DA8B8884BF73DFAA38A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B179E2AA69A288ABAE91BB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B179EF80D2F5321751CDAF4 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		5B179F8DFFCC0AEDC2259672 /* AccountTransferMvpApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccountTransferMvpApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B179FF210F18C37B44CA63A /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1791E470325B7BD05CD1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179134718F7558BF4F2956 /* SenTestingKit.framework in Frameworks */,
+				5B1799C8490B37C97B7D24D5 /* UIKit.framework in Frameworks */,
+				5B17968DD9CA0052AFBB1357 /* Foundation.framework in Frameworks */,
+				5B179112277E61FB04A9F7A8 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1796CB9B4890CAA5811885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1797B258B253027A54A72B /* UIKit.framework in Frameworks */,
+				5B179F2B1A3BA71E10D2CFF1 /* Foundation.framework in Frameworks */,
+				5B179B82A95D243A8D1DEFC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1790EDC0830DE123D31021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1794949379022F195E1316 /* AccountTransferMvpApp.app */,
+				5B1790170A3FA991CD1EC6BB /* AccountTransferMvpAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B179203E37ED62FB2EB25A6 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				5B179370BA4F64413F077DCE /* OCMArg.h */,
+				5B17943CF7DEEE56CC1A27CF /* OCMock.h */,
+				5B179FF210F18C37B44CA63A /* OCMockObject.h */,
+				5B179EF80D2F5321751CDAF4 /* OCMConstraint.h */,
+				5B179C628D412E0708A92B65 /* OCMockRecorder.h */,
+				5B179218EC7EF98F54C9300F /* NSNotificationCenter+OCMAdditions.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		5B17936BFDA815A8A54F48B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5B17941FC8EDC7AD7F8B06A9 /* AccountTransferMvpApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B179F9666E7BCE42DBA8706 /* Supporting Files */,
+				5B179BC9DC70E14EE29A0B45 /* Bootstrap */,
+				5B17948788B0FA3D095B49DB /* ViewControllers */,
+				5B1795C7F573A027614B133D /* Presenters */,
+				5B179E4B0C219892A26F38F2 /* Repository */,
+				5B1794A938579CAB62F6B69C /* Views */,
+				5B17936BFDA815A8A54F48B9 /* Utils */,
+			);
+			path = AccountTransferMvpApp;
+			sourceTree = "<group>";
+		};
+		5B17948788B0FA3D095B49DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B179AD33BBEB59188FC76E1 /* ViewController.xib */,
+				5B17978DE07D5F7E42FF3FA5 /* ViewController.h */,
+				5B17946D31AC010328336859 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5B1794A3D4AED86D5F96DF88 = {
+			isa = PBXGroup;
+			children = (
+				5B1790EDC0830DE123D31021 /* Products */,
+				5B17982AD9B22FD90AE53E0B /* Frameworks */,
+				5B17941FC8EDC7AD7F8B06A9 /* AccountTransferMvpApp */,
+				5B179AC37A2D0C87120FFF4E /* AccountTransferMvpAppTests */,
+				5B179E442F870B3B37F13BDD /* ThirdPartyLibs */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1794A938579CAB62F6B69C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B179520FC7AC04F6C3F8AC9 /* Tests.Integration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests.Integration;
+			sourceTree = "<group>";
+		};
+		5B1795C7F573A027614B133D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		5B17982AD9B22FD90AE53E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B17930DCBB8A3EA25053AE9 /* UIKit.framework */,
+				5B179A1B874D4012D2FB8422 /* Foundation.framework */,
+				5B1799787037EFAFE87B5832 /* CoreGraphics.framework */,
+				5B179A13F4A32E810A4E9FC8 /* SenTestingKit.framework */,
+				5B17928BC5C6A5BAB328E3AF /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B179896BB50F59DD12D75B8 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				5B179D291E2DF816A1236A2F /* iOS */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		5B179909615DBFECCD9D09F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B179660408DF86D96559000 /* AccountTransferMvpAppTests-Info.plist */,
+				5B179FD05F8860CFAFA1C8A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B179A79C2815C594B0BA3AA /* Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				5B179077CB7B9C2D5C55605C /* AccountTransferMvpTests.h */,
+				5B179714050A73A6A671BCD8 /* AccountTransferMvpTests.m */,
+			);
+			path = Tests.Unit;
+			sourceTree = "<group>";
+		};
+		5B179AC37A2D0C87120FFF4E /* AccountTransferMvpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B179909615DBFECCD9D09F5 /* Supporting Files */,
+				5B179A79C2815C594B0BA3AA /* Tests.Unit */,
+				5B179520FC7AC04F6C3F8AC9 /* Tests.Integration */,
+			);
+			path = AccountTransferMvpAppTests;
+			sourceTree = "<group>";
+		};
+		5B179BC9DC70E14EE29A0B45 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				5B179BD334CFE42FDA68EC22 /* AppDelegate.m */,
+				5B1797FB1B6E2168A8DFA5D5 /* AppDelegate.h */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		5B179D291E2DF816A1236A2F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B179203E37ED62FB2EB25A6 /* OCMock */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5B179E442F870B3B37F13BDD /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				5B179896BB50F59DD12D75B8 /* OCMock */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		5B179E4B0C219892A26F38F2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5B179F9666E7BCE42DBA8706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B179338012C19F1FFF78D21 /* AccountTransferMvpApp-Info.plist */,
+				5B17954EA2CD513D622690B5 /* InfoPlist.strings */,
+				5B179BD3F2392362D410B56D /* main.m */,
+				5B179F8DFFCC0AEDC2259672 /* AccountTransferMvpApp-Prefix.pch */,
+				5B179DA8B8884BF73DFAA38A /* Default.png */,
+				5B1791391C7B2A8F288BD035 /* Default@2x.png */,
+				5B179E2AA69A288ABAE91BB0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1790885E4AB41726EC0511 /* AccountTransferMvpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B179275DD3359A221D090A5 /* Build configuration list for PBXNativeTarget "AccountTransferMvpApp" */;
+			buildPhases = (
+				5B179E87D4766197D949768A /* Sources */,
+				5B1796CB9B4890CAA5811885 /* Frameworks */,
+				5B1793ED039812FD5DA325EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountTransferMvpApp;
+			productName = AccountTransferMvpApp;
+			productReference = 5B1794949379022F195E1316 /* AccountTransferMvpApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1796FFF6EA0B4DAC3F3C6D /* AccountTransferMvpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B179A389D44224171A2E221 /* Build configuration list for PBXNativeTarget "AccountTransferMvpAppTests" */;
+			buildPhases = (
+				5B17937BF14CBD452DA42C79 /* Sources */,
+				5B1791E470325B7BD05CD1AE /* Frameworks */,
+				5B1793E3D398740D8AA8A851 /* Resources */,
+				5B1791DD9F8961D5947875B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B17944C03469BE506F9602C /* PBXTargetDependency */,
+			);
+			name = AccountTransferMvpAppTests;
+			productName = AccountTransferMvpAppTests;
+			productReference = 5B1790170A3FA991CD1EC6BB /* AccountTransferMvpAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1794D230E6F8B9CFCF582B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B179FE09D14934E27C220CF /* Build configuration list for PBXProject "AccountTransferMvpApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B1794A3D4AED86D5F96DF88;
+			productRefGroup = 5B1790EDC0830DE123D31021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1790885E4AB41726EC0511 /* AccountTransferMvpApp */,
+				5B1796FFF6EA0B4DAC3F3C6D /* AccountTransferMvpAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1793E3D398740D8AA8A851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179C47451FAF54B50091B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1793ED039812FD5DA325EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179E152C53E627FEA1E6F2 /* InfoPlist.strings in Resources */,
+				5B1791231FA9C57F0D0C7E35 /* Default.png in Resources */,
+				5B17957E822F750163B1C9EE /* Default@2x.png in Resources */,
+				5B179CF619270325F36DF270 /* Default-568h@2x.png in Resources */,
+				5B1791B624C25D0F630F0C73 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B1791DD9F8961D5947875B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B17937BF14CBD452DA42C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179CE1DECFE2BF7FF9B35A /* AccountTransferMvpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B179E87D4766197D949768A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B179EA163E04D3198BDF0E3 /* main.m in Sources */,
+				5B1798650E2D80FD2C261EDE /* AppDelegate.m in Sources */,
+				5B179120A3C8A400586CFDFC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B17944C03469BE506F9602C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1790885E4AB41726EC0511 /* AccountTransferMvpApp */;
+			targetProxy = 5B1790D62161D610DE63209B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B17954EA2CD513D622690B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1795DCC2B1DEA058D66F82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B179AD33BBEB59188FC76E1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1793BD83A0AAF0DA9A5EDF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		5B179FD05F8860CFAFA1C8A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1793CA718EE02E3DF6A08D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B17928A2DF3C184D98D16D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferMvpApp/AccountTransferMvpApp-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferMvpApp/AccountTransferMvpApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B1795637BF1C8E1FF9BF797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferMvpApp/AccountTransferMvpApp-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferMvpApp/AccountTransferMvpApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B1795E710F8351F40FD1703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B1798613A0DD71425529423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccountTransferMvpApp.app/AccountTransferMvpApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferMvpApp/AccountTransferMvpApp-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferMvpAppTests/AccountTransferMvpAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/ThirdPartyLibs/OCMock/iOS\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B17991B17CFE050C002359C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B179D80C99B6B5D91A0F998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccountTransferMvpApp.app/AccountTransferMvpApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferMvpApp/AccountTransferMvpApp-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferMvpAppTests/AccountTransferMvpAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/ThirdPartyLibs/OCMock/iOS\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B179275DD3359A221D090A5 /* Build configuration list for PBXNativeTarget "AccountTransferMvpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B17928A2DF3C184D98D16D9 /* Release */,
+				5B1795637BF1C8E1FF9BF797 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B179A389D44224171A2E221 /* Build configuration list for PBXNativeTarget "AccountTransferMvpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B179D80C99B6B5D91A0F998 /* Release */,
+				5B1798613A0DD71425529423 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B179FE09D14934E27C220CF /* Build configuration list for PBXProject "AccountTransferMvpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B17991B17CFE050C002359C /* Release */,
+				5B1795E710F8351F40FD1703 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1794D230E6F8B9CFCF582B /* Project object */;
+}
