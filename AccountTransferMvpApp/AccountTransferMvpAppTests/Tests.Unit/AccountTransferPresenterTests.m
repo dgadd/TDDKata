@@ -1,4 +1,4 @@
-#import "AccountTransferMvpTests.h"
+#import "AccountTransferPresenterTests.h"
 #import "OCMockObject.h"
 #import "IAccountTransferView.h"
 #import "IRemoteAccountRepository.h"
@@ -6,13 +6,13 @@
 #import "OCMockRecorder.h"
 #import "AccountTransferPresenter.h"
 
-@implementation AccountTransferMvpTests
+@implementation AccountTransferPresenterTests
 
 - (void)setUp {
     [super setUp];
 }
 
--(void)testNotSure {
+-(void)testGivenSut_whenTransferAmountRequested_thenAllExpectedProtocolsAreCalled {
     id accountTransferView = [OCMockObject mockForProtocol:@protocol(IAccountTransferView)];
     id remoteAccountRepository = [OCMockObject mockForProtocol:@protocol(IRemoteAccountRepository)];
     id localAccountRepository = [OCMockObject mockForProtocol:@protocol(ILocalAccountRepository)];
