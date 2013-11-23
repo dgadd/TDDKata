@@ -51,4 +51,12 @@
     XCTAssertEqual(expected, result);
 }
 
+-(void)test_givenSut_whenNewLineSeparatorInStringInput_thenNumericEquivalentReturned {
+    NSInteger expected = 12;
+    NSInteger result = [_sut add:@"2\n4,6"];
+
+    XCTAssertEqual(expected, result);
+}
+
+
 @end

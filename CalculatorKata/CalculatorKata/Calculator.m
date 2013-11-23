@@ -5,10 +5,15 @@
 
 }
 - (NSInteger)add:(NSString *)numbersToAdd {
+    numbersToAdd = [self handleNewLinesIn:numbersToAdd];
     if([self isCommaFoundIn:numbersToAdd])
         return [self sumTotalFrom:numbersToAdd];
 
     return (numbersToAdd.length > 0) ? [numbersToAdd integerValue] : 0;
+}
+
+- (NSString *)handleNewLinesIn:(NSString *)numbersToAdd {
+    return [numbersToAdd stringByReplacingOccurrencesOfString:@"\n" withString:@","];
 }
 
 - (NSInteger)sumTotalFrom:(NSString *)numbersToAdd {
