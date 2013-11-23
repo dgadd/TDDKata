@@ -23,4 +23,12 @@
     XCTAssertEqual(expected, result);
 }
 
+-(void)test_givenSut_whenTwoLengthStringInput_thenNumericEquivalentReturned {
+    NSInteger expected = 9;
+    Calculator *sut = [[Calculator alloc] init];
+    NSInteger result = [sut add:@"3,6"];
+
+    XCTAssertEqual(expected, result);
+}
+
 @end

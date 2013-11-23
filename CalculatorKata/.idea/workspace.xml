@@ -35,7 +35,7 @@
       <file leaf-file-name="Calculator.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalculatorKata/Calculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="43" selection-start="176" selection-end="176" vertical-scroll-proportion="0.3004695" vertical-offset="0" max-vertical-offset="426">
+            <state line="9" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.33802816" vertical-offset="0" max-vertical-offset="496">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="CalculatorKataTests.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorKataTests/CalculatorKataTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
+            <state line="28" column="28" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="640">
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -221,7 +221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorKataTests/CalculatorKataTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
+        <state line="28" column="28" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="640">
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -230,7 +230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorKata/Calculator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="176" selection-end="176" vertical-scroll-proportion="0.3004695" vertical-offset="0" max-vertical-offset="426">
+        <state line="9" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.33802816" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
