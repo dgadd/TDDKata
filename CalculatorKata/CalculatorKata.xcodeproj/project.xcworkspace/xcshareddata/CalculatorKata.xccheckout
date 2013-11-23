@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F35A1CE9-EF3B-4312-9104-7C8862145C90</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CalculatorKata</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>17D5FF59-6772-4202-B00E-F03CA6131DDC</key>
+		<string>ssh://github.com/dgadd/TDDKata.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CalculatorKata/CalculatorKata.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>17D5FF59-6772-4202-B00E-F03CA6131DDC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/dgadd/TDDKata.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>17D5FF59-6772-4202-B00E-F03CA6131DDC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>17D5FF59-6772-4202-B00E-F03CA6131DDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TDDKata</string>
+		</dict>
+	</array>
+</dict>
+</plist>
