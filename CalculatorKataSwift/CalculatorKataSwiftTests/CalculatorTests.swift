@@ -25,4 +25,17 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqualObjects(expected, result)
     }
     
+    func test_givenSut_whenAnyLengthInput_thenReturnSum() {
+        var expected = 0
+        var highNumber = 999
+        var numbersToAdd = ""
+        for var index = 0; index < highNumber; index++ {
+            numbersToAdd += String(index) + ","
+            expected += index
+        }
+        var calculator = Calculator()
+        var result = calculator.add(numbersToAdd)
+        XCTAssertEqualObjects(expected, result)
+    }
+    
 }
