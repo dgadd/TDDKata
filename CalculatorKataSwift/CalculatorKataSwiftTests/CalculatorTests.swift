@@ -44,4 +44,12 @@ class CalculatorTests: XCTestCase {
         var result = calculator.add("4,3\n8")
         XCTAssertEqualObjects(expected, result)
     }
+    
+    /* can't do this, no way to catch or verify
+    func test_givenSut_whenDuplicateDelimiterInput_thenExceptionIsThrown() {
+        var calculator = Calculator()
+        var result = calculator.add("4,3\n,8")
+        
+    } */
+    
 }

@@ -3,11 +3,16 @@ import UIKit
 class Calculator: NSObject {
     func add(numbersToAdd: String) -> Int {
         var replacedNumbers = handleNewLineDelimiters(numbersToAdd)
+        rejectDuplicateDelimiters(replacedNumbers)
         if replacedNumbers.containsString(",") {
             return sum(replacedNumbers)
         }
 
         return sumSimpleCase(replacedNumbers)
+    }
+    
+    func rejectDuplicateDelimiters(replacedNumbers: NSString) {
+        assert(!replacedNumbers.containsString(",,"), "cannot contain duplicate delimiter inputs")
     }
     
     func handleNewLineDelimiters(numbersToAdd: NSString) -> NSString {
