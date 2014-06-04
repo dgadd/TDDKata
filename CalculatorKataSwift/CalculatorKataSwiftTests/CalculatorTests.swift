@@ -38,4 +38,10 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqualObjects(expected, result)
     }
     
+    func test_givenSut_whenNewLineDelimiterInput_thenReturnSum() {
+        var expected = 15
+        var calculator = Calculator()
+        var result = calculator.add("4,3\n8")
+        XCTAssertEqualObjects(expected, result)
+    }
 }

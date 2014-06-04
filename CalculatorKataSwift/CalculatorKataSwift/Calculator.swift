@@ -1,12 +1,17 @@
 import UIKit
 
 class Calculator: NSObject {
-    func add(numbersToAdd: NSString) -> Int {
-        if numbersToAdd.containsString(",") {
-            return sum(numbersToAdd)            
+    func add(numbersToAdd: String) -> Int {
+        var replacedNumbers = handleNewLineDelimiters(numbersToAdd)
+        if replacedNumbers.containsString(",") {
+            return sum(replacedNumbers)
         }
 
-        return sumSimpleCase(numbersToAdd)
+        return sumSimpleCase(replacedNumbers)
+    }
+    
+    func handleNewLineDelimiters(numbersToAdd: NSString) -> NSString {
+        return numbersToAdd.stringByReplacingOccurrencesOfString("\n", withString: ",")
     }
     
     func sum(numbersToAdd: NSString) -> Int {
