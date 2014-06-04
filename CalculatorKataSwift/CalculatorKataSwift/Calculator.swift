@@ -2,11 +2,20 @@ import UIKit
 
 class Calculator: NSObject {
     func add(numbersToAdd: NSString) -> Int {
-        if(numbersToAdd.containsString(",")) {
-            var numberInputs = numbersToAdd.componentsSeparatedByString(",")
-            return numberInputs[0].integerValue + numberInputs[1].integerValue
+        if numbersToAdd.containsString(",") {
+            return sum(numbersToAdd)            
         }
+
         return sumSimpleCase(numbersToAdd)
+    }
+    
+    func sum(numbersToAdd: NSString) -> Int {
+        var total = 0
+        var numberInputs = numbersToAdd.componentsSeparatedByString(",")
+        for numberInput in numberInputs {
+            total += numberInput.integerValue
+        }
+        return total
     }
     
     func sumSimpleCase(numbersToAdd: NSString) -> Int {
