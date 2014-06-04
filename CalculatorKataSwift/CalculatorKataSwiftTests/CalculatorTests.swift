@@ -18,4 +18,11 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqualObjects(expected, result)
     }
     
+    func test_givenSut_whenTwoLengthInput_thenReturnSum() {
+        var expected = 7
+        var calculator = Calculator()
+        var result = calculator.add("4,3")
+        XCTAssertEqualObjects(expected, result)
+    }
+    
 }
