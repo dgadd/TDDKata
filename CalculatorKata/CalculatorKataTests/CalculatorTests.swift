@@ -10,4 +10,11 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqualObjects(expected, result)
     }
 
+    func test_givenSut_whenOneInput_thenShouldReturnNumericEquivalent() {
+        var expected = 8;
+        var sut = Calculator()
+        var result = sut.add("8")
+        XCTAssertEqualObjects(expected, result)
+    }
+
 }
